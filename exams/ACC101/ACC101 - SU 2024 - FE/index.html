@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>ACC101 - SU 2024 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>ACC101 - SU 2024 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T14:54:39+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:02:58+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:19:39+0700", "vote": "100"}, {"username": "gnouhp269·", "content": "b", "timestamp": "2024-07-27T20:14:07+0700", "vote": "18"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:39:27+0700", "vote": "324"}, {"username": "skibidi", "content": "b", "timestamp": "2024-08-24T23:33:46+0700", "vote": "44"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-13T15:34:25+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:28:33+0700", "vote": "102"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T22:25:53+0700", "vote": "5"}, {"username": "minhduy_17", "content": "b", "timestamp": "2024-11-15T03:48:39+0700", "vote": "55"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T06:04:49+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T11:51:56+0700", "vote": "0"}, {"username": "Hoa Mai", "content": "Có doanh thu khi đã delivered", "timestamp": "2024-11-15T11:57:25+0700", "vote": "33"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:10:16+0700", "vote": "67"}], "image_2.webp": [{"username": "quamon", "content": "D", "timestamp": "2024-07-23T14:05:40+0700", "vote": "-5"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T14:54:56+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:03:11+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "D", "timestamp": "2024-07-23T23:20:45+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-31T14:39:33+0700", "vote": "324"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-13T15:37:05+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T15:28:38+0700", "vote": "102"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-14T22:26:17+0700", "vote": "5"}, {"username": "heheeeeee", "content": "d", "timestamp": "2024-11-15T04:07:30+0700", "vote": "-1"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T06:07:33+0700", "vote": "102"}, {"username": "Lý Nhiên", "content": "profit and revenue report --> Income Statement", "timestamp": "2024-11-15T07:15:08+0700", "vote": "22"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T11:52:18+0700", "vote": "0"}, {"username": "PICKABU", "content": "Income statement", "timestamp": "2025-04-05T00:55:16+0700", "vote": "26"}, {"username": "Vy Vu", "content": "D", "timestamp": "2025-04-15T01:10:21+0700", "vote": "67"}], "image_3.webp": [{"username": "thinh ng", "content": "E", "timestamp": "2024-07-23T14:15:06+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "E", "timestamp": "2024-07-23T14:55:05+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "e", "timestamp": "2024-07-23T17:03:26+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "balance cash =\n30\n,\n000\n−\n1,500 +\n4\n,\n000\n=\n32,500 => E", "timestamp": "2024-07-23T23:23:11+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-31T14:39:38+0700", "vote": "324"}, {"username": "minhieuu", "content": "e", "timestamp": "2024-11-13T12:31:57+0700", "vote": "5"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-13T15:38:34+0700", "vote": "10"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-14T15:28:48+0700", "vote": "102"}, {"username": "thkgaming156", "content": "e. 30000 - 1500 + 4000", "timestamp": "2024-11-15T06:08:03+0700", "vote": "102"}, {"username": "Lý Nhiên", "content": "Tính những dòng có cash", "timestamp": "2024-11-15T07:18:50+0700", "vote": "22"}, {"username": "Wiiiii", "content": "e", "timestamp": "2024-11-15T11:52:44+0700", "vote": "0"}, {"username": "Hoa Mai", "content": "E\n(investing) 10000 - 1500 (paid) + 4000 (collected) = 32500.\nNếu thấy on credit thì không tính.", "timestamp": "2024-11-15T12:00:53+0700", "vote": "33"}, {"username": "Vy Vu", "content": "E", "timestamp": "2025-04-15T01:10:30+0700", "vote": "67"}], "image_4.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:15:40+0700", "vote": "27"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:03:36+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:23:49+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:39:44+0700", "vote": "324"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-13T15:39:44+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:28:59+0700", "vote": "102"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T22:27:42+0700", "vote": "5"}, {"username": "heheeeeee", "content": "b", "timestamp": "2024-11-15T04:08:09+0700", "vote": "-1"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T06:08:15+0700", "vote": "102"}, {"username": "Lý Nhiên", "content": "actual cost --> cost principle", "timestamp": "2024-11-15T07:20:59+0700", "vote": "22"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T11:52:56+0700", "vote": "0"}, {"username": "Mesiro", "content": "actual cost -> cost principle", "timestamp": "2024-11-15T13:21:57+0700", "vote": "23"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:10:47+0700", "vote": "67"}], "image_5.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:16:51+0700", "vote": "27"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:03:44+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:24:05+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:39:49+0700", "vote": "324"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-13T15:41:48+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:29:08+0700", "vote": "102"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T22:27:54+0700", "vote": "5"}, {"username": "Võ Hoàng Long", "content": "b. revenue recognition principle", "timestamp": "2024-11-15T00:31:28+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T06:08:55+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T11:53:09+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:11:01+0700", "vote": "67"}], "image_6.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:17:05+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T14:56:53+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:03:55+0700", "vote": "21"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:39:54+0700", "vote": "324"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-13T15:42:15+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:29:51+0700", "vote": "102"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T22:28:10+0700", "vote": "5"}, {"username": "Võ Hoàng Long", "content": "b. ... a liability", "timestamp": "2024-11-15T00:31:53+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T06:09:00+0700", "vote": "102"}, {"username": "Lý Nhiên", "content": "Doanh thu chưa kiếm được (Unearned Revenue) là bạn được người ta trả trước cho dịch vụ mà bạn phải làm để trả dần nên là liability", "timestamp": "2024-11-15T07:24:35+0700", "vote": "22"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T11:53:18+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:11:18+0700", "vote": "67"}], "image_7.webp": [{"username": "thinh ng", "content": "D", "timestamp": "2024-07-23T14:17:52+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T14:57:03+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:04:06+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "D", "timestamp": "2024-07-23T23:25:38+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-31T14:40:00+0700", "vote": "324"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-13T12:35:40+0700", "vote": "5"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-13T15:44:26+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T15:30:05+0700", "vote": "102"}, {"username": "thkgaming156", "content": "d. (45000-6000)/10", "timestamp": "2024-11-15T06:09:09+0700", "vote": "102"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T11:53:35+0700", "vote": "0"}, {"username": "Vy Vu", "content": "D", "timestamp": "2025-04-15T01:11:28+0700", "vote": "67"}], "image_8.webp": [{"username": "thinh ng", "content": "E", "timestamp": "2024-07-23T14:18:03+0700", "vote": "27"}, {"username": "Đám mây xanh", "content": "D chứ nhỉ", "timestamp": "2024-07-23T15:32:47+0700", "vote": "324"}, {"username": "Đám mây xanh", "content": "omg, đáp án ôn fuover khác với quiz", "timestamp": "2024-07-23T15:33:30+0700", "vote": "324"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "e", "timestamp": "2024-07-23T17:04:21+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "D", "timestamp": "2024-07-23T23:26:02+0700", "vote": "100"}, {"username": "Do Huu Hoang Hunng", "content": "Option A states \"Total asset cost minus depreciation expense,\" which could be interpreted as the annual depreciation expense rather than accumulated depreciation, making it potentially misleading. The more precise term should be \"Total asset minus accumulated depreciation\" to avoid confusion. Hence, option D is the correct choice.", "timestamp": "2024-07-23T23:29:37+0700", "vote": "100"}, {"username": "ThangKelvin", "content": "E", "timestamp": "2024-07-29T08:05:43+0700", "vote": "-86"}, {"username": "tranglee", "content": "d", "timestamp": "2024-07-30T11:33:32+0700", "vote": "-3"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-31T14:40:11+0700", "vote": "324"}, {"username": "thyi", "content": "e", "timestamp": "2024-11-04T21:35:33+0700", "vote": "13"}, {"username": "hdp10", "content": "E", "timestamp": "2024-11-11T21:56:56+0700", "vote": "1"}, {"username": "thkgaming156", "content": "e. book value = total asset cost - accumulated depreciation", "timestamp": "2024-11-14T06:30:13+0700", "vote": "102"}, {"username": "minhieuu", "content": "e", "timestamp": "2024-11-14T22:29:03+0700", "vote": "5"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T06:09:39+0700", "vote": "102"}, {"username": "Wiiiii", "content": "e", "timestamp": "2024-11-15T11:53:57+0700", "vote": "0"}, {"username": "PICKABU", "content": "E", "timestamp": "2025-04-05T00:48:18+0700", "vote": "26"}, {"username": "Vy Vu", "content": "E", "timestamp": "2025-04-15T01:11:39+0700", "vote": "67"}], "image_9.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:18:12+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T14:57:43+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:04:37+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:29:54+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:40:21+0700", "vote": "324"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-13T16:14:08+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T06:30:33+0700", "vote": "102"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T22:32:09+0700", "vote": "5"}, {"username": "thkgaming156", "content": "b. tài sản vô hình", "timestamp": "2024-11-15T06:10:11+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T11:54:07+0700", "vote": "0"}, {"username": "HeaterMon", "content": "A. hữu hình,\nb. vô hình\nc. có tính thanh khoản", "timestamp": "2024-11-15T12:34:18+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:11:49+0700", "vote": "67"}], "image_10.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:18:22+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T14:57:51+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:04:44+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:30:21+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-31T14:40:55+0700", "vote": "324"}, {"username": "minhieuu", "content": "(100000-15000)/5 = 17000*2 => c", "timestamp": "2024-11-13T12:42:39+0700", "vote": "5"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-13T16:14:43+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T15:31:12+0700", "vote": "102"}, {"username": "thkgaming156", "content": "c. 17000*2", "timestamp": "2024-11-15T06:10:31+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T11:55:03+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:12:00+0700", "vote": "67"}], "image_11.webp": [{"username": "thinh ng", "content": "E", "timestamp": "2024-07-23T14:18:29+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "E", "timestamp": "2024-07-23T14:58:11+0700", "vote": "11"}, {"username": "bé Tuyên", "content": "e", "timestamp": "2024-07-23T15:59:34+0700", "vote": "1"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "e", "timestamp": "2024-07-23T17:04:53+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "E", "timestamp": "2024-07-23T23:32:01+0700", "vote": "100"}, {"username": "hhjkn cacdk", "content": "e nhé", "timestamp": "2024-07-29T23:39:53+0700", "vote": "11"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-31T14:41:06+0700", "vote": "324"}, {"username": "minhieuu", "content": "e", "timestamp": "2024-11-13T12:47:42+0700", "vote": "5"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-14T15:31:48+0700", "vote": "102"}, {"username": "minhduy_17", "content": "10,000 * 25% = 2,500\n7,500 * 25% = 1,875\n=> E", "timestamp": "2024-11-15T04:00:41+0700", "vote": "55"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T06:10:57+0700", "vote": "102"}, {"username": "Wiiiii", "content": "e", "timestamp": "2024-11-15T11:56:34+0700", "vote": "0"}, {"username": "Hoa Mai", "content": "Double Declining Depreciation Rate = 2 / Useful Life = 2 / 8 = 25%\n\nYear 1 (2019)\n\nDepreciation =\n10\n,\n000\n∗\n25\n2,500\nBook Value at end of 2019 =\n10\n,\n000\n−\n2,500 = $7,500\n\nYear 2 (2020)\nDepreciation =\n7\n,\n500\n∗\n25\n1,875\nBook Value at end of 2020 =\n7\n,\n500\n−\n1,875 = $5,625\n\nAccumulated Depreciation as of December 31, 2020:\nTotal =\n2\n,\n500\n(\n2019\n)\n+\n1,875 (2020) = $4,375\n\nThe correct answer is E. $4,375.", "timestamp": "2024-11-15T12:08:31+0700", "vote": "33"}, {"username": "HeaterMon", "content": "n% = 2* 1/(8 year) = 25%\n---year 1\ndepre exp = 10k *25% = 2.5k\nending = 7.5k\n---Year 2\ndepre exp = 7.5k *25% =1875\nending = 5625\n\n=> 2 year exp = 2.5k + 1875 = 4375", "timestamp": "2024-11-15T12:41:37+0700", "vote": "0"}, {"username": "Vy Vu", "content": "E", "timestamp": "2025-04-15T01:12:11+0700", "vote": "67"}], "image_12.webp": [{"username": "thinh ng", "content": "E", "timestamp": "2024-07-23T14:18:36+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "E", "timestamp": "2024-07-23T14:58:21+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "e", "timestamp": "2024-07-23T17:05:00+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "E", "timestamp": "2024-07-23T23:32:17+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-31T14:41:11+0700", "vote": "324"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-13T16:26:23+0700", "vote": "10"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-14T15:31:55+0700", "vote": "102"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T06:11:03+0700", "vote": "102"}, {"username": "Wiiiii", "content": "e", "timestamp": "2024-11-15T11:56:45+0700", "vote": "0"}, {"username": "Vy Vu", "content": "E", "timestamp": "2025-04-15T01:12:22+0700", "vote": "67"}], "image_13.webp": [{"username": "thinh ng", "content": "D", "timestamp": "2024-07-23T14:18:48+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T14:58:35+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:05:14+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "D", "timestamp": "2024-07-23T23:32:27+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-31T14:41:18+0700", "vote": "324"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-13T16:28:45+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T15:32:03+0700", "vote": "102"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-14T22:40:53+0700", "vote": "5"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T06:11:14+0700", "vote": "102"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T11:56:54+0700", "vote": "0"}, {"username": "HeaterMon", "content": "temp acc là tk cần đc đóng cuối kì kế toán :3", "timestamp": "2024-11-15T12:42:43+0700", "vote": "0"}, {"username": "Vy Vu", "content": "D", "timestamp": "2025-04-15T01:12:34+0700", "vote": "67"}], "image_14.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:18:59+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T14:58:44+0700", "vote": "11"}, {"username": "bé Tuyên", "content": "c", "timestamp": "2024-07-23T15:59:46+0700", "vote": "1"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:05:42+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:32:39+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-31T14:41:31+0700", "vote": "324"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-13T12:49:18+0700", "vote": "5"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-13T16:28:55+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T15:32:14+0700", "vote": "102"}, {"username": "Lý Nhiên", "content": "c", "timestamp": "2024-11-15T00:33:41+0700", "vote": "22"}, {"username": "Võ Hoàng Long", "content": "c. permanent accounts", "timestamp": "2024-11-15T00:46:28+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "c. tài khoản vĩnh viễn", "timestamp": "2024-11-15T06:11:26+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T11:57:03+0700", "vote": "0"}, {"username": "HeaterMon", "content": "ko đóng = vĩnh viễn", "timestamp": "2024-11-15T12:43:08+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:12:46+0700", "vote": "67"}], "image_15.webp": [{"username": "thinh ng", "content": "D", "timestamp": "2024-07-23T14:21:01+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T14:58:55+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:05:51+0700", "vote": "21"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-31T14:41:37+0700", "vote": "324"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-13T12:49:12+0700", "vote": "5"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-13T16:29:12+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T15:32:21+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "d. retained earnings", "timestamp": "2024-11-15T00:47:14+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "d.", "timestamp": "2024-11-15T06:11:51+0700", "vote": "102"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T11:57:14+0700", "vote": "0"}, {"username": "HeaterMon", "content": "sau khì đóng thì tài khoản nào còn tại => D vì nó là tk vĩnh viễn\nmấy cái kia bị đóng nên sẽ ko presented", "timestamp": "2024-11-15T12:46:35+0700", "vote": "0"}, {"username": "Vy Vu", "content": "D", "timestamp": "2025-04-15T01:12:57+0700", "vote": "67"}], "image_16.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:21:48+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T14:59:02+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:06:05+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:33:38+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-31T14:41:42+0700", "vote": "324"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-13T12:51:24+0700", "vote": "5"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-13T16:34:08+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c. = 17000 + 55200 - 39800 - 9000", "timestamp": "2024-11-14T15:34:12+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "c. 23.400", "timestamp": "2024-11-15T00:47:40+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T06:12:15+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T11:57:42+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:13:10+0700", "vote": "67"}], "image_17.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:21:56+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T14:59:13+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:06:52+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:33:55+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:41:48+0700", "vote": "324"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-13T12:52:15+0700", "vote": "5"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-13T16:34:32+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:34:54+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "b. closing entries", "timestamp": "2024-11-15T00:48:10+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b. update owner's captial", "timestamp": "2024-11-15T06:12:41+0700", "vote": "102"}, {"username": "Lý Nhiên", "content": "update owner's captial --> Closing entries", "timestamp": "2024-11-15T09:45:17+0700", "vote": "22"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T11:57:53+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:13:23+0700", "vote": "67"}], "image_18.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:22:23+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T14:59:21+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:07:02+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:34:07+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-31T14:41:56+0700", "vote": "324"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-13T12:52:32+0700", "vote": "5"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-13T16:34:44+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T15:35:05+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "c. current liability", "timestamp": "2024-11-15T00:51:20+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T06:13:08+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T11:58:11+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:13:36+0700", "vote": "67"}], "image_19.webp": [{"username": "thinh ng", "content": "E", "timestamp": "2024-07-23T14:22:30+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "E", "timestamp": "2024-07-23T14:59:31+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "e", "timestamp": "2024-07-23T17:07:26+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "E", "timestamp": "2024-07-23T23:34:16+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-31T14:42:05+0700", "vote": "324"}, {"username": "minhieuu", "content": "e", "timestamp": "2024-11-13T12:52:48+0700", "vote": "5"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-13T16:35:21+0700", "vote": "10"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-14T15:35:18+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "e. contingent assets", "timestamp": "2024-11-15T00:52:35+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T06:13:19+0700", "vote": "102"}, {"username": "Wiiiii", "content": "e", "timestamp": "2024-11-15T11:58:24+0700", "vote": "0"}, {"username": "Vy Vu", "content": "E", "timestamp": "2025-04-15T01:13:48+0700", "vote": "67"}], "image_20.webp": [{"username": "thinh ng", "content": "E", "timestamp": "2024-07-23T14:22:36+0700", "vote": "27"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "e", "timestamp": "2024-07-23T17:09:10+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "E", "timestamp": "2024-07-23T23:34:34+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-31T14:42:15+0700", "vote": "324"}, {"username": "minhieuu", "content": "e", "timestamp": "2024-11-13T12:53:33+0700", "vote": "5"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-13T16:35:43+0700", "vote": "10"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-14T15:35:48+0700", "vote": "102"}, {"username": "hvi", "content": "e", "timestamp": "2024-11-14T21:16:14+0700", "vote": "0"}, {"username": "Võ Hoàng Long", "content": "revaluation of long - term investments", "timestamp": "2024-11-15T00:54:51+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T06:13:26+0700", "vote": "102"}, {"username": "Wiiiii", "content": "e", "timestamp": "2024-11-15T11:59:12+0700", "vote": "0"}, {"username": "Vy Vu", "content": "E", "timestamp": "2025-04-15T01:14:17+0700", "vote": "67"}], "image_21.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:22:45+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T15:00:23+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:09:19+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:34:41+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-31T14:42:20+0700", "vote": "324"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-13T12:54:02+0700", "vote": "5"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-13T17:52:27+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T15:35:59+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "c", "timestamp": "2024-11-15T00:55:04+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "c. hoạt động tài chính", "timestamp": "2024-11-15T06:13:48+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T12:00:07+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:14:28+0700", "vote": "67"}], "image_22.webp": [{"username": "thinh ng", "content": "D", "timestamp": "2024-07-23T14:23:04+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T15:00:51+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:09:29+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "D", "timestamp": "2024-07-23T23:34:51+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-31T14:42:25+0700", "vote": "324"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-13T12:54:55+0700", "vote": "5"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-13T19:25:21+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T15:36:08+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "d. added to accounting book balence", "timestamp": "2024-11-15T00:56:52+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "d. thêm vào số dư sổ sách", "timestamp": "2024-11-15T06:14:09+0700", "vote": "102"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T12:00:20+0700", "vote": "0"}, {"username": "HeaterMon", "content": "bên ngân hàng tiền lãi đã tăng rồi, nhưng số sách của mình thì chưa, nên là tăng số sách => D", "timestamp": "2024-11-15T13:07:43+0700", "vote": "0"}, {"username": "Vy Vu", "content": "D", "timestamp": "2025-04-15T01:14:40+0700", "vote": "67"}, {"username": "duccr8", "content": "interest = added to account\ndeposits = added to bank", "timestamp": "2025-07-28T03:05:08+0700", "vote": "0"}], "image_23.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:23:11+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T15:01:08+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:10:16+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:34:59+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:42:35+0700", "vote": "324"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-13T12:55:10+0700", "vote": "5"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-13T19:25:39+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:37:24+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "b", "timestamp": "2024-11-15T00:59:39+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T06:14:14+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T12:00:27+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:14:52+0700", "vote": "67"}], "image_24.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:23:21+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T15:01:28+0700", "vote": "11"}, {"username": "Đám mây xanh", "content": "omg, câu này hôm trước học ở đâu ra đáp án C làm nay sai câu này ))))))))))))))))))))))", "timestamp": "2024-07-23T15:45:07+0700", "vote": "324"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:10:27+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:35:28+0700", "vote": "100"}, {"username": "ThangKelvin", "content": "B", "timestamp": "2024-07-29T08:23:05+0700", "vote": "-86"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:46:55+0700", "vote": "324"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-13T19:26:12+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:37:34+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "b", "timestamp": "2024-11-15T01:00:53+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b. deposit in transit -> add to bank", "timestamp": "2024-11-15T06:14:35+0700", "vote": "102"}, {"username": "Em gái nhà bên", "content": "deposit in transit -> add to bank\ndeposit in bank -> add to book", "timestamp": "2024-11-15T11:27:14+0700", "vote": "23"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T12:00:38+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:15:03+0700", "vote": "67"}], "image_25.webp": [{"username": "thinh ng", "content": "D", "timestamp": "2024-07-23T14:23:51+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T15:01:36+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:10:46+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "D", "timestamp": "2024-07-23T23:35:40+0700", "vote": "100"}, {"username": "anh79003", "content": "why huhu", "timestamp": "2024-07-23T23:58:56+0700", "vote": "7"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-31T14:47:00+0700", "vote": "324"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-13T19:26:51+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d.\nwithdrawal + paid expense đều làm giảm owner equity", "timestamp": "2024-11-14T15:38:30+0700", "vote": "102"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T06:14:48+0700", "vote": "102"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T12:01:12+0700", "vote": "0"}, {"username": "Vy Vu", "content": "D", "timestamp": "2025-04-15T01:15:13+0700", "vote": "67"}], "image_26.webp": [{"username": "quamon", "content": "B", "timestamp": "2024-07-23T14:19:52+0700", "vote": "-5"}, {"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:24:09+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T15:01:51+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:11:50+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:35:53+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:47:06+0700", "vote": "324"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T01:59:30+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:38:48+0700", "vote": "102"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T06:15:03+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T12:01:29+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:15:24+0700", "vote": "67"}], "image_27.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:24:21+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T15:01:57+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:11:58+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:36:01+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-31T14:47:11+0700", "vote": "324"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T01:59:47+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T15:38:54+0700", "vote": "102"}, {"username": "thkgaming156", "content": "c. trái debit phải credit", "timestamp": "2024-11-15T06:15:14+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T12:01:39+0700", "vote": "0"}, {"username": "HeaterMon", "content": "--------------\ndebit || credit\n||\n||\n||\n||", "timestamp": "2024-11-15T13:15:50+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:15:36+0700", "vote": "67"}], "image_28.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:24:35+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T15:02:04+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:12:11+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:36:11+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:47:25+0700", "vote": "324"}, {"username": "thkgaming156", "content": "b.\n52000 + 14800 - 12500", "timestamp": "2024-11-14T15:40:24+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T17:39:07+0700", "vote": "10"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T22:48:29+0700", "vote": "5"}, {"username": "Võ Hoàng Long", "content": "b. 49700", "timestamp": "2024-11-15T01:02:47+0700", "vote": "-4"}, {"username": "minhduy_17", "content": "52,000 - 14,800 (collected) + 12,500", "timestamp": "2024-11-15T04:13:01+0700", "vote": "55"}, {"username": "thkgaming156", "content": "b 52000 - 14800 + 12500", "timestamp": "2024-11-15T06:15:39+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T12:02:32+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:15:46+0700", "vote": "67"}], "image_29.webp": [{"username": "thinh ng", "content": "D", "timestamp": "2024-07-23T14:24:44+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T15:02:13+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:12:18+0700", "vote": "21"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-31T14:47:37+0700", "vote": "324"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T02:01:00+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T15:41:01+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "d. credit cash, debit loan", "timestamp": "2024-11-15T01:04:40+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "d. giảm tiền, giảm nợ", "timestamp": "2024-11-15T06:16:09+0700", "vote": "102"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T12:03:19+0700", "vote": "0"}, {"username": "HeaterMon", "content": "repayment of the loan = trả nợ", "timestamp": "2024-11-15T13:17:45+0700", "vote": "0"}, {"username": "Vy Vu", "content": "D", "timestamp": "2025-04-15T01:15:56+0700", "vote": "67"}], "image_30.webp": [{"username": "thinh ng", "content": "A", "timestamp": "2024-07-23T14:24:59+0700", "vote": "27"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "â", "timestamp": "2024-07-23T17:12:25+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "A", "timestamp": "2024-07-23T23:37:50+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-31T14:48:03+0700", "vote": "324"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-14T15:41:15+0700", "vote": "102"}, {"username": "minhieuu", "content": "a", "timestamp": "2024-11-14T22:49:08+0700", "vote": "5"}, {"username": "Võ Hoàng Long", "content": "a. received payment in advance from custimers by cash 8.000", "timestamp": "2024-11-15T01:05:30+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "a. trả trước", "timestamp": "2024-11-15T06:16:32+0700", "vote": "102"}, {"username": "Wiiiii", "content": "a", "timestamp": "2024-11-15T12:03:38+0700", "vote": "0"}, {"username": "Vy Vu", "content": "A", "timestamp": "2025-04-15T01:16:07+0700", "vote": "67"}], "image_31.webp": [{"username": "thinh ng", "content": "E", "timestamp": "2024-07-23T14:25:10+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "E", "timestamp": "2024-07-23T15:03:04+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "e", "timestamp": "2024-07-23T17:12:33+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "E", "timestamp": "2024-07-23T23:38:13+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-31T14:48:13+0700", "vote": "324"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-14T02:01:59+0700", "vote": "10"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-14T15:41:36+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "e. debit cash 2.000 and credit revenue 2.000", "timestamp": "2024-11-15T01:12:41+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "e. tăng doanh thu tăng cash", "timestamp": "2024-11-15T06:17:01+0700", "vote": "102"}, {"username": "Wiiiii", "content": "e", "timestamp": "2024-11-15T12:03:54+0700", "vote": "0"}, {"username": "Vy Vu", "content": "E", "timestamp": "2025-04-15T01:16:18+0700", "vote": "67"}], "image_32.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:25:25+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T15:03:10+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:12:43+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:38:41+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-31T14:48:37+0700", "vote": "324"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T02:02:30+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T15:42:03+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "c", "timestamp": "2024-11-15T01:14:25+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "c. tăng cash 4400 tăng doanh thu 4000", "timestamp": "2024-11-15T06:17:14+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T12:04:22+0700", "vote": "0"}, {"username": "HeaterMon", "content": "phí nhận đc bao gồm 10% VAT => 4400 là 110% revenue\nrevenue la 4000\nvat la 400", "timestamp": "2024-11-15T13:30:17+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:16:29+0700", "vote": "67"}], "image_33.webp": [{"username": "thinh ng", "content": "A", "timestamp": "2024-07-23T14:25:37+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "A", "timestamp": "2024-07-23T15:03:23+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "a", "timestamp": "2024-07-23T17:12:57+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "A", "timestamp": "2024-07-23T23:38:57+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-31T14:48:58+0700", "vote": "324"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T02:03:01+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-14T15:43:12+0700", "vote": "102"}, {"username": "thkgaming156", "content": "a. tăng cash 300 tăng acc receiv 700", "timestamp": "2024-11-15T06:17:42+0700", "vote": "102"}, {"username": "Wiiiii", "content": "a", "timestamp": "2024-11-15T12:04:35+0700", "vote": "0"}, {"username": "HeaterMon", "content": "bán món đồ được 300 tiền mặt và 700 nợ, => giá là 1000", "timestamp": "2024-11-15T13:32:00+0700", "vote": "0"}, {"username": "Vy Vu", "content": "A", "timestamp": "2025-04-15T01:16:39+0700", "vote": "67"}], "image_34.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:25:43+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T15:03:49+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:13:24+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:39:07+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:49:03+0700", "vote": "324"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T02:03:22+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:43:17+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "b. trade discount", "timestamp": "2024-11-15T01:17:48+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T06:18:16+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T12:04:48+0700", "vote": "0"}, {"username": "HeaterMon", "content": "B. theo quantity\nC. trả trước (pay early)\n\nA, D hình như ko có : )))", "timestamp": "2024-11-15T13:35:55+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:16:51+0700", "vote": "67"}], "image_35.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:25:50+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T15:04:12+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:13:32+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:39:19+0700", "vote": "100"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-31T14:49:11+0700", "vote": "324"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T02:03:47+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:43:28+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "b. used supplies", "timestamp": "2024-11-15T01:18:29+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b. sử dụng supplies", "timestamp": "2024-11-15T06:18:39+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T12:05:20+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:17:02+0700", "vote": "67"}], "image_36.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:25:58+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T15:04:19+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:14:05+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:39:49+0700", "vote": "100"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T02:04:16+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c. 20000 - 20000 + 40000", "timestamp": "2024-11-14T15:43:54+0700", "vote": "102"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-14T22:51:54+0700", "vote": "5"}, {"username": "thkgaming156", "content": "c 40000", "timestamp": "2024-11-15T06:19:08+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T12:05:45+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:17:13+0700", "vote": "67"}], "image_37.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:26:04+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T15:04:24+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:14:13+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:40:33+0700", "vote": "100"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T02:05:11+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T15:44:25+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "c. understate, overstate", "timestamp": "2024-11-15T01:21:28+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "c. không ghi lại tiện ích tiêu thụ ->\nnợ giảm, doanh thu tăng trong sổ sách", "timestamp": "2024-11-15T06:21:14+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T12:06:17+0700", "vote": "0"}, {"username": "PICKABU", "content": "Under, over", "timestamp": "2025-04-05T00:27:37+0700", "vote": "26"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:17:24+0700", "vote": "67"}], "image_38.webp": [{"username": "thinh ng", "content": "D", "timestamp": "2024-07-23T14:26:11+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T15:04:32+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:14:24+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "D", "timestamp": "2024-07-23T23:41:31+0700", "vote": "100"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T02:05:40+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T15:44:49+0700", "vote": "102"}, {"username": "Võ Hoàng Long", "content": "d", "timestamp": "2024-11-15T01:21:53+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "d.\nNếu doanh thu đã được ghi nhận đúng kỳ, không cần thực hiện bút toán điều chỉnh nữa.", "timestamp": "2024-11-15T06:22:03+0700", "vote": "102"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T12:07:05+0700", "vote": "0"}, {"username": "Vy Vu", "content": "D", "timestamp": "2025-04-15T01:17:36+0700", "vote": "67"}], "image_39.webp": [{"username": "thinh ng", "content": "E", "timestamp": "2024-07-23T14:26:20+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "E", "timestamp": "2024-07-23T15:04:41+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "e", "timestamp": "2024-07-23T17:14:32+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "E", "timestamp": "2024-07-23T23:41:46+0700", "vote": "100"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-14T02:06:13+0700", "vote": "10"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-14T15:45:02+0700", "vote": "102"}, {"username": "minhieuu", "content": "e", "timestamp": "2024-11-14T22:54:14+0700", "vote": "5"}, {"username": "Võ Hoàng Long", "content": "e. book value", "timestamp": "2024-11-15T01:22:29+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "e. giá trị sổ sách", "timestamp": "2024-11-15T06:22:22+0700", "vote": "102"}, {"username": "Wiiiii", "content": "e", "timestamp": "2024-11-15T12:07:21+0700", "vote": "0"}, {"username": "Vy Vu", "content": "E", "timestamp": "2025-04-15T01:17:46+0700", "vote": "67"}], "image_40.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:26:28+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T15:04:47+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:14:55+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:42:05+0700", "vote": "100"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T02:07:34+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b. 100000 * 9% * 25/360", "timestamp": "2024-11-14T15:46:11+0700", "vote": "102"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T06:22:31+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T12:08:21+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:17:57+0700", "vote": "67"}], "image_41.webp": [{"username": "thinh ng", "content": "D", "timestamp": "2024-07-23T14:26:37+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T15:04:58+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:15:03+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "D", "timestamp": "2024-07-23T23:42:15+0700", "vote": "100"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T02:09:10+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T15:46:28+0700", "vote": "102"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-14T22:57:20+0700", "vote": "5"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T06:22:38+0700", "vote": "102"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T12:08:48+0700", "vote": "0"}, {"username": "Vy Vu", "content": "D", "timestamp": "2025-04-15T01:18:08+0700", "vote": "67"}], "image_42.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:26:49+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T15:05:15+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:15:12+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:43:21+0700", "vote": "100"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T02:10:19+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T15:46:45+0700", "vote": "102"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-14T22:57:34+0700", "vote": "5"}, {"username": "thkgaming156", "content": "c. xóa nợ trực tiếp", "timestamp": "2024-11-15T06:22:55+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T12:09:14+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:18:25+0700", "vote": "67"}], "image_43.webp": [{"username": "thinh ng", "content": "A", "timestamp": "2024-07-23T14:26:54+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "A", "timestamp": "2024-07-23T15:05:27+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "a", "timestamp": "2024-07-23T17:15:27+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "A", "timestamp": "2024-07-23T23:43:43+0700", "vote": "100"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T02:10:45+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-14T15:47:02+0700", "vote": "102"}, {"username": "minhieuu", "content": "a", "timestamp": "2024-11-14T22:57:53+0700", "vote": "5"}, {"username": "thkgaming156", "content": "a. xóa nợ", "timestamp": "2024-11-15T06:23:09+0700", "vote": "102"}, {"username": "Wiiiii", "content": "a", "timestamp": "2024-11-15T12:09:30+0700", "vote": "0"}, {"username": "Vy Vu", "content": "A", "timestamp": "2025-04-15T01:18:35+0700", "vote": "67"}], "image_44.webp": [{"username": "thinh ng", "content": "C", "timestamp": "2024-07-23T14:27:00+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "C", "timestamp": "2024-07-23T15:05:35+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "c", "timestamp": "2024-07-23T17:15:35+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "C", "timestamp": "2024-07-23T23:44:21+0700", "vote": "100"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T15:47:47+0700", "vote": "102"}, {"username": "thkgaming156", "content": "c. allowance method", "timestamp": "2024-11-15T06:23:34+0700", "vote": "102"}, {"username": "Wiiiii", "content": "c", "timestamp": "2024-11-15T12:10:12+0700", "vote": "0"}, {"username": "Vy Vu", "content": "C", "timestamp": "2025-04-15T01:18:46+0700", "vote": "67"}], "image_45.webp": [{"username": "thinh ng", "content": "D", "timestamp": "2024-07-23T14:27:07+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "D", "timestamp": "2024-07-23T15:06:06+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "d", "timestamp": "2024-07-23T17:15:45+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "D", "timestamp": "2024-07-23T23:44:31+0700", "vote": "100"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T15:47:58+0700", "vote": "102"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T17:45:40+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d. vào ngày đáo hạn, note receivable = lãi + gốc", "timestamp": "2024-11-15T06:24:08+0700", "vote": "102"}, {"username": "Wiiiii", "content": "d", "timestamp": "2024-11-15T12:11:00+0700", "vote": "0"}, {"username": "HeaterMon", "content": "lãi = 12k * 8% * (60/360) = 160\ngốc = 12 k\n=> 12160", "timestamp": "2024-11-15T13:57:57+0700", "vote": "0"}], "image_46.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:27:27+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T15:06:24+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:15:51+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:44:50+0700", "vote": "100"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T02:25:25+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:48:55+0700", "vote": "102"}, {"username": "thkgaming156", "content": "b. FIFO", "timestamp": "2024-11-15T06:24:22+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T12:12:16+0700", "vote": "0"}, {"username": "PICKABU", "content": "2021-b", "timestamp": "2025-04-05T02:36:25+0700", "vote": "26"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:18:57+0700", "vote": "67"}], "image_47.webp": [{"username": "thinh ng", "content": "A", "timestamp": "2024-07-23T14:27:37+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "A", "timestamp": "2024-07-23T15:06:32+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "a", "timestamp": "2024-07-23T17:16:00+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "A", "timestamp": "2024-07-23T23:45:29+0700", "vote": "100"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T02:26:17+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-14T15:49:20+0700", "vote": "102"}, {"username": "thkgaming156", "content": "a.", "timestamp": "2024-11-15T06:24:32+0700", "vote": "102"}, {"username": "Wiiiii", "content": "a", "timestamp": "2024-11-15T12:12:35+0700", "vote": "0"}, {"username": "HeaterMon", "content": "giá được bao gồm của merchandise đc tình bao gồm\n(hay đơn giản là giá cơ bản của đồ - ko có lợi nhận)\n\n=> A", "timestamp": "2024-11-15T14:02:31+0700", "vote": "0"}, {"username": "Vy Vu", "content": "A", "timestamp": "2025-04-15T01:19:08+0700", "vote": "67"}], "image_48.webp": [{"username": "thinh ng", "content": "A", "timestamp": "2024-07-23T14:27:44+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "A", "timestamp": "2024-07-23T15:06:39+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "a", "timestamp": "2024-07-23T17:16:07+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "A", "timestamp": "2024-07-23T23:45:40+0700", "vote": "100"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T02:26:36+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-14T15:49:42+0700", "vote": "102"}, {"username": "thkgaming156", "content": "a. LIFO sẽ giúp giảm thuế trong thời kỳ lạm phát :>", "timestamp": "2024-11-15T06:25:02+0700", "vote": "102"}, {"username": "Wiiiii", "content": "a", "timestamp": "2024-11-15T12:13:01+0700", "vote": "0"}, {"username": "HeaterMon", "content": "A. inflation / (rising cost + lowest)", "timestamp": "2024-11-15T14:05:02+0700", "vote": "0"}, {"username": "Vy Vu", "content": "A", "timestamp": "2025-04-15T01:19:19+0700", "vote": "67"}], "image_49.webp": [{"username": "thinh ng", "content": "A", "timestamp": "2024-07-23T14:28:14+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "A", "timestamp": "2024-07-23T15:06:50+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "a", "timestamp": "2024-07-23T17:16:14+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "A", "timestamp": "2024-07-23T23:45:53+0700", "vote": "100"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T02:26:53+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-14T15:50:06+0700", "vote": "102"}, {"username": "thkgaming156", "content": "a. tài sản ngắn hạn của doanh nghiệp, thời gian sử dụng ngắn (dưới 1 năm)", "timestamp": "2024-11-15T06:25:59+0700", "vote": "102"}, {"username": "Wiiiii", "content": "a", "timestamp": "2024-11-15T12:13:17+0700", "vote": "0"}, {"username": "Vy Vu", "content": "A", "timestamp": "2025-04-15T01:19:34+0700", "vote": "67"}], "image_50.webp": [{"username": "thinh ng", "content": "B", "timestamp": "2024-07-23T14:28:22+0700", "vote": "27"}, {"username": "kjdsvkjsdfbkj", "content": "B", "timestamp": "2024-07-23T15:06:57+0700", "vote": "11"}, {"username": "Học Đến Suy Kiệt Vì Iem", "content": "b", "timestamp": "2024-07-23T17:16:22+0700", "vote": "21"}, {"username": "Do Huu Hoang Hunng", "content": "B", "timestamp": "2024-07-23T23:46:12+0700", "vote": "100"}, {"username": "minhduy_17", "content": "Do Huu Hoang Hunng đã viết:\nB\nbạn này giỏi quá z , chắc cóc zàng r", "timestamp": "2024-07-23T23:48:17+0700", "vote": "55"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T02:27:16+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T15:50:18+0700", "vote": "102"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T23:03:39+0700", "vote": "5"}, {"username": "thkgaming156", "content": "b. 10 * 10 + 2 * 12", "timestamp": "2024-11-15T06:26:35+0700", "vote": "102"}, {"username": "Wiiiii", "content": "b", "timestamp": "2024-11-15T12:13:36+0700", "vote": "0"}, {"username": "Vy Vu", "content": "B", "timestamp": "2025-04-15T01:19:40+0700", "vote": "67"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>
