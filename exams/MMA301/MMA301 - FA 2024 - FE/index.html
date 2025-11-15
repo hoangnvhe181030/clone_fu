@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>MMA301 - FA 2024 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>MMA301 - FA 2024 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_51.webp">
+            <img src="images/image_51.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_52.webp">
+            <img src="images/image_52.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "sonhocgioi", "content": "B", "timestamp": "2024-11-18T11:24:02+0700", "vote": "-13"}, {"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:21:28+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-18T19:26:29+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:15:37+0700", "vote": "24"}, {"username": "tt.trece", "content": "B", "timestamp": "2025-03-29T19:54:34+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:27:20+0700", "vote": "-18"}, {"username": "josPhanAi", "content": "B", "timestamp": "2025-03-30T08:29:36+0700", "vote": "1"}, {"username": "phungthanh03", "content": "b", "timestamp": "2025-05-09T01:38:26+0700", "vote": "230"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:22:11+0700", "vote": "10"}, {"username": "吴明孝", "content": "done", "timestamp": "2025-07-25T21:51:09+0700", "vote": "0"}, {"username": "BC_ShorStyle", "content": "B", "timestamp": "2025-07-28T15:23:58+0700", "vote": "-2"}, {"username": "qua", "content": "sao ko có đề SP25 nhỉ", "timestamp": "2025-07-28T15:27:59+0700", "vote": "0"}, {"username": "HauPTD", "content": "b", "timestamp": "2025-07-28T16:23:42+0700", "vote": "2"}, {"username": "Quangdung", "content": "Geolocation API là một giao diện lập trình có sẵn trong trình duyệt (như Chrome, Firefox...) hoặc ứng dụng di động, dùng để lấy vị trí hiện tại của người dùng.\nVị trí này bao gồm:\nKinh độ (longitude)\nVĩ độ (latitude)\nCó thể có thêm: độ cao, tốc độ di chuyển,...\n\nGiải thích các đáp án sai:\nA. LocationPicker: Không phải API thật, có thể là tên của một thư viện UI chứ không phải API hệ thống.\nC. Location: Không phải là một API riêng biệt nào cụ thể, không có thật trong JavaScript hay trình duyệt.\nD. Picker: Đây là một thành phần giao diện (ví dụ: chọn ngày, chọn màu), không liên quan gì đến vị trí.", "timestamp": "2025-07-28T20:03:45+0700", "vote": "46"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:36:33+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "b", "timestamp": "2025-07-28T21:53:05+0700", "vote": "1025"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:20:31+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "b", "timestamp": "2025-11-13T19:48:26+0700", "vote": "22"}, {"username": "tri ngo", "content": "B", "timestamp": "2025-11-15T14:18:23+0700", "vote": "6"}], "image_2.webp": [{"username": "heygirl", "content": "D", "timestamp": "2024-11-18T19:21:42+0700", "vote": "-2"}, {"username": "kqn30", "content": "d", "timestamp": "2024-11-18T23:52:34+0700", "vote": "149"}, {"username": "TTTTTT", "content": "D", "timestamp": "2025-03-24T21:25:29+0700", "vote": "24"}, {"username": "tt.trece", "content": "D", "timestamp": "2025-03-29T19:55:38+0700", "vote": "78"}, {"username": "dlm77", "content": "D", "timestamp": "2025-03-30T07:27:36+0700", "vote": "-18"}, {"username": "Lyjing", "content": "d", "timestamp": "2025-03-30T22:02:47+0700", "vote": "-29"}, {"username": "Cookie", "content": "D", "timestamp": "2025-07-23T15:23:15+0700", "vote": "10"}, {"username": "BC_ShorStyle", "content": "D", "timestamp": "2025-07-28T15:35:40+0700", "vote": "-2"}, {"username": "HauPTD", "content": "d", "timestamp": "2025-07-28T16:24:01+0700", "vote": "2"}, {"username": "Quangdung", "content": "D", "timestamp": "2025-07-28T20:04:30+0700", "vote": "46"}, {"username": "edentuan", "content": "d", "timestamp": "2025-07-28T21:36:48+0700", "vote": "6"}, {"username": "TuanSang", "content": "D", "timestamp": "2025-07-28T23:21:15+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "d", "timestamp": "2025-11-13T19:48:56+0700", "vote": "22"}, {"username": "tri ngo", "content": "D", "timestamp": "2025-11-15T14:18:39+0700", "vote": "6"}], "image_3.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:22:05+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-18T23:52:40+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:26:05+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T19:56:19+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:27:46+0700", "vote": "-18"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:23:54+0700", "vote": "10"}, {"username": "Quangdung", "content": "B", "timestamp": "2025-07-28T20:05:13+0700", "vote": "46"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:36:59+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:21:56+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "b", "timestamp": "2025-11-13T19:49:05+0700", "vote": "22"}, {"username": "tri ngo", "content": "B", "timestamp": "2025-11-15T14:24:16+0700", "vote": "6"}], "image_4.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:22:14+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-18T23:52:47+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:26:49+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T19:57:14+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:27:55+0700", "vote": "-18"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:24:42+0700", "vote": "10"}, {"username": "BC_ShorStyle", "content": "a", "timestamp": "2025-07-28T16:38:46+0700", "vote": "-2"}, {"username": "Quangdung", "content": "A", "timestamp": "2025-07-28T20:05:48+0700", "vote": "46"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:37:10+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:22:34+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "a", "timestamp": "2025-11-13T19:51:14+0700", "vote": "22"}, {"username": "tri ngo", "content": "A", "timestamp": "2025-11-15T14:25:17+0700", "vote": "6"}], "image_5.webp": [{"username": "Lawliet", "content": "E", "timestamp": "2024-11-18T15:37:34+0700", "vote": "10"}, {"username": "heygirl", "content": "E", "timestamp": "2024-11-18T19:22:25+0700", "vote": "-2"}, {"username": "kqn30", "content": "e", "timestamp": "2024-11-18T23:52:56+0700", "vote": "149"}, {"username": "TTTTTT", "content": "E", "timestamp": "2025-03-24T21:27:14+0700", "vote": "24"}, {"username": "tt.trece", "content": "e", "timestamp": "2025-03-29T19:57:36+0700", "vote": "78"}, {"username": "dlm77", "content": "E", "timestamp": "2025-03-30T07:28:52+0700", "vote": "-18"}, {"username": "phongdh", "content": "E.\nslide 18 session 25_36", "timestamp": "2025-03-30T11:56:24+0700", "vote": "35"}, {"username": "Cookie", "content": "E", "timestamp": "2025-07-23T15:24:55+0700", "vote": "10"}, {"username": "BC_ShorStyle", "content": "e", "timestamp": "2025-07-28T16:39:11+0700", "vote": "-2"}, {"username": "Quangdung", "content": "MapView là một component thường thấy trong React Native Maps (ví dụ: react-native-maps). Nó có một số props (thuộc tính) chuẩn để cấu hình bản đồ.\nCác prop hợp lệ gồm:\nstyle: dùng để chỉnh CSS như chiều rộng, chiều cao của bản đồ.\nprovider: chọn nhà cung cấp bản đồ (Google Maps, Apple Maps...).\nmapType: kiểu bản đồ như \"standard\", \"satellite\", \"terrain\", v.v.\nregion: xác định khu vực được hiển thị ban đầu (lat, long, zoom...)\n\nmapLocation:\nKhông tồn tại trong tài liệu chính thức của MapView.\nKhông phải prop hợp lệ => không dùng được, do đó là đáp án sai → đáp án đúng của câu hỏi.", "timestamp": "2025-07-28T20:07:21+0700", "vote": "46"}, {"username": "edentuan", "content": "e", "timestamp": "2025-07-28T21:37:20+0700", "vote": "6"}, {"username": "TuanSang", "content": "E", "timestamp": "2025-07-28T23:22:52+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "E", "timestamp": "2025-11-13T19:52:01+0700", "vote": "22"}, {"username": "tri ngo", "content": "E", "timestamp": "2025-11-15T14:25:29+0700", "vote": "6"}], "image_6.webp": [{"username": "heygirl", "content": "C", "timestamp": "2024-11-18T19:24:27+0700", "vote": "-2"}, {"username": "kqn30", "content": "c", "timestamp": "2024-11-18T23:54:26+0700", "vote": "149"}, {"username": "TTTTTT", "content": "C", "timestamp": "2025-03-24T21:27:37+0700", "vote": "24"}, {"username": "tt.trece", "content": "c", "timestamp": "2025-03-29T19:57:48+0700", "vote": "78"}, {"username": "dlm77", "content": "C", "timestamp": "2025-03-30T07:29:05+0700", "vote": "-18"}, {"username": "phongdh", "content": "c", "timestamp": "2025-03-30T12:12:37+0700", "vote": "35"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-23T15:27:07+0700", "vote": "10"}, {"username": "Quangdung", "content": "C", "timestamp": "2025-07-28T20:08:28+0700", "vote": "46"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-28T21:37:28+0700", "vote": "6"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T23:23:33+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "C", "timestamp": "2025-11-13T19:52:33+0700", "vote": "22"}, {"username": "tri ngo", "content": "C", "timestamp": "2025-11-15T14:26:01+0700", "vote": "6"}], "image_7.webp": [{"username": "heygirl", "content": "C", "timestamp": "2024-11-18T19:25:25+0700", "vote": "-2"}, {"username": "kqn30", "content": "c", "timestamp": "2024-11-18T23:54:54+0700", "vote": "149"}, {"username": "TTTTTT", "content": "C", "timestamp": "2025-03-24T21:28:00+0700", "vote": "24"}, {"username": "tt.trece", "content": "c", "timestamp": "2025-03-29T20:30:39+0700", "vote": "78"}, {"username": "dlm77", "content": "C", "timestamp": "2025-03-30T07:29:18+0700", "vote": "-18"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-23T15:27:51+0700", "vote": "10"}, {"username": "Quangdung", "content": "Khi bạn dùng Swift để viết native module cho iOS trong React Native, bạn cần phải tạo một Bridging Header để có thể gọi được code Objective-C trong Swift, vì React Native core vẫn dùng Objective-C.\n\n\nGiải thích từng lựa chọn:\nA. Writing the native module in Objective-C or Swift\n→ Đây là bước viết code, chưa cần tạo bridging header.\nB. Registering the module with RCTBridgeModule\n→ Là bước khai báo module với React Native, cũng không liên quan đến bridging header.\nC. Configuring the Xcode project to include the bridging header\n→ Đúng! Đây chính là bước thêm bridging header vào project Xcode để \"kết nối\" Swift và Objective-C.\nD. Using RCT_EXPORT_METHOD to expose methods to JavaScript\n→ Đây là bước xuất hàm ra JavaScript, không liên quan tới bridging header.", "timestamp": "2025-07-28T20:11:17+0700", "vote": "46"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-28T21:37:38+0700", "vote": "6"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T23:23:59+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "C", "timestamp": "2025-11-13T19:53:06+0700", "vote": "22"}, {"username": "tri ngo", "content": "C", "timestamp": "2025-11-15T14:26:25+0700", "vote": "6"}], "image_8.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:28:29+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-18T23:55:01+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:28:32+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:30:52+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:29:28+0700", "vote": "-18"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:29:45+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:37:46+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:24:16+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "B", "timestamp": "2025-11-13T19:53:17+0700", "vote": "22"}, {"username": "tri ngo", "content": "B", "timestamp": "2025-11-15T14:30:22+0700", "vote": "6"}], "image_9.webp": [{"username": "Lawliet", "content": "ABD", "timestamp": "2024-11-18T15:38:48+0700", "vote": "10"}, {"username": "heygirl", "content": "ABD", "timestamp": "2024-11-18T19:28:45+0700", "vote": "-2"}, {"username": "kqn30", "content": "abd", "timestamp": "2024-11-18T23:55:11+0700", "vote": "149"}, {"username": "TTTTTT", "content": "ABD", "timestamp": "2025-03-24T21:29:22+0700", "vote": "24"}, {"username": "tt.trece", "content": "abd", "timestamp": "2025-03-29T20:31:13+0700", "vote": "78"}, {"username": "dlm77", "content": "ABD", "timestamp": "2025-03-30T07:29:40+0700", "vote": "-18"}, {"username": "phongdh", "content": "A, B, D", "timestamp": "2025-03-30T12:39:32+0700", "vote": "35"}, {"username": "Cookie", "content": "ABD", "timestamp": "2025-07-23T15:30:47+0700", "vote": "10"}, {"username": "Quangdung", "content": "A. Low security\n→ Đúng trong ngữ cảnh khi so sánh với native app (Android: Java/Kotlin, iOS: Swift/Obj-C).\nReact Native không có bảo mật thấp sẵn trong lõi framework, mà vấn đề bảo mật phụ thuộc vào cách bạn viết app.\nTuy nhiên, vì nó là mã nguồn mở và chạy JavaScript nên bạn phải tự xử lý bảo mật cho tốt!\n\n\nB. Long initialization time\n→ Đúng.\nReact Native cần load JavaScript bundle khi app khởi chạy, đặc biệt ở Android, nên thời gian mở app lúc đầu có thể lâu hơn native app.\nĐiều này gây cảm giác chậm cho người dùng nếu không tối ưu kỹ.\n\n\nC. Hard to learn\n→ Sai.\nReact Native khá dễ học, nhất là nếu bạn đã biết JavaScript hoặc ReactJS.\nNó dễ hơn nhiều so với việc học native Android (Java/Kotlin) hoặc iOS (Swift/Objective-C).\n\n\nD. Limited access to device features\n→ Đúng.\nDù RN có thư viện hỗ trợ nhiều tính năng, nhưng với những tính năng đặc thù của thiết bị (ví dụ: cảm biến nâng cao, camera tùy chỉnh, ARKit, Bluetooth Low Energy...), bạn sẽ phải viết native module thủ công, khó khăn hơn nhiều so với native app.\n\n\nSo sánh: React Native vs Native App về Bảo mật\n\nTiêu chí React Native Native App\nCơ chế bảo mật Bảo mật chủ yếu dựa trên các thư viện JavaScript, dễ bị tấn công nếu không cấu hình kỹ. Hệ thống bảo mật mạnh hơn nhờ APIs gốc và các cơ chế mã hóa, sandbox... của iOS/Android.\nObfuscation (Làm rối mã) Khó bảo vệ mã nguồn vì JavaScript dễ bị decompile hoặc đọc bằng công cụ như Jadx, JSX Inspector. Native code (Java/Kotlin/Swift) khó đảo ngược hơn, dễ bảo vệ bằng ProGuard hoặc R8 (Android), Bitcode (iOS).\nLỗ hổng qua bridge Có thể có lỗ hổng khi dùng Native Modules (JS ↔ Native Bridge), nếu không kiểm soát kỹ dữ liệu truyền. Không có lớp bridge nên ít rủi ro hơn.\nBảo vệ dữ liệu nội bộ Nếu không dùng thư viện native đúng cách, lưu file hoặc token có thể bị lộ (AsyncStorage...). Có thể dùng API gốc như Keychain (iOS) hoặc EncryptedSharedPreferences (Android) để bảo vệ mạnh hơn.\nAnti-Tampering / Root detection Phải tự cài thêm thư viện hoặc viết thủ công. Dễ tích hợp hơn với các SDK native để phát hiện root/jailbreak, debug, giả lập,...", "timestamp": "2025-07-28T20:17:31+0700", "vote": "46"}, {"username": "edentuan", "content": "abd", "timestamp": "2025-07-28T21:38:00+0700", "vote": "6"}, {"username": "TuanSang", "content": "ABD", "timestamp": "2025-07-28T23:42:22+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "ABD", "timestamp": "2025-11-13T19:53:36+0700", "vote": "22"}, {"username": "tri ngo", "content": "ABD", "timestamp": "2025-11-15T14:30:41+0700", "vote": "6"}], "image_10.webp": [{"username": "Lawliet", "content": "C", "timestamp": "2024-11-18T15:39:06+0700", "vote": "10"}, {"username": "heygirl", "content": "C", "timestamp": "2024-11-18T19:28:54+0700", "vote": "-2"}, {"username": "kqn30", "content": "c", "timestamp": "2024-11-18T23:55:20+0700", "vote": "149"}, {"username": "TTTTTT", "content": "C", "timestamp": "2025-03-24T21:29:44+0700", "vote": "24"}, {"username": "tt.trece", "content": "c", "timestamp": "2025-03-29T20:31:25+0700", "vote": "78"}, {"username": "dlm77", "content": "C", "timestamp": "2025-03-30T07:29:48+0700", "vote": "-18"}, {"username": "phongdh", "content": "JS and React", "timestamp": "2025-03-30T12:40:10+0700", "vote": "35"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-23T15:31:01+0700", "vote": "10"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-28T21:38:08+0700", "vote": "6"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T23:42:43+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "C", "timestamp": "2025-11-13T19:56:28+0700", "vote": "22"}, {"username": "tri ngo", "content": "C", "timestamp": "2025-11-15T14:32:28+0700", "vote": "6"}], "image_11.webp": [{"username": "heygirl", "content": "D", "timestamp": "2024-11-18T19:29:04+0700", "vote": "-2"}, {"username": "kqn30", "content": "d", "timestamp": "2024-11-18T23:56:21+0700", "vote": "149"}, {"username": "TTTTTT", "content": "D", "timestamp": "2025-03-24T21:29:59+0700", "vote": "24"}, {"username": "tt.trece", "content": "d", "timestamp": "2025-03-29T20:31:54+0700", "vote": "78"}, {"username": "dlm77", "content": "D", "timestamp": "2025-03-30T07:30:25+0700", "vote": "-18"}, {"username": "nhatkieu", "content": "4 to =\naaaaaaaaaaaaaaaaaaaRRRRRRRRRR> D section", "timestamp": "2025-03-31T01:07:22+0700", "vote": "8"}, {"username": "Cookie", "content": "D", "timestamp": "2025-07-23T15:31:48+0700", "vote": "10"}, {"username": "edentuan", "content": "d", "timestamp": "2025-07-28T21:38:32+0700", "vote": "6"}, {"username": "TuanSang", "content": "D", "timestamp": "2025-07-28T23:42:56+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "D", "timestamp": "2025-11-13T19:56:45+0700", "vote": "22"}, {"username": "tri ngo", "content": "D", "timestamp": "2025-11-15T14:32:43+0700", "vote": "6"}], "image_12.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:29:22+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-18T23:56:30+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:30:20+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:32:14+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:30:39+0700", "vote": "-18"}, {"username": "phongdh", "content": "A", "timestamp": "2025-03-30T12:52:01+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:32:14+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:38:39+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:43:23+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "D", "timestamp": "2025-11-13T19:56:53+0700", "vote": "22"}, {"username": "tri ngo", "content": "A", "timestamp": "2025-11-15T14:33:24+0700", "vote": "6"}], "image_13.webp": [{"username": "heygirl", "content": "D", "timestamp": "2024-11-18T19:30:37+0700", "vote": "-2"}, {"username": "kqn30", "content": "d", "timestamp": "2024-11-18T23:56:50+0700", "vote": "149"}, {"username": "TTTTTT", "content": "D", "timestamp": "2025-03-24T21:30:41+0700", "vote": "24"}, {"username": "tt.trece", "content": "d", "timestamp": "2025-03-29T20:33:30+0700", "vote": "78"}, {"username": "dlm77", "content": "D", "timestamp": "2025-03-30T07:30:52+0700", "vote": "-18"}, {"username": "phongdh", "content": "View", "timestamp": "2025-03-30T12:52:20+0700", "vote": "35"}, {"username": "Cookie", "content": "D", "timestamp": "2025-07-23T15:32:27+0700", "vote": "10"}, {"username": "edentuan", "content": "d", "timestamp": "2025-07-28T21:38:48+0700", "vote": "6"}, {"username": "TuanSang", "content": "D viuuuuuuuuuuuuuuuuuu", "timestamp": "2025-07-28T23:43:48+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "D", "timestamp": "2025-11-13T19:57:07+0700", "vote": "22"}, {"username": "tri ngo", "content": "D", "timestamp": "2025-11-15T14:35:36+0700", "vote": "6"}], "image_14.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:30:51+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-18T23:56:57+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:30:56+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:33:44+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:31:01+0700", "vote": "-18"}, {"username": "phongdh", "content": "A", "timestamp": "2025-03-30T12:53:09+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:32:40+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:38:53+0700", "vote": "6"}, {"username": "TuanSang", "content": "AAAAAAAAAAAAAAAAAAAAAA", "timestamp": "2025-07-28T23:44:03+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "A", "timestamp": "2025-11-13T19:57:15+0700", "vote": "22"}, {"username": "tri ngo", "content": "A", "timestamp": "2025-11-15T14:35:47+0700", "vote": "6"}], "image_15.webp": [{"username": "Lawliet", "content": "B", "timestamp": "2024-11-18T15:40:44+0700", "vote": "10"}, {"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:31:01+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-18T23:57:06+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:31:12+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:34:10+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:31:18+0700", "vote": "-18"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:33:17+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:39:00+0700", "vote": "6"}, {"username": "TuanSang", "content": "BEEEEEEEEEEEEEEEEEEEEEEEEEEEE", "timestamp": "2025-07-28T23:44:27+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "B", "timestamp": "2025-11-13T19:57:26+0700", "vote": "22"}, {"username": "tri ngo", "content": "B", "timestamp": "2025-11-15T14:36:22+0700", "vote": "6"}], "image_16.webp": [{"username": "Lawliet", "content": "CD", "timestamp": "2024-11-18T15:41:04+0700", "vote": "10"}, {"username": "heygirl", "content": "CD", "timestamp": "2024-11-18T19:31:11+0700", "vote": "-2"}, {"username": "kqn30", "content": "cd", "timestamp": "2024-11-18T23:57:14+0700", "vote": "149"}, {"username": "TTTTTT", "content": "CD", "timestamp": "2025-03-24T21:31:23+0700", "vote": "24"}, {"username": "tt.trece", "content": "CD", "timestamp": "2025-03-29T20:34:36+0700", "vote": "78"}, {"username": "dlm77", "content": "CD", "timestamp": "2025-03-30T07:31:29+0700", "vote": "-18"}, {"username": "phongdh", "content": "C, D", "timestamp": "2025-03-30T12:59:07+0700", "vote": "35"}, {"username": "Cookie", "content": "CD", "timestamp": "2025-07-23T15:33:56+0700", "vote": "10"}, {"username": "Quangdung", "content": "A. DrawerLayoutAndroid\n➤ Đây là component riêng cho Android, dùng để tạo navigation drawer (menu kéo từ trái/phải).\n➤ Không dùng được trên iOS nếu không viết custom riêng.\n=> Không phải iOS component\n\nB. TouchableNativeFeedback\n➤ Cũng là component dành riêng cho Android, dùng để tạo hiệu ứng ripple (gợn sóng) khi nhấn.\n➤ iOS không có hiệu ứng này, nên React Native fallback sang TouchableOpacity.\n=> Không phải iOS component\n\nC. InputAccessoryView\n➤ Đây là component dành riêng cho iOS, hiển thị view nằm trên bàn phím, thường để chứa nút “Done”, “Next”, hoặc toolbar nhỏ.\n➤ Android không hỗ trợ InputAccessoryView.\n=> Là iOS component\n\n\nD. SafeAreaView\n➤ Dùng để hiển thị nội dung không bị che khuất bởi notch (tai thỏ), status bar, hoặc các cạnh cong.\n➤ Dù được dùng trên cả iOS lẫn Android, nhưng nó đặc biệt quan trọng và xuất hiện đầu tiên trên iOS với iPhone X trở đi.\n=> Cũng là iOS component (dù Android cũng dùng được)", "timestamp": "2025-07-28T20:23:35+0700", "vote": "46"}, {"username": "edentuan", "content": "cd", "timestamp": "2025-07-28T21:39:19+0700", "vote": "6"}, {"username": "TuanSang", "content": "CD", "timestamp": "2025-07-28T23:44:49+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "CD", "timestamp": "2025-11-13T19:57:35+0700", "vote": "22"}, {"username": "tri ngo", "content": "CD", "timestamp": "2025-11-15T14:37:21+0700", "vote": "6"}], "image_17.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:31:20+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-18T23:57:25+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:31:44+0700", "vote": "24"}, {"username": "hihihuhu", "content": "a", "timestamp": "2025-03-29T17:16:27+0700", "vote": "0"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:34:57+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:31:37+0700", "vote": "-18"}, {"username": "phongdh", "content": "trackColor", "timestamp": "2025-03-30T13:00:51+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:34:40+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:39:26+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:45:13+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "A", "timestamp": "2025-11-13T19:57:48+0700", "vote": "22"}, {"username": "tri ngo", "content": "A", "timestamp": "2025-11-15T14:38:24+0700", "vote": "6"}], "image_18.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:31:28+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-18T23:57:33+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:32:08+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:35:56+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:32:28+0700", "vote": "-18"}, {"username": "phongdh", "content": "TouchableNativeFeedback", "timestamp": "2025-03-30T13:01:24+0700", "vote": "35"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:35:10+0700", "vote": "10"}, {"username": "Quangdung", "content": "Các đáp án sai:\n\nA. TouchableNative\nKhông tồn tại trong React Native.\nCó thể là tên bị viết nhầm từ TouchableNativeFeedback.\n\nC. TouchableView\nCũng không tồn tại trong thư viện React Native gốc.\n\nD. DataPicker\nKhông liên quan gì đến touch feedback.\nCó thể là nhầm lẫn với DatePicker, dùng để chọn ngày giờ.", "timestamp": "2025-07-28T20:26:59+0700", "vote": "46"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:40:00+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:45:47+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "B", "timestamp": "2025-11-13T19:58:01+0700", "vote": "22"}, {"username": "tri ngo", "content": "B", "timestamp": "2025-11-15T14:38:45+0700", "vote": "6"}], "image_19.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:31:35+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-18T23:57:40+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:32:35+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:36:34+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:32:37+0700", "vote": "-18"}, {"username": "phongdh", "content": "A. Text\nB,C không tồn tại\nD: Dùng để nhập", "timestamp": "2025-03-30T13:03:16+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:35:23+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:40:12+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:46:16+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "A", "timestamp": "2025-11-13T19:58:08+0700", "vote": "22"}, {"username": "tri ngo", "content": "A", "timestamp": "2025-11-15T14:38:54+0700", "vote": "6"}], "image_20.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:31:46+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-18T23:57:51+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:32:45+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:36:46+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:32:52+0700", "vote": "-18"}, {"username": "phongdh", "content": "A. renderItem", "timestamp": "2025-03-30T13:05:11+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:36:41+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:40:39+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:46:30+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "A", "timestamp": "2025-11-13T19:58:18+0700", "vote": "22"}, {"username": "tri ngo", "content": "A", "timestamp": "2025-11-15T14:39:02+0700", "vote": "6"}], "image_21.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:31:53+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-18T23:57:57+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:32:55+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:36:56+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:33:21+0700", "vote": "-18"}, {"username": "phongdh", "content": "A. keyExtractor", "timestamp": "2025-03-30T13:05:27+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:37:08+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:42:43+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:46:40+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "A", "timestamp": "2025-11-13T19:58:57+0700", "vote": "22"}, {"username": "tri ngo", "content": "A", "timestamp": "2025-11-15T14:39:15+0700", "vote": "6"}], "image_22.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:32:04+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-18T23:58:08+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:33:18+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:38:02+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:33:33+0700", "vote": "-18"}, {"username": "phongdh", "content": "B", "timestamp": "2025-03-30T13:06:12+0700", "vote": "35"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:37:46+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:43:16+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:47:06+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "B", "timestamp": "2025-11-13T20:03:27+0700", "vote": "22"}, {"username": "tri ngo", "content": "B", "timestamp": "2025-11-15T14:40:12+0700", "vote": "6"}], "image_23.webp": [{"username": "heygirl", "content": "D", "timestamp": "2024-11-18T19:32:56+0700", "vote": "-2"}, {"username": "kqn30", "content": "d", "timestamp": "2024-11-18T23:59:25+0700", "vote": "149"}, {"username": "TTTTTT", "content": "D", "timestamp": "2025-03-24T21:33:43+0700", "vote": "24"}, {"username": "tt.trece", "content": "d", "timestamp": "2025-03-29T20:38:21+0700", "vote": "78"}, {"username": "dlm77", "content": "D", "timestamp": "2025-03-30T07:33:42+0700", "vote": "-18"}, {"username": "phongdh", "content": "D. horizontal (xác định danh sách hiển thị theo chiều nào)", "timestamp": "2025-03-30T13:08:17+0700", "vote": "35"}, {"username": "Cookie", "content": "D", "timestamp": "2025-07-23T15:38:47+0700", "vote": "10"}, {"username": "Quangdung", "content": "D. horizontal\nLà một prop boolean trong FlatList.\nMặc định là false, tức là list sẽ scroll theo chiều dọc (vertical).\nNếu bạn set horizontal={true}, FlatList sẽ hiển thị các item theo chiều ngang (scroll từ trái sang phải).", "timestamp": "2025-07-28T20:29:26+0700", "vote": "46"}, {"username": "edentuan", "content": "d", "timestamp": "2025-07-28T21:43:24+0700", "vote": "6"}, {"username": "TuanSang", "content": "D", "timestamp": "2025-07-28T23:47:20+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "D", "timestamp": "2025-11-13T20:03:54+0700", "vote": "22"}, {"username": "tri ngo", "content": "D", "timestamp": "2025-11-15T14:40:28+0700", "vote": "6"}], "image_24.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:33:28+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-18T23:59:33+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:35:05+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:39:21+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:33:50+0700", "vote": "-18"}, {"username": "phongdh", "content": "A (renderSectionHeader là prop của SectionList)", "timestamp": "2025-03-30T13:10:26+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:39:27+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:43:36+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:47:59+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "A", "timestamp": "2025-11-13T20:04:02+0700", "vote": "22"}], "image_25.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:33:58+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-18T23:59:39+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:35:14+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:39:55+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:34:04+0700", "vote": "-18"}, {"username": "phongdh", "content": "B", "timestamp": "2025-03-30T13:10:44+0700", "vote": "35"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:40:11+0700", "vote": "10"}, {"username": "devbaoo", "content": "be", "timestamp": "2025-07-28T13:36:41+0700", "vote": "-2"}, {"username": "edentuan", "content": "bê", "timestamp": "2025-07-28T21:43:50+0700", "vote": "6"}, {"username": "TuanSang", "content": "BEEEEEEEEEEEEEEEEEEEEÊ", "timestamp": "2025-07-28T23:48:36+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "B", "timestamp": "2025-11-13T20:04:27+0700", "vote": "22"}], "image_26.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:34:29+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-18T23:59:45+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:35:58+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:41:05+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:34:12+0700", "vote": "-18"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:41:07+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:43:57+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:48:47+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "B", "timestamp": "2025-11-13T20:04:35+0700", "vote": "22"}], "image_27.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:35:12+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:00:00+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:36:39+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:42:59+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:34:27+0700", "vote": "-18"}, {"username": "phongdh", "content": "A", "timestamp": "2025-03-30T13:15:08+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:41:42+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:44:04+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:49:48+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "A", "timestamp": "2025-11-13T20:04:52+0700", "vote": "22"}], "image_28.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:35:31+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-19T00:00:07+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:37:44+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:43:24+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:34:35+0700", "vote": "-18"}, {"username": "phongdh", "content": "B", "timestamp": "2025-03-30T13:16:17+0700", "vote": "35"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:41:54+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:44:13+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:51:45+0700", "vote": "-12"}, {"username": "Tiêu diệt tư bản", "content": "B", "timestamp": "2025-11-13T20:05:15+0700", "vote": "22"}], "image_29.webp": [{"username": "heygirl", "content": "C", "timestamp": "2024-11-18T19:36:20+0700", "vote": "-2"}, {"username": "kqn30", "content": "D", "timestamp": "2024-11-19T00:00:40+0700", "vote": "149"}, {"username": "TTTTTT", "content": "D", "timestamp": "2025-03-24T21:38:49+0700", "vote": "24"}, {"username": "Ainchase", "content": "D", "timestamp": "2025-03-26T22:08:58+0700", "vote": "0"}, {"username": "tt.trece", "content": "D", "timestamp": "2025-03-29T20:45:11+0700", "vote": "78"}, {"username": "dlm77", "content": "D", "timestamp": "2025-03-30T07:34:49+0700", "vote": "-18"}, {"username": "phongdh", "content": "D", "timestamp": "2025-03-30T13:16:38+0700", "vote": "35"}, {"username": "Cookie", "content": "D", "timestamp": "2025-07-23T15:42:14+0700", "vote": "10"}, {"username": "edentuan", "content": "d", "timestamp": "2025-07-28T21:44:24+0700", "vote": "6"}, {"username": "TuanSang", "content": "D", "timestamp": "2025-07-28T23:52:08+0700", "vote": "-12"}], "image_30.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:37:13+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:00:57+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:39:15+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:51:12+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:35:21+0700", "vote": "-18"}, {"username": "nhatkieu", "content": "A", "timestamp": "2025-03-31T02:23:41+0700", "vote": "8"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:42:57+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:44:35+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:52:29+0700", "vote": "-12"}], "image_31.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:37:35+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-19T00:01:50+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:39:50+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:51:24+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:36:23+0700", "vote": "-18"}, {"username": "phongdh", "content": "B", "timestamp": "2025-03-30T13:19:27+0700", "vote": "35"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:43:09+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:44:43+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:52:54+0700", "vote": "-12"}], "image_32.webp": [{"username": "heygirl", "content": "C", "timestamp": "2024-11-18T19:37:48+0700", "vote": "-2"}, {"username": "kqn30", "content": "c", "timestamp": "2024-11-19T00:01:57+0700", "vote": "149"}, {"username": "TTTTTT", "content": "C", "timestamp": "2025-03-24T21:41:09+0700", "vote": "24"}, {"username": "tt.trece", "content": "c", "timestamp": "2025-03-29T20:52:06+0700", "vote": "78"}, {"username": "dlm77", "content": "C", "timestamp": "2025-03-30T07:36:37+0700", "vote": "-18"}, {"username": "phongdh", "content": "C", "timestamp": "2025-03-30T13:20:13+0700", "vote": "35"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-23T15:43:33+0700", "vote": "10"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-28T21:44:50+0700", "vote": "6"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T23:53:16+0700", "vote": "-12"}], "image_33.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:37:58+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:02:03+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:41:39+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:52:40+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:36:47+0700", "vote": "-18"}, {"username": "phongdh", "content": "A", "timestamp": "2025-03-30T13:20:54+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:44:02+0700", "vote": "10"}, {"username": "NoNaMee", "content": "Vc i am a dog =))))", "timestamp": "2025-07-28T21:36:56+0700", "vote": "-2"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:46:35+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:53:33+0700", "vote": "-12"}], "image_34.webp": [{"username": "heygirl", "content": "C", "timestamp": "2024-11-18T19:38:24+0700", "vote": "-2"}, {"username": "kqn30", "content": "c", "timestamp": "2024-11-19T00:02:14+0700", "vote": "149"}, {"username": "TTTTTT", "content": "C", "timestamp": "2025-03-24T21:41:55+0700", "vote": "24"}, {"username": "tt.trece", "content": "c", "timestamp": "2025-03-29T20:52:54+0700", "vote": "78"}, {"username": "dlm77", "content": "C", "timestamp": "2025-03-30T07:36:53+0700", "vote": "-18"}, {"username": "phongdh", "content": "Shadow Thread: layout\nRender Thread: UI\nNative Thread: code native", "timestamp": "2025-03-30T13:23:19+0700", "vote": "35"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-23T15:44:36+0700", "vote": "10"}, {"username": "Quangdung", "content": "Trong kiến trúc Bridge của React Native (trước khi kiến trúc mới Fabric ra mắt), có ba luồng (threads) chính:\n\n\nJavaScript Thread\nChạy mã JavaScript (logic app, gọi API, v.v.)\nKhông chịu trách nhiệm tính toán layout.\nNative Modules Thread\nThực thi các native modules (Camera, Location...) khi được gọi từ JS.\nShadow Thread\nChuyên xử lý tính toán layout\nDùng Yoga Layout Engine để tính toán kích thước, vị trí của component (flexbox, v.v.)\nSau đó gửi kết quả qua Bridge đến Native UI Thread.\nRender/UI Thread\nCập nhật giao diện (hiển thị layout sau khi Shadow Thread tính toán xong).\n\n--> C", "timestamp": "2025-07-28T20:41:42+0700", "vote": "46"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-28T21:46:48+0700", "vote": "6"}, {"username": "TuanSang", "content": "C\n\ncaculated => shadow\nexecuted => native\nplanced and compiled => JavaScript", "timestamp": "2025-07-28T23:55:01+0700", "vote": "-12"}], "image_35.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:38:34+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-19T00:02:24+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:42:40+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:53:22+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:37:14+0700", "vote": "-18"}, {"username": "phongdh", "content": "B", "timestamp": "2025-03-30T13:23:43+0700", "vote": "35"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:44:53+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:47:11+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:55:27+0700", "vote": "-12"}], "image_36.webp": [{"username": "heygirl", "content": "C", "timestamp": "2024-11-18T19:38:41+0700", "vote": "-2"}, {"username": "kqn30", "content": "c", "timestamp": "2024-11-19T00:02:39+0700", "vote": "149"}, {"username": "TTTTTT", "content": "C", "timestamp": "2025-03-24T21:42:59+0700", "vote": "24"}, {"username": "tt.trece", "content": "c", "timestamp": "2025-03-29T20:53:31+0700", "vote": "78"}, {"username": "dlm77", "content": "C", "timestamp": "2025-03-30T07:37:27+0700", "vote": "-18"}, {"username": "phongdh", "content": "C", "timestamp": "2025-03-30T13:23:57+0700", "vote": "35"}, {"username": "tt.trece", "content": "c", "timestamp": "2025-03-31T08:26:15+0700", "vote": "78"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-23T15:45:08+0700", "vote": "10"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-28T21:47:20+0700", "vote": "6"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T23:55:41+0700", "vote": "-12"}], "image_37.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:38:52+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:02:53+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:44:02+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:53:52+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:37:35+0700", "vote": "-18"}, {"username": "phongdh", "content": "A", "timestamp": "2025-03-30T13:25:49+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:45:23+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:47:36+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:55:51+0700", "vote": "-12"}], "image_38.webp": [], "image_39.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:39:32+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:03:12+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:45:02+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:54:31+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:37:45+0700", "vote": "-18"}, {"username": "phongdh", "content": "A", "timestamp": "2025-03-30T13:26:28+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:45:51+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:47:47+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:56:17+0700", "vote": "-12"}], "image_40.webp": [{"username": "heygirl", "content": "D", "timestamp": "2024-11-18T19:40:15+0700", "vote": "-2"}, {"username": "kqn30", "content": "d", "timestamp": "2024-11-19T00:03:19+0700", "vote": "149"}, {"username": "TTTTTT", "content": "D", "timestamp": "2025-03-24T21:45:17+0700", "vote": "24"}, {"username": "tt.trece", "content": "d", "timestamp": "2025-03-29T20:54:51+0700", "vote": "78"}, {"username": "dlm77", "content": "D", "timestamp": "2025-03-30T07:38:10+0700", "vote": "-18"}, {"username": "phongdh", "content": "D", "timestamp": "2025-03-30T13:27:39+0700", "vote": "35"}, {"username": "Cookie", "content": "D", "timestamp": "2025-07-23T15:46:10+0700", "vote": "10"}, {"username": "edentuan", "content": "d", "timestamp": "2025-07-28T21:47:58+0700", "vote": "6"}, {"username": "TuanSang", "content": "D", "timestamp": "2025-07-28T23:56:34+0700", "vote": "-12"}], "image_41.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:40:23+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:03:34+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:45:34+0700", "vote": "24"}, {"username": "Ainchase", "content": "A", "timestamp": "2025-03-28T10:24:20+0700", "vote": "0"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:55:04+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:38:24+0700", "vote": "-18"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:50:11+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:48:08+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:56:43+0700", "vote": "-12"}], "image_42.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:40:34+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-19T00:03:46+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:45:52+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:55:22+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:38:30+0700", "vote": "-18"}, {"username": "phongdh", "content": "B", "timestamp": "2025-03-30T13:29:03+0700", "vote": "35"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:50:25+0700", "vote": "10"}, {"username": "Quang2210", "content": "b", "timestamp": "2025-07-28T21:35:38+0700", "vote": "1"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:48:27+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:56:54+0700", "vote": "-12"}], "image_43.webp": [{"username": "heygirl", "content": "C", "timestamp": "2024-11-18T19:40:44+0700", "vote": "-2"}, {"username": "kqn30", "content": "c", "timestamp": "2024-11-19T00:03:52+0700", "vote": "149"}, {"username": "TTTTTT", "content": "C", "timestamp": "2025-03-24T21:46:06+0700", "vote": "24"}, {"username": "tt.trece", "content": "c", "timestamp": "2025-03-29T20:55:36+0700", "vote": "78"}, {"username": "dlm77", "content": "C", "timestamp": "2025-03-30T07:38:37+0700", "vote": "-18"}, {"username": "phongdh", "content": "c", "timestamp": "2025-03-30T13:29:30+0700", "vote": "35"}, {"username": "Cookie", "content": "c", "timestamp": "2025-07-23T15:50:43+0700", "vote": "10"}, {"username": "Quang2210", "content": "c", "timestamp": "2025-07-28T21:35:55+0700", "vote": "1"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-28T21:48:33+0700", "vote": "6"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T23:57:01+0700", "vote": "-12"}], "image_44.webp": [{"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:03:59+0700", "vote": "149"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:38:50+0700", "vote": "-18"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:57:10+0700", "vote": "-12"}], "image_45.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:41:02+0700", "vote": "-2"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:47:06+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:56:21+0700", "vote": "78"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:51:17+0700", "vote": "10"}, {"username": "Quang2210", "content": "a", "timestamp": "2025-07-28T21:36:08+0700", "vote": "1"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:57:17+0700", "vote": "-12"}], "image_46.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:41:11+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:04:13+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:47:32+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:56:36+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:38:59+0700", "vote": "-18"}, {"username": "phongdh", "content": "row: left - right\ncolumn: up - down", "timestamp": "2025-03-30T13:33:27+0700", "vote": "35"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:52:05+0700", "vote": "10"}, {"username": "Quang2210", "content": "a", "timestamp": "2025-07-28T21:36:22+0700", "vote": "1"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:49:23+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:57:38+0700", "vote": "-12"}], "image_47.webp": [{"username": "kqn30", "content": "ad", "timestamp": "2024-11-19T00:04:24+0700", "vote": "149"}, {"username": "heygirl", "content": "ad", "timestamp": "2024-11-19T21:50:33+0700", "vote": "-2"}, {"username": "TTTTTT", "content": "AD", "timestamp": "2025-03-24T21:47:59+0700", "vote": "24"}, {"username": "tt.trece", "content": "ad", "timestamp": "2025-03-29T20:56:57+0700", "vote": "78"}, {"username": "dlm77", "content": "AD", "timestamp": "2025-03-30T07:39:35+0700", "vote": "-18"}, {"username": "VoHoangKiet", "content": "sao câu này lại D đúng nhỉ ? mình nghĩ là B chứ ta", "timestamp": "2025-03-31T07:52:45+0700", "vote": "-4"}, {"username": "Cookie", "content": "AD", "timestamp": "2025-07-23T15:54:05+0700", "vote": "10"}, {"username": "Vietcong221", "content": "Sự kết hợp giữa câu A (Định nghĩa) và câu D (Mục đích chính) cung cấp một cái nhìn toàn diện và cơ bản nhất về \"Layout direction\". Các câu B và C cũng đúng nhưng chúng mang tính chi tiết về cách triển khai (implementation detail) hơn.", "timestamp": "2025-07-28T15:59:21+0700", "vote": "11"}, {"username": "Quang2210", "content": "AD", "timestamp": "2025-07-28T21:36:49+0700", "vote": "1"}, {"username": "edentuan", "content": "ad", "timestamp": "2025-07-28T21:49:36+0700", "vote": "6"}, {"username": "TuanSang", "content": "AD", "timestamp": "2025-07-28T23:58:11+0700", "vote": "-12"}], "image_48.webp": [{"username": "heygirl", "content": "B", "timestamp": "2024-11-18T19:41:29+0700", "vote": "-2"}, {"username": "kqn30", "content": "b", "timestamp": "2024-11-19T00:05:29+0700", "vote": "149"}, {"username": "TTTTTT", "content": "B", "timestamp": "2025-03-24T21:48:27+0700", "vote": "24"}, {"username": "tt.trece", "content": "b", "timestamp": "2025-03-29T20:58:05+0700", "vote": "78"}, {"username": "dlm77", "content": "B", "timestamp": "2025-03-30T07:39:45+0700", "vote": "-18"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-23T15:54:30+0700", "vote": "10"}, {"username": "Quang2210", "content": "B", "timestamp": "2025-07-28T21:37:04+0700", "vote": "1"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-28T21:49:43+0700", "vote": "6"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T23:58:26+0700", "vote": "-12"}], "image_49.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:41:46+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:05:47+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:49:20+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:58:26+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:39:57+0700", "vote": "-18"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:55:09+0700", "vote": "10"}, {"username": "Quang2210", "content": "A", "timestamp": "2025-07-28T21:37:21+0700", "vote": "1"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:49:51+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:59:28+0700", "vote": "-12"}], "image_50.webp": [{"username": "heygirl", "content": "A", "timestamp": "2024-11-18T19:42:37+0700", "vote": "-2"}, {"username": "kqn30", "content": "a", "timestamp": "2024-11-19T00:05:55+0700", "vote": "149"}, {"username": "TTTTTT", "content": "A", "timestamp": "2025-03-24T21:49:45+0700", "vote": "24"}, {"username": "tt.trece", "content": "a", "timestamp": "2025-03-29T20:58:44+0700", "vote": "78"}, {"username": "dlm77", "content": "A", "timestamp": "2025-03-30T07:40:05+0700", "vote": "-18"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-23T15:56:00+0700", "vote": "10"}, {"username": "Quang2210", "content": "A", "timestamp": "2025-07-28T21:37:34+0700", "vote": "1"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-28T21:49:59+0700", "vote": "6"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T23:59:38+0700", "vote": "-12"}], "image_51.webp": [{"username": "heygirl", "content": "E", "timestamp": "2024-11-18T19:42:44+0700", "vote": "-2"}, {"username": "kqn30", "content": "e", "timestamp": "2024-11-19T00:06:04+0700", "vote": "149"}, {"username": "TTTTTT", "content": "E", "timestamp": "2025-03-24T21:50:01+0700", "vote": "24"}, {"username": "tt.trece", "content": "e", "timestamp": "2025-03-29T20:58:55+0700", "vote": "78"}, {"username": "dlm77", "content": "E", "timestamp": "2025-03-30T07:40:12+0700", "vote": "-18"}, {"username": "phongdh", "content": "E", "timestamp": "2025-03-30T13:39:28+0700", "vote": "35"}, {"username": "phungthanh03", "content": "e", "timestamp": "2025-05-09T01:38:42+0700", "vote": "230"}, {"username": "Cookie", "content": "E", "timestamp": "2025-07-23T15:56:19+0700", "vote": "10"}, {"username": "Quang2210", "content": "E", "timestamp": "2025-07-28T21:37:48+0700", "vote": "1"}, {"username": "edentuan", "content": "e", "timestamp": "2025-07-28T21:50:07+0700", "vote": "6"}, {"username": "TuanSang", "content": "E", "timestamp": "2025-07-28T23:59:53+0700", "vote": "-12"}], "image_52.webp": [{"username": "kqn30", "content": "C. shouldComponentUpdate()", "timestamp": "2024-11-19T00:07:04+0700", "vote": "149"}, {"username": "TTTTTT", "content": "C", "timestamp": "2025-03-24T21:50:40+0700", "vote": "24"}, {"username": "tt.trece", "content": "c", "timestamp": "2025-03-29T20:59:08+0700", "vote": "78"}, {"username": "dlm77", "content": "C", "timestamp": "2025-03-30T07:40:23+0700", "vote": "-18"}, {"username": "phungthanh03", "content": "c", "timestamp": "2025-05-09T01:38:32+0700", "vote": "230"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-23T15:56:46+0700", "vote": "10"}, {"username": "Quangdung", "content": "\"Method nào được dùng trước khi render lại (dedication), khi một component mới hoặc các thay đổi (building/circuits) được “áp dụng” (adopted)?\"\n\nTrong React (và React Native), khi component sắp được re-render, ta có thể kiểm tra và quyết định có nên update hay không bằng:\n\nshouldComponentUpdate(nextProps, nextState)\nĐược gọi trước khi render lại một component class.\nGiúp tối ưu hiệu năng bằng cách return false để ngăn render không cần thiết.", "timestamp": "2025-07-28T21:09:23+0700", "vote": "46"}, {"username": "Quang2210", "content": "C", "timestamp": "2025-07-28T21:38:00+0700", "vote": "1"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-28T21:50:16+0700", "vote": "6"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-29T00:00:20+0700", "vote": "-12"}, {"username": "Quốc Khánh", "content": "C", "timestamp": "2025-07-29T13:52:10+0700", "vote": "0"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>SDN302 - SP 2025 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>SDN302 - SP 2025 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:32:23+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:35:18+0700", "vote": "10"}, {"username": "qua", "content": "a", "timestamp": "2025-07-27T15:33:09+0700", "vote": "0"}, {"username": "Quangdung", "content": "A", "timestamp": "2025-07-27T17:06:51+0700", "vote": "43"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T17:09:49+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "a", "timestamp": "2025-07-27T17:23:03+0700", "vote": "1025"}, {"username": "Joker NhaTrang", "content": "a", "timestamp": "2025-07-27T18:04:05+0700", "vote": "2"}, {"username": "hiamgenoss", "content": "a", "timestamp": "2025-07-27T20:14:36+0700", "vote": "10"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T00:14:11+0700", "vote": "-8"}, {"username": "namnamba131", "content": "A", "timestamp": "2025-11-13T19:12:37+0700", "vote": "16"}], "image_2.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:33:50+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:35:46+0700", "vote": "10"}, {"username": "Quangdung", "content": "Tailwind CSS là một utility-first CSS framework, tức là nó cung cấp các class nhỏ, tiện ích (utility classes) như p-4, text-center, bg-blue-500,... để bạn xây dựng giao diện tùy chỉnh theo nhu cầu.\nBootstrap, ngược lại, cung cấp sẵn các component UI đã thiết kế trước như buttons, navbars,... với phong cách cố định hơn.", "timestamp": "2025-07-27T17:08:32+0700", "vote": "43"}, {"username": "duydang_onbai", "content": "b", "timestamp": "2025-07-27T17:24:45+0700", "vote": "1025"}, {"username": "Joker NhaTrang", "content": "b", "timestamp": "2025-07-27T18:04:33+0700", "vote": "2"}, {"username": "hiamgenoss", "content": "b", "timestamp": "2025-07-27T20:14:48+0700", "vote": "10"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T00:16:46+0700", "vote": "-8"}, {"username": "namnamba131", "content": "B", "timestamp": "2025-11-13T19:12:52+0700", "vote": "16"}], "image_3.webp": [{"username": "Misa", "content": "C", "timestamp": "2025-04-03T17:36:47+0700", "vote": "11044"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-22T15:36:22+0700", "vote": "10"}, {"username": "Quangdung", "content": "Giải thích:\n\nSSL (Secure Sockets Layer) và TLS (Transport Layer Security) là các giao thức bảo mật tiêu chuẩn dùng để mã hóa dữ liệu truyền qua Internet, đảm bảo tính riêng tư và toàn vẹn của dữ liệu.\n➤ Ví dụ: HTTPS chính là HTTP kết hợp với TLS.\n\n\nGiải thích các đáp án còn lại:\n\nA. FTP (File Transfer Protocol): Dùng để truyền tệp, không mã hóa → không an toàn.\nB. SMTP (Simple Mail Transfer Protocol): Gửi email, nhưng bản thân nó không mã hóa nếu không có thêm lớp bảo mật.\nD. HTTP (HyperText Transfer Protocol): Truyền nội dung web không bảo mật, khác với HTTPS.", "timestamp": "2025-07-27T17:10:01+0700", "vote": "43"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-27T17:12:30+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "c", "timestamp": "2025-07-27T17:25:20+0700", "vote": "1025"}, {"username": "Joker NhaTrang", "content": "c", "timestamp": "2025-07-27T18:04:40+0700", "vote": "2"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T00:17:15+0700", "vote": "-8"}, {"username": "namnamba131", "content": "C", "timestamp": "2025-11-13T19:12:59+0700", "vote": "16"}], "image_4.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:39:56+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:36:39+0700", "vote": "10"}, {"username": "Quangdung", "content": "B", "timestamp": "2025-07-27T17:11:29+0700", "vote": "43"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-27T17:14:01+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "b", "timestamp": "2025-07-27T17:26:03+0700", "vote": "1025"}, {"username": "Joker NhaTrang", "content": "b", "timestamp": "2025-07-27T18:04:52+0700", "vote": "2"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T00:17:37+0700", "vote": "-8"}, {"username": "namnamba131", "content": "B", "timestamp": "2025-11-13T19:13:05+0700", "vote": "16"}], "image_5.webp": [{"username": "Misa", "content": "C", "timestamp": "2025-04-03T17:42:19+0700", "vote": "11044"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-22T15:36:50+0700", "vote": "10"}, {"username": "Quangdung", "content": "C", "timestamp": "2025-07-27T17:11:41+0700", "vote": "43"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-27T17:17:55+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "c", "timestamp": "2025-07-27T17:26:44+0700", "vote": "1025"}, {"username": "Joker NhaTrang", "content": "c", "timestamp": "2025-07-27T18:05:00+0700", "vote": "2"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T00:17:48+0700", "vote": "-8"}, {"username": "namnamba131", "content": "C", "timestamp": "2025-11-13T19:13:11+0700", "vote": "16"}], "image_6.webp": [{"username": "Misa", "content": "D", "timestamp": "2025-04-03T17:43:01+0700", "vote": "11044"}, {"username": "Cookie", "content": "D", "timestamp": "2025-07-22T15:37:36+0700", "vote": "10"}, {"username": "Quangdung", "content": "D", "timestamp": "2025-07-27T17:14:23+0700", "vote": "43"}, {"username": "Quangdung", "content": "Giải thích:\n\nIdempotent nghĩa là:\nGọi một request nhiều lần vẫn cho kết quả giống nhau (về trạng thái của server).\n\n\n\nPhân tích từng phương thức:\n\nPUT: Idempotent\n→ Dù gọi nhiều lần với cùng dữ liệu, nó vẫn ghi đè (replace) và kết quả không đổi.\nDELETE: Idempotent\n→ Dù bạn gửi nhiều lần yêu cầu xóa một resource, nếu nó đã bị xóa thì lần tiếp theo không làm gì cả (trạng thái không đổi).\nPOST: Không idempotent\n→ Mỗi lần gọi POST có thể tạo ra một resource mới, nên trạng thái server thay đổi → không idempotent.", "timestamp": "2025-07-27T17:14:37+0700", "vote": "43"}, {"username": "edentuan", "content": "d", "timestamp": "2025-07-27T17:26:08+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "d", "timestamp": "2025-07-27T17:27:10+0700", "vote": "1025"}, {"username": "TuanSang", "content": "D", "timestamp": "2025-07-28T00:19:08+0700", "vote": "-8"}, {"username": "namnamba131", "content": "D", "timestamp": "2025-11-13T19:13:20+0700", "vote": "16"}], "image_7.webp": [{"username": "Misa", "content": "A C", "timestamp": "2025-04-03T17:44:20+0700", "vote": "11044"}, {"username": "Cookie", "content": "AC", "timestamp": "2025-07-22T15:38:56+0700", "vote": "10"}, {"username": "Quangdung", "content": "SDK = bộ công cụ giúp lập trình viên dễ tích hợp và tương tác với một nền tảng hoặc dịch vụ.\n\nCung cấp hàm sẵn để gọi API hoặc truy cập tính năng\nTránh việc bạn phải viết tất cả từ đầu\nGần gũi với bạn nhất khi làm web: Firebase SDK, Stripe SDK, Supabase SDK,...", "timestamp": "2025-07-27T17:17:53+0700", "vote": "43"}, {"username": "duydang_onbai", "content": "ac", "timestamp": "2025-07-27T17:29:02+0700", "vote": "1025"}, {"username": "edentuan", "content": "ac", "timestamp": "2025-07-27T17:30:57+0700", "vote": "6"}, {"username": "Ozsaoo", "content": "SDK = platform -> ac", "timestamp": "2025-07-27T18:57:33+0700", "vote": "-12"}, {"username": "TuanSang", "content": "AC", "timestamp": "2025-07-28T00:19:44+0700", "vote": "-8"}, {"username": "namnamba131", "content": "AC", "timestamp": "2025-11-13T19:13:33+0700", "vote": "16"}], "image_8.webp": [{"username": "Misa", "content": "A C", "timestamp": "2025-04-03T17:45:34+0700", "vote": "11044"}, {"username": "Cookie", "content": "A C", "timestamp": "2025-07-22T15:39:11+0700", "vote": "10"}, {"username": "edentuan", "content": "ac", "timestamp": "2025-07-27T17:33:46+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "ac", "timestamp": "2025-07-27T17:37:40+0700", "vote": "1025"}, {"username": "Joker NhaTrang", "content": "ac", "timestamp": "2025-07-27T17:59:51+0700", "vote": "2"}, {"username": "TuanSang", "content": "AC", "timestamp": "2025-07-28T00:20:18+0700", "vote": "-8"}, {"username": "namnamba131", "content": "AC", "timestamp": "2025-11-13T19:13:44+0700", "vote": "16"}], "image_9.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:46:25+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:39:22+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T17:33:55+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "a", "timestamp": "2025-07-27T17:38:18+0700", "vote": "1025"}, {"username": "Joker NhaTrang", "content": "a", "timestamp": "2025-07-27T18:05:29+0700", "vote": "2"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T00:20:28+0700", "vote": "-8"}, {"username": "namnamba131", "content": "A", "timestamp": "2025-11-13T19:13:49+0700", "vote": "16"}], "image_10.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:48:14+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:39:33+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-27T17:35:19+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "b", "timestamp": "2025-07-27T17:39:20+0700", "vote": "1025"}, {"username": "Joker NhaTrang", "content": "b", "timestamp": "2025-07-27T18:05:47+0700", "vote": "2"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T00:21:20+0700", "vote": "-8"}, {"username": "namnamba131", "content": "B", "timestamp": "2025-11-13T19:14:05+0700", "vote": "16"}], "image_11.webp": [{"username": "Misa", "content": "A B C", "timestamp": "2025-04-03T17:50:00+0700", "vote": "11044"}, {"username": "Cookie", "content": "A B C", "timestamp": "2025-07-22T15:40:10+0700", "vote": "10"}, {"username": "edentuan", "content": "abc", "timestamp": "2025-07-27T17:35:40+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "abc", "timestamp": "2025-07-27T17:40:27+0700", "vote": "1025"}, {"username": "TuanSang", "content": "ABC", "timestamp": "2025-07-28T00:31:16+0700", "vote": "-8"}, {"username": "namnamba131", "content": "ABC", "timestamp": "2025-11-13T19:16:46+0700", "vote": "16"}], "image_12.webp": [{"username": "Misa", "content": "A C", "timestamp": "2025-04-03T17:51:15+0700", "vote": "11044"}, {"username": "Cookie", "content": "A C", "timestamp": "2025-07-22T15:40:29+0700", "vote": "10"}, {"username": "Quangdung", "content": "Giải thích:\nA. $regex là toán tử trong MongoDB dùng để tìm chuỗi khớp với biểu thức chính quy.\nVí dụ:\ndb.users.find({ name: { $regex: \"^Nguyen\" } })\nB. Regex không liên quan đến toán học → Regex dùng cho chuỗi, không phải để làm phép toán.\nC. Regex hỗ trợ i flag để tìm kiếm không phân biệt chữ hoa/thường.\nVí dụ:\ndb.users.find({ name: {\nr\ne\ng\ne\nx\n:\n\"\nn\ng\nu\ny\ne\nn\n\"\n,\noptions: \"i\" } })\nD. Regex không dùng để insert documents → insertOne() hoặc insertMany() mới là để thêm dữ liệu.", "timestamp": "2025-07-27T17:28:04+0700", "vote": "43"}, {"username": "edentuan", "content": "ac", "timestamp": "2025-07-27T17:36:49+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "ac", "timestamp": "2025-07-27T20:05:22+0700", "vote": "1025"}, {"username": "TuanSang", "content": "AC", "timestamp": "2025-07-28T00:31:55+0700", "vote": "-8"}, {"username": "namnamba131", "content": "AC", "timestamp": "2025-11-13T19:17:04+0700", "vote": "16"}], "image_13.webp": [{"username": "Misa", "content": "C", "timestamp": "2025-04-03T17:53:31+0700", "vote": "11044"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-22T15:40:55+0700", "vote": "10"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-27T17:36:58+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "c", "timestamp": "2025-07-27T20:06:08+0700", "vote": "1025"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T00:32:02+0700", "vote": "-8"}, {"username": "namnamba131", "content": "C", "timestamp": "2025-11-13T19:17:11+0700", "vote": "16"}], "image_14.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:52:15+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:41:09+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-27T17:37:08+0700", "vote": "6"}, {"username": "Joker NhaTrang", "content": "b", "timestamp": "2025-07-27T18:07:44+0700", "vote": "2"}, {"username": "duydang_onbai", "content": "b", "timestamp": "2025-07-27T20:06:24+0700", "vote": "1025"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T00:32:20+0700", "vote": "-8"}, {"username": "nqmink", "content": "b", "timestamp": "2025-11-12T23:07:57+0700", "vote": "-203"}, {"username": "namnamba131", "content": "B", "timestamp": "2025-11-13T19:17:25+0700", "vote": "16"}], "image_15.webp": [{"username": "Misa", "content": "B C", "timestamp": "2025-04-03T17:51:27+0700", "vote": "11044"}, {"username": "Cookie", "content": "B C", "timestamp": "2025-07-22T15:41:42+0700", "vote": "10"}, {"username": "Quangdung", "content": "Trong Mongoose, khi dùng .populate(), bạn có thể truyền thêm một object với các tùy chọn như match, select, sort, limit, v.v.\n\n\nmatch là gì?\n\nNó lọc (filter) các document được populate dựa trên điều kiện bạn truyền vào.\nHoạt động giống với find() filter – tức là nó không giới hạn số lượng hay sắp xếp, mà chỉ lọc ra các document thỏa điều kiện.\n\nA. Sai: match không giới hạn số lượng, limit mới làm điều đó.\nD. Sai: sort là một tùy chọn riêng, không phải match.", "timestamp": "2025-07-27T17:31:25+0700", "vote": "43"}, {"username": "edentuan", "content": "bc", "timestamp": "2025-07-27T17:38:20+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "bc", "timestamp": "2025-07-27T20:09:25+0700", "vote": "1025"}, {"username": "TuanSang", "content": "BC", "timestamp": "2025-07-28T00:39:41+0700", "vote": "-8"}, {"username": "namnamba131", "content": "BC", "timestamp": "2025-11-13T19:17:55+0700", "vote": "16"}], "image_16.webp": [{"username": "Misa", "content": "A B", "timestamp": "2025-04-03T17:50:51+0700", "vote": "11044"}, {"username": "Ainchase", "content": "A B", "timestamp": "2025-07-21T23:18:43+0700", "vote": "0"}, {"username": "Cookie", "content": "A B", "timestamp": "2025-07-22T15:42:09+0700", "vote": "10"}, {"username": "Quangdung", "content": "Tham khảo: https://mongoosejs.com/docs/api/query.html#Query.prototype.populate()\n\nTrong Mongoose, phương thức .populate() hỗ trợ nhiều tùy chọn, bao gồm:\n\nTùy chọn Mục đích\npath Tên field chứa reference cần populate\nselect Chỉ định các field nào sẽ được lấy từ tài liệu được populate\nmodel Chỉ định rõ model dùng để populate (khi Mongoose không tự suy ra được)\nmatch Lọc tài liệu populate theo điều kiện\noptions Gồm limit, sort,... áp dụng lên tài liệu populate", "timestamp": "2025-07-27T17:38:09+0700", "vote": "43"}, {"username": "edentuan", "content": "ab", "timestamp": "2025-07-27T17:38:38+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "ab", "timestamp": "2025-07-27T20:10:04+0700", "vote": "1025"}, {"username": "TuanSang", "content": "AB", "timestamp": "2025-07-28T00:40:02+0700", "vote": "-8"}, {"username": "namnamba131", "content": "AB", "timestamp": "2025-11-13T19:19:07+0700", "vote": "16"}], "image_17.webp": [{"username": "Misa", "content": "A B", "timestamp": "2025-04-03T17:49:45+0700", "vote": "11044"}, {"username": "Cookie", "content": "A B", "timestamp": "2025-07-22T15:42:41+0700", "vote": "10"}, {"username": "edentuan", "content": "AB", "timestamp": "2025-07-27T17:39:10+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "ab", "timestamp": "2025-07-27T20:12:42+0700", "vote": "1025"}, {"username": "outsuocbuonkhochuhu", "content": "A bờ", "timestamp": "2025-07-27T23:42:09+0700", "vote": "111"}, {"username": "TuanSang", "content": "AB", "timestamp": "2025-07-28T00:40:47+0700", "vote": "-8"}, {"username": "namnamba131", "content": "AB", "timestamp": "2025-11-13T19:19:54+0700", "vote": "16"}], "image_18.webp": [{"username": "Misa", "content": "C", "timestamp": "2025-04-03T17:49:16+0700", "vote": "11044"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-22T15:42:47+0700", "vote": "10"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-27T17:41:24+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "c", "timestamp": "2025-07-27T20:14:37+0700", "vote": "1025"}, {"username": "outsuocbuonkhochuhu", "content": "c", "timestamp": "2025-07-27T23:42:55+0700", "vote": "111"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T00:41:28+0700", "vote": "-8"}, {"username": "namnamba131", "content": "C", "timestamp": "2025-11-13T19:20:23+0700", "vote": "16"}], "image_19.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:48:41+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:42:55+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-27T17:41:43+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "b", "timestamp": "2025-07-27T20:16:56+0700", "vote": "1025"}, {"username": "outsuocbuonkhochuhu", "content": "bê", "timestamp": "2025-07-27T23:43:10+0700", "vote": "111"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T00:42:28+0700", "vote": "-8"}, {"username": "namnamba131", "content": "B", "timestamp": "2025-11-13T19:20:44+0700", "vote": "16"}], "image_20.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:47:09+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:43:03+0700", "vote": "10"}, {"username": "winf", "content": "A", "timestamp": "2025-07-27T16:48:54+0700", "vote": "0"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T17:42:42+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "a", "timestamp": "2025-07-27T20:17:45+0700", "vote": "1025"}, {"username": "outsuocbuonkhochuhu", "content": "a", "timestamp": "2025-07-27T23:43:49+0700", "vote": "111"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T00:43:33+0700", "vote": "-8"}, {"username": "namnamba131", "content": "A", "timestamp": "2025-11-13T19:20:51+0700", "vote": "16"}], "image_21.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:46:36+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:43:15+0700", "vote": "10"}, {"username": "winf", "content": "A", "timestamp": "2025-07-27T16:49:02+0700", "vote": "0"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T17:42:49+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "a", "timestamp": "2025-07-27T20:17:56+0700", "vote": "1025"}, {"username": "outsuocbuonkhochuhu", "content": "AAAAAAAAA", "timestamp": "2025-07-27T23:45:41+0700", "vote": "111"}, {"username": "TuanSang", "content": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA", "timestamp": "2025-07-28T00:43:59+0700", "vote": "-8"}, {"username": "namnamba131", "content": "A", "timestamp": "2025-11-13T19:21:01+0700", "vote": "16"}], "image_22.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:47:54+0700", "vote": "11044"}, {"username": "Cuong Cuong", "content": "A nha", "timestamp": "2025-04-03T19:55:33+0700", "vote": "-26"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:43:31+0700", "vote": "10"}, {"username": "devbaoo", "content": "A", "timestamp": "2025-07-27T16:14:12+0700", "vote": "-2"}, {"username": "winf", "content": "A", "timestamp": "2025-07-27T16:49:15+0700", "vote": "0"}, {"username": "Quangdung", "content": "Đáp án đúng: A. body-parser\n\nHoặc chính xác hơn trong Express 4.16+ là:\nexpress.json() – được tích hợp sẵn từ body-parser.\nTrước Express 4.16: bạn phải cài body-parser riêng:\n\nconst bodyParser = require('body-parser');\napp.use(bodyParser.json());\n\nTừ Express 4.16 trở đi, Express tích hợp sẵn:\napp.use(express.json());\n→ Nhưng dưới hood, express.json() vẫn dùng body-parser.", "timestamp": "2025-07-27T17:49:22+0700", "vote": "43"}, {"username": "Joker NhaTrang", "content": "a", "timestamp": "2025-07-27T18:13:49+0700", "vote": "2"}, {"username": "duydang_onbai", "content": "a", "timestamp": "2025-07-27T20:18:07+0700", "vote": "1025"}, {"username": "outsuocbuonkhochuhu", "content": "AAAAAAAAA", "timestamp": "2025-07-27T23:45:59+0700", "vote": "111"}, {"username": "TuanSang", "content": "AAAAAAAAAAAAAAAAAAAA", "timestamp": "2025-07-28T00:48:07+0700", "vote": "-8"}, {"username": "Cookie", "content": "a", "timestamp": "2025-08-28T13:49:32+0700", "vote": "10"}, {"username": "namnamba131", "content": "A", "timestamp": "2025-11-13T19:21:18+0700", "vote": "16"}], "image_23.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:45:08+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:43:45+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T17:44:38+0700", "vote": "6"}, {"username": "Quangdung", "content": "Authorization là HTTP header chuẩn được dùng để truyền các thông tin xác thực, bao gồm Basic Auth, Bearer token, v.v.\n\nTrong OAuth 2.0, token thường được truyền qua header:\nAuthorization: Bearer <access_token>\n\nB. Authentication → Sai: không tồn tại header nào tên như vậy trong HTTP chuẩn.\nC. Bearer → Sai: \"Bearer\" là kiểu token, không phải tên header.\nD. Access-Token → Sai: không phải header chuẩn của HTTP.", "timestamp": "2025-07-27T17:52:52+0700", "vote": "43"}, {"username": "duydang_onbai", "content": "a", "timestamp": "2025-07-27T20:18:18+0700", "vote": "1025"}, {"username": "outsuocbuonkhochuhu", "content": "AAAAAAAAAAA", "timestamp": "2025-07-27T23:47:01+0700", "vote": "111"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T01:15:36+0700", "vote": "-8"}, {"username": "Cookie", "content": "a", "timestamp": "2025-08-28T13:49:47+0700", "vote": "10"}, {"username": "namnamba131", "content": "A", "timestamp": "2025-11-13T19:21:46+0700", "vote": "16"}], "image_24.webp": [{"username": "Misa", "content": "C", "timestamp": "2025-04-03T17:44:36+0700", "vote": "11044"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-22T15:44:05+0700", "vote": "10"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-27T17:47:20+0700", "vote": "6"}, {"username": "Quangdung", "content": "C", "timestamp": "2025-07-27T19:06:11+0700", "vote": "43"}, {"username": "Quangdung", "content": "Câu C là sai vì:\nSự thật là:\n→ Trình duyệt có giới hạn (restrict) các HTTP requests đến nguồn khác (cross-origin) vì lý do bảo mật.\n→ Nếu không có CORS, các request sẽ bị chặn bởi trình duyệt.", "timestamp": "2025-07-27T19:07:27+0700", "vote": "43"}, {"username": "duydang_onbai", "content": "c", "timestamp": "2025-07-27T20:30:33+0700", "vote": "1025"}, {"username": "outsuocbuonkhochuhu", "content": "ccccccccc", "timestamp": "2025-07-27T23:48:17+0700", "vote": "111"}, {"username": "TuanSang", "content": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC", "timestamp": "2025-07-28T01:16:48+0700", "vote": "-8"}, {"username": "Cookie", "content": "c", "timestamp": "2025-08-28T13:50:26+0700", "vote": "10"}, {"username": "namnamba131", "content": "C", "timestamp": "2025-11-13T19:22:32+0700", "vote": "16"}], "image_25.webp": [{"username": "Misa", "content": "A B C", "timestamp": "2025-04-03T17:44:05+0700", "vote": "11044"}, {"username": "Cookie", "content": "ABC", "timestamp": "2025-07-22T15:44:20+0700", "vote": "10"}, {"username": "edentuan", "content": "abc", "timestamp": "2025-07-27T17:47:43+0700", "vote": "6"}, {"username": "Quangdung", "content": "A. Đúng\n\nHTTPS mã hóa toàn bộ dữ liệu giữa client và server, giúp bảo mật thông tin nhạy cảm như mật khẩu, thẻ tín dụng,...\nB. Đúng\n\nHTTPS sử dụng SSL/TLS certificate để xác thực server, giúp client biết rằng họ đang giao tiếp với server thật chứ không phải kẻ giả mạo.\nC. Đúng\n\nKhi người dùng thấy \"https://\" cùng biểu tượng ổ khóa, họ sẽ cảm thấy an tâm và tin tưởng hơn vào ứng dụng.\nD. Sai (không phải \"benefit\")\n\nMặc dù đúng là HTTPS có thêm overhead về hiệu năng, nhưng đây là một nhược điểm, không phải lợi ích. Vì vậy D không phải là đáp án đúng cho câu hỏi này.", "timestamp": "2025-07-27T19:11:45+0700", "vote": "43"}, {"username": "outsuocbuonkhochuhu", "content": "a bờ cờ", "timestamp": "2025-07-27T23:49:15+0700", "vote": "111"}, {"username": "TuanSang", "content": "ABCCCCCCCCCCCCCCCCCCCCCCC", "timestamp": "2025-07-28T01:17:32+0700", "vote": "-8"}, {"username": "Cookie", "content": "abc", "timestamp": "2025-08-28T13:50:44+0700", "vote": "10"}, {"username": "namnamba131", "content": "ABC", "timestamp": "2025-11-13T19:22:54+0700", "vote": "16"}], "image_26.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:43:17+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:44:34+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-27T18:00:35+0700", "vote": "6"}, {"username": "Quangdung", "content": "Trong NestJS:\nMột Module là một class có vai trò tổ chức các phần liên quan đến một tính năng cụ thể: controller, service, provider,...\nModule được định nghĩa với decorator @Module() và thường nằm trong 1 file .module.ts. Ví dụ: UsersModule, AuthModule, v.v.\nA. Một function xử lý HTTP requests là nhiệm vụ của Controller, không phải module.\nC. NestJS không có khái niệm \"global object for managing app state\" giống như Redux hay Zustand.\nD. Controller định nghĩa route và xử lý request, không phải module.", "timestamp": "2025-07-27T19:13:47+0700", "vote": "43"}, {"username": "outsuocbuonkhochuhu", "content": "bờ", "timestamp": "2025-07-27T23:51:10+0700", "vote": "111"}, {"username": "TuanSang", "content": "BBBBBBBBBBBBBBBBBBBBB", "timestamp": "2025-07-28T01:18:32+0700", "vote": "-8"}, {"username": "Cookie", "content": "b", "timestamp": "2025-08-28T13:51:07+0700", "vote": "10"}, {"username": "namnamba131", "content": "B", "timestamp": "2025-11-13T19:23:09+0700", "vote": "16"}], "image_27.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:42:45+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:44:51+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-27T18:05:03+0700", "vote": "6"}, {"username": "duydang_onbai", "content": "b", "timestamp": "2025-07-27T20:31:58+0700", "vote": "1025"}, {"username": "outsuocbuonkhochuhu", "content": "bờ", "timestamp": "2025-07-27T23:51:34+0700", "vote": "111"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T01:19:27+0700", "vote": "-8"}, {"username": "Cookie", "content": "b", "timestamp": "2025-08-28T13:51:24+0700", "vote": "10"}, {"username": "namnamba131", "content": "B", "timestamp": "2025-11-13T19:24:07+0700", "vote": "16"}], "image_28.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:42:08+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:45:58+0700", "vote": "10"}, {"username": "winf", "content": "A", "timestamp": "2025-07-27T16:50:12+0700", "vote": "0"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T18:05:12+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "aaaaaa", "timestamp": "2025-07-27T23:51:52+0700", "vote": "111"}, {"username": "TuanSang", "content": "AAAAAAAAAAAAAAAAAAA", "timestamp": "2025-07-28T01:19:51+0700", "vote": "-8"}, {"username": "Cookie", "content": "a", "timestamp": "2025-08-28T13:51:57+0700", "vote": "10"}, {"username": "namnamba131", "content": "A", "timestamp": "2025-11-13T19:25:06+0700", "vote": "16"}], "image_29.webp": [{"username": "Misa", "content": "C", "timestamp": "2025-04-03T17:41:22+0700", "vote": "11044"}, {"username": "Ainchase", "content": "C", "timestamp": "2025-07-21T23:21:22+0700", "vote": "0"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-22T15:46:08+0700", "vote": "10"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-27T18:05:20+0700", "vote": "6"}, {"username": "Quangdung", "content": "A. → Đây là chức năng của CSRF protection middleware, không phải authentication.\nB. → Mã hóa dữ liệu form là phần liên quan đến bảo mật client/server, không phải authentication middleware.\nD. → CSRF là một loại tấn công, và middleware chống CSRF (như csurf) mới chịu trách nhiệm ngăn chặn, không phải authentication middleware.\n\nMục đích của middleware authentication là xác thực người dùng và thiết lập danh tính → Đáp án đúng là C.", "timestamp": "2025-07-27T19:23:10+0700", "vote": "43"}, {"username": "outsuocbuonkhochuhu", "content": "cờ", "timestamp": "2025-07-27T23:52:26+0700", "vote": "111"}, {"username": "TuanSang", "content": "c", "timestamp": "2025-07-28T01:21:20+0700", "vote": "-8"}, {"username": "Cookie", "content": "c", "timestamp": "2025-08-28T13:53:09+0700", "vote": "10"}], "image_30.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:40:39+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:46:25+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-27T18:08:39+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "bê", "timestamp": "2025-07-27T23:53:10+0700", "vote": "111"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T01:21:28+0700", "vote": "-8"}, {"username": "Cookie", "content": "b", "timestamp": "2025-08-28T13:53:20+0700", "vote": "10"}], "image_31.webp": [{"username": "Misa", "content": "C", "timestamp": "2025-04-03T17:39:43+0700", "vote": "11044"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-22T15:46:39+0700", "vote": "10"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-27T18:08:50+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "cee", "timestamp": "2025-07-27T23:54:52+0700", "vote": "111"}, {"username": "TuanSang", "content": "C", "timestamp": "2025-07-28T01:21:46+0700", "vote": "-8"}, {"username": "Cookie", "content": "c", "timestamp": "2025-08-28T13:53:29+0700", "vote": "10"}], "image_32.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:38:51+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:46:49+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T18:10:11+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "a", "timestamp": "2025-07-27T23:55:55+0700", "vote": "111"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T01:22:23+0700", "vote": "-8"}, {"username": "Cookie", "content": "a", "timestamp": "2025-08-28T13:53:38+0700", "vote": "10"}], "image_33.webp": [{"username": "Misa", "content": "C", "timestamp": "2025-04-03T17:38:04+0700", "vote": "11044"}, {"username": "Cookie", "content": "C", "timestamp": "2025-07-22T15:46:55+0700", "vote": "10"}, {"username": "edentuan", "content": "c", "timestamp": "2025-07-27T18:16:45+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "201", "timestamp": "2025-07-27T23:57:02+0700", "vote": "111"}, {"username": "TuanSang", "content": "ccccccccccccccccccccc", "timestamp": "2025-07-28T01:22:44+0700", "vote": "-8"}, {"username": "Cookie", "content": "c", "timestamp": "2025-08-28T13:53:46+0700", "vote": "10"}], "image_34.webp": [{"username": "Misa", "content": "D", "timestamp": "2025-04-03T17:37:33+0700", "vote": "11044"}, {"username": "Cuong Cuong", "content": "AAAAAAAAAAAAAAAAA", "timestamp": "2025-04-07T01:08:52+0700", "vote": "-26"}, {"username": "anhtdhe170025", "content": "D", "timestamp": "2025-05-05T13:46:05+0700", "vote": "0"}, {"username": "Cookie", "content": "D", "timestamp": "2025-07-22T15:47:27+0700", "vote": "10"}, {"username": "Ainchase", "content": "D", "timestamp": "2025-07-25T21:23:51+0700", "vote": "0"}, {"username": "edentuan", "content": "d", "timestamp": "2025-07-27T18:17:28+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "A. Mongoose provides a rich set of query and aggregation methods...\nĐÚNG NÊN SAI — Mongoose cho phép truy vấn và kết hợp dữ liệu hiệu quả, nên đây là một use case hợp lệ.\n\n\n\nB. Mongoose provides built-in validation for your data...\nĐÚNG NÊN SAI — Mongoose hỗ trợ xác thực dữ liệu trước khi lưu vào MongoDB, nên đây là một use case hợp lệ.\n\n\n\nC. Mongoose allows you to define schemas for your MongoDB collections...\nĐÚNG NÊN SAI — Một trong những tính năng chính của Mongoose là định nghĩa schema, nên đây cũng là use case hợp lệ.\n\n\n\nD. If your data schema contains complex data structures...\nSAI NÊN ĐÚNG— Dù Mongoose có thể xử lý nested structures ở mức độ vừa phải, nhưng với các cấu trúc quá phức tạp như \"arrays of arrays\" hoặc deeply nested documents, nó không phải là lựa chọn tối ưu, và có thể gây ra vấn đề hiệu năng hoặc khó validate. Nên đây là không phải là use case lý tưởng cho Mongoose.\nD", "timestamp": "2025-07-27T23:59:08+0700", "vote": "111"}, {"username": "TuanSang", "content": "DDDDDD", "timestamp": "2025-07-28T01:24:51+0700", "vote": "-8"}, {"username": "Cookie", "content": "d", "timestamp": "2025-08-28T13:54:31+0700", "vote": "10"}], "image_35.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:36:55+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:47:43+0700", "vote": "10"}, {"username": "winf", "content": "B", "timestamp": "2025-07-27T16:24:30+0700", "vote": "0"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-27T18:17:43+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "B ref qua objectId", "timestamp": "2025-07-28T00:01:56+0700", "vote": "111"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T01:25:19+0700", "vote": "-8"}, {"username": "Cookie", "content": "b", "timestamp": "2025-08-28T13:55:31+0700", "vote": "10"}], "image_36.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:36:25+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:47:53+0700", "vote": "10"}, {"username": "edentuan", "content": "b", "timestamp": "2025-07-27T18:19:37+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "b", "timestamp": "2025-07-28T00:02:18+0700", "vote": "111"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T01:26:27+0700", "vote": "-8"}, {"username": "Cookie", "content": "b", "timestamp": "2025-08-28T13:55:47+0700", "vote": "10"}], "image_37.webp": [{"username": "Misa", "content": "C D", "timestamp": "2025-04-03T17:35:48+0700", "vote": "11044"}, {"username": "Cookie", "content": "CD", "timestamp": "2025-07-22T15:48:08+0700", "vote": "10"}, {"username": "edentuan", "content": "cede", "timestamp": "2025-07-27T18:19:51+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "cê đê", "timestamp": "2025-07-28T00:08:07+0700", "vote": "111"}, {"username": "TuanSang", "content": "CD", "timestamp": "2025-07-28T01:27:12+0700", "vote": "-8"}, {"username": "Cookie", "content": "cd", "timestamp": "2025-08-28T13:55:57+0700", "vote": "10"}], "image_38.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:35:07+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:48:41+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T18:20:04+0700", "vote": "6"}, {"username": "Quangdung", "content": "Mongoose populate() cho phép bạn liên kết các document từ collection khác nhau, mô phỏng mối quan hệ như:\nOne-to-One:\nVí dụ: mỗi User có một Profile (lưu ObjectId profile trong user.profile)\nOne-to-Many:\nVí dụ: một Post có nhiều Comment (lưu mảng ObjectId comment trong post.comments)\nMongoose dùng ObjectId reference để tạo mối quan hệ như vậy, và populate() sẽ truy xuất document liên quan tương tự join.", "timestamp": "2025-07-27T19:34:42+0700", "vote": "43"}, {"username": "outsuocbuonkhochuhu", "content": "A", "timestamp": "2025-07-28T00:09:48+0700", "vote": "111"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T01:32:58+0700", "vote": "-8"}, {"username": "Cookie", "content": "a", "timestamp": "2025-08-28T13:56:17+0700", "vote": "10"}], "image_39.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:34:30+0700", "vote": "11044"}, {"username": "Cuong Cuong", "content": "D", "timestamp": "2025-04-07T01:16:22+0700", "vote": "-26"}, {"username": "anhtdhe170025", "content": "d", "timestamp": "2025-05-05T14:01:40+0700", "vote": "0"}, {"username": "Ainchase", "content": "D", "timestamp": "2025-07-21T20:30:54+0700", "vote": "0"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:49:45+0700", "vote": "10"}, {"username": "Mtienwww", "content": "a", "timestamp": "2025-07-24T16:19:31+0700", "vote": "4"}, {"username": "winf", "content": "d", "timestamp": "2025-07-27T00:27:33+0700", "vote": "0"}, {"username": "qua", "content": "a", "timestamp": "2025-07-27T17:01:24+0700", "vote": "0"}, {"username": "trong2203", "content": "D nhe", "timestamp": "2025-07-27T18:18:11+0700", "vote": "0"}, {"username": "thelong", "content": "a", "timestamp": "2025-07-27T18:30:30+0700", "vote": "0"}, {"username": "Quangdung", "content": "User session là cách lưu trạng thái người dùng giữa các request (đặc biệt là sau khi login).\nTrong Express, session-store là thành phần được dùng để lưu trữ thông tin session, ví dụ:\nTrong RAM (mặc định, không nên dùng production)\nHoặc lưu trong Redis, MongoDB, hoặc database khác\n```js\nconst session = require('express-session');\nconst MongoStore = require('connect-mongo');\n\napp.use(session({\nsecret: 'your-secret',\nstore: MongoStore.create({ mongoUrl: 'mongodb://localhost/mydb' }),\nresave: false,\nsaveUninitialized: false\n}));\n```\nA. Passport.js: Thư viện xác thực người dùng (authentication), không quản lý session trực tiếp (mặc dù có thể dùng chung với session).", "timestamp": "2025-07-27T19:38:58+0700", "vote": "43"}, {"username": "blackey", "content": "d", "timestamp": "2025-07-27T23:05:01+0700", "vote": "4"}, {"username": "HauPTD", "content": "d Vì câu hỏi là \"quản lý user sessions\", tức là việc tạo, duy trì và lưu trữ dữ liệu session, thì \"Session-store\" (thường đi kèm với express-session) mới là cái chịu trách nhiệm chính, chứ không phải Passport.js. Passport.js chỉ sử dụng session để duy trì trạng thái xác thực.", "timestamp": "2025-07-27T23:08:21+0700", "vote": "2"}, {"username": "outsuocbuonkhochuhu", "content": "A. Passport.js\nSai — Passport.js là middleware dùng để xác thực (authentication), không trực tiếp quản lý session. Nó thường kết hợp với session, nhưng không đảm nhận việc quản lý session.\n\n\n\nB. Cookie-parser\nSai — cookie-parser dùng để phân tích cú pháp (parse) cookie từ HTTP request, không quản lý session.\n\n\n\nC. body-parser\nSai — body-parser dùng để xử lý (parse) body của request (JSON, URL-encoded), không liên quan đến session.\n\n\n\nD. Session-store\nĐúng — session-store (thường dùng kèm với express-session) là thành phần chính giúp lưu trữ và quản lý session, ví dụ như:\n\n\nMemoryStore (mặc định)\nconnect-mongo, connect-redis, v.v...\n\n\nD", "timestamp": "2025-07-28T00:12:00+0700", "vote": "111"}, {"username": "TuanSang", "content": "D", "timestamp": "2025-07-28T02:09:24+0700", "vote": "-8"}, {"username": "Cookie", "content": "d", "timestamp": "2025-08-28T13:56:35+0700", "vote": "10"}], "image_40.webp": [{"username": "Misa", "content": "A C", "timestamp": "2025-04-03T17:32:26+0700", "vote": "11044"}, {"username": "Cookie", "content": "AC", "timestamp": "2025-07-22T15:50:11+0700", "vote": "10"}, {"username": "edentuan", "content": "ac", "timestamp": "2025-07-27T18:25:26+0700", "vote": "6"}, {"username": "HauPTD", "content": "a c join date doneusing", "timestamp": "2025-07-27T22:34:25+0700", "vote": "2"}, {"username": "outsuocbuonkhochuhu", "content": "a cê", "timestamp": "2025-07-28T00:14:49+0700", "vote": "111"}, {"username": "TuanSang", "content": "AC", "timestamp": "2025-07-28T02:09:48+0700", "vote": "-8"}, {"username": "Cookie", "content": "ac", "timestamp": "2025-08-28T13:56:57+0700", "vote": "10"}], "image_41.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:31:53+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:50:21+0700", "vote": "10"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T18:25:37+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "AAAAAAAA", "timestamp": "2025-07-28T00:15:09+0700", "vote": "111"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T02:10:23+0700", "vote": "-8"}, {"username": "Cookie", "content": "a", "timestamp": "2025-08-28T13:57:09+0700", "vote": "10"}], "image_42.webp": [{"username": "Misa", "content": "A", "timestamp": "2025-04-03T17:31:17+0700", "vote": "11044"}, {"username": "Cookie", "content": "A", "timestamp": "2025-07-22T15:50:33+0700", "vote": "10"}, {"username": "winf", "content": "A", "timestamp": "2025-07-27T16:33:55+0700", "vote": "0"}, {"username": "edentuan", "content": "a", "timestamp": "2025-07-27T18:25:45+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "AAAAA", "timestamp": "2025-07-28T00:15:32+0700", "vote": "111"}, {"username": "TuanSang", "content": "A", "timestamp": "2025-07-28T02:10:30+0700", "vote": "-8"}, {"username": "Cookie", "content": "a", "timestamp": "2025-08-28T13:57:23+0700", "vote": "10"}], "image_43.webp": [{"username": "Misa", "content": "A D", "timestamp": "2025-04-03T17:30:47+0700", "vote": "11044"}, {"username": "Cookie", "content": "AD", "timestamp": "2025-07-22T15:50:48+0700", "vote": "10"}, {"username": "edentuan", "content": "ad", "timestamp": "2025-07-27T18:26:33+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "A ĐÊ", "timestamp": "2025-07-28T00:17:20+0700", "vote": "111"}, {"username": "TuanSang", "content": "AD", "timestamp": "2025-07-28T02:10:52+0700", "vote": "-8"}, {"username": "Cookie", "content": "ad", "timestamp": "2025-08-28T13:57:35+0700", "vote": "10"}], "image_44.webp": [{"username": "Misa", "content": "A C", "timestamp": "2025-04-03T17:30:16+0700", "vote": "11044"}, {"username": "Cookie", "content": "AC", "timestamp": "2025-07-22T15:51:05+0700", "vote": "10"}, {"username": "edentuan", "content": "ac", "timestamp": "2025-07-27T18:28:53+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "ạc", "timestamp": "2025-07-28T00:20:54+0700", "vote": "111"}, {"username": "TuanSang", "content": "AC", "timestamp": "2025-07-28T02:11:06+0700", "vote": "-8"}, {"username": "Cookie", "content": "ac", "timestamp": "2025-08-28T13:58:01+0700", "vote": "10"}], "image_45.webp": [{"username": "Misa", "content": "B D", "timestamp": "2025-04-03T17:29:27+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:51:33+0700", "vote": "10"}, {"username": "Ainchase", "content": "B D", "timestamp": "2025-07-24T20:52:49+0700", "vote": "0"}, {"username": "nguoidentutuonglai", "content": "bê đê", "timestamp": "2025-07-24T23:16:49+0700", "vote": "2"}, {"username": "edentuan", "content": "bede", "timestamp": "2025-07-27T18:29:43+0700", "vote": "6"}, {"username": "Quangdung", "content": "bede", "timestamp": "2025-07-27T19:47:46+0700", "vote": "43"}, {"username": "outsuocbuonkhochuhu", "content": "bê đê", "timestamp": "2025-07-28T00:21:26+0700", "vote": "111"}, {"username": "TuanSang", "content": "BD", "timestamp": "2025-07-28T02:11:16+0700", "vote": "-8"}, {"username": "Ainchase", "content": "BD", "timestamp": "2025-08-24T22:32:22+0700", "vote": "0"}, {"username": "Cookie", "content": "bd", "timestamp": "2025-08-28T13:58:37+0700", "vote": "10"}], "image_46.webp": [{"username": "Misa", "content": "A C", "timestamp": "2025-04-03T17:28:59+0700", "vote": "11044"}, {"username": "Cookie", "content": "AC", "timestamp": "2025-07-22T15:52:16+0700", "vote": "10"}, {"username": "edentuan", "content": "ác", "timestamp": "2025-07-27T18:30:38+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "ạc", "timestamp": "2025-07-28T00:25:35+0700", "vote": "111"}, {"username": "TuanSang", "content": "AC", "timestamp": "2025-07-28T02:13:18+0700", "vote": "-8"}, {"username": "Cookie", "content": "ac", "timestamp": "2025-08-28T13:59:13+0700", "vote": "10"}], "image_47.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:28:22+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:52:40+0700", "vote": "10"}, {"username": "edentuan", "content": "bê", "timestamp": "2025-07-27T18:31:03+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "bê", "timestamp": "2025-07-28T00:29:06+0700", "vote": "111"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T02:14:35+0700", "vote": "-8"}, {"username": "Cookie", "content": "b", "timestamp": "2025-08-28T13:59:38+0700", "vote": "10"}], "image_48.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:27:51+0700", "vote": "11044"}, {"username": "Ainchase", "content": "B", "timestamp": "2025-07-21T20:35:30+0700", "vote": "0"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:52:56+0700", "vote": "10"}, {"username": "Quangdung", "content": "HTTPS -> 443\nHTTP -> 80", "timestamp": "2025-07-27T19:53:09+0700", "vote": "43"}, {"username": "outsuocbuonkhochuhu", "content": "b", "timestamp": "2025-07-28T00:29:28+0700", "vote": "111"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T02:15:21+0700", "vote": "-8"}, {"username": "Cookie", "content": "b", "timestamp": "2025-08-28T14:00:05+0700", "vote": "10"}], "image_49.webp": [{"username": "Misa", "content": "B", "timestamp": "2025-04-03T17:26:59+0700", "vote": "11044"}, {"username": "Cookie", "content": "B", "timestamp": "2025-07-22T15:53:04+0700", "vote": "10"}, {"username": "duydang_onbai", "content": "b", "timestamp": "2025-07-27T17:33:10+0700", "vote": "1025"}, {"username": "edentuan", "content": "bê", "timestamp": "2025-07-27T18:33:16+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "bê", "timestamp": "2025-07-28T00:29:41+0700", "vote": "111"}, {"username": "TuanSang", "content": "B", "timestamp": "2025-07-28T02:15:28+0700", "vote": "-8"}, {"username": "Cookie", "content": "b", "timestamp": "2025-08-28T14:00:22+0700", "vote": "10"}], "image_50.webp": [{"username": "Misa", "content": "A B", "timestamp": "2025-04-03T17:26:24+0700", "vote": "11044"}, {"username": "Cookie", "content": "AB", "timestamp": "2025-07-22T15:53:14+0700", "vote": "10"}, {"username": "duydang_onbai", "content": "ab", "timestamp": "2025-07-27T17:31:36+0700", "vote": "1025"}, {"username": "edentuan", "content": "ab", "timestamp": "2025-07-27T18:33:25+0700", "vote": "6"}, {"username": "outsuocbuonkhochuhu", "content": "a bê", "timestamp": "2025-07-28T00:30:02+0700", "vote": "111"}, {"username": "TuanSang", "content": "AB", "timestamp": "2025-07-28T02:15:33+0700", "vote": "-8"}, {"username": "Cookie", "content": "ab", "timestamp": "2025-08-28T14:00:44+0700", "vote": "10"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

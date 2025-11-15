@@ -1,0 +1,98 @@
+/* Reset & Font */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #1a1a1a; color: #e0e0e0; line-height: 1.6; }
+a { color: #00d4ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header { background: #111; padding: 15px 20px; border-bottom: 2px solid #333; display: flex; align-items: center; justify-content: space-between; }
+.logo { font-size: 24px; font-weight: bold; color: #00d4ff; }
+.nav a { color: #aaa; margin: 0 15px; font-size: 14px; }
+.nav a:hover { color: #fff; }
+
+/* Container */
+.container { max-width: 1200px; margin: 20px auto; padding: 0 15px; }
+
+/* Subject Grid */
+.subject-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+.subject-card { background: #222; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+.subject-card h3 { background: #333; padding: 15px; font-size: 16px; }
+.subject-card ul { list-style: none; }
+.subject-card li a { display: block; padding: 10px 15px; border-bottom: 1px solid #333; font-size: 14px; }
+.subject-card li a:hover { background: #2a2a2a; }
+
+/* Exam List */
+.exam-list { background: #222; border-radius: 8px; padding: 15px; }
+.exam-item { display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #333; }
+.exam-prefix { background: #e91e63; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; margin-right: 10px; }
+.exam-title { flex: 1; font-size: 15px; }
+
+/* Image Viewer */
+.image-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
+.image-item { position: relative; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.3); cursor: pointer; }
+.image-item img { width: 100%; height: 100%; object-fit: cover; }
+.image-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 8px; font-size: 13px; }
+
+/* Comments */
+.comments { margin-top: 20px; }
+.comment { background: #2a2a2a; padding: 12px; border-radius: 8px; margin-bottom: 10px; }
+.comment-header { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 5px; }
+.username { font-weight: bold; color: #00d4ff; }
+.vote { background: #333; padding: 2px 6px; border-radius: 4px; font-size: 12px; }
+
+/* Lightbox */
+.lightbox { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.95); z-index: 9999; justify-content: center; align-items: center; padding: 20px; }
+.lightbox.active { display: flex; }
+.lightbox img { max-width: 90%; max-height: 80vh; border-radius: 8px; }
+.close-lightbox { position: absolute; top: 20px; right: 30px; font-size: 30px; color: white; cursor: pointer; }
+
+/* Footer */
+.footer { text-align: center; padding: 20px; color: #666; font-size: 13px; margin-top: 50px; }
+/* Lightbox mới */
+.lightbox-content {
+    display: flex;
+    max-width: 90%;
+    max-height: 85vh;
+    background: #222;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+#lightbox-img {
+    max-width: 60%;
+    height: auto;
+    object-fit: contain;
+}
+
+.lightbox-comments {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.lightbox-comments h3 {
+    margin-top: 0;
+    color: #00d4ff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+}
+
+.no-comment {
+    color: #888;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+.close-lightbox {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 10000;
+}
