@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>ACC101 - FA 2023 - RE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>ACC101 - FA 2023 - RE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "con ga`", "content": "B", "timestamp": "2023-12-13T21:33:21+0700", "vote": "4"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T17:13:30+0700", "vote": "21"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T17:14:32+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T23:44:08+0700", "vote": "21"}, {"username": "Ming Wuang", "content": "350x0.7=245", "timestamp": "2024-03-26T19:57:48+0700", "vote": "-1"}, {"username": "Tuke", "content": "B", "timestamp": "2024-07-20T19:43:13+0700", "vote": "69"}, {"username": "Thanh Lan", "content": "b", "timestamp": "2024-07-22T23:54:38+0700", "vote": "-9"}, {"username": "NguyenTrang", "content": "b", "timestamp": "2024-07-23T08:04:51+0700", "vote": "85"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:09:13+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "B", "timestamp": "2024-07-23T08:14:03+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:00:58+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T09:59:01+0700", "vote": "4"}, {"username": "heheeeeee", "content": "b", "timestamp": "2024-11-15T10:22:17+0700", "vote": "-1"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:09:24+0700", "vote": "102"}, {"username": "bhgora.212", "content": "b", "timestamp": "2024-11-15T11:31:49+0700", "vote": "0"}], "image_2.webp": [{"username": "con ga`", "content": "C", "timestamp": "2023-12-13T21:34:21+0700", "vote": "4"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T17:14:38+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T21:38:30+0700", "vote": "21"}, {"username": "Tuke", "content": "C", "timestamp": "2024-07-20T20:27:29+0700", "vote": "69"}, {"username": "Thanh Lan", "content": "c", "timestamp": "2024-07-22T23:54:49+0700", "vote": "-9"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:09:38+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "C", "timestamp": "2024-07-23T08:14:17+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:01:10+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:15:04+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:09:39+0700", "vote": "102"}], "image_3.webp": [{"username": "con ga`", "content": "C", "timestamp": "2023-12-13T21:34:27+0700", "vote": "4"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T20:16:07+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T21:45:53+0700", "vote": "21"}, {"username": "Ming Wuang", "content": "c", "timestamp": "2024-03-26T20:01:26+0700", "vote": "-1"}, {"username": "Tuke", "content": "C", "timestamp": "2024-07-20T20:27:35+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:09:50+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "C", "timestamp": "2024-07-23T08:15:20+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:01:38+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:15:12+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:09:49+0700", "vote": "102"}], "image_4.webp": [{"username": "con ga`", "content": "E", "timestamp": "2023-12-13T21:34:32+0700", "vote": "4"}, {"username": "Thảo1124", "content": "E", "timestamp": "2024-03-21T20:16:51+0700", "vote": "135"}, {"username": "iam.Grace", "content": "E", "timestamp": "2024-03-21T21:46:48+0700", "vote": "21"}, {"username": "Tuke", "content": "E", "timestamp": "2024-07-20T20:27:44+0700", "vote": "69"}, {"username": "dungng", "content": "E", "timestamp": "2024-07-23T08:10:28+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-23T08:16:20+0700", "vote": "324"}, {"username": "phunne123", "content": "e", "timestamp": "2024-07-23T09:02:08+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "e", "timestamp": "2024-07-23T11:15:23+0700", "vote": "4"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T11:10:03+0700", "vote": "102"}], "image_5.webp": [{"username": "con ga`", "content": "B", "timestamp": "2023-12-13T21:34:39+0700", "vote": "4"}, {"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T21:41:39+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T20:17:43+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T21:47:38+0700", "vote": "21"}, {"username": "anhba", "content": "c", "timestamp": "2024-03-27T15:33:22+0700", "vote": "8"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T00:48:32+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:11:10+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T08:18:30+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:03:16+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:15:33+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c. 250 - 75", "timestamp": "2024-11-15T11:10:25+0700", "vote": "102"}], "image_6.webp": [{"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T20:26:07+0700", "vote": "135"}, {"username": "iam.Grace", "content": "A", "timestamp": "2024-03-21T21:48:20+0700", "vote": "21"}, {"username": "hưng tuấn", "content": "a", "timestamp": "2024-03-24T02:08:00+0700", "vote": "31"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T00:48:51+0700", "vote": "69"}, {"username": "dungng", "content": "A", "timestamp": "2024-07-23T08:11:28+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-23T08:18:52+0700", "vote": "324"}, {"username": "phunne123", "content": "a", "timestamp": "2024-07-23T09:03:48+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:15:45+0700", "vote": "4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:10:37+0700", "vote": "102"}], "image_7.webp": [{"username": "MaZuong", "content": "e", "timestamp": "2024-03-19T21:42:18+0700", "vote": "316"}, {"username": "Thảo1124", "content": "E", "timestamp": "2024-03-21T20:26:58+0700", "vote": "135"}, {"username": "iam.Grace", "content": "E", "timestamp": "2024-03-21T21:49:48+0700", "vote": "21"}, {"username": "Tuke", "content": "e", "timestamp": "2024-07-21T00:49:05+0700", "vote": "69"}, {"username": "dungng", "content": "E", "timestamp": "2024-07-23T08:11:42+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-23T08:19:02+0700", "vote": "324"}, {"username": "phunne123", "content": "e", "timestamp": "2024-07-23T09:04:00+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "e", "timestamp": "2024-07-23T11:15:51+0700", "vote": "4"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T11:10:58+0700", "vote": "102"}], "image_8.webp": [{"username": "mai anh 1233", "content": "a", "timestamp": "2024-03-07T20:36:36+0700", "vote": "9"}, {"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T20:27:13+0700", "vote": "135"}, {"username": "iam.Grace", "content": "a", "timestamp": "2024-03-21T21:50:11+0700", "vote": "21"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T00:49:18+0700", "vote": "69"}, {"username": "dungng", "content": "A", "timestamp": "2024-07-23T08:12:12+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-23T08:19:10+0700", "vote": "324"}, {"username": "phunne123", "content": "a", "timestamp": "2024-07-23T09:04:18+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:15:59+0700", "vote": "4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:11:07+0700", "vote": "102"}], "image_9.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:42:55+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T20:27:44+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T21:52:39+0700", "vote": "21"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T00:51:34+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:12:24+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-23T08:19:18+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:04:32+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:16:05+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:11:12+0700", "vote": "102"}], "image_10.webp": [{"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T21:44:01+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T20:31:01+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T21:53:02+0700", "vote": "21"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T00:51:57+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:12:39+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T08:19:34+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:05:00+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:16:12+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:11:44+0700", "vote": "102"}], "image_11.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:44:31+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T20:34:13+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T21:53:55+0700", "vote": "21"}, {"username": "Ming Wuang", "content": "b", "timestamp": "2024-03-26T20:07:14+0700", "vote": "-1"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T00:52:06+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:12:55+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-23T08:19:44+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:05:16+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:16:25+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:11:55+0700", "vote": "102"}, {"username": "bhgora.212", "content": "b", "timestamp": "2024-11-15T11:37:21+0700", "vote": "0"}], "image_12.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:44:42+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T20:34:25+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T21:54:20+0700", "vote": "21"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T00:52:22+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:13:10+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-23T08:19:55+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:05:28+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:16:39+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:12:06+0700", "vote": "102"}, {"username": "bhgora.212", "content": "b", "timestamp": "2024-11-15T11:37:29+0700", "vote": "0"}], "image_13.webp": [{"username": "MaZuong", "content": "e", "timestamp": "2024-03-19T21:44:56+0700", "vote": "316"}, {"username": "Thảo1124", "content": "E", "timestamp": "2024-03-21T20:34:49+0700", "vote": "135"}, {"username": "iam.Grace", "content": "E", "timestamp": "2024-03-21T21:54:47+0700", "vote": "21"}, {"username": "Tuke", "content": "e", "timestamp": "2024-07-21T00:53:12+0700", "vote": "69"}, {"username": "dungng", "content": "E", "timestamp": "2024-07-23T08:13:39+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-23T08:42:54+0700", "vote": "324"}, {"username": "phunne123", "content": "e", "timestamp": "2024-07-23T09:05:52+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "e", "timestamp": "2024-07-23T11:16:58+0700", "vote": "4"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T11:12:44+0700", "vote": "102"}], "image_14.webp": [{"username": "MaZuong", "content": "e", "timestamp": "2024-03-19T21:46:09+0700", "vote": "316"}, {"username": "Thảo1124", "content": "E", "timestamp": "2024-03-21T20:44:24+0700", "vote": "135"}, {"username": "iam.Grace", "content": "E", "timestamp": "2024-03-21T22:02:22+0700", "vote": "21"}, {"username": "Tuke", "content": "e", "timestamp": "2024-07-21T00:53:47+0700", "vote": "69"}, {"username": "dungng", "content": "E", "timestamp": "2024-07-23T08:13:53+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "e", "timestamp": "2024-07-23T08:43:05+0700", "vote": "324"}, {"username": "phunne123", "content": "e", "timestamp": "2024-07-23T09:08:28+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "e", "timestamp": "2024-07-23T11:17:13+0700", "vote": "4"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T11:12:55+0700", "vote": "102"}], "image_15.webp": [{"username": "MaZuong", "content": "a", "timestamp": "2024-03-19T21:46:49+0700", "vote": "316"}, {"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T20:45:45+0700", "vote": "135"}, {"username": "iam.Grace", "content": "A", "timestamp": "2024-03-21T22:02:39+0700", "vote": "21"}, {"username": "ThinhHoang0108", "content": "A", "timestamp": "2024-04-02T13:04:32+0700", "vote": "27"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T00:54:07+0700", "vote": "69"}, {"username": "ngocanh04", "content": "B", "timestamp": "2024-07-22T22:51:10+0700", "vote": "3"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:14:17+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "A", "timestamp": "2024-07-23T08:43:28+0700", "vote": "324"}, {"username": "phunne123", "content": "a", "timestamp": "2024-07-23T09:10:00+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:17:33+0700", "vote": "4"}, {"username": "gnouhp269·", "content": "b", "timestamp": "2024-07-30T10:25:45+0700", "vote": "18"}, {"username": "Mesiro", "content": "a sure", "timestamp": "2024-11-14T15:39:55+0700", "vote": "23"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:13:10+0700", "vote": "102"}, {"username": "bhgora.212", "content": "a", "timestamp": "2024-11-15T11:40:14+0700", "vote": "0"}], "image_16.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:47:03+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T20:46:00+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T22:08:25+0700", "vote": "21"}, {"username": "Ming Wuang", "content": "12,160", "timestamp": "2024-03-26T20:11:33+0700", "vote": "-1"}, {"username": "ThinhHoang0108", "content": "D", "timestamp": "2024-04-02T13:05:06+0700", "vote": "27"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T00:55:19+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:15:01+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-23T08:43:52+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:10:19+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:17:39+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:13:16+0700", "vote": "102"}], "image_17.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:47:54+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T20:46:37+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T22:09:03+0700", "vote": "21"}, {"username": "hưng tuấn", "content": "b", "timestamp": "2024-03-24T02:20:10+0700", "vote": "31"}, {"username": "ThinhHoang0108", "content": "B", "timestamp": "2024-04-02T13:06:54+0700", "vote": "27"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T00:55:32+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:15:17+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-23T08:44:15+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:10:39+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:17:53+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:13:34+0700", "vote": "102"}], "image_18.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:48:07+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T20:47:27+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T22:10:03+0700", "vote": "21"}, {"username": "ThinhHoang0108", "content": "D (27500-3500)/(12*5)", "timestamp": "2024-04-02T13:07:47+0700", "vote": "27"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T00:55:49+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:15:43+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-23T08:44:34+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:11:06+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:18:03+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:13:58+0700", "vote": "102"}], "image_19.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:48:14+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T20:47:40+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T22:10:34+0700", "vote": "21"}, {"username": "lily22", "content": "b", "timestamp": "2024-03-26T13:21:42+0700", "vote": "0"}, {"username": "ThinhHoang0108", "content": "B", "timestamp": "2024-04-02T13:08:27+0700", "vote": "27"}, {"username": "Tuke", "content": "B", "timestamp": "2024-07-20T20:23:49+0700", "vote": "69"}, {"username": "Lê Minh Thư", "content": "b", "timestamp": "2024-07-22T16:11:57+0700", "vote": "10"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:15:52+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "B.\nGross profit= net sale-cogs\nnet income= revenue-expense\nnet income = gross profit -expense", "timestamp": "2024-07-23T08:46:10+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:15:57+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:18:11+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:14:04+0700", "vote": "102"}], "image_20.webp": [{"username": "MaZuong", "content": "a", "timestamp": "2024-03-19T21:48:19+0700", "vote": "316"}, {"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T20:47:56+0700", "vote": "135"}, {"username": "iam.Grace", "content": "A", "timestamp": "2024-03-21T22:15:54+0700", "vote": "21"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T00:56:08+0700", "vote": "69"}, {"username": "dungng", "content": "A", "timestamp": "2024-07-23T08:15:58+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-23T08:47:59+0700", "vote": "324"}, {"username": "phunne123", "content": "a", "timestamp": "2024-07-23T09:16:05+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:18:17+0700", "vote": "4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:14:09+0700", "vote": "102"}], "image_21.webp": [{"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T21:48:37+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T20:49:28+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T22:16:30+0700", "vote": "21"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T00:58:15+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:16:10+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T08:48:13+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:16:36+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:18:39+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:14:22+0700", "vote": "102"}], "image_22.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:48:52+0700", "vote": "316"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T22:23:33+0700", "vote": "21"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T00:58:38+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:16:19+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-23T08:48:27+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:16:54+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:18:56+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:14:28+0700", "vote": "102"}], "image_23.webp": [{"username": "MaZuong", "content": "a", "timestamp": "2024-03-19T21:49:17+0700", "vote": "316"}, {"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T21:14:43+0700", "vote": "135"}, {"username": "iam.Grace", "content": "A", "timestamp": "2024-03-21T22:23:50+0700", "vote": "21"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T00:58:54+0700", "vote": "69"}, {"username": "dungng", "content": "A", "timestamp": "2024-07-23T08:16:35+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-23T08:48:37+0700", "vote": "324"}, {"username": "phunne123", "content": "a", "timestamp": "2024-07-23T09:17:16+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:19:05+0700", "vote": "4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:14:38+0700", "vote": "102"}], "image_24.webp": [{"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T21:49:45+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T21:15:12+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T22:26:55+0700", "vote": "21"}, {"username": "ThinhHoang0108", "content": "C", "timestamp": "2024-04-02T13:11:56+0700", "vote": "27"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T00:59:16+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:17:41+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T08:49:03+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:18:11+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:19:14+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:15:02+0700", "vote": "102"}], "image_25.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:49:54+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T21:15:26+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T22:27:27+0700", "vote": "21"}, {"username": "ThinhHoang0108", "content": "D", "timestamp": "2024-04-02T13:12:02+0700", "vote": "27"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T00:59:29+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:17:48+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-23T08:49:09+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:18:18+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:19:19+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:15:17+0700", "vote": "102"}], "image_26.webp": [{"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T21:50:12+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T21:22:06+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T22:30:48+0700", "vote": "21"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T00:59:52+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:17:55+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "C.", "timestamp": "2024-07-23T08:55:39+0700", "vote": "324"}, {"username": "Đám mây xanh", "content": "service revenue = tt received / ( 1+ %VAT)", "timestamp": "2024-07-23T08:56:18+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:20:01+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:20:07+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:15:26+0700", "vote": "102"}], "image_27.webp": [{"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T21:50:52+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T21:26:46+0700", "vote": "135"}, {"username": "iam.Grace", "content": "c", "timestamp": "2024-03-21T22:31:03+0700", "vote": "21"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T01:00:05+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:18:06+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T08:56:25+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:20:14+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:20:17+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:15:41+0700", "vote": "102"}], "image_28.webp": [{"username": "con ga`", "content": "D", "timestamp": "2023-12-13T22:18:46+0700", "vote": "4"}, {"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:51:17+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T21:27:46+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T22:31:36+0700", "vote": "21"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T01:00:18+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:18:12+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "D. has been earned + recorded -in acc records", "timestamp": "2024-07-23T08:57:38+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:20:23+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:20:22+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:15:49+0700", "vote": "102"}], "image_29.webp": [{"username": "con ga`", "content": "A", "timestamp": "2023-12-13T22:20:47+0700", "vote": "4"}, {"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T21:34:04+0700", "vote": "135"}, {"username": "iam.Grace", "content": "A", "timestamp": "2024-03-21T22:32:56+0700", "vote": "21"}, {"username": "ThinhHoang0108", "content": "A", "timestamp": "2024-04-02T13:16:32+0700", "vote": "27"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T01:00:33+0700", "vote": "69"}, {"username": "dungng", "content": "A", "timestamp": "2024-07-23T08:18:40+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "A", "timestamp": "2024-07-23T08:58:09+0700", "vote": "324"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:20:28+0700", "vote": "4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:16:13+0700", "vote": "102"}], "image_30.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:51:42+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T21:34:52+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T22:33:14+0700", "vote": "21"}, {"username": "ThinhHoang0108", "content": "D", "timestamp": "2024-04-02T13:19:09+0700", "vote": "27"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T01:00:44+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:18:46+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "D. stock dividend -not reduce- assets+equity", "timestamp": "2024-07-23T08:59:14+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:22:14+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:20:37+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:16:18+0700", "vote": "102"}], "image_31.webp": [{"username": "MaZuong", "content": "a", "timestamp": "2024-03-19T21:52:04+0700", "vote": "316"}, {"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T21:36:07+0700", "vote": "135"}, {"username": "iam.Grace", "content": "A", "timestamp": "2024-03-21T22:36:15+0700", "vote": "21"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T01:00:54+0700", "vote": "69"}, {"username": "dungng", "content": "A", "timestamp": "2024-07-23T08:18:54+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-23T09:00:18+0700", "vote": "324"}, {"username": "phunne123", "content": "a", "timestamp": "2024-07-23T09:24:18+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:20:43+0700", "vote": "4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:16:28+0700", "vote": "102"}], "image_32.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:52:15+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T21:37:45+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T22:36:37+0700", "vote": "21"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T01:01:11+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:19:02+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-23T09:00:36+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:24:25+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:20:49+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:16:48+0700", "vote": "102"}], "image_33.webp": [{"username": "MaZuong", "content": "a", "timestamp": "2024-03-19T21:52:27+0700", "vote": "316"}, {"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T21:38:55+0700", "vote": "135"}, {"username": "iam.Grace", "content": "A", "timestamp": "2024-03-21T22:38:14+0700", "vote": "21"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T01:01:23+0700", "vote": "69"}, {"username": "dungng", "content": "A", "timestamp": "2024-07-23T08:19:13+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-23T09:01:09+0700", "vote": "324"}, {"username": "phunne123", "content": "a", "timestamp": "2024-07-23T09:24:52+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:21:07+0700", "vote": "4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:17:22+0700", "vote": "102"}], "image_34.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:52:36+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T21:40:40+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T22:39:15+0700", "vote": "21"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T01:01:42+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:19:28+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-23T09:01:22+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:25:28+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:21:14+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:17:38+0700", "vote": "102"}], "image_35.webp": [{"username": "MaZuong", "content": "a", "timestamp": "2024-03-19T21:53:23+0700", "vote": "316"}, {"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T21:42:29+0700", "vote": "135"}, {"username": "iam.Grace", "content": "A", "timestamp": "2024-03-21T22:40:43+0700", "vote": "21"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T01:02:06+0700", "vote": "69"}, {"username": "dungng", "content": "A", "timestamp": "2024-07-23T08:19:38+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-23T09:01:30+0700", "vote": "324"}, {"username": "phunne123", "content": "a", "timestamp": "2024-07-23T09:25:46+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:21:26+0700", "vote": "4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:18:10+0700", "vote": "102"}], "image_36.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:53:45+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T21:47:28+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T22:46:16+0700", "vote": "21"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T01:04:19+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:19:51+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-23T09:01:48+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:26:06+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:21:33+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:19:17+0700", "vote": "102"}], "image_37.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:54:17+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T21:47:52+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T22:46:36+0700", "vote": "21"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T01:04:34+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:20:29+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "d. gross profit= net sale- cogs\nnet income = revenue- expense= gross profit- expense", "timestamp": "2024-07-23T09:03:00+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:26:29+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:21:45+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:19:26+0700", "vote": "102"}], "image_38.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:54:40+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T21:51:39+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T22:57:13+0700", "vote": "21"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T01:04:54+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:20:43+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-23T09:05:46+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:26:53+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:21:55+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:19:42+0700", "vote": "102"}], "image_39.webp": [{"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T21:55:12+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T22:00:03+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T22:57:47+0700", "vote": "21"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T01:05:07+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:20:54+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T09:06:06+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:27:02+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:22:02+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:19:53+0700", "vote": "102"}], "image_40.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:55:45+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T22:04:04+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T22:59:05+0700", "vote": "21"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T01:05:28+0700", "vote": "69"}, {"username": "Thanh Lan", "content": "d", "timestamp": "2024-07-22T23:58:52+0700", "vote": "-9"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:21:13+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-23T09:06:17+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:27:28+0700", "vote": "66"}, {"username": "Mhthu123", "content": "d", "timestamp": "2024-07-23T09:36:43+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:22:12+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:20:10+0700", "vote": "102"}], "image_41.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:56:01+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T22:07:06+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T23:00:57+0700", "vote": "21"}, {"username": "ThinhHoang0108", "content": "B ((14000-2000)/(4x12))x3", "timestamp": "2024-04-02T13:24:52+0700", "vote": "27"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T01:05:42+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:21:47+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-23T09:07:01+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:27:54+0700", "vote": "66"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:22:18+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:20:50+0700", "vote": "102"}], "image_42.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T21:56:26+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T22:07:55+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T23:01:37+0700", "vote": "21"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T01:05:53+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:22:50+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "b", "timestamp": "2024-07-23T09:07:26+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:29:07+0700", "vote": "66"}, {"username": "Mhthu123", "content": "b", "timestamp": "2024-07-23T09:37:03+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:22:23+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:20:58+0700", "vote": "102"}], "image_43.webp": [{"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T21:57:07+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T22:08:25+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T23:02:16+0700", "vote": "21"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T23:02:27+0700", "vote": "21"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T01:06:07+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:23:00+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T09:07:48+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:29:19+0700", "vote": "66"}, {"username": "Mhthu123", "content": "c", "timestamp": "2024-07-23T09:37:17+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:22:29+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:21:11+0700", "vote": "102"}], "image_44.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T21:57:32+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T22:09:12+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T23:08:47+0700", "vote": "21"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T01:06:25+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:23:23+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-23T09:08:15+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:29:49+0700", "vote": "66"}, {"username": "Mhthu123", "content": "d", "timestamp": "2024-07-23T09:37:36+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:22:39+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:21:58+0700", "vote": "102"}], "image_45.webp": [{"username": "MaZuong", "content": "b", "timestamp": "2024-03-19T22:02:06+0700", "vote": "316"}, {"username": "Thảo1124", "content": "B", "timestamp": "2024-03-21T22:09:31+0700", "vote": "135"}, {"username": "iam.Grace", "content": "B", "timestamp": "2024-03-21T23:09:00+0700", "vote": "21"}, {"username": "Tuke", "content": "b", "timestamp": "2024-07-21T01:06:42+0700", "vote": "69"}, {"username": "dungng", "content": "B", "timestamp": "2024-07-23T08:23:28+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "B. income statement+balance sheet\n-> not- explain -change in cash", "timestamp": "2024-07-23T09:09:37+0700", "vote": "324"}, {"username": "phunne123", "content": "b", "timestamp": "2024-07-23T09:30:09+0700", "vote": "66"}, {"username": "Mhthu123", "content": "b", "timestamp": "2024-07-23T09:37:44+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "b", "timestamp": "2024-07-23T11:22:44+0700", "vote": "4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T11:22:37+0700", "vote": "102"}], "image_46.webp": [{"username": "MaZuong", "content": "a", "timestamp": "2024-03-19T22:02:34+0700", "vote": "316"}, {"username": "Thảo1124", "content": "A", "timestamp": "2024-03-21T22:10:29+0700", "vote": "135"}, {"username": "iam.Grace", "content": "A", "timestamp": "2024-03-21T23:10:42+0700", "vote": "21"}, {"username": "Tuke", "content": "a", "timestamp": "2024-07-21T01:08:25+0700", "vote": "69"}, {"username": "dungng", "content": "A", "timestamp": "2024-07-23T08:23:43+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "a", "timestamp": "2024-07-23T09:10:03+0700", "vote": "324"}, {"username": "phunne123", "content": "a", "timestamp": "2024-07-23T09:32:14+0700", "vote": "66"}, {"username": "Mhthu123", "content": "a", "timestamp": "2024-07-23T09:38:15+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "a", "timestamp": "2024-07-23T11:22:52+0700", "vote": "4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T11:23:19+0700", "vote": "102"}], "image_47.webp": [{"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T22:03:21+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T22:11:07+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T23:11:33+0700", "vote": "21"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T01:08:45+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:23:52+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T09:10:35+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:32:24+0700", "vote": "66"}, {"username": "Mhthu123", "content": "c", "timestamp": "2024-07-23T09:38:27+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:23:01+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:23:26+0700", "vote": "102"}], "image_48.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T22:03:45+0700", "vote": "316"}, {"username": "Thảo1124", "content": "D", "timestamp": "2024-03-21T22:11:26+0700", "vote": "135"}, {"username": "iam.Grace", "content": "D", "timestamp": "2024-03-21T23:19:05+0700", "vote": "21"}, {"username": "Tuke", "content": "d", "timestamp": "2024-07-21T01:09:02+0700", "vote": "69"}, {"username": "dungng", "content": "D", "timestamp": "2024-07-23T08:24:02+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "d", "timestamp": "2024-07-23T09:10:57+0700", "vote": "324"}, {"username": "phunne123", "content": "d", "timestamp": "2024-07-23T09:32:57+0700", "vote": "66"}, {"username": "Mhthu123", "content": "d", "timestamp": "2024-07-23T09:38:51+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "d", "timestamp": "2024-07-23T11:23:11+0700", "vote": "4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T11:23:34+0700", "vote": "102"}], "image_49.webp": [{"username": "MaZuong", "content": "d", "timestamp": "2024-03-19T22:05:27+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T22:15:01+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C. chắc chắn lun", "timestamp": "2024-03-21T23:35:21+0700", "vote": "21"}, {"username": "Tuke", "content": "C", "timestamp": "2024-07-20T20:27:07+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:24:25+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T09:11:09+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:34:13+0700", "vote": "66"}, {"username": "Mhthu123", "content": "c", "timestamp": "2024-07-23T09:39:11+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:23:26+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:23:40+0700", "vote": "102"}], "image_50.webp": [{"username": "MaZuong", "content": "c", "timestamp": "2024-03-19T22:05:46+0700", "vote": "316"}, {"username": "Thảo1124", "content": "C", "timestamp": "2024-03-21T22:15:41+0700", "vote": "135"}, {"username": "iam.Grace", "content": "C", "timestamp": "2024-03-21T23:43:46+0700", "vote": "21"}, {"username": "Tuke", "content": "c", "timestamp": "2024-07-21T01:09:44+0700", "vote": "69"}, {"username": "dungng", "content": "C", "timestamp": "2024-07-23T08:25:19+0700", "vote": "131"}, {"username": "Đám mây xanh", "content": "c", "timestamp": "2024-07-23T09:11:30+0700", "vote": "324"}, {"username": "phunne123", "content": "c", "timestamp": "2024-07-23T09:35:53+0700", "vote": "66"}, {"username": "Mhthu123", "content": "c", "timestamp": "2024-07-23T09:39:29+0700", "vote": "-3"}, {"username": "Hạt dẻ", "content": "c", "timestamp": "2024-07-23T11:23:39+0700", "vote": "4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T11:23:59+0700", "vote": "102"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

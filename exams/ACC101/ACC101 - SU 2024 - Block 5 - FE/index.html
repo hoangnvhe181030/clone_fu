@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>ACC101 - SU 2024 - Block 5 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>ACC101 - SU 2024 - Block 5 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T22:56:26+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-28T23:38:17+0700", "vote": "11"}, {"username": "minhduy_17", "content": "a", "timestamp": "2024-10-16T02:23:32+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "a", "timestamp": "2024-10-29T04:37:13+0700", "vote": "22"}, {"username": "thkgaming156", "content": "a. hoàn thành dịch vụ -> ghi doanh thu", "timestamp": "2024-11-13T16:09:12+0700", "vote": "102"}, {"username": "nguyenminh", "content": "done", "timestamp": "2024-11-14T01:54:11+0700", "vote": "0"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T17:48:50+0700", "vote": "10"}, {"username": "ducky0310", "content": "â", "timestamp": "2024-11-14T19:16:52+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T04:40:53+0700", "vote": "102"}, {"username": "nguyentran24", "content": "a", "timestamp": "2024-11-15T10:13:52+0700", "vote": "-3"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T10:48:03+0700", "vote": "-66"}, {"username": "Phạm Ánh Ngọc", "content": "A january 12", "timestamp": "2025-07-28T12:04:38+0700", "vote": "33"}], "image_2.webp": [{"username": "Nhokskas", "content": "b", "timestamp": "2024-08-28T13:31:08+0700", "vote": "-23"}, {"username": "minhduy_17", "content": "b", "timestamp": "2024-10-17T21:49:16+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T04:37:18+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-13T16:17:32+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T17:49:19+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:17:01+0700", "vote": "10"}, {"username": "heheeeeee", "content": "b", "timestamp": "2024-11-14T19:50:57+0700", "vote": "-1"}, {"username": "Võ Hoàng Long", "content": "b. investment of cash in business by owner", "timestamp": "2024-11-15T03:28:43+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:41:04+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T10:48:24+0700", "vote": "-66"}, {"username": "Phạm Ánh Ngọc", "content": "B investment of cash in buss by owner", "timestamp": "2025-07-28T12:05:09+0700", "vote": "33"}], "image_3.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T22:58:17+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-28T23:39:55+0700", "vote": "11"}, {"username": "minhduy_17", "content": "a", "timestamp": "2024-10-16T02:26:29+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "a", "timestamp": "2024-10-29T04:37:59+0700", "vote": "22"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-13T16:18:52+0700", "vote": "102"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T17:49:49+0700", "vote": "10"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:17:10+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "a. expense", "timestamp": "2024-11-15T03:29:00+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T04:44:05+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T10:48:38+0700", "vote": "-66"}, {"username": "Phạm Ánh Ngọc", "content": "A expense", "timestamp": "2025-07-28T12:05:32+0700", "vote": "33"}], "image_4.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T22:59:41+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-28T23:40:50+0700", "vote": "11"}, {"username": "minhduy_17", "content": "195-75+226-175-48\nC", "timestamp": "2024-10-16T02:33:15+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "c", "timestamp": "2024-10-29T05:11:14+0700", "vote": "22"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T03:37:59+0700", "vote": "102"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T17:51:06+0700", "vote": "10"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:17:32+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "c", "timestamp": "2024-11-15T03:29:06+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T04:45:18+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T10:49:22+0700", "vote": "-66"}, {"username": "Phạm Ánh Ngọc", "content": "C 123000", "timestamp": "2025-07-28T12:05:44+0700", "vote": "33"}], "image_5.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T23:01:27+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-28T23:44:04+0700", "vote": "11"}, {"username": "minhduy_17", "content": "c", "timestamp": "2024-10-16T02:33:58+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "c", "timestamp": "2024-10-29T05:11:22+0700", "vote": "22"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T03:38:20+0700", "vote": "102"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T17:51:52+0700", "vote": "10"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:19:53+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "c", "timestamp": "2024-11-14T19:40:46+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "c.\ntrả nợ : asset giảm, liabilities giảm", "timestamp": "2024-11-15T04:46:27+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T10:49:57+0700", "vote": "-66"}], "image_6.webp": [{"username": "hungtrankim", "content": "b", "timestamp": "2024-08-28T23:01:57+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-28T23:44:24+0700", "vote": "11"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T05:12:13+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T03:38:35+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T17:51:59+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:20:02+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "b. tangible assets are assets held for operating acctivities of the company", "timestamp": "2024-11-14T19:45:07+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:47:40+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T10:50:09+0700", "vote": "-66"}, {"username": "Phạm Ánh Ngọc", "content": "B tangible assets are assets held for opersting activities of the company", "timestamp": "2025-07-28T12:06:53+0700", "vote": "33"}], "image_7.webp": [{"username": "Nhokskas", "content": "b", "timestamp": "2024-08-28T13:32:20+0700", "vote": "-23"}, {"username": "Dkhoa_Happy", "content": "350.000 * 0.7%\nb", "timestamp": "2024-10-29T05:16:04+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T03:38:51+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T17:56:26+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:20:11+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:47:47+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T10:50:33+0700", "vote": "-66"}, {"username": "Phạm Ánh Ngọc", "content": "b 2450", "timestamp": "2025-07-28T12:07:06+0700", "vote": "33"}], "image_8.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:05:12+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-28T23:45:56+0700", "vote": "11"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-14T03:39:05+0700", "vote": "102"}, {"username": "minhieuu", "content": "a", "timestamp": "2024-11-14T16:28:51+0700", "vote": "5"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T17:56:40+0700", "vote": "10"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:20:18+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T04:47:52+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T10:50:47+0700", "vote": "-66"}], "image_9.webp": [{"username": "hungtrankim", "content": "b", "timestamp": "2024-08-28T23:06:05+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-28T23:46:11+0700", "vote": "11"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T05:17:49+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b. tài sản vô hình", "timestamp": "2024-11-14T03:39:27+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T17:56:48+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:20:25+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "b.", "timestamp": "2024-11-14T19:51:43+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:47:59+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T10:50:55+0700", "vote": "-66"}, {"username": "cuongse", "content": "Something of value that cannot be touched physically is called an intangible asset", "timestamp": "2024-11-15T11:08:56+0700", "vote": "-66"}], "image_10.webp": [{"username": "hungtrankim", "content": "b", "timestamp": "2024-08-28T23:06:47+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-28T23:47:30+0700", "vote": "11"}, {"username": "minhduy_17", "content": "b", "timestamp": "2024-10-16T02:46:14+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T05:18:40+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b. giá trị sổ sách = chi phí ban đầu của tài sản - khấu hao lũy kế", "timestamp": "2024-11-14T03:43:49+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T17:57:22+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:20:35+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:48:13+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T10:51:06+0700", "vote": "-66"}, {"username": "Phạm Ánh Ngọc", "content": "accumulated depreciation", "timestamp": "2025-07-28T12:08:14+0700", "vote": "33"}], "image_11.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:08:26+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "d", "timestamp": "2024-08-28T23:48:19+0700", "vote": "11"}, {"username": "minhduy_17", "content": "( 27,500 - 3,500 ) / (12*5)\nd", "timestamp": "2024-10-17T21:56:30+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "d", "timestamp": "2024-10-29T05:22:24+0700", "vote": "22"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T03:44:07+0700", "vote": "102"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T17:58:29+0700", "vote": "10"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:20:52+0700", "vote": "10"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-14T21:22:19+0700", "vote": "5"}, {"username": "thkgaming156", "content": "d (27500-3500) / (12*5)", "timestamp": "2024-11-15T04:49:20+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T10:51:32+0700", "vote": "-66"}, {"username": "Phạm Ánh Ngọc", "content": "d 400", "timestamp": "2025-07-28T12:08:25+0700", "vote": "33"}], "image_12.webp": [{"username": "hungtrankim", "content": "e", "timestamp": "2024-08-28T23:12:48+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-28T23:49:09+0700", "vote": "11"}, {"username": "minhduy_17", "content": "a", "timestamp": "2024-10-16T02:49:02+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "a", "timestamp": "2024-10-29T05:39:29+0700", "vote": "22"}, {"username": "myha", "content": "a", "timestamp": "2024-11-11T15:00:01+0700", "vote": "5"}, {"username": "thkgaming156", "content": "a. debit capital | credit withdrawal", "timestamp": "2024-11-14T03:44:48+0700", "vote": "102"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T17:59:04+0700", "vote": "10"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:22:18+0700", "vote": "10"}, {"username": "minhieuu", "content": "a", "timestamp": "2024-11-14T21:22:47+0700", "vote": "5"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T04:49:54+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T10:51:56+0700", "vote": "-66"}], "image_13.webp": [{"username": "hungtrankim", "content": "e", "timestamp": "2024-08-28T23:15:37+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "e", "timestamp": "2024-08-28T23:50:39+0700", "vote": "11"}, {"username": "minhduy_17", "content": "e", "timestamp": "2024-10-16T02:49:22+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "e", "timestamp": "2024-10-29T05:39:56+0700", "vote": "22"}, {"username": "thkgaming156", "content": "e. chỉ khóa 4 tk: revenue, expense, withdrawal, income summary", "timestamp": "2024-11-14T03:45:05+0700", "vote": "102"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-14T18:17:13+0700", "vote": "10"}, {"username": "ducky0310", "content": "e", "timestamp": "2024-11-14T19:22:29+0700", "vote": "10"}, {"username": "minhieuu", "content": "e", "timestamp": "2024-11-14T21:23:11+0700", "vote": "5"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T04:50:09+0700", "vote": "102"}, {"username": "Hoa Mai", "content": "e", "timestamp": "2024-11-15T10:33:26+0700", "vote": "33"}, {"username": "cuongse", "content": "e", "timestamp": "2024-11-15T10:52:04+0700", "vote": "-66"}], "image_14.webp": [{"username": "hungtrankim", "content": "b", "timestamp": "2024-08-28T23:17:08+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-28T23:53:15+0700", "vote": "11"}, {"username": "minhduy_17", "content": "b", "timestamp": "2024-10-16T02:49:39+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T05:42:04+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b, to zero -> closing", "timestamp": "2024-11-14T03:46:09+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T18:17:31+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:22:34+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "b", "timestamp": "2024-11-14T20:21:05+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:50:23+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T10:52:26+0700", "vote": "-66"}], "image_15.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:17:41+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "d", "timestamp": "2024-08-28T23:54:06+0700", "vote": "11"}, {"username": "minhduy_17", "content": "d", "timestamp": "2024-10-17T21:58:37+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "d", "timestamp": "2024-10-29T05:41:18+0700", "vote": "22"}, {"username": "thkgaming156", "content": "d. debit capital | credit withdrawal", "timestamp": "2024-11-14T03:47:39+0700", "vote": "102"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T18:18:17+0700", "vote": "10"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:22:40+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "d,", "timestamp": "2024-11-14T20:27:53+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T04:50:57+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T10:53:02+0700", "vote": "-66"}], "image_16.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T23:18:26+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-28T23:56:18+0700", "vote": "11"}, {"username": "minhduy_17", "content": "c", "timestamp": "2024-10-17T21:59:08+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "c", "timestamp": "2024-10-29T05:44:41+0700", "vote": "22"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T03:47:51+0700", "vote": "102"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T18:18:47+0700", "vote": "10"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:23:30+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "c", "timestamp": "2024-11-14T20:28:20+0700", "vote": "-4"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-14T21:24:20+0700", "vote": "5"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T04:51:05+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T10:53:22+0700", "vote": "-66"}], "image_17.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T23:18:51+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-28T23:57:12+0700", "vote": "11"}, {"username": "minhduy_17", "content": "c", "timestamp": "2024-10-17T21:59:45+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "c", "timestamp": "2024-10-29T05:45:10+0700", "vote": "22"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T03:48:18+0700", "vote": "102"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T18:19:29+0700", "vote": "10"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:23:39+0700", "vote": "10"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-14T21:24:59+0700", "vote": "5"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T04:51:18+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T10:53:40+0700", "vote": "-66"}, {"username": "nhattan2505", "content": "c", "timestamp": "2024-11-15T13:30:25+0700", "vote": "-3"}, {"username": "Phạm Ánh Ngọc", "content": "B", "timestamp": "2025-07-28T12:10:47+0700", "vote": "33"}], "image_18.webp": [{"username": "hungtrankim", "content": "e", "timestamp": "2024-08-28T23:20:09+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "e", "timestamp": "2024-08-28T23:57:48+0700", "vote": "11"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-14T03:48:27+0700", "vote": "102"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-14T18:19:40+0700", "vote": "10"}, {"username": "ducky0310", "content": "e", "timestamp": "2024-11-14T19:23:50+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "e. revaluation of long term investment", "timestamp": "2024-11-14T20:40:41+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T04:51:26+0700", "vote": "102"}, {"username": "cuongse", "content": "e", "timestamp": "2024-11-15T10:53:53+0700", "vote": "-66"}, {"username": "nhattan2505", "content": "e", "timestamp": "2024-11-15T13:30:15+0700", "vote": "-3"}], "image_19.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:20:42+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-28T23:58:00+0700", "vote": "11"}, {"username": "minhduy_17", "content": "a", "timestamp": "2024-10-17T22:01:33+0700", "vote": "55"}, {"username": "thkgaming156", "content": "a. owner equity = owner capital + net income - withdrawal", "timestamp": "2024-11-14T03:49:51+0700", "vote": "102"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T18:19:48+0700", "vote": "10"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:24:18+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "a. owner's euity = owner capital + net income - withdrawal", "timestamp": "2024-11-14T20:41:48+0700", "vote": "-4"}, {"username": "minhieuu", "content": "a", "timestamp": "2024-11-14T21:25:32+0700", "vote": "5"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T04:51:41+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T10:54:19+0700", "vote": "-66"}, {"username": "nhattan2505", "content": "a", "timestamp": "2024-11-15T13:30:34+0700", "vote": "-3"}], "image_20.webp": [{"username": "hungtrankim", "content": "b", "timestamp": "2024-08-28T23:21:22+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-28T23:59:10+0700", "vote": "11"}, {"username": "minhduy_17", "content": "b", "timestamp": "2024-10-17T22:02:35+0700", "vote": "55"}, {"username": "thkgaming156", "content": "b.\nin transit -> add to bank\nin bank -> add to book", "timestamp": "2024-11-14T03:51:34+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T18:20:00+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:26:39+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:52:27+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T10:54:33+0700", "vote": "-66"}], "image_21.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T23:30:26+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-28T23:59:52+0700", "vote": "11"}, {"username": "minhduy_17", "content": "c", "timestamp": "2024-10-17T22:02:45+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "c", "timestamp": "2024-10-29T06:16:07+0700", "vote": "22"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T03:51:57+0700", "vote": "102"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T18:20:08+0700", "vote": "10"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:26:47+0700", "vote": "10"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-14T21:27:04+0700", "vote": "5"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T04:52:38+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T10:54:41+0700", "vote": "-66"}, {"username": "trautrong1510", "content": "Operating Activities: Chi trả lương cho nhân viên, bán hàng tồn kho\nInvesting Activities: Mua đất\nFinancing Activities: Rút tiền của chủ sở hữu, đóng góp từ chủ sở hữu", "timestamp": "2024-11-15T11:36:47+0700", "vote": "2"}], "image_22.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:31:21+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "d", "timestamp": "2024-08-29T00:00:07+0700", "vote": "11"}, {"username": "minhduy_17", "content": "d", "timestamp": "2024-10-17T22:03:06+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "d", "timestamp": "2024-10-29T06:16:40+0700", "vote": "22"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T18:20:17+0700", "vote": "10"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:26:52+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "d", "timestamp": "2024-11-14T20:45:09+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T04:52:53+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T10:54:57+0700", "vote": "-66"}], "image_23.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:31:58+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-29T00:00:58+0700", "vote": "11"}, {"username": "Dkhoa_Happy", "content": "a", "timestamp": "2024-10-29T06:16:57+0700", "vote": "22"}, {"username": "thkgaming156", "content": "a.\nborrowing là financing activities", "timestamp": "2024-11-14T03:53:11+0700", "vote": "102"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T18:21:08+0700", "vote": "10"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:26:57+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T04:53:13+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T10:55:30+0700", "vote": "-66"}], "image_24.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:32:40+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "d", "timestamp": "2024-08-29T00:01:39+0700", "vote": "11"}, {"username": "Dkhoa_Happy", "content": "d", "timestamp": "2024-10-29T06:18:00+0700", "vote": "22"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T03:53:52+0700", "vote": "102"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T18:21:29+0700", "vote": "10"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:27:05+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "d", "timestamp": "2024-11-14T20:46:47+0700", "vote": "-4"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-14T21:31:50+0700", "vote": "5"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T04:53:26+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T10:55:42+0700", "vote": "-66"}], "image_25.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:33:14+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "d", "timestamp": "2024-08-29T00:01:52+0700", "vote": "11"}, {"username": "minhduy_17", "content": "d", "timestamp": "2024-10-17T22:04:59+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "d", "timestamp": "2024-10-29T06:18:13+0700", "vote": "22"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T03:54:40+0700", "vote": "102"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T18:21:55+0700", "vote": "10"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:27:11+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "d", "timestamp": "2024-11-14T20:49:06+0700", "vote": "-4"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-14T21:32:01+0700", "vote": "5"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T04:53:33+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T10:56:18+0700", "vote": "-66"}], "image_26.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:33:46+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-29T00:02:41+0700", "vote": "11"}, {"username": "minhduy_17", "content": "a", "timestamp": "2024-10-17T22:05:21+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "a", "timestamp": "2024-10-29T06:18:43+0700", "vote": "22"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-14T03:55:08+0700", "vote": "102"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T18:22:16+0700", "vote": "10"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:27:18+0700", "vote": "10"}, {"username": "minhieuu", "content": "a", "timestamp": "2024-11-14T21:33:25+0700", "vote": "5"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T04:53:41+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T10:56:49+0700", "vote": "-66"}], "image_27.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:34:22+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "d", "timestamp": "2024-08-29T00:03:39+0700", "vote": "11"}, {"username": "minhduy_17", "content": "d", "timestamp": "2024-10-17T22:08:12+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "d", "timestamp": "2024-10-29T06:19:53+0700", "vote": "22"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T03:56:01+0700", "vote": "102"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T18:40:57+0700", "vote": "10"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:27:25+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "d", "timestamp": "2024-11-15T03:35:51+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "d. xe tải có giá 35.000", "timestamp": "2024-11-15T04:54:27+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T10:57:18+0700", "vote": "-66"}], "image_28.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T23:34:56+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-29T00:04:19+0700", "vote": "11"}, {"username": "minhduy_17", "content": "***on account ***\n52,000 - 14,800 + 12,500", "timestamp": "2024-10-17T22:13:18+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T06:24:35+0700", "vote": "22"}, {"username": "hdp10", "content": "B", "timestamp": "2024-11-10T17:49:49+0700", "vote": "1"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T03:56:58+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T18:41:08+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:27:30+0700", "vote": "10"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T22:06:45+0700", "vote": "5"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:55:29+0700", "vote": "102"}], "image_29.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:35:21+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "d", "timestamp": "2024-08-29T00:05:35+0700", "vote": "11"}, {"username": "minhduy_17", "content": "d", "timestamp": "2024-10-17T22:13:52+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "d", "timestamp": "2024-10-29T06:24:26+0700", "vote": "22"}, {"username": "thkgaming156", "content": "d. expense - debit", "timestamp": "2024-11-14T03:57:31+0700", "vote": "102"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T18:42:13+0700", "vote": "10"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:27:36+0700", "vote": "10"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-14T22:07:04+0700", "vote": "5"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T04:56:18+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T10:58:05+0700", "vote": "-66"}], "image_30.webp": [{"username": "hungtrankim", "content": "b", "timestamp": "2024-08-28T23:36:32+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-29T00:06:12+0700", "vote": "11"}, {"username": "minhduy_17", "content": "b ( === Gross margin )", "timestamp": "2024-10-17T22:14:47+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T06:24:52+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T03:57:41+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T18:42:19+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:27:42+0700", "vote": "10"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:56:25+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T10:58:23+0700", "vote": "-66"}], "image_31.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:37:26+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "d", "timestamp": "2024-08-29T00:06:29+0700", "vote": "11"}, {"username": "minhduy_17", "content": "d", "timestamp": "2024-10-17T22:15:01+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "d", "timestamp": "2024-10-29T06:25:21+0700", "vote": "22"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-14T03:57:54+0700", "vote": "102"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T18:42:36+0700", "vote": "10"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:27:49+0700", "vote": "10"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T04:56:31+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T10:58:33+0700", "vote": "-66"}], "image_32.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T23:38:09+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-29T00:06:42+0700", "vote": "11"}, {"username": "Dkhoa_Happy", "content": "c", "timestamp": "2024-10-29T06:27:47+0700", "vote": "22"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-14T03:58:23+0700", "vote": "102"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T18:42:48+0700", "vote": "10"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:27:55+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "c", "timestamp": "2024-11-15T03:37:16+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T04:56:58+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T10:59:14+0700", "vote": "-66"}], "image_33.webp": [{"username": "hungtrankim", "content": "b", "timestamp": "2024-08-28T23:38:42+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-29T00:07:07+0700", "vote": "11"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T06:28:08+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-14T03:59:16+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T18:42:56+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:28:05+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "b. trade discount", "timestamp": "2024-11-14T21:31:32+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "b.\nquantity -> trade discount\npay early -> purchase discount", "timestamp": "2024-11-15T04:57:06+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T10:59:43+0700", "vote": "-66"}], "image_34.webp": [{"username": "hungtrankim", "content": "e", "timestamp": "2024-08-28T23:39:22+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "e", "timestamp": "2024-08-29T00:08:42+0700", "vote": "11"}, {"username": "Lý Nhiên", "content": "800 1 tháng\ntừ tháng 8 -> 12 : 5 tháng\n800 * 5 --> 4000", "timestamp": "2024-11-03T14:37:57+0700", "vote": "22"}, {"username": "v4vl5", "content": "D", "timestamp": "2024-11-09T00:32:31+0700", "vote": "2"}, {"username": "hdp10", "content": "D", "timestamp": "2024-11-10T18:03:25+0700", "vote": "1"}, {"username": "myha", "content": "d", "timestamp": "2024-11-11T15:22:31+0700", "vote": "5"}, {"username": "T.Khôi", "content": "B", "timestamp": "2024-11-13T03:13:11+0700", "vote": "1"}, {"username": "thkgaming156", "content": "D. doanh thu tăng 2400", "timestamp": "2024-11-13T14:56:41+0700", "vote": "102"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T18:44:15+0700", "vote": "10"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:28:17+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "d", "timestamp": "2024-11-14T21:32:30+0700", "vote": "-4"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-14T22:10:14+0700", "vote": "5"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T04:58:25+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T11:01:23+0700", "vote": "-66"}, {"username": "boong hoaa", "content": "E", "timestamp": "2025-04-05T05:38:32+0700", "vote": "3"}], "image_35.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T23:41:44+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-29T00:10:34+0700", "vote": "11"}, {"username": "minhduy_17", "content": "c", "timestamp": "2024-10-17T22:30:31+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "c", "timestamp": "2024-10-29T06:33:48+0700", "vote": "22"}, {"username": "thkgaming156", "content": "c. còn lại 105 -> chi phí = 359 - 105 = 254", "timestamp": "2024-11-13T14:59:33+0700", "vote": "102"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T18:46:04+0700", "vote": "10"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:28:32+0700", "vote": "10"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-14T22:10:51+0700", "vote": "5"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T04:59:01+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T11:02:39+0700", "vote": "-66"}], "image_36.webp": [{"username": "hungtrankim", "content": "b", "timestamp": "2024-08-28T23:41:56+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-29T00:11:10+0700", "vote": "11"}, {"username": "minhduy_17", "content": "b", "timestamp": "2024-10-17T22:31:00+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T06:35:02+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b. prepaid expense: asset, asset tăng ghi debit", "timestamp": "2024-11-13T15:01:59+0700", "vote": "102"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T18:48:10+0700", "vote": "10"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:28:50+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "b", "timestamp": "2024-11-14T21:34:21+0700", "vote": "-4"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T22:13:19+0700", "vote": "5"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T04:59:41+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T11:03:19+0700", "vote": "-66"}], "image_37.webp": [{"username": "hungtrankim", "content": "b", "timestamp": "2024-08-28T23:42:33+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "b", "timestamp": "2024-08-29T00:12:02+0700", "vote": "11"}, {"username": "minhduy_17", "content": "b", "timestamp": "2024-10-17T22:32:46+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "b", "timestamp": "2024-10-29T06:35:44+0700", "vote": "22"}, {"username": "thkgaming156", "content": "b. khi nào dùng thì ghi vào mục chi phí", "timestamp": "2024-11-13T15:03:39+0700", "vote": "102"}, {"username": "ducky0310", "content": "b", "timestamp": "2024-11-14T19:28:59+0700", "vote": "10"}, {"username": "TinLun", "content": "b", "timestamp": "2024-11-14T19:29:08+0700", "vote": "10"}, {"username": "minhieuu", "content": "b", "timestamp": "2024-11-14T22:14:01+0700", "vote": "5"}, {"username": "thkgaming156", "content": "b", "timestamp": "2024-11-15T05:00:35+0700", "vote": "102"}, {"username": "cuongse", "content": "b", "timestamp": "2024-11-15T11:03:49+0700", "vote": "-66"}], "image_38.webp": [{"username": "hungtrankim", "content": "e", "timestamp": "2024-08-28T23:43:40+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "e", "timestamp": "2024-08-29T00:12:22+0700", "vote": "11"}, {"username": "minhduy_17", "content": "e", "timestamp": "2024-10-17T22:33:04+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "e", "timestamp": "2024-10-29T06:36:06+0700", "vote": "22"}, {"username": "thkgaming156", "content": "e. (accumulated depreciation, Allowance for DoubtFul Account) là mục contra -asset account", "timestamp": "2024-11-13T15:05:37+0700", "vote": "102"}, {"username": "ducky0310", "content": "e", "timestamp": "2024-11-14T19:29:06+0700", "vote": "10"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-14T19:29:25+0700", "vote": "10"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T05:00:41+0700", "vote": "102"}, {"username": "cuongse", "content": "e", "timestamp": "2024-11-15T11:04:01+0700", "vote": "-66"}], "image_39.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:44:09+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "A", "timestamp": "2024-08-29T00:12:38+0700", "vote": "11"}, {"username": "minhduy_17", "content": "a", "timestamp": "2024-10-17T22:36:30+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "a", "timestamp": "2024-10-29T06:37:34+0700", "vote": "22"}, {"username": "thkgaming156", "content": "A. (promissory note) TechCom cho vay -> Debit Notes Receivable", "timestamp": "2024-11-13T15:08:55+0700", "vote": "102"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:29:24+0700", "vote": "10"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T19:29:52+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T05:00:53+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T11:04:39+0700", "vote": "-66"}], "image_40.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:45:08+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "d", "timestamp": "2024-08-29T00:13:14+0700", "vote": "11"}, {"username": "minhduy_17", "content": "d", "timestamp": "2024-10-17T22:36:59+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "d", "timestamp": "2024-10-29T06:37:57+0700", "vote": "22"}, {"username": "thkgaming156", "content": "d.\na sai: account receivable là asset\nb sai: prepayment là asset\nc sai: revenue là equity\ne sai: expense là equity", "timestamp": "2024-11-13T15:11:54+0700", "vote": "102"}, {"username": "ducky0310", "content": "d", "timestamp": "2024-11-14T19:29:32+0700", "vote": "10"}, {"username": "TinLun", "content": "d", "timestamp": "2024-11-14T19:30:00+0700", "vote": "10"}, {"username": "minhieuu", "content": "d", "timestamp": "2024-11-14T22:19:11+0700", "vote": "5"}, {"username": "Võ Hoàng Long", "content": "d", "timestamp": "2024-11-15T03:39:44+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "d", "timestamp": "2024-11-15T05:01:03+0700", "vote": "102"}, {"username": "cuongse", "content": "d", "timestamp": "2024-11-15T11:05:17+0700", "vote": "-66"}], "image_41.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:45:37+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-29T00:14:13+0700", "vote": "11"}, {"username": "minhduy_17", "content": "a", "timestamp": "2024-10-17T22:42:06+0700", "vote": "55"}, {"username": "thkgaming156", "content": "A. allowance method sẽ bao gồm thêm 1 tài khoản allowance for doubtful debts, khi xóa nợ tài khoản này giảm ghi vào debit (contra-asset)", "timestamp": "2024-11-13T15:18:17+0700", "vote": "102"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:29:40+0700", "vote": "10"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T19:30:24+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T05:01:21+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T11:05:57+0700", "vote": "-66"}], "image_42.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T23:46:19+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-29T00:14:48+0700", "vote": "11"}, {"username": "thkgaming156", "content": "c. write-off method (xóa nợ trực tiếp) sẽ ghi vào Debit bad debt expense hoặc Uncollectible Accounts Expense và Credit Account Receivable", "timestamp": "2024-11-13T15:28:19+0700", "vote": "102"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:29:51+0700", "vote": "10"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T19:30:53+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T05:01:56+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T11:06:42+0700", "vote": "-66"}], "image_43.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:46:51+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-29T00:15:58+0700", "vote": "11"}, {"username": "minhduy_17", "content": "a", "timestamp": "2024-10-17T22:47:54+0700", "vote": "55"}, {"username": "thkgaming156", "content": "a. debit AFDA -> xóa nợ", "timestamp": "2024-11-13T15:32:24+0700", "vote": "102"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:30:09+0700", "vote": "10"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T19:31:24+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T05:02:06+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T11:07:22+0700", "vote": "-66"}], "image_44.webp": [{"username": "hungtrankim", "content": "c", "timestamp": "2024-08-28T23:47:29+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-29T00:16:13+0700", "vote": "11"}, {"username": "minhduy_17", "content": "c", "timestamp": "2024-10-17T22:49:09+0700", "vote": "55"}, {"username": "Dkhoa_Happy", "content": "c", "timestamp": "2024-10-29T06:42:44+0700", "vote": "22"}, {"username": "thkgaming156", "content": "c. 1679 x 4%", "timestamp": "2024-11-13T15:33:01+0700", "vote": "102"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:30:15+0700", "vote": "10"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T19:31:30+0700", "vote": "10"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T05:02:14+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T11:08:07+0700", "vote": "-66"}], "image_45.webp": [{"username": "hungtrankim", "content": "e", "timestamp": "2024-08-28T23:48:17+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "e", "timestamp": "2024-08-29T00:16:41+0700", "vote": "11"}, {"username": "thkgaming156", "content": "e.\n1. cost tăng, net income lowest (hoặc) cost giảm, net income highest -> LIFO\n2. cost tăng, net income highest (hoặc) cost giảm, net income lowest -> FIFO", "timestamp": "2024-11-13T15:36:42+0700", "vote": "102"}, {"username": "ducky0310", "content": "e", "timestamp": "2024-11-14T19:30:31+0700", "vote": "10"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-14T19:32:09+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "e", "timestamp": "2024-11-14T22:08:25+0700", "vote": "-4"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T05:02:28+0700", "vote": "102"}, {"username": "cuongse", "content": "e", "timestamp": "2024-11-15T11:08:26+0700", "vote": "-66"}], "image_46.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:48:41+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-29T00:16:56+0700", "vote": "11"}, {"username": "minhduy_17", "content": "A - queue:V", "timestamp": "2024-10-17T22:52:02+0700", "vote": "55"}, {"username": "thkgaming156", "content": "A. oldest -> FIFO, newest -> LIFO", "timestamp": "2024-11-13T15:46:32+0700", "vote": "102"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:30:39+0700", "vote": "10"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T19:32:27+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T05:02:44+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T11:08:37+0700", "vote": "-66"}], "image_47.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:49:26+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "e", "timestamp": "2024-08-29T00:17:39+0700", "vote": "11"}, {"username": "myha", "content": "e", "timestamp": "2024-10-07T09:10:14+0700", "vote": "5"}, {"username": "Lý Nhiên", "content": "E", "timestamp": "2024-11-05T09:49:28+0700", "vote": "22"}, {"username": "thkgaming156", "content": "E.", "timestamp": "2024-11-13T16:03:57+0700", "vote": "102"}, {"username": "ducky0310", "content": "e", "timestamp": "2024-11-14T19:30:48+0700", "vote": "10"}, {"username": "TinLun", "content": "e", "timestamp": "2024-11-14T19:32:56+0700", "vote": "10"}, {"username": "Võ Hoàng Long", "content": "e", "timestamp": "2024-11-14T22:12:59+0700", "vote": "-4"}, {"username": "minhieuu", "content": "e", "timestamp": "2024-11-14T22:24:58+0700", "vote": "5"}, {"username": "thkgaming156", "content": "e", "timestamp": "2024-11-15T05:02:54+0700", "vote": "102"}, {"username": "cuongse", "content": "e", "timestamp": "2024-11-15T11:08:51+0700", "vote": "-66"}], "image_48.webp": [{"username": "hungtrankim", "content": "d", "timestamp": "2024-08-28T23:50:05+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "c", "timestamp": "2024-08-29T00:18:05+0700", "vote": "11"}, {"username": "Dkhoa_Happy", "content": "c", "timestamp": "2024-10-29T06:48:50+0700", "vote": "22"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-13T16:08:23+0700", "vote": "102"}, {"username": "ducky0310", "content": "c", "timestamp": "2024-11-14T19:30:58+0700", "vote": "10"}, {"username": "TinLun", "content": "c", "timestamp": "2024-11-14T19:33:15+0700", "vote": "10"}, {"username": "minhduy_17", "content": "C", "timestamp": "2024-11-14T20:18:48+0700", "vote": "55"}, {"username": "minhieuu", "content": "c", "timestamp": "2024-11-14T22:25:08+0700", "vote": "5"}, {"username": "thkgaming156", "content": "c", "timestamp": "2024-11-15T05:03:25+0700", "vote": "102"}, {"username": "cuongse", "content": "c", "timestamp": "2024-11-15T11:10:02+0700", "vote": "-66"}], "image_49.webp": [{"username": "hungtrankim", "content": "a", "timestamp": "2024-08-28T23:50:31+0700", "vote": "63"}, {"username": "Lê Trung Kiên", "content": "a", "timestamp": "2024-08-29T00:19:33+0700", "vote": "11"}, {"username": "minhduy_17", "content": "mua hàng\ntăng hàng\ngiảm tiền\nA", "timestamp": "2024-10-15T21:01:19+0700", "vote": "55"}, {"username": "thkgaming156", "content": "A", "timestamp": "2024-11-13T16:08:43+0700", "vote": "102"}, {"username": "ducky0310", "content": "a", "timestamp": "2024-11-14T19:31:04+0700", "vote": "10"}, {"username": "TinLun", "content": "a", "timestamp": "2024-11-14T19:33:31+0700", "vote": "10"}, {"username": "thkgaming156", "content": "a", "timestamp": "2024-11-15T05:03:44+0700", "vote": "102"}, {"username": "cuongse", "content": "a", "timestamp": "2024-11-15T11:10:17+0700", "vote": "-66"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

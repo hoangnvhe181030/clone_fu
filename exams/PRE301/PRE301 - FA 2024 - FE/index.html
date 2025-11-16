@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>PRE301 - FA 2024 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>PRE301 - FA 2024 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T19:41:29+0700", "vote": "1"}, {"username": "benkei", "content": "B", "timestamp": "2025-03-30T21:47:15+0700", "vote": "1"}, {"username": "thythy", "content": "B", "timestamp": "2025-07-25T21:41:23+0700", "vote": "5"}, {"username": "funnygame", "content": "b", "timestamp": "2025-07-27T14:23:27+0700", "vote": "0"}, {"username": "hahahahaha", "content": "b", "timestamp": "2025-07-28T20:31:44+0700", "vote": "0"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T22:55:30+0700", "vote": "70"}], "image_2.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T19:43:19+0700", "vote": "1"}, {"username": "benkei", "content": "D", "timestamp": "2025-03-30T21:48:56+0700", "vote": "1"}, {"username": "thythy", "content": "D", "timestamp": "2025-07-25T22:17:34+0700", "vote": "5"}, {"username": "hahahahaha", "content": "d", "timestamp": "2025-07-28T20:31:56+0700", "vote": "0"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T22:56:33+0700", "vote": "70"}], "image_3.webp": [{"username": "Final Exam", "content": "C", "timestamp": "2025-03-30T19:44:10+0700", "vote": "1"}, {"username": "benkei", "content": "c", "timestamp": "2025-03-30T21:49:40+0700", "vote": "1"}, {"username": "thythy", "content": "C", "timestamp": "2025-07-25T22:17:53+0700", "vote": "5"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T22:56:40+0700", "vote": "70"}], "image_4.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T19:55:34+0700", "vote": "1"}, {"username": "benkei", "content": "D", "timestamp": "2025-03-30T21:51:06+0700", "vote": "1"}, {"username": "thythy", "content": "D", "timestamp": "2025-07-28T17:37:47+0700", "vote": "5"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T22:56:54+0700", "vote": "70"}], "image_5.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T19:57:38+0700", "vote": "1"}, {"username": "benkei", "content": "A", "timestamp": "2025-03-30T21:51:35+0700", "vote": "1"}, {"username": "thythy", "content": "A", "timestamp": "2025-07-25T23:16:37+0700", "vote": "5"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T22:57:13+0700", "vote": "70"}], "image_6.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T20:00:33+0700", "vote": "1"}, {"username": "benkei", "content": "D", "timestamp": "2025-03-30T21:53:17+0700", "vote": "1"}, {"username": "thythy", "content": "D", "timestamp": "2025-07-25T23:16:32+0700", "vote": "5"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T23:05:24+0700", "vote": "70"}], "image_7.webp": [{"username": "Final Exam", "content": "C", "timestamp": "2025-03-30T20:03:23+0700", "vote": "1"}, {"username": "benkei", "content": "C", "timestamp": "2025-03-30T21:54:21+0700", "vote": "1"}, {"username": "thythy", "content": "C", "timestamp": "2025-07-25T23:22:07+0700", "vote": "5"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T23:05:57+0700", "vote": "70"}], "image_8.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T20:04:44+0700", "vote": "1"}, {"username": "benkei", "content": "B", "timestamp": "2025-03-30T21:55:06+0700", "vote": "1"}, {"username": "hữu phước", "content": "b", "timestamp": "2025-07-12T02:54:44+0700", "vote": "28"}, {"username": "Lê Minh Thư", "content": "B", "timestamp": "2025-07-22T12:33:40+0700", "vote": "10"}, {"username": "thythy", "content": "B", "timestamp": "2025-07-25T23:23:56+0700", "vote": "5"}, {"username": "hahahahaha", "content": "B", "timestamp": "2025-07-28T21:38:33+0700", "vote": "0"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:06:07+0700", "vote": "70"}], "image_9.webp": [{"username": "Final Exam", "content": "C", "timestamp": "2025-03-30T20:07:29+0700", "vote": "1"}, {"username": "benkei", "content": "C", "timestamp": "2025-03-30T21:56:11+0700", "vote": "1"}, {"username": "thythy", "content": "c", "timestamp": "2025-07-27T16:23:14+0700", "vote": "5"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T23:06:18+0700", "vote": "70"}], "image_10.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T20:09:51+0700", "vote": "1"}, {"username": "benkei", "content": "D", "timestamp": "2025-03-30T21:56:44+0700", "vote": "1"}, {"username": "thythy", "content": "D", "timestamp": "2025-07-25T23:36:54+0700", "vote": "5"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T23:06:29+0700", "vote": "70"}], "image_11.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:14:25+0700", "vote": "1"}, {"username": "benkei", "content": "B", "timestamp": "2025-03-30T21:58:01+0700", "vote": "1"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:06:55+0700", "vote": "70"}, {"username": "thythy", "content": "B", "timestamp": "2025-07-29T08:27:35+0700", "vote": "5"}], "image_12.webp": [{"username": "Final Exam", "content": "C", "timestamp": "2025-03-30T20:15:49+0700", "vote": "1"}, {"username": "benkei", "content": "c", "timestamp": "2025-03-30T21:58:42+0700", "vote": "1"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T23:07:36+0700", "vote": "70"}, {"username": "thythy", "content": "c", "timestamp": "2025-07-29T08:50:30+0700", "vote": "5"}], "image_13.webp": [{"username": "Final Exam", "content": "C", "timestamp": "2025-03-30T20:16:55+0700", "vote": "1"}, {"username": "benkei", "content": "c", "timestamp": "2025-03-30T21:59:18+0700", "vote": "1"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T23:07:46+0700", "vote": "70"}, {"username": "thythy", "content": "c", "timestamp": "2025-07-29T08:52:30+0700", "vote": "5"}], "image_14.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T20:17:40+0700", "vote": "1"}, {"username": "benkei", "content": "D", "timestamp": "2025-03-30T22:00:49+0700", "vote": "1"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T23:07:59+0700", "vote": "70"}, {"username": "thythy", "content": "d", "timestamp": "2025-07-29T09:02:32+0700", "vote": "5"}], "image_15.webp": [{"username": "Final Exam", "content": "C", "timestamp": "2025-03-30T20:18:13+0700", "vote": "1"}, {"username": "benkei", "content": "C", "timestamp": "2025-03-30T22:01:30+0700", "vote": "1"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T23:08:19+0700", "vote": "70"}, {"username": "thythy", "content": "c", "timestamp": "2025-07-29T09:03:43+0700", "vote": "5"}], "image_16.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:19:26+0700", "vote": "1"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:03:20+0700", "vote": "1"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:08:37+0700", "vote": "70"}, {"username": "thythy", "content": "a", "timestamp": "2025-07-29T09:05:00+0700", "vote": "5"}], "image_17.webp": [{"username": "Final Exam", "content": "C", "timestamp": "2025-03-30T20:20:08+0700", "vote": "1"}, {"username": "benkei", "content": "C", "timestamp": "2025-03-30T22:03:49+0700", "vote": "1"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T23:08:50+0700", "vote": "70"}, {"username": "thythy", "content": "c", "timestamp": "2025-07-29T09:08:21+0700", "vote": "5"}], "image_18.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:21:23+0700", "vote": "1"}, {"username": "benkei", "content": "A", "timestamp": "2025-03-30T22:04:51+0700", "vote": "1"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:08:59+0700", "vote": "70"}, {"username": "thythy", "content": "a", "timestamp": "2025-07-29T09:08:36+0700", "vote": "5"}], "image_19.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:22:14+0700", "vote": "1"}, {"username": "benkei", "content": "B", "timestamp": "2025-03-30T22:06:06+0700", "vote": "1"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:09:26+0700", "vote": "70"}], "image_20.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:23:43+0700", "vote": "1"}, {"username": "benkei", "content": "B", "timestamp": "2025-03-30T22:07:45+0700", "vote": "1"}, {"username": "Tuke", "content": "b", "timestamp": "2025-07-28T23:11:09+0700", "vote": "70"}, {"username": "thythy", "content": "b", "timestamp": "2025-07-29T09:16:31+0700", "vote": "5"}, {"username": "Han2004", "content": "B. Social networks are all about a shift from vertical to horizontal communications on the Web.\n(Mạng xã hội chủ yếu nói về sự chuyển đổi từ truyền thông theo chiều dọc sang truyền thông theo chiều ngang trên Web.)", "timestamp": "2025-08-08T11:18:36+0700", "vote": "-2"}], "image_21.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:24:02+0700", "vote": "1"}, {"username": "benkei", "content": "B", "timestamp": "2025-03-30T22:08:35+0700", "vote": "1"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:12:56+0700", "vote": "70"}, {"username": "thythy", "content": "b", "timestamp": "2025-07-29T09:17:27+0700", "vote": "5"}], "image_22.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T20:24:50+0700", "vote": "1"}, {"username": "benkei", "content": "D", "timestamp": "2025-03-30T22:09:02+0700", "vote": "1"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T23:13:18+0700", "vote": "70"}, {"username": "thythy", "content": "d", "timestamp": "2025-07-29T09:17:47+0700", "vote": "5"}], "image_23.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:25:38+0700", "vote": "1"}, {"username": "benkei", "content": "A", "timestamp": "2025-03-30T22:10:05+0700", "vote": "1"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:13:34+0700", "vote": "70"}, {"username": "thythy", "content": "a", "timestamp": "2025-07-29T09:18:09+0700", "vote": "5"}], "image_24.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:26:39+0700", "vote": "1"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:11:09+0700", "vote": "1"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:13:52+0700", "vote": "70"}, {"username": "thythy", "content": "A", "timestamp": "2025-07-29T09:20:29+0700", "vote": "5"}], "image_25.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:27:06+0700", "vote": "1"}, {"username": "benkei", "content": "B", "timestamp": "2025-03-30T22:11:54+0700", "vote": "1"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:14:02+0700", "vote": "70"}, {"username": "thythy", "content": "b", "timestamp": "2025-07-29T09:21:20+0700", "vote": "5"}], "image_26.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T20:28:55+0700", "vote": "1"}, {"username": "benkei", "content": "D", "timestamp": "2025-03-30T22:12:43+0700", "vote": "1"}, {"username": "thythy", "content": "d", "timestamp": "2025-07-29T09:23:16+0700", "vote": "5"}], "image_27.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:29:59+0700", "vote": "1"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:14:21+0700", "vote": "1"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:25:30+0700", "vote": "70"}, {"username": "bimbimkhoaitay", "content": "B", "timestamp": "2025-07-29T00:55:09+0700", "vote": "-27"}, {"username": "thythy", "content": "a", "timestamp": "2025-07-29T09:31:29+0700", "vote": "5"}], "image_28.webp": [{"username": "Nhokskas", "content": "A", "timestamp": "2025-03-18T13:01:57+0700", "vote": "-23"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:14:13+0700", "vote": "1"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:25:44+0700", "vote": "70"}, {"username": "thythy", "content": "a", "timestamp": "2025-07-29T09:32:28+0700", "vote": "5"}], "image_29.webp": [{"username": "Final Exam", "content": "C", "timestamp": "2025-03-30T20:31:10+0700", "vote": "1"}, {"username": "benkei", "content": "c", "timestamp": "2025-03-30T22:15:13+0700", "vote": "1"}, {"username": "thythy", "content": "C", "timestamp": "2025-07-26T08:31:11+0700", "vote": "5"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T23:25:55+0700", "vote": "70"}], "image_30.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:32:59+0700", "vote": "1"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:15:48+0700", "vote": "1"}, {"username": "thythy", "content": "A", "timestamp": "2025-07-26T00:17:16+0700", "vote": "5"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:26:02+0700", "vote": "70"}], "image_31.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:33:41+0700", "vote": "1"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:16:22+0700", "vote": "1"}, {"username": "Tuke", "content": "B.\n3 phases of travel promotion:\n- Stimulating the public;s desire to visit a place.\n- Arranging for the travelers to reach it.\n- Making certain that visitors are comfortable, well treated, and entertained when they get there.", "timestamp": "2025-07-23T00:56:38+0700", "vote": "70"}, {"username": "thythy", "content": "B", "timestamp": "2025-07-26T00:16:18+0700", "vote": "5"}, {"username": "duyen2609", "content": "A", "timestamp": "2025-07-28T15:45:54+0700", "vote": "-2"}, {"username": "emyeufpt8686", "content": "b", "timestamp": "2025-11-14T15:56:18+0700", "vote": "-2"}], "image_32.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:34:13+0700", "vote": "1"}, {"username": "benkei", "content": "A", "timestamp": "2025-03-30T22:20:18+0700", "vote": "1"}, {"username": "hữu phước", "content": "a", "timestamp": "2025-07-12T03:13:41+0700", "vote": "28"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:27:42+0700", "vote": "70"}, {"username": "thythy", "content": "a", "timestamp": "2025-07-29T09:35:55+0700", "vote": "5"}], "image_33.webp": [{"username": "Final Exam", "content": "c", "timestamp": "2025-03-30T20:36:08+0700", "vote": "1"}, {"username": "benkei", "content": "c", "timestamp": "2025-03-30T22:21:00+0700", "vote": "1"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T23:28:01+0700", "vote": "70"}, {"username": "thythy", "content": "c", "timestamp": "2025-07-29T09:39:44+0700", "vote": "5"}, {"username": "Han2004", "content": "C. Influence peddling (buôn bán ảnh hưởng)\n\nInfluence peddling: Là hành vi lợi dụng mối quan hệ quyền lực hoặc địa vị chính trị để tác động bất chính đến quyết định của chính phủ hay cơ quan công quyền, thường vì lợi ích cá nhân hoặc tổ chức – đây là mặt tối tiêu biểu nhất của lobbying.\nBuôn bán ảnh hưởng / lợi dụng quyền lực để vận động sai trái", "timestamp": "2025-08-08T11:36:07+0700", "vote": "-2"}], "image_34.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:39:00+0700", "vote": "1"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:22:04+0700", "vote": "1"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:28:17+0700", "vote": "70"}, {"username": "thythy", "content": "a", "timestamp": "2025-07-29T09:41:00+0700", "vote": "5"}], "image_35.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:41:33+0700", "vote": "1"}, {"username": "benkei", "content": "b", "timestamp": "2025-03-30T22:22:37+0700", "vote": "1"}, {"username": "Tuke", "content": "B, both positive and negative impact", "timestamp": "2025-07-28T23:29:00+0700", "vote": "70"}, {"username": "thythy", "content": "b", "timestamp": "2025-07-29T09:41:40+0700", "vote": "5"}], "image_36.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T20:41:55+0700", "vote": "1"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T23:29:23+0700", "vote": "70"}, {"username": "thythy", "content": "d", "timestamp": "2025-07-29T09:43:44+0700", "vote": "5"}], "image_37.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T20:43:01+0700", "vote": "1"}, {"username": "benkei", "content": "d", "timestamp": "2025-03-30T22:23:34+0700", "vote": "1"}, {"username": "thythy", "content": "D", "timestamp": "2025-07-26T00:09:27+0700", "vote": "5"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T23:29:49+0700", "vote": "70"}], "image_38.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:43:57+0700", "vote": "1"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:30:03+0700", "vote": "70"}, {"username": "thythy", "content": "a", "timestamp": "2025-07-29T09:44:47+0700", "vote": "5"}], "image_39.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:44:13+0700", "vote": "1"}, {"username": "benkei", "content": "b", "timestamp": "2025-03-30T22:24:13+0700", "vote": "1"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:30:13+0700", "vote": "70"}, {"username": "thythy", "content": "b", "timestamp": "2025-07-29T09:45:08+0700", "vote": "5"}], "image_40.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:44:20+0700", "vote": "1"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:25:00+0700", "vote": "1"}, {"username": "thythy", "content": "A", "timestamp": "2025-07-26T00:03:46+0700", "vote": "5"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:30:25+0700", "vote": "70"}], "image_41.webp": [{"username": "Final Exam", "content": "A", "timestamp": "2025-03-30T20:44:55+0700", "vote": "1"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:25:26+0700", "vote": "1"}, {"username": "thythy", "content": "A", "timestamp": "2025-07-27T15:49:02+0700", "vote": "5"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:30:34+0700", "vote": "70"}], "image_42.webp": [{"username": "Final Exam", "content": "b", "timestamp": "2025-03-30T20:45:42+0700", "vote": "1"}, {"username": "benkei", "content": "b", "timestamp": "2025-03-30T22:25:55+0700", "vote": "1"}, {"username": "thythy", "content": "B", "timestamp": "2025-07-25T23:51:31+0700", "vote": "5"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:30:51+0700", "vote": "70"}], "image_43.webp": [{"username": "Final Exam", "content": "d", "timestamp": "2025-03-30T20:48:40+0700", "vote": "1"}, {"username": "benkei", "content": "d", "timestamp": "2025-03-30T22:27:21+0700", "vote": "1"}, {"username": "thythy", "content": "D", "timestamp": "2025-07-25T23:50:52+0700", "vote": "5"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T23:31:13+0700", "vote": "70"}], "image_44.webp": [{"username": "Final Exam", "content": "d", "timestamp": "2025-03-30T20:50:05+0700", "vote": "1"}, {"username": "benkei", "content": "d", "timestamp": "2025-03-30T22:27:51+0700", "vote": "1"}, {"username": "thythy", "content": "D", "timestamp": "2025-07-25T23:46:54+0700", "vote": "5"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T23:31:21+0700", "vote": "70"}], "image_45.webp": [{"username": "Final Exam", "content": "a", "timestamp": "2025-03-30T20:53:56+0700", "vote": "1"}, {"username": "benkei", "content": "a", "timestamp": "2025-03-30T22:28:21+0700", "vote": "1"}, {"username": "thythy", "content": "A", "timestamp": "2025-07-25T23:46:27+0700", "vote": "5"}, {"username": "Tuke", "content": "A", "timestamp": "2025-07-28T23:31:32+0700", "vote": "70"}], "image_46.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:55:08+0700", "vote": "1"}, {"username": "benkei", "content": "b", "timestamp": "2025-03-30T22:28:48+0700", "vote": "1"}, {"username": "thythy", "content": "B", "timestamp": "2025-07-25T23:44:06+0700", "vote": "5"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:31:45+0700", "vote": "70"}], "image_47.webp": [{"username": "Final Exam", "content": "D", "timestamp": "2025-03-30T20:55:36+0700", "vote": "1"}, {"username": "benkei", "content": "d", "timestamp": "2025-03-30T22:29:22+0700", "vote": "1"}, {"username": "thythy", "content": "D", "timestamp": "2025-07-25T23:43:43+0700", "vote": "5"}, {"username": "Tuke", "content": "D", "timestamp": "2025-07-28T23:31:56+0700", "vote": "70"}], "image_48.webp": [{"username": "Final Exam", "content": "B", "timestamp": "2025-03-30T20:56:12+0700", "vote": "1"}, {"username": "benkei", "content": "b", "timestamp": "2025-03-30T22:29:58+0700", "vote": "1"}, {"username": "thythy", "content": "B", "timestamp": "2025-07-25T23:43:22+0700", "vote": "5"}, {"username": "Tuke", "content": "B", "timestamp": "2025-07-28T23:32:23+0700", "vote": "70"}], "image_49.webp": [{"username": "Final Exam", "content": "C", "timestamp": "2025-03-30T20:56:40+0700", "vote": "1"}, {"username": "benkei", "content": "c", "timestamp": "2025-03-30T22:30:12+0700", "vote": "1"}, {"username": "thythy", "content": "C", "timestamp": "2025-07-25T23:42:38+0700", "vote": "5"}, {"username": "Tuke", "content": "C", "timestamp": "2025-07-28T23:32:34+0700", "vote": "70"}, {"username": "Han2004", "content": "phương pháp KHÔNG phải là một trong những phương pháp được sử dụng rộng rãi để đánh giá nỗ lực quan hệ công chúng:\n\nC. Budget allocation measurement (Đo lường phân bổ ngân sách)", "timestamp": "2025-08-08T12:02:57+0700", "vote": "-2"}], "image_50.webp": [{"username": "Final Exam", "content": "ABCE", "timestamp": "2025-03-30T20:58:34+0700", "vote": "1"}, {"username": "benkei", "content": "abce", "timestamp": "2025-03-30T22:31:10+0700", "vote": "1"}, {"username": "thythy", "content": "ABCE", "timestamp": "2025-07-25T23:29:26+0700", "vote": "5"}, {"username": "Tuke", "content": "ABCE", "timestamp": "2025-07-28T23:32:50+0700", "vote": "70"}, {"username": "thythy", "content": "ac", "timestamp": "2025-07-29T10:00:57+0700", "vote": "5"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

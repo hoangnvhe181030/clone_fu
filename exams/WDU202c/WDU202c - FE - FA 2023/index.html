@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>WDU202c - FE - FA 2023</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>WDU202c - FE - FA 2023</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-09T11:58:30+0700", "vote": "-3"}, {"username": "Đào Tú Anh", "content": "A", "timestamp": "2024-04-12T22:40:47+0700", "vote": "1"}, {"username": "Manh Le", "content": "a", "timestamp": "2024-04-14T02:34:39+0700", "vote": "-1"}, {"username": "tuanvu1115", "content": "a", "timestamp": "2024-04-27T10:28:56+0700", "vote": "1"}, {"username": "trustmebro123", "content": "a", "timestamp": "2024-08-01T20:54:01+0700", "vote": "-40"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T14:52:58+0700", "vote": "66"}], "image_2.webp": [{"username": "misaaaa", "content": "d", "timestamp": "2024-04-10T10:54:21+0700", "vote": "-3"}, {"username": "tuanvu1115", "content": "d", "timestamp": "2024-04-27T10:29:24+0700", "vote": "1"}, {"username": "trustmebro123", "content": "d", "timestamp": "2024-08-01T20:55:22+0700", "vote": "-40"}, {"username": "fbtcon", "content": "D. the user's journey that through a site when trying to complete a task", "timestamp": "2025-04-23T14:53:30+0700", "vote": "66"}], "image_3.webp": [{"username": "misaaaa", "content": "a,b", "timestamp": "2024-04-10T10:54:41+0700", "vote": "-3"}, {"username": "trustmebro123", "content": "ab", "timestamp": "2024-08-01T20:55:51+0700", "vote": "-40"}, {"username": "fbtcon", "content": "AB", "timestamp": "2025-04-23T14:53:41+0700", "vote": "66"}], "image_4.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:54:49+0700", "vote": "-3"}, {"username": "Trương Thảo Vy", "content": "a", "timestamp": "2024-04-10T19:35:57+0700", "vote": "5"}, {"username": "Manh Le", "content": "a", "timestamp": "2024-04-14T02:35:53+0700", "vote": "-1"}, {"username": "trustmebro123", "content": "a", "timestamp": "2024-08-01T20:56:27+0700", "vote": "-40"}, {"username": "Thynh", "content": "b", "timestamp": "2024-11-14T00:22:06+0700", "vote": "0"}, {"username": "LLLL", "content": "a", "timestamp": "2024-12-06T09:54:56+0700", "vote": "-5"}, {"username": "truonq11", "content": "application: ứng dụng", "timestamp": "2025-04-13T17:39:49+0700", "vote": "-3"}, {"username": "fbtcon", "content": "a", "timestamp": "2025-04-23T14:53:59+0700", "vote": "66"}], "image_5.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:55:06+0700", "vote": "-3"}, {"username": "trustmebro123", "content": "b", "timestamp": "2024-08-01T20:56:32+0700", "vote": "-40"}, {"username": "truonq11", "content": "primary navigation\" (dẫn hướng chính", "timestamp": "2025-04-13T17:40:40+0700", "vote": "-3"}, {"username": "fbtcon", "content": "b", "timestamp": "2025-04-23T14:54:09+0700", "vote": "66"}], "image_6.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-10T10:55:15+0700", "vote": "-3"}, {"username": "trustmebro123", "content": "c", "timestamp": "2024-08-01T20:56:46+0700", "vote": "-40"}, {"username": "truonq11", "content": "depicted: miêu tả", "timestamp": "2025-04-13T17:41:58+0700", "vote": "-3"}, {"username": "fbtcon", "content": "C", "timestamp": "2025-04-23T14:54:20+0700", "vote": "66"}], "image_7.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:55:22+0700", "vote": "-3"}, {"username": "trustmebro123", "content": "a", "timestamp": "2024-08-01T20:56:56+0700", "vote": "-40"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T14:54:30+0700", "vote": "66"}], "image_8.webp": [{"username": "misaaaa", "content": "d", "timestamp": "2024-04-10T10:55:30+0700", "vote": "-3"}, {"username": "trustmebro123", "content": "d", "timestamp": "2024-08-01T20:57:04+0700", "vote": "-40"}, {"username": "fbtcon", "content": "D", "timestamp": "2025-04-23T14:54:38+0700", "vote": "66"}], "image_9.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:55:38+0700", "vote": "-3"}, {"username": "trustmebro123", "content": "a", "timestamp": "2024-08-01T20:57:17+0700", "vote": "-40"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T14:54:45+0700", "vote": "66"}], "image_10.webp": [{"username": "duanon", "content": "C", "timestamp": "2024-04-10T09:38:15+0700", "vote": "0"}, {"username": "trustmebro123", "content": "c", "timestamp": "2024-08-01T20:57:29+0700", "vote": "-40"}, {"username": "fbtcon", "content": "C. making decisions to define the form, aesthitics, and look and feel of a site", "timestamp": "2025-04-23T14:55:17+0700", "vote": "66"}], "image_11.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:55:50+0700", "vote": "-3"}, {"username": "Trương Thảo Vy", "content": "a", "timestamp": "2024-04-13T19:50:49+0700", "vote": "5"}, {"username": "dangngocbao", "content": "D", "timestamp": "2024-04-14T01:56:40+0700", "vote": "0"}, {"username": "Manh Le", "content": "c", "timestamp": "2024-04-14T02:44:10+0700", "vote": "-1"}, {"username": "ĐỊT CON MẸ MÀY SÚC VẬT FPT", "content": ")", "timestamp": "2024-07-29T09:17:04+0700", "vote": "0"}, {"username": "trustmebro123", "content": "c", "timestamp": "2024-08-01T21:00:12+0700", "vote": "-40"}, {"username": "Phutm", "content": "c", "timestamp": "2024-08-09T07:36:00+0700", "vote": "-110"}, {"username": "fbtcon", "content": "C. navigate, interact", "timestamp": "2025-04-23T14:55:39+0700", "vote": "66"}], "image_12.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:55:56+0700", "vote": "-3"}, {"username": "iris", "content": "B", "timestamp": "2024-04-13T21:31:57+0700", "vote": "2"}, {"username": "Manh Le", "content": "a", "timestamp": "2024-04-14T02:46:02+0700", "vote": "-1"}, {"username": "trustmebro123", "content": "a", "timestamp": "2024-08-01T21:01:36+0700", "vote": "-40"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T14:55:45+0700", "vote": "66"}], "image_13.webp": [{"username": "Trương Thảo Vy", "content": "d", "timestamp": "2024-04-13T19:51:03+0700", "vote": "5"}, {"username": "iris", "content": "d", "timestamp": "2024-04-13T21:32:37+0700", "vote": "2"}, {"username": "fbtcon", "content": "c", "timestamp": "2025-04-23T14:55:51+0700", "vote": "66"}], "image_14.webp": [{"username": "misaaaa", "content": "d", "timestamp": "2024-04-10T10:56:12+0700", "vote": "-3"}, {"username": "Manh Le", "content": "d", "timestamp": "2024-04-14T02:48:34+0700", "vote": "-1"}, {"username": "trustmebro123", "content": "d", "timestamp": "2024-08-01T21:02:38+0700", "vote": "-40"}, {"username": "fbtcon", "content": "D", "timestamp": "2025-04-23T14:55:58+0700", "vote": "66"}], "image_15.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:56:19+0700", "vote": "-3"}, {"username": "Manh Le", "content": "b", "timestamp": "2024-04-14T02:50:43+0700", "vote": "-1"}, {"username": "fbtcon", "content": "B", "timestamp": "2025-04-23T14:56:04+0700", "vote": "66"}], "image_16.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-10T10:56:27+0700", "vote": "-3"}, {"username": "truonq11", "content": "broad statement: tuyên bố chung chung", "timestamp": "2025-04-13T17:56:46+0700", "vote": "-3"}, {"username": "sp25_63", "content": "c", "timestamp": "2025-04-17T16:54:44+0700", "vote": "-3"}, {"username": "fbtcon", "content": "C", "timestamp": "2025-04-23T14:56:22+0700", "vote": "66"}], "image_17.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:56:34+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T14:56:27+0700", "vote": "66"}], "image_18.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:56:41+0700", "vote": "-3"}, {"username": "Trương Thảo Vy", "content": "bc", "timestamp": "2024-04-13T19:53:02+0700", "vote": "5"}, {"username": "trustmebro123", "content": "bc", "timestamp": "2024-08-10T12:03:39+0700", "vote": "-40"}, {"username": "fbtcon", "content": "BC", "timestamp": "2025-04-23T14:56:41+0700", "vote": "66"}], "image_19.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:56:51+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-25T13:19:12+0700", "vote": "66"}], "image_20.webp": [{"username": "misaaaa", "content": "d", "timestamp": "2024-04-10T10:56:58+0700", "vote": "-3"}, {"username": "fbtcon", "content": "D", "timestamp": "2025-04-23T14:57:06+0700", "vote": "66"}], "image_21.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-10T10:57:04+0700", "vote": "-3"}, {"username": "LLLL", "content": "c", "timestamp": "2024-11-30T07:37:44+0700", "vote": "-5"}, {"username": "fbtcon", "content": "c", "timestamp": "2025-04-23T14:57:11+0700", "vote": "66"}], "image_22.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:57:10+0700", "vote": "-3"}, {"username": "fbtcon", "content": "B", "timestamp": "2025-04-23T15:02:01+0700", "vote": "66"}], "image_23.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:57:17+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-25T13:20:03+0700", "vote": "66"}], "image_24.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-10T10:57:23+0700", "vote": "-3"}, {"username": "Phutm", "content": "c", "timestamp": "2024-08-10T10:15:11+0700", "vote": "-110"}, {"username": "trustmebro123", "content": "c", "timestamp": "2024-08-10T12:05:11+0700", "vote": "-40"}, {"username": "fbtcon", "content": "C", "timestamp": "2025-04-23T15:02:14+0700", "vote": "66"}], "image_25.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:57:30+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T15:03:08+0700", "vote": "66"}], "image_26.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:57:38+0700", "vote": "-3"}, {"username": "fbtcon", "content": "B", "timestamp": "2025-04-23T15:03:15+0700", "vote": "66"}], "image_27.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:57:45+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A. color palette", "timestamp": "2025-04-23T15:03:27+0700", "vote": "66"}], "image_28.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:57:52+0700", "vote": "-3"}, {"username": "fbtcon", "content": "B. as content, create a mood , navigation", "timestamp": "2025-04-23T15:03:54+0700", "vote": "66"}], "image_29.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:57:58+0700", "vote": "-3"}, {"username": "Trương Thảo Vy", "content": "a", "timestamp": "2024-04-13T19:53:54+0700", "vote": "5"}, {"username": "Manh Le", "content": "a", "timestamp": "2024-04-14T03:23:11+0700", "vote": "-1"}, {"username": "Phutm", "content": "a", "timestamp": "2024-08-10T10:16:06+0700", "vote": "-110"}, {"username": "trustmebro123", "content": "a", "timestamp": "2024-08-10T12:05:59+0700", "vote": "-40"}, {"username": "fbtcon", "content": "F", "timestamp": "2025-04-25T13:21:17+0700", "vote": "66"}], "image_30.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:58:05+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-25T13:21:25+0700", "vote": "66"}], "image_31.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:58:16+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T15:04:10+0700", "vote": "66"}], "image_32.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:58:26+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T15:04:17+0700", "vote": "66"}], "image_33.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-10T10:58:32+0700", "vote": "-3"}, {"username": "fbtcon", "content": "C", "timestamp": "2025-04-23T15:04:23+0700", "vote": "66"}], "image_34.webp": [{"username": "misaaaa", "content": "d", "timestamp": "2024-04-10T10:58:39+0700", "vote": "-3"}, {"username": "fbtcon", "content": "D", "timestamp": "2025-04-23T15:04:30+0700", "vote": "66"}], "image_35.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-10T10:58:45+0700", "vote": "-3"}, {"username": "fbtcon", "content": "C. create questionnaries or use a third party application", "timestamp": "2025-04-23T15:05:09+0700", "vote": "66"}], "image_36.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-10T10:58:51+0700", "vote": "-3"}, {"username": "truonq11", "content": "fulfillment- payoff", "timestamp": "2025-04-14T12:24:11+0700", "vote": "-3"}, {"username": "fbtcon", "content": "C. fulfillment", "timestamp": "2025-04-23T15:05:25+0700", "vote": "66"}], "image_37.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:58:58+0700", "vote": "-3"}, {"username": "fbtcon", "content": "B", "timestamp": "2025-04-23T15:05:37+0700", "vote": "66"}], "image_38.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:59:03+0700", "vote": "-3"}, {"username": "Đào Tú Anh", "content": "B", "timestamp": "2024-04-12T22:36:02+0700", "vote": "1"}, {"username": "iris", "content": "a", "timestamp": "2024-04-13T21:26:00+0700", "vote": "2"}, {"username": "Phutm", "content": "B", "timestamp": "2024-08-10T10:56:05+0700", "vote": "-110"}, {"username": "phanhphanh", "content": "b", "timestamp": "2024-11-29T18:06:41+0700", "vote": "-4"}, {"username": "sp25_63", "content": "b", "timestamp": "2025-04-17T17:01:04+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T15:07:05+0700", "vote": "66"}], "image_39.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:59:09+0700", "vote": "-3"}, {"username": "Trương Thảo Vy", "content": "a", "timestamp": "2024-04-13T19:55:05+0700", "vote": "5"}, {"username": "Phutm", "content": "a", "timestamp": "2024-08-11T06:03:55+0700", "vote": "-110"}, {"username": "Tên của tôi", "content": "a", "timestamp": "2025-04-17T19:11:56+0700", "vote": "12"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T15:18:08+0700", "vote": "66"}], "image_40.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-10T10:59:14+0700", "vote": "-3"}, {"username": "fbtcon", "content": "C. figma", "timestamp": "2025-04-23T15:18:24+0700", "vote": "66"}], "image_41.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:59:20+0700", "vote": "-3"}, {"username": "Trương Thảo Vy", "content": "b", "timestamp": "2024-04-13T19:55:47+0700", "vote": "5"}, {"username": "Manh Le", "content": "b", "timestamp": "2024-04-14T03:00:44+0700", "vote": "-1"}, {"username": "fbtcon", "content": "UI -> wireframes", "timestamp": "2025-04-23T15:19:38+0700", "vote": "66"}], "image_42.webp": [{"username": "misaaaa", "content": "c", "timestamp": "2024-04-10T10:59:26+0700", "vote": "-3"}, {"username": "Trương Thảo Vy", "content": "d", "timestamp": "2024-04-13T19:57:26+0700", "vote": "5"}, {"username": "Manh Le", "content": "d", "timestamp": "2024-04-14T03:01:52+0700", "vote": "-1"}, {"username": "trustmebro123", "content": "d", "timestamp": "2024-08-10T12:06:49+0700", "vote": "-40"}, {"username": "fbtcon", "content": "D. immediate intution", "timestamp": "2025-04-23T15:31:19+0700", "vote": "66"}], "image_43.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:59:33+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-25T13:23:30+0700", "vote": "66"}], "image_44.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:59:42+0700", "vote": "-3"}, {"username": "fbtcon", "content": "B. UX DESIGNER", "timestamp": "2025-04-23T15:46:02+0700", "vote": "66"}], "image_45.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T10:59:48+0700", "vote": "-3"}, {"username": "fbtcon", "content": "b. BRAding", "timestamp": "2025-04-23T15:46:16+0700", "vote": "66"}], "image_46.webp": [{"username": "misaaaa", "content": "a", "timestamp": "2024-04-10T10:59:54+0700", "vote": "-3"}, {"username": "sp25_63", "content": "a", "timestamp": "2025-04-17T17:03:16+0700", "vote": "-3"}, {"username": "fbtcon", "content": "A", "timestamp": "2025-04-23T15:46:33+0700", "vote": "66"}], "image_47.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T11:00:01+0700", "vote": "-3"}, {"username": "fbtcon", "content": "B", "timestamp": "2025-04-23T15:46:44+0700", "vote": "66"}], "image_48.webp": [{"username": "misaaaa", "content": "bc", "timestamp": "2024-04-10T11:00:07+0700", "vote": "-3"}, {"username": "fbtcon", "content": "it gòo to have an understanding of what the client\nyou can get", "timestamp": "2025-04-23T15:47:19+0700", "vote": "66"}], "image_49.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T11:00:13+0700", "vote": "-3"}, {"username": "fbtcon", "content": "B. body-> content", "timestamp": "2025-04-23T15:47:33+0700", "vote": "66"}], "image_50.webp": [{"username": "misaaaa", "content": "b", "timestamp": "2024-04-10T11:00:18+0700", "vote": "-3"}, {"username": "fbtcon", "content": "B", "timestamp": "2025-04-23T15:47:40+0700", "vote": "66"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>
