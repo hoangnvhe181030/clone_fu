@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>MLN122 - Q1 - SU 2025</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>MLN122 - Q1 - SU 2025</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "sp25_63", "content": "c", "timestamp": "2025-06-30T21:31:14+0700", "vote": "-3"}, {"username": "kha21", "content": "W: Giá trị của sản phẩm.\nc: Giá trị tư bản bất biến (tư liệu sản xuất), là hao phí lao động quá khứ kết tinh trong tư liệu sản xuất.\nv: Giá trị sức lao động (tư bản khả biến), là phần lao động sống của công nhân tạo ra để bù đắp giá trị sức lao động của họ.\nm: Giá trị thặng dư, là phần lao động thặng dư do công nhân tạo ra ngoài thời gian lao động cần thiết.\n=> đáp án D", "timestamp": "2025-06-30T22:03:35+0700", "vote": "2"}, {"username": "DTD3009", "content": "d", "timestamp": "2025-07-01T18:15:51+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "D. cái C á nó là tư bản bất biến - giá trị tư liệu sản xuất – chi phí lao động quá khứ", "timestamp": "2025-07-03T00:43:03+0700", "vote": "1188"}, {"username": "phanducanh", "content": "c", "timestamp": "2025-07-03T22:04:30+0700", "vote": "41"}, {"username": "hip1008", "content": "c", "timestamp": "2025-07-04T20:35:13+0700", "vote": "3"}, {"username": "Za Hi B", "content": "d", "timestamp": "2025-08-25T08:41:49+0700", "vote": "151"}, {"username": "Lê Đăng Khoa", "content": "d", "timestamp": "2025-11-04T16:05:17+0700", "vote": "27"}], "image_2.webp": [{"username": "kha21", "content": "năng suất tăng -> tạo ra hàng hóa trong cùng 1 đơn vị thời gian tăng -> giá giảm\n=> B", "timestamp": "2025-06-30T22:09:26+0700", "vote": "2"}, {"username": "DTD3009", "content": "b", "timestamp": "2025-07-01T22:52:59+0700", "vote": "13"}, {"username": "anlthe181137", "content": "b", "timestamp": "2025-07-02T00:54:46+0700", "vote": "-25"}, {"username": "CoderLâmĐồng", "content": "B", "timestamp": "2025-07-02T19:23:35+0700", "vote": "93"}, {"username": "nguoivetulongdat", "content": "b", "timestamp": "2025-07-03T00:45:23+0700", "vote": "1188"}, {"username": "phanducanh", "content": "b", "timestamp": "2025-07-03T22:04:13+0700", "vote": "41"}, {"username": "Za Hi B", "content": "b", "timestamp": "2025-08-25T08:41:42+0700", "vote": "151"}, {"username": "Alylylyly", "content": "b", "timestamp": "2025-09-26T00:12:50+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "b", "timestamp": "2025-11-04T16:05:44+0700", "vote": "27"}], "image_3.webp": [{"username": "kha21", "content": "phát hiện ra tính 2 mặt của LDSXHH\nLao động cụ thể và lao động trừu tượng\n=> D", "timestamp": "2025-06-30T22:13:57+0700", "vote": "2"}, {"username": "DTD3009", "content": "d", "timestamp": "2025-07-01T22:53:07+0700", "vote": "13"}, {"username": "CoderLâmĐồng", "content": "D", "timestamp": "2025-07-02T19:23:46+0700", "vote": "93"}, {"username": "nguoivetulongdat", "content": "d", "timestamp": "2025-07-03T00:57:42+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "d", "timestamp": "2025-08-25T08:42:25+0700", "vote": "151"}, {"username": "Alylylyly", "content": "d", "timestamp": "2025-09-26T00:14:23+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "Karl Marx -> Tính 2 mặt của lao đọng sản xuất hàng hoá", "timestamp": "2025-11-04T16:06:43+0700", "vote": "27"}], "image_4.webp": [{"username": "kha21", "content": "được sử dụng lần đầu tiên vào năm 1615 trong tác phẩm\nD. Chuyên luận về kinh tế chính trị (Antoine de Montchrestien).", "timestamp": "2025-06-30T22:16:05+0700", "vote": "2"}, {"username": "DTD3009", "content": "d", "timestamp": "2025-07-01T22:53:15+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "d", "timestamp": "2025-07-03T01:08:27+0700", "vote": "1188"}, {"username": "phanducanh", "content": "d", "timestamp": "2025-07-03T22:04:54+0700", "vote": "41"}, {"username": "Za Hi B", "content": "d", "timestamp": "2025-08-25T08:43:45+0700", "vote": "151"}, {"username": "Alylylyly", "content": "d", "timestamp": "2025-09-26T00:14:43+0700", "vote": "15"}], "image_5.webp": [{"username": "kha21", "content": "B", "timestamp": "2025-06-30T22:19:29+0700", "vote": "2"}, {"username": "DTD3009", "content": "b", "timestamp": "2025-07-01T22:56:21+0700", "vote": "13"}, {"username": "anlthe181137", "content": "b", "timestamp": "2025-07-02T00:55:52+0700", "vote": "-25"}, {"username": "CoderLâmĐồng", "content": "B", "timestamp": "2025-07-02T19:24:13+0700", "vote": "93"}, {"username": "nguoivetulongdat", "content": "b", "timestamp": "2025-07-03T01:12:08+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "b", "timestamp": "2025-08-25T08:44:13+0700", "vote": "151"}, {"username": "Alylylyly", "content": "b", "timestamp": "2025-09-26T00:21:51+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "tư bản giả: chứng khoán, chứng quyền", "timestamp": "2025-11-04T16:13:59+0700", "vote": "27"}], "image_6.webp": [{"username": "kha21", "content": "AB", "timestamp": "2025-06-30T22:19:58+0700", "vote": "2"}, {"username": "DTD3009", "content": "ab", "timestamp": "2025-07-01T22:56:59+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "ab", "timestamp": "2025-07-03T01:47:49+0700", "vote": "1188"}, {"username": "phanducanh", "content": "ab", "timestamp": "2025-07-03T22:21:45+0700", "vote": "41"}, {"username": "Za Hi B", "content": "ab", "timestamp": "2025-08-25T08:44:58+0700", "vote": "151"}, {"username": "Alylylyly", "content": "ab", "timestamp": "2025-09-26T00:22:39+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "ab", "timestamp": "2025-11-04T16:34:39+0700", "vote": "27"}], "image_7.webp": [{"username": "kha21", "content": "C. dòng lý thuyết khai thác", "timestamp": "2025-06-30T22:22:55+0700", "vote": "2"}, {"username": "DTD3009", "content": "c", "timestamp": "2025-07-01T22:59:10+0700", "vote": "13"}, {"username": "CoderLâmĐồng", "content": "C", "timestamp": "2025-07-02T19:24:50+0700", "vote": "93"}, {"username": "nguoivetulongdat", "content": "c", "timestamp": "2025-07-03T01:50:27+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "c", "timestamp": "2025-08-25T08:45:27+0700", "vote": "151"}, {"username": "Alylylyly", "content": "c", "timestamp": "2025-09-26T00:23:32+0700", "vote": "15"}], "image_8.webp": [{"username": "kha21", "content": "A", "timestamp": "2025-06-30T22:24:28+0700", "vote": "2"}, {"username": "DTD3009", "content": "a", "timestamp": "2025-07-01T22:59:27+0700", "vote": "13"}, {"username": "CoderLâmĐồng", "content": "A", "timestamp": "2025-07-02T19:24:58+0700", "vote": "93"}, {"username": "nguoivetulongdat", "content": "a", "timestamp": "2025-07-03T01:56:45+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "a", "timestamp": "2025-08-25T08:45:45+0700", "vote": "151"}, {"username": "Alylylyly", "content": "a", "timestamp": "2025-09-26T00:23:45+0700", "vote": "15"}], "image_9.webp": [{"username": "kha21", "content": "giản đơn(ngẫu nhiên) -> mở rộng -> chung -> tiền tệ\n=> B", "timestamp": "2025-06-30T22:28:24+0700", "vote": "2"}, {"username": "DTD3009", "content": "b", "timestamp": "2025-07-01T22:59:52+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "b", "timestamp": "2025-07-03T01:56:53+0700", "vote": "1188"}, {"username": "phanducanh", "content": "b", "timestamp": "2025-07-03T22:21:55+0700", "vote": "41"}, {"username": "Za Hi B", "content": "b", "timestamp": "2025-08-25T08:46:16+0700", "vote": "151"}, {"username": "Alylylyly", "content": "b", "timestamp": "2025-09-26T00:24:04+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "hình thái đầu tiên của giá trị: là hình thái giản đơn hay ngẫu nhiên", "timestamp": "2025-11-04T16:18:58+0700", "vote": "27"}], "image_10.webp": [{"username": "kha21", "content": "C", "timestamp": "2025-06-30T22:31:51+0700", "vote": "2"}, {"username": "DTD3009", "content": "c", "timestamp": "2025-07-01T23:00:42+0700", "vote": "13"}, {"username": "CoderLâmĐồng", "content": "C", "timestamp": "2025-07-02T19:25:22+0700", "vote": "93"}, {"username": "nguoivetulongdat", "content": "c", "timestamp": "2025-07-03T02:00:20+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "c", "timestamp": "2025-08-25T08:46:42+0700", "vote": "151"}, {"username": "Alylylyly", "content": "c", "timestamp": "2025-09-26T00:24:35+0700", "vote": "15"}], "image_11.webp": [{"username": "kha21", "content": "D", "timestamp": "2025-06-30T22:35:27+0700", "vote": "2"}, {"username": "DTD3009", "content": "d", "timestamp": "2025-07-01T23:03:52+0700", "vote": "13"}, {"username": "CoderLâmĐồng", "content": "D", "timestamp": "2025-07-02T19:25:34+0700", "vote": "93"}, {"username": "nguoivetulongdat", "content": "d", "timestamp": "2025-07-03T02:00:32+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "d", "timestamp": "2025-08-25T08:47:02+0700", "vote": "151"}, {"username": "Alylylyly", "content": "d", "timestamp": "2025-09-26T00:24:49+0700", "vote": "15"}], "image_12.webp": [{"username": "kha21", "content": "B", "timestamp": "2025-06-30T22:39:58+0700", "vote": "2"}, {"username": "DTD3009", "content": "b", "timestamp": "2025-07-01T23:04:04+0700", "vote": "13"}, {"username": "CoderLâmĐồng", "content": "B", "timestamp": "2025-07-02T19:25:46+0700", "vote": "93"}, {"username": "nguoivetulongdat", "content": "b", "timestamp": "2025-07-03T02:03:11+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "b", "timestamp": "2025-08-25T08:47:19+0700", "vote": "151"}, {"username": "Alylylyly", "content": "b", "timestamp": "2025-09-26T00:25:29+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "trọng nông -> sản xuất", "timestamp": "2025-11-04T16:27:10+0700", "vote": "27"}], "image_13.webp": [{"username": "kha21", "content": "B", "timestamp": "2025-06-30T22:43:20+0700", "vote": "2"}, {"username": "DTD3009", "content": "b", "timestamp": "2025-07-01T23:04:26+0700", "vote": "13"}, {"username": "CoderLâmĐồng", "content": "B", "timestamp": "2025-07-02T19:26:12+0700", "vote": "93"}, {"username": "nguoivetulongdat", "content": "b", "timestamp": "2025-07-03T02:09:49+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "b", "timestamp": "2025-08-25T08:47:29+0700", "vote": "151"}, {"username": "Alylylyly", "content": "b", "timestamp": "2025-09-26T00:25:42+0700", "vote": "15"}], "image_14.webp": [{"username": "kha21", "content": "B", "timestamp": "2025-06-30T22:47:34+0700", "vote": "2"}, {"username": "DTD3009", "content": "b", "timestamp": "2025-07-01T23:06:09+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "b", "timestamp": "2025-07-03T02:10:12+0700", "vote": "1188"}, {"username": "phanducanh", "content": "b", "timestamp": "2025-07-03T22:24:12+0700", "vote": "41"}, {"username": "Za Hi B", "content": "b", "timestamp": "2025-08-25T08:47:50+0700", "vote": "151"}, {"username": "Alylylyly", "content": "b", "timestamp": "2025-09-26T00:26:10+0700", "vote": "15"}], "image_15.webp": [{"username": "kha21", "content": "đơn giản (ngẫu nhiên) -> đẩy đủ(mở rộng) -> Chung -> tiền\n=> B", "timestamp": "2025-06-30T22:52:27+0700", "vote": "2"}, {"username": "DTD3009", "content": "b", "timestamp": "2025-07-01T23:07:51+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "b", "timestamp": "2025-07-03T02:18:20+0700", "vote": "1188"}, {"username": "phanducanh", "content": "b", "timestamp": "2025-07-03T22:24:42+0700", "vote": "41"}, {"username": "Za Hi B", "content": "b", "timestamp": "2025-08-25T08:48:13+0700", "vote": "151"}, {"username": "Alylylyly", "content": "b", "timestamp": "2025-09-26T00:28:26+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "ngẫu nhiên, đầy đủ, hình thái chung, hình thái tiền", "timestamp": "2025-11-04T16:29:28+0700", "vote": "27"}], "image_16.webp": [{"username": "kha21", "content": "C", "timestamp": "2025-06-30T22:54:58+0700", "vote": "2"}, {"username": "DTD3009", "content": "c", "timestamp": "2025-07-01T23:09:45+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "c", "timestamp": "2025-07-03T02:18:28+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "c", "timestamp": "2025-08-25T08:48:24+0700", "vote": "151"}, {"username": "Alylylyly", "content": "c", "timestamp": "2025-09-26T00:28:35+0700", "vote": "15"}], "image_17.webp": [{"username": "kha21", "content": "D", "timestamp": "2025-06-30T22:58:19+0700", "vote": "2"}, {"username": "DTD3009", "content": "d", "timestamp": "2025-07-01T23:10:02+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "d", "timestamp": "2025-07-03T02:18:37+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "d", "timestamp": "2025-08-25T08:48:31+0700", "vote": "151"}, {"username": "Alylylyly", "content": "d", "timestamp": "2025-09-26T00:28:43+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "trọng thương đặc biệt coi trọng: lưu thông", "timestamp": "2025-11-04T16:30:55+0700", "vote": "27"}], "image_18.webp": [{"username": "kha21", "content": "Chủ nghĩa trọng nông ra đời ở giữa thế kỉ 18 => A", "timestamp": "2025-06-30T23:02:33+0700", "vote": "2"}, {"username": "DTD3009", "content": "a", "timestamp": "2025-07-01T23:11:46+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "A", "timestamp": "2025-07-03T02:22:05+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "a", "timestamp": "2025-08-25T08:48:44+0700", "vote": "151"}, {"username": "Alylylyly", "content": "a", "timestamp": "2025-09-26T00:29:51+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "trọng nông: XVII -XVIII", "timestamp": "2025-11-04T16:31:20+0700", "vote": "27"}], "image_19.webp": [{"username": "kha21", "content": "Francois Quesney => Trọng nông\nTomas Mun => Trọng thương\nWilliam Petty => Đặt nền móng cho trường phái Kinh tế chính trị cổ điển Anh\nAutoine de Montchrestien => 1615 (sử dụng \"kinh tế chính trị) trong tác phẩm bla blo)\n=> D", "timestamp": "2025-06-30T23:07:29+0700", "vote": "2"}, {"username": "DTD3009", "content": "d", "timestamp": "2025-07-01T23:12:00+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "D", "timestamp": "2025-07-03T02:24:09+0700", "vote": "1188"}, {"username": "phanducanh", "content": "d", "timestamp": "2025-07-03T22:25:57+0700", "vote": "41"}, {"username": "Za Hi B", "content": "d", "timestamp": "2025-08-25T08:49:19+0700", "vote": "151"}, {"username": "Alylylyly", "content": "d", "timestamp": "2025-09-26T00:30:07+0700", "vote": "15"}], "image_20.webp": [{"username": "kha21", "content": "A", "timestamp": "2025-06-30T23:12:02+0700", "vote": "2"}, {"username": "DTD3009", "content": "a", "timestamp": "2025-07-01T23:13:27+0700", "vote": "13"}, {"username": "nguoivetulongdat", "content": "a", "timestamp": "2025-07-03T02:33:09+0700", "vote": "1188"}, {"username": "Za Hi B", "content": "a", "timestamp": "2025-08-25T08:50:20+0700", "vote": "151"}, {"username": "Alylylyly", "content": "a", "timestamp": "2025-09-26T00:30:52+0700", "vote": "15"}, {"username": "Lê Đăng Khoa", "content": "nhỏ hơn hoặc bằng giá trị xã hội", "timestamp": "2025-11-04T16:32:59+0700", "vote": "27"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>
