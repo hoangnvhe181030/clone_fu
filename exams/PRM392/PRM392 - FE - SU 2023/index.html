@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>PRM392 - FE - SU 2023</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>PRM392 - FE - SU 2023</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_51.webp">
+            <img src="images/image_51.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_52.webp">
+            <img src="images/image_52.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_53.webp">
+            <img src="images/image_53.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_54.webp">
+            <img src="images/image_54.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_55.webp">
+            <img src="images/image_55.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_56.webp">
+            <img src="images/image_56.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_57.webp">
+            <img src="images/image_57.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_58.webp">
+            <img src="images/image_58.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_59.webp">
+            <img src="images/image_59.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_60.webp">
+            <img src="images/image_60.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "dunglthe160117", "content": "A", "timestamp": "2023-11-16T11:54:54+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-16T17:14:00+0700", "vote": "11070"}, {"username": "huhu01", "content": "B", "timestamp": "2023-11-17T11:57:30+0700", "vote": "0"}, {"username": "Hưng_sắp tốt nghiệp", "content": "C", "timestamp": "2024-03-25T23:04:43+0700", "vote": "-17"}, {"username": "nhatnguyen3352", "content": "c", "timestamp": "2024-07-26T22:14:37+0700", "vote": "17"}, {"username": "duyn", "content": "C", "timestamp": "2024-07-27T00:21:31+0700", "vote": "-10"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:16:08+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:29:11+0700", "vote": "240"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-29T09:28:34+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T22:46:57+0700", "vote": "274"}, {"username": "doquockhanh", "content": "c", "timestamp": "2025-03-31T10:15:46+0700", "vote": "-5"}, {"username": "Hoangne hê hê", "content": "C", "timestamp": "2025-03-31T10:27:35+0700", "vote": "7"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-31T18:59:02+0700", "vote": "10"}, {"username": "thanhdung", "content": "the UI focus", "timestamp": "2025-04-01T08:23:32+0700", "vote": "-8"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T08:39:02+0700", "vote": "307"}, {"username": "Tuyen123", "content": "C. The UI focus is unchanged and no lifecycle hook methods are called", "timestamp": "2025-07-31T22:27:15+0700", "vote": "12"}, {"username": "hai31082003", "content": "c", "timestamp": "2025-07-31T22:38:03+0700", "vote": "0"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T20:57:06+0700", "vote": "38"}, {"username": "吴明孝", "content": "done", "timestamp": "2025-11-06T15:24:59+0700", "vote": "0"}], "image_2.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T00:35:50+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-16T17:16:32+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "A", "timestamp": "2024-11-15T20:16:13+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:29:22+0700", "vote": "240"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-29T09:29:29+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T22:48:30+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-31T10:27:58+0700", "vote": "7"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-31T19:00:24+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T08:42:38+0700", "vote": "307"}, {"username": "Tuyen123", "content": "A. Filesystem accesses are often relatively slow.", "timestamp": "2025-07-31T22:28:30+0700", "vote": "12"}, {"username": "chamchihoc", "content": "A", "timestamp": "2025-08-01T20:57:13+0700", "vote": "38"}], "image_3.webp": [{"username": "Realpcyclover", "content": "d", "timestamp": "2023-08-02T00:36:00+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-11-16T22:19:43+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "D", "timestamp": "2024-11-15T20:16:19+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "d", "timestamp": "2024-11-16T01:29:29+0700", "vote": "240"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-29T09:29:36+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "d", "timestamp": "2025-03-30T22:48:47+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "D", "timestamp": "2025-03-31T10:28:09+0700", "vote": "7"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-31T19:00:29+0700", "vote": "10"}, {"username": "khangbug584", "content": "d", "timestamp": "2025-07-29T08:43:03+0700", "vote": "307"}, {"username": "Tuyen123", "content": "D", "timestamp": "2025-07-31T22:28:39+0700", "vote": "12"}, {"username": "chamchihoc", "content": "D", "timestamp": "2025-08-01T20:57:20+0700", "vote": "38"}], "image_4.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T00:36:12+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-16T22:22:52+0700", "vote": "11070"}, {"username": "ww1834", "content": "b", "timestamp": "2023-11-17T05:33:55+0700", "vote": "-6"}, {"username": "KamiKaza", "content": "a", "timestamp": "2024-07-25T23:28:18+0700", "vote": "0"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:27:27+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:29:39+0700", "vote": "240"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-29T09:31:14+0700", "vote": "10"}, {"username": "Hoài Nhân", "content": "B", "timestamp": "2025-03-30T02:11:18+0700", "vote": "0"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T22:49:07+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "B", "timestamp": "2025-03-31T10:28:22+0700", "vote": "7"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-31T19:00:36+0700", "vote": "10"}, {"username": "HuyNguyenS", "content": "A", "timestamp": "2025-04-10T11:51:28+0700", "vote": "-12"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T08:43:42+0700", "vote": "307"}, {"username": "Tuyen123", "content": "B. Explicit intent", "timestamp": "2025-07-31T22:29:55+0700", "vote": "12"}, {"username": "chamchihoc", "content": "B", "timestamp": "2025-08-01T20:57:28+0700", "vote": "38"}, {"username": "dlm77", "content": "B", "timestamp": "2025-08-04T13:05:46+0700", "vote": "-18"}], "image_5.webp": [{"username": "Realpcyclover", "content": "A", "timestamp": "2023-08-02T01:09:22+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-16T22:24:41+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "A", "timestamp": "2024-11-15T20:27:36+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:29:44+0700", "vote": "240"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-29T09:31:31+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T22:49:38+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-31T10:28:38+0700", "vote": "7"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-31T19:00:41+0700", "vote": "10"}, {"username": "thanhdung", "content": "startActivityfotResult", "timestamp": "2025-04-01T08:24:22+0700", "vote": "-8"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T08:43:47+0700", "vote": "307"}, {"username": "Tuyen123", "content": "A", "timestamp": "2025-07-31T22:30:01+0700", "vote": "12"}, {"username": "chamchihoc", "content": "A", "timestamp": "2025-08-01T20:57:51+0700", "vote": "38"}], "image_6.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T01:09:34+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-16T22:50:52+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:27:41+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:29:50+0700", "vote": "240"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-29T09:31:41+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T22:49:47+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "C", "timestamp": "2025-03-31T10:28:48+0700", "vote": "7"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-31T19:13:15+0700", "vote": "10"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T08:43:53+0700", "vote": "307"}, {"username": "Tuyen123", "content": "C", "timestamp": "2025-07-31T22:30:09+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T20:57:56+0700", "vote": "38"}], "image_7.webp": [{"username": "Realpcyclover", "content": "e", "timestamp": "2023-08-03T23:32:58+0700", "vote": "1"}, {"username": "Misa", "content": "E", "timestamp": "2023-11-16T22:54:58+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "E", "timestamp": "2024-11-15T20:27:48+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "e", "timestamp": "2024-11-16T01:29:55+0700", "vote": "240"}, {"username": "ducky0310", "content": "e", "timestamp": "2025-03-29T09:31:59+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "e", "timestamp": "2025-03-30T22:49:52+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "E", "timestamp": "2025-03-31T10:28:59+0700", "vote": "7"}, {"username": "ducky0310", "content": "e", "timestamp": "2025-03-31T19:15:13+0700", "vote": "10"}, {"username": "khangbug584", "content": "e", "timestamp": "2025-07-29T08:46:47+0700", "vote": "307"}, {"username": "Tuyen123", "content": "E", "timestamp": "2025-07-31T22:30:16+0700", "vote": "12"}, {"username": "chamchihoc", "content": "E", "timestamp": "2025-08-01T20:58:01+0700", "vote": "38"}], "image_8.webp": [{"username": "Realpcyclover", "content": "bc", "timestamp": "2023-08-02T01:13:06+0700", "vote": "1"}, {"username": "Misa", "content": "B C", "timestamp": "2023-11-16T23:13:05+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "BC", "timestamp": "2024-11-15T20:31:24+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "bc", "timestamp": "2024-11-16T01:30:01+0700", "vote": "240"}, {"username": "ducky0310", "content": "BC", "timestamp": "2025-03-29T09:32:17+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "bc", "timestamp": "2025-03-30T22:50:03+0700", "vote": "274"}, {"username": "ducky0310", "content": "bc", "timestamp": "2025-03-31T19:15:20+0700", "vote": "10"}, {"username": "khangbug584", "content": "bc", "timestamp": "2025-07-29T08:46:59+0700", "vote": "307"}, {"username": "Tuyen123", "content": "B. It expresses requests as intents & passes them between threads and/or processes\nC. It's a framework that handles asynchronous requests on demand", "timestamp": "2025-07-31T22:31:23+0700", "vote": "12"}, {"username": "chamchihoc", "content": "BC", "timestamp": "2025-08-01T20:58:11+0700", "vote": "38"}], "image_9.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T01:14:41+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-16T23:29:12+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "a", "timestamp": "2024-11-15T20:33:29+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:30:11+0700", "vote": "240"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-29T09:32:24+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T22:50:16+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-31T10:34:26+0700", "vote": "7"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-31T19:20:19+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T08:47:07+0700", "vote": "307"}, {"username": "Tuyen123", "content": "a", "timestamp": "2025-07-31T22:31:32+0700", "vote": "12"}, {"username": "chamchihoc", "content": "A", "timestamp": "2025-08-01T21:00:00+0700", "vote": "38"}], "image_10.webp": [{"username": "ngoclong2904", "content": "abc", "timestamp": "2023-07-30T16:15:05+0700", "vote": "-6"}, {"username": "Misa", "content": "A B C", "timestamp": "2023-11-16T23:32:58+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "abc", "timestamp": "2024-11-15T20:33:36+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "abc", "timestamp": "2024-11-16T01:30:17+0700", "vote": "240"}, {"username": "ducky0310", "content": "abc", "timestamp": "2025-03-29T09:32:33+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "abc", "timestamp": "2025-03-30T22:50:42+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "ABC", "timestamp": "2025-03-31T10:34:41+0700", "vote": "7"}, {"username": "ducky0310", "content": "abc", "timestamp": "2025-03-31T19:21:00+0700", "vote": "10"}, {"username": "khangbug584", "content": "abc", "timestamp": "2025-07-29T08:48:22+0700", "vote": "307"}, {"username": "Tuyen123", "content": "abc", "timestamp": "2025-07-31T22:32:01+0700", "vote": "12"}, {"username": "chamchihoc", "content": "ABC", "timestamp": "2025-08-01T21:00:09+0700", "vote": "38"}], "image_11.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T01:15:03+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-16T23:35:07+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "a", "timestamp": "2024-11-15T20:33:43+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:30:22+0700", "vote": "240"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-29T09:32:41+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T22:50:52+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-31T10:34:55+0700", "vote": "7"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-31T19:21:05+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T08:54:04+0700", "vote": "307"}, {"username": "Tuyen123", "content": "a", "timestamp": "2025-07-31T22:32:21+0700", "vote": "12"}, {"username": "chamchihoc", "content": "A", "timestamp": "2025-08-01T21:00:17+0700", "vote": "38"}], "image_12.webp": [{"username": "Realpcyclover", "content": "d", "timestamp": "2023-08-02T01:15:28+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-11-16T23:40:07+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "d", "timestamp": "2024-11-15T20:33:56+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "d", "timestamp": "2024-11-16T01:30:30+0700", "vote": "240"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-29T09:35:40+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "d", "timestamp": "2025-03-30T22:51:14+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "D", "timestamp": "2025-03-31T10:35:10+0700", "vote": "7"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-31T19:22:09+0700", "vote": "10"}, {"username": "HuyNguyenS", "content": "D", "timestamp": "2025-04-10T11:53:43+0700", "vote": "-12"}, {"username": "khangbug584", "content": "d", "timestamp": "2025-07-29T08:57:02+0700", "vote": "307"}, {"username": "Tuyen123", "content": "d. A message that describes an action to perform or an event that has occurred", "timestamp": "2025-07-31T22:33:09+0700", "vote": "12"}, {"username": "chamchihoc", "content": "D", "timestamp": "2025-08-01T21:01:41+0700", "vote": "38"}], "image_13.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T01:18:11+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-16T23:43:13+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "c", "timestamp": "2024-11-15T20:34:03+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:30:36+0700", "vote": "240"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-29T09:35:46+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T22:52:07+0700", "vote": "274"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-31T19:22:16+0700", "vote": "10"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T08:57:08+0700", "vote": "307"}, {"username": "Tuyen123", "content": "C", "timestamp": "2025-07-31T22:33:16+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T21:01:47+0700", "vote": "38"}], "image_14.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T01:18:30+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-16T23:48:49+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "a", "timestamp": "2024-11-15T20:34:09+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:30:42+0700", "vote": "240"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-29T09:35:51+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T22:52:12+0700", "vote": "274"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-31T19:22:21+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T08:57:14+0700", "vote": "307"}, {"username": "Tuyen123", "content": "A. define themes? -> <style>", "timestamp": "2025-07-31T22:33:37+0700", "vote": "12"}, {"username": "chamchihoc", "content": "A", "timestamp": "2025-08-01T21:01:52+0700", "vote": "38"}], "image_15.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T01:18:43+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-16T23:53:32+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "c", "timestamp": "2024-11-15T20:34:16+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:30:47+0700", "vote": "240"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-29T09:35:56+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T22:52:20+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "C", "timestamp": "2025-03-31T10:36:24+0700", "vote": "7"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-31T19:23:18+0700", "vote": "10"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T08:57:19+0700", "vote": "307"}, {"username": "Tuyen123", "content": "C", "timestamp": "2025-07-31T22:33:44+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T21:04:50+0700", "vote": "38"}, {"username": "dlm77", "content": "C\n\"Theo tài liệu chính thức của Android, chuỗi phương thức vòng đời được gọi là: onPause() → onStop() → onDestroy() (để tắt Activity cũ), sau đó onCreate() → onStart() → onResume() (để khởi tạo Activity mới)\"", "timestamp": "2025-08-04T13:11:53+0700", "vote": "-18"}], "image_16.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T01:19:13+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-16T23:56:13+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ab", "timestamp": "2024-11-15T20:34:21+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "ab", "timestamp": "2024-11-16T01:30:52+0700", "vote": "240"}, {"username": "vuonglmqe170148", "content": "a", "timestamp": "2025-03-28T09:59:48+0700", "vote": "-2"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-29T09:37:13+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T22:54:09+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-31T10:36:39+0700", "vote": "7"}, {"username": "ducky0310", "content": "A", "timestamp": "2025-03-31T19:25:26+0700", "vote": "10"}, {"username": "thanhdung", "content": "FINE_LOCATION", "timestamp": "2025-04-01T08:25:43+0700", "vote": "-8"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T08:57:55+0700", "vote": "307"}, {"username": "Tuyen123", "content": "A", "timestamp": "2025-07-31T22:34:00+0700", "vote": "12"}, {"username": "chamchihoc", "content": "AB", "timestamp": "2025-08-01T21:04:56+0700", "vote": "38"}, {"username": "dlm77", "content": "chọn 1 thì là A, đã test và app vẫn chạy bth nhưng nó vẫn khuyến nghị nếu được thì thêm permission B vào code nữa. Nên nếu chọn 1 đáp án thì là câu A còn chọn 2 đáp án thì sẽ là AB", "timestamp": "2025-08-04T13:12:57+0700", "vote": "-18"}], "image_17.webp": [{"username": "Realpcyclover", "content": "b", "timestamp": "2023-08-03T23:34:02+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-16T23:59:07+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:37:58+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:31:00+0700", "vote": "240"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-29T09:37:18+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T22:54:27+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "B", "timestamp": "2025-03-31T10:36:47+0700", "vote": "7"}, {"username": "ducky0310", "content": "B", "timestamp": "2025-03-31T19:25:31+0700", "vote": "10"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T08:58:01+0700", "vote": "307"}, {"username": "Tuyen123", "content": "b", "timestamp": "2025-07-31T22:34:16+0700", "vote": "12"}, {"username": "chamchihoc", "content": "B", "timestamp": "2025-08-01T21:05:03+0700", "vote": "38"}], "image_18.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T01:21:49+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-17T00:01:49+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:38:05+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:31:06+0700", "vote": "240"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-29T09:37:27+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T22:54:35+0700", "vote": "274"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-31T19:25:36+0700", "vote": "10"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T08:59:33+0700", "vote": "307"}, {"username": "Tuyen123", "content": "C", "timestamp": "2025-07-31T22:34:23+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T21:06:59+0700", "vote": "38"}], "image_19.webp": [{"username": "Realpcyclover", "content": "abd", "timestamp": "2023-08-02T01:22:01+0700", "vote": "1"}, {"username": "Misa", "content": "A B D", "timestamp": "2023-11-17T00:06:17+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ABD", "timestamp": "2024-11-15T20:42:00+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "abd", "timestamp": "2024-11-16T01:31:17+0700", "vote": "240"}, {"username": "ducky0310", "content": "ABD", "timestamp": "2025-03-29T09:37:35+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "abd", "timestamp": "2025-03-30T22:54:43+0700", "vote": "274"}, {"username": "ducky0310", "content": "ABD", "timestamp": "2025-03-31T19:25:45+0700", "vote": "10"}, {"username": "khangbug584", "content": "abd", "timestamp": "2025-07-29T08:59:56+0700", "vote": "307"}, {"username": "Tuyen123", "content": "ABD", "timestamp": "2025-07-31T22:34:54+0700", "vote": "12"}, {"username": "chamchihoc", "content": "ABD", "timestamp": "2025-08-01T21:07:43+0700", "vote": "38"}], "image_20.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T01:22:08+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-17T00:07:57+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "A", "timestamp": "2024-11-15T20:42:06+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:31:23+0700", "vote": "240"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-29T09:38:11+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T22:54:54+0700", "vote": "274"}, {"username": "ducky0310", "content": "A", "timestamp": "2025-03-31T19:25:50+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T09:00:02+0700", "vote": "307"}, {"username": "Tuyen123", "content": "A", "timestamp": "2025-07-31T22:35:00+0700", "vote": "12"}, {"username": "chamchihoc", "content": "A", "timestamp": "2025-08-01T21:25:08+0700", "vote": "38"}], "image_21.webp": [{"username": "Realpcyclover", "content": "abd", "timestamp": "2023-08-02T01:22:18+0700", "vote": "1"}, {"username": "Misa", "content": "A B D", "timestamp": "2023-11-17T00:10:45+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ABD", "timestamp": "2024-11-15T20:42:18+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "abd", "timestamp": "2024-11-16T01:31:37+0700", "vote": "240"}, {"username": "ducky0310", "content": "ABD", "timestamp": "2025-03-29T09:38:18+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "abd", "timestamp": "2025-03-30T22:57:33+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "ABD", "timestamp": "2025-03-31T10:38:43+0700", "vote": "7"}, {"username": "ducky0310", "content": "ABD", "timestamp": "2025-03-31T19:36:57+0700", "vote": "10"}, {"username": "khangbug584", "content": "abd", "timestamp": "2025-07-29T09:03:15+0700", "vote": "307"}, {"username": "Tuyen123", "content": "ABD", "timestamp": "2025-07-31T22:35:26+0700", "vote": "12"}, {"username": "chamchihoc", "content": "abd", "timestamp": "2025-08-01T21:25:29+0700", "vote": "38"}], "image_22.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T01:22:35+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-17T00:13:25+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "A", "timestamp": "2024-11-15T20:46:08+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:31:43+0700", "vote": "240"}, {"username": "ducky0310", "content": "A", "timestamp": "2025-03-29T09:38:27+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T23:00:38+0700", "vote": "274"}, {"username": "ducky0310", "content": "A", "timestamp": "2025-03-31T19:37:29+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T09:03:22+0700", "vote": "307"}, {"username": "Tuyen123", "content": "A. Themes apply to the entire app, while you can apply styles to specific views", "timestamp": "2025-07-31T22:35:52+0700", "vote": "12"}], "image_23.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T01:23:28+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-17T00:14:54+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:46:15+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:31:50+0700", "vote": "240"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-29T09:38:47+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T23:00:52+0700", "vote": "274"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-31T19:37:42+0700", "vote": "10"}, {"username": "thanhdung", "content": "mediastore", "timestamp": "2025-04-01T08:27:05+0700", "vote": "-8"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T09:04:39+0700", "vote": "307"}, {"username": "Tuyen123", "content": "C. mediastore", "timestamp": "2025-07-31T22:36:14+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T21:27:26+0700", "vote": "38"}], "image_24.webp": [{"username": "Realpcyclover", "content": "acd", "timestamp": "2023-08-02T01:24:53+0700", "vote": "1"}, {"username": "Misa", "content": "A C D", "timestamp": "2023-11-17T00:18:39+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ACD", "timestamp": "2024-11-15T20:46:26+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "acd", "timestamp": "2024-11-16T01:32:10+0700", "vote": "240"}, {"username": "ducky0310", "content": "ACD", "timestamp": "2025-03-29T09:38:54+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "acd", "timestamp": "2025-03-30T23:01:13+0700", "vote": "274"}, {"username": "ducky0310", "content": "ACD", "timestamp": "2025-03-31T19:37:54+0700", "vote": "10"}, {"username": "khangbug584", "content": "acd", "timestamp": "2025-07-29T09:04:46+0700", "vote": "307"}, {"username": "Tuyen123", "content": "acd", "timestamp": "2025-07-31T22:36:22+0700", "vote": "12"}, {"username": "chamchihoc", "content": "ACD", "timestamp": "2025-08-01T21:27:34+0700", "vote": "38"}], "image_25.webp": [{"username": "Realpcyclover", "content": "d", "timestamp": "2023-08-02T22:00:39+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-11-17T00:21:01+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:49:07+0700", "vote": "447"}, {"username": "BinhKT", "content": "B", "timestamp": "2024-11-16T00:48:24+0700", "vote": "-4"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:32:17+0700", "vote": "240"}, {"username": "dylanruan1210", "content": "D for sure", "timestamp": "2024-11-22T20:10:37+0700", "vote": "6"}, {"username": "vuonglmqe170148", "content": "d", "timestamp": "2025-03-28T10:57:25+0700", "vote": "-2"}, {"username": "LocNBCE171485", "content": "B", "timestamp": "2025-03-28T20:54:09+0700", "vote": "0"}, {"username": "ducky0310", "content": "B", "timestamp": "2025-03-29T09:39:09+0700", "vote": "10"}, {"username": "Hoài Nhân", "content": "B", "timestamp": "2025-03-30T00:51:52+0700", "vote": "0"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:01:21+0700", "vote": "274"}, {"username": "ducky0310", "content": "B", "timestamp": "2025-03-31T19:46:19+0700", "vote": "10"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:04:52+0700", "vote": "307"}, {"username": "Tuyen123", "content": "B", "timestamp": "2025-07-31T22:36:27+0700", "vote": "12"}, {"username": "chamchihoc", "content": "B", "timestamp": "2025-08-01T21:27:40+0700", "vote": "38"}], "image_26.webp": [{"username": "Realpcyclover", "content": "b", "timestamp": "2023-08-02T01:27:52+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-17T00:23:51+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:49:12+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:32:23+0700", "vote": "240"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-29T09:40:36+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:01:27+0700", "vote": "274"}, {"username": "ducky0310", "content": "n", "timestamp": "2025-03-31T20:10:14+0700", "vote": "10"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:05:04+0700", "vote": "307"}, {"username": "Tuyen123", "content": "B", "timestamp": "2025-07-31T22:36:34+0700", "vote": "12"}, {"username": "chamchihoc", "content": "B", "timestamp": "2025-08-01T21:27:46+0700", "vote": "38"}], "image_27.webp": [{"username": "Realpcyclover", "content": "b", "timestamp": "2023-08-02T01:28:04+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-17T00:28:06+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:49:17+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:32:36+0700", "vote": "240"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-29T09:42:30+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:01:37+0700", "vote": "274"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-31T20:10:21+0700", "vote": "10"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:05:10+0700", "vote": "307"}, {"username": "Tuyen123", "content": "B", "timestamp": "2025-07-31T22:36:47+0700", "vote": "12"}, {"username": "chamchihoc", "content": "B", "timestamp": "2025-08-01T21:27:51+0700", "vote": "38"}], "image_28.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T01:28:13+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-17T00:38:00+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:49:22+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:32:46+0700", "vote": "240"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-29T09:42:36+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T23:02:00+0700", "vote": "274"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-31T20:12:07+0700", "vote": "10"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T09:05:17+0700", "vote": "307"}, {"username": "Tuyen123", "content": "C", "timestamp": "2025-07-31T22:36:52+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T21:27:58+0700", "vote": "38"}], "image_29.webp": [{"username": "Realpcyclover", "content": "d", "timestamp": "2023-08-02T01:29:26+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-11-17T00:51:42+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "D", "timestamp": "2024-11-15T20:49:27+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "d", "timestamp": "2024-11-16T01:32:58+0700", "vote": "240"}, {"username": "ducky0310", "content": "D", "timestamp": "2025-03-29T09:42:46+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "d", "timestamp": "2025-03-30T23:02:07+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "D", "timestamp": "2025-03-31T10:43:39+0700", "vote": "7"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-31T20:12:13+0700", "vote": "10"}, {"username": "khangbug584", "content": "d", "timestamp": "2025-07-29T09:05:37+0700", "vote": "307"}, {"username": "Tuyen123", "content": "D", "timestamp": "2025-07-31T22:37:02+0700", "vote": "12"}, {"username": "chamchihoc", "content": "D", "timestamp": "2025-08-01T21:28:03+0700", "vote": "38"}], "image_30.webp": [{"username": "Realpcyclover", "content": "A", "timestamp": "2023-08-02T01:29:45+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-17T00:57:05+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "A", "timestamp": "2024-11-15T20:51:17+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:33:05+0700", "vote": "240"}, {"username": "ducky0310", "content": "A", "timestamp": "2025-03-29T09:42:51+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T23:02:16+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-31T10:43:47+0700", "vote": "7"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-31T20:12:31+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T09:05:43+0700", "vote": "307"}, {"username": "Tuyen123", "content": "a", "timestamp": "2025-07-31T22:37:28+0700", "vote": "12"}, {"username": "chamchihoc", "content": "A", "timestamp": "2025-08-01T21:31:49+0700", "vote": "38"}], "image_31.webp": [{"username": "Realpcyclover", "content": "b", "timestamp": "2023-08-02T01:30:02+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-17T01:43:19+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:51:23+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:33:12+0700", "vote": "240"}, {"username": "ducky0310", "content": "B", "timestamp": "2025-03-29T09:43:01+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:04:29+0700", "vote": "274"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-31T20:12:45+0700", "vote": "10"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:05:48+0700", "vote": "307"}, {"username": "Tuyen123", "content": "b. public void callMethod(View view)", "timestamp": "2025-07-31T22:38:59+0700", "vote": "12"}], "image_32.webp": [{"username": "Realpcyclover", "content": "b", "timestamp": "2023-08-02T01:30:13+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-17T01:46:03+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:51:28+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:33:19+0700", "vote": "240"}, {"username": "ducky0310", "content": "B", "timestamp": "2025-03-29T09:43:08+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:04:40+0700", "vote": "274"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:05:55+0700", "vote": "307"}, {"username": "Tuyen123", "content": "B", "timestamp": "2025-07-31T22:39:10+0700", "vote": "12"}], "image_33.webp": [{"username": "Realpcyclover", "content": "abc", "timestamp": "2023-08-02T01:30:23+0700", "vote": "1"}, {"username": "Misa", "content": "A B C(C là ý đúng nhất)", "timestamp": "2023-11-17T01:50:44+0700", "vote": "11070"}, {"username": "thangbinhbeo", "content": "abc", "timestamp": "2024-11-16T01:33:27+0700", "vote": "240"}, {"username": "ducky0310", "content": "ABC", "timestamp": "2025-03-29T09:43:28+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "abc", "timestamp": "2025-03-30T23:07:11+0700", "vote": "274"}, {"username": "ducky0310", "content": "abc", "timestamp": "2025-03-31T20:14:01+0700", "vote": "10"}, {"username": "HuyNguyenS", "content": "ABC", "timestamp": "2025-04-10T11:58:21+0700", "vote": "-12"}, {"username": "khangbug584", "content": "abc", "timestamp": "2025-07-29T09:06:50+0700", "vote": "307"}, {"username": "Tuyen123", "content": "abc", "timestamp": "2025-07-31T22:39:40+0700", "vote": "12"}, {"username": "chamchihoc", "content": "ABC", "timestamp": "2025-08-01T21:48:32+0700", "vote": "38"}], "image_34.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T01:30:29+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-17T01:53:15+0700", "vote": "11070"}, {"username": "Misa", "content": "Style > textSize > theme", "timestamp": "2023-11-17T01:54:47+0700", "vote": "11070"}, {"username": "BrothersCBT", "content": "C", "timestamp": "2024-03-26T12:56:28+0700", "vote": "-36"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:51:34+0700", "vote": "447"}, {"username": "OntapFPT32", "content": "C. 16sp\nhttps://developer.android.com/courses/quizzes/kotlin-fundamentals-ten/kotlin-fundamentals-ten", "timestamp": "2024-11-15T21:47:22+0700", "vote": "-14"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:33:40+0700", "vote": "240"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-29T09:43:46+0700", "vote": "10"}, {"username": "Bảo Bảo Bảo", "content": "c", "timestamp": "2025-03-30T11:00:11+0700", "vote": "2"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T23:08:48+0700", "vote": "274"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-31T20:14:18+0700", "vote": "10"}, {"username": "thanhdung", "content": "16sp", "timestamp": "2025-04-01T08:28:23+0700", "vote": "-8"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T09:06:55+0700", "vote": "307"}, {"username": "Tuyen123", "content": "c", "timestamp": "2025-07-31T22:39:45+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T21:58:05+0700", "vote": "38"}], "image_35.webp": [{"username": "Realpcyclover", "content": "d", "timestamp": "2023-08-02T01:30:41+0700", "vote": "1"}, {"username": "Misa", "content": "D\nIntent(MediaStore.ACTION_IMAGE_CAPTURE);", "timestamp": "2023-11-17T01:57:43+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "D", "timestamp": "2024-11-15T20:53:06+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "d", "timestamp": "2024-11-16T01:33:56+0700", "vote": "240"}, {"username": "ducky0310", "content": "D", "timestamp": "2025-03-29T09:43:56+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "d", "timestamp": "2025-03-30T23:08:56+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "D", "timestamp": "2025-03-31T10:46:38+0700", "vote": "7"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-31T20:15:07+0700", "vote": "10"}, {"username": "khangbug584", "content": "d", "timestamp": "2025-07-29T09:07:06+0700", "vote": "307"}, {"username": "Tuyen123", "content": "launch a camera app -> new Intent(String action)", "timestamp": "2025-07-31T22:40:26+0700", "vote": "12"}, {"username": "chamchihoc", "content": "D", "timestamp": "2025-08-01T21:58:12+0700", "vote": "38"}], "image_36.webp": [{"username": "Realpcyclover", "content": "D", "timestamp": "2023-08-02T22:04:23+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-11-17T02:00:09+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "D", "timestamp": "2024-11-15T20:54:03+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "d", "timestamp": "2024-11-16T01:34:02+0700", "vote": "240"}, {"username": "ducky0310", "content": "D", "timestamp": "2025-03-29T09:44:20+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "d", "timestamp": "2025-03-30T23:09:21+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "D", "timestamp": "2025-03-31T10:47:18+0700", "vote": "7"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-31T20:15:12+0700", "vote": "10"}, {"username": "thanhdung", "content": "listFragment", "timestamp": "2025-04-01T08:28:47+0700", "vote": "-8"}, {"username": "khangbug584", "content": "d", "timestamp": "2025-07-29T09:08:20+0700", "vote": "307"}, {"username": "Tuyen123", "content": "listFragment", "timestamp": "2025-07-31T22:45:03+0700", "vote": "12"}, {"username": "chamchihoc", "content": "D", "timestamp": "2025-08-01T21:58:22+0700", "vote": "38"}], "image_37.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T22:04:32+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-17T02:04:42+0700", "vote": "11070"}, {"username": "ww1834", "content": "a", "timestamp": "2023-11-17T05:28:51+0700", "vote": "-6"}, {"username": "Hưng_sắp tốt nghiệp", "content": "A", "timestamp": "2024-03-26T00:04:26+0700", "vote": "-17"}, {"username": "Vantu16022003", "content": "A", "timestamp": "2024-11-15T20:54:22+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:34:07+0700", "vote": "240"}, {"username": "vuonglmqe170148", "content": "a", "timestamp": "2025-03-28T13:13:46+0700", "vote": "-2"}, {"username": "ducky0310", "content": "A", "timestamp": "2025-03-29T09:44:30+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T23:11:13+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-31T10:47:33+0700", "vote": "7"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-31T20:15:18+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T09:08:26+0700", "vote": "307"}, {"username": "Tuyen123", "content": "a", "timestamp": "2025-07-31T22:45:30+0700", "vote": "12"}, {"username": "chamchihoc", "content": "A", "timestamp": "2025-08-01T21:58:36+0700", "vote": "38"}], "image_38.webp": [{"username": "Realpcyclover", "content": "acd", "timestamp": "2023-08-02T22:05:12+0700", "vote": "1"}, {"username": "Misa", "content": "A C D", "timestamp": "2023-11-17T02:06:52+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ACD", "timestamp": "2024-11-15T20:54:28+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "acd", "timestamp": "2024-11-16T01:34:15+0700", "vote": "240"}, {"username": "ducky0310", "content": "ACD", "timestamp": "2025-03-29T09:44:37+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "acd", "timestamp": "2025-03-30T23:11:22+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "ACD", "timestamp": "2025-03-31T10:47:46+0700", "vote": "7"}, {"username": "khangbug584", "content": "acd", "timestamp": "2025-07-29T09:08:31+0700", "vote": "307"}, {"username": "Tuyen123", "content": "acd", "timestamp": "2025-07-31T22:46:35+0700", "vote": "12"}, {"username": "chamchihoc", "content": "ACD", "timestamp": "2025-08-01T21:58:44+0700", "vote": "38"}], "image_39.webp": [{"username": "Realpcyclover", "content": "C", "timestamp": "2023-08-02T22:06:44+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-17T02:22:21+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:54:35+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:34:20+0700", "vote": "240"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-29T09:44:43+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T23:12:09+0700", "vote": "274"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-31T20:17:46+0700", "vote": "10"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T09:08:40+0700", "vote": "307"}, {"username": "Tuyen123", "content": "c", "timestamp": "2025-07-31T22:46:44+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T21:59:08+0700", "vote": "38"}], "image_40.webp": [{"username": "Realpcyclover", "content": "abd", "timestamp": "2023-08-02T22:06:56+0700", "vote": "1"}, {"username": "Misa", "content": "A B D", "timestamp": "2023-11-17T02:25:56+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ABD", "timestamp": "2024-11-15T20:54:43+0700", "vote": "447"}, {"username": "OntapFPT32", "content": "A B D", "timestamp": "2024-11-15T21:50:58+0700", "vote": "-14"}, {"username": "thangbinhbeo", "content": "abd", "timestamp": "2024-11-16T01:34:27+0700", "vote": "240"}, {"username": "ducky0310", "content": "ABD", "timestamp": "2025-03-29T09:44:54+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "abd", "timestamp": "2025-03-30T23:13:33+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "ABD", "timestamp": "2025-03-31T10:51:12+0700", "vote": "7"}, {"username": "ducky0310", "content": "abd", "timestamp": "2025-03-31T20:17:52+0700", "vote": "10"}, {"username": "thanhdung", "content": "truwf help you manage", "timestamp": "2025-04-01T08:36:41+0700", "vote": "-8"}, {"username": "khangbug584", "content": "abd", "timestamp": "2025-07-29T09:08:53+0700", "vote": "307"}, {"username": "Tuyen123", "content": "abd", "timestamp": "2025-07-31T22:47:05+0700", "vote": "12"}, {"username": "chamchihoc", "content": "ABD", "timestamp": "2025-08-01T21:59:18+0700", "vote": "38"}], "image_41.webp": [{"username": "Realpcyclover", "content": "ab", "timestamp": "2023-08-02T22:07:36+0700", "vote": "1"}, {"username": "Misa", "content": "A B", "timestamp": "2023-11-17T02:29:10+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "AB", "timestamp": "2024-11-15T20:54:49+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "ab", "timestamp": "2024-11-16T01:34:55+0700", "vote": "240"}, {"username": "ducky0310", "content": "AB", "timestamp": "2025-03-29T09:45:04+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "ab", "timestamp": "2025-03-30T23:13:52+0700", "vote": "274"}, {"username": "ducky0310", "content": "ab", "timestamp": "2025-03-31T20:17:59+0700", "vote": "10"}, {"username": "khangbug584", "content": "ab", "timestamp": "2025-07-29T09:13:05+0700", "vote": "307"}, {"username": "Tuyen123", "content": "ab", "timestamp": "2025-07-31T22:47:18+0700", "vote": "12"}, {"username": "chamchihoc", "content": "AB", "timestamp": "2025-08-01T21:59:25+0700", "vote": "38"}], "image_42.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T22:07:43+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-17T02:32:18+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "A", "timestamp": "2024-11-15T20:54:55+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:35:00+0700", "vote": "240"}, {"username": "ducky0310", "content": "A", "timestamp": "2025-03-29T09:45:13+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T23:14:11+0700", "vote": "274"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-31T20:18:04+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T09:13:10+0700", "vote": "307"}, {"username": "Tuyen123", "content": "a", "timestamp": "2025-07-31T22:47:23+0700", "vote": "12"}, {"username": "chamchihoc", "content": "A", "timestamp": "2025-08-01T21:59:30+0700", "vote": "38"}], "image_43.webp": [{"username": "Realpcyclover", "content": "tra toàn ra chọn 2 đáp án là bc\nđây bắt chọn 1 thì kbt cái nào đúng hơn =))", "timestamp": "2023-08-02T22:13:52+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-17T02:36:03+0700", "vote": "11070"}, {"username": "teoooooone", "content": "B", "timestamp": "2023-11-17T13:01:34+0700", "vote": "1"}, {"username": "Hưng_sắp tốt nghiệp", "content": "C", "timestamp": "2024-03-26T00:10:37+0700", "vote": "-17"}, {"username": "Bincoder", "content": "C", "timestamp": "2024-11-09T15:58:48+0700", "vote": "25"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:55:06+0700", "vote": "447"}, {"username": "BinhKT", "content": "C", "timestamp": "2024-11-16T00:51:51+0700", "vote": "-4"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:35:06+0700", "vote": "240"}, {"username": "ducky0310", "content": "B or C", "timestamp": "2025-03-29T09:46:10+0700", "vote": "10"}, {"username": "LocNBCE171485", "content": "c", "timestamp": "2025-03-29T12:23:15+0700", "vote": "0"}, {"username": "Hoài Nhân", "content": "C", "timestamp": "2025-03-30T01:11:26+0700", "vote": "0"}, {"username": "AbeautyCloud", "content": "C", "timestamp": "2025-03-30T09:02:48+0700", "vote": "-5"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T23:25:44+0700", "vote": "274"}, {"username": "vulatoi", "content": "c", "timestamp": "2025-03-31T07:30:45+0700", "vote": "0"}, {"username": "luan251103", "content": "b", "timestamp": "2025-03-31T14:18:23+0700", "vote": "-16"}, {"username": "ducky0310", "content": "C. An intent is the \"glue\" that helps integrate Android apps\n\n\nExplanation:\n\nIntents are primarily used to facilitate communication between different components of an Android app (activities, services, broadcast receivers) and even between different apps. This makes them the key mechanism for app integration in Android.", "timestamp": "2025-03-31T20:19:31+0700", "vote": "10"}, {"username": "thanhdung", "content": "an intent is the glue", "timestamp": "2025-04-01T08:30:18+0700", "vote": "-8"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T09:13:37+0700", "vote": "307"}, {"username": "Tuyen123", "content": "c", "timestamp": "2025-07-31T22:51:45+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T21:59:39+0700", "vote": "38"}], "image_44.webp": [{"username": "Realpcyclover", "content": "d", "timestamp": "2023-08-02T22:16:50+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-11-17T02:40:59+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "D", "timestamp": "2024-11-15T20:55:48+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "d", "timestamp": "2024-11-16T01:35:12+0700", "vote": "240"}, {"username": "ducky0310", "content": "D", "timestamp": "2025-03-29T09:46:18+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "d", "timestamp": "2025-03-30T23:26:37+0700", "vote": "274"}, {"username": "ducky0310", "content": "D", "timestamp": "2025-03-31T20:19:38+0700", "vote": "10"}, {"username": "khangbug584", "content": "d", "timestamp": "2025-07-29T09:13:43+0700", "vote": "307"}, {"username": "Tuyen123", "content": "D", "timestamp": "2025-07-31T22:51:53+0700", "vote": "12"}, {"username": "chamchihoc", "content": "D", "timestamp": "2025-08-01T21:59:46+0700", "vote": "38"}], "image_45.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T22:16:56+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-17T02:45:19+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:55:54+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:35:18+0700", "vote": "240"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-29T09:46:23+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T23:26:43+0700", "vote": "274"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-31T20:19:44+0700", "vote": "10"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T09:13:48+0700", "vote": "307"}, {"username": "Tuyen123", "content": "c", "timestamp": "2025-07-31T22:51:59+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T21:59:55+0700", "vote": "38"}], "image_46.webp": [{"username": "Realpcyclover", "content": "abd", "timestamp": "2023-08-02T22:17:06+0700", "vote": "1"}, {"username": "Misa", "content": "A B D", "timestamp": "2023-11-17T02:52:07+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ABD", "timestamp": "2024-11-15T20:56:09+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "abd", "timestamp": "2024-11-16T01:35:25+0700", "vote": "240"}, {"username": "ducky0310", "content": "ABD", "timestamp": "2025-03-29T09:46:31+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "abd", "timestamp": "2025-03-30T23:27:15+0700", "vote": "274"}, {"username": "ducky0310", "content": "abd", "timestamp": "2025-03-31T20:19:54+0700", "vote": "10"}, {"username": "khangbug584", "content": "abd", "timestamp": "2025-07-29T09:13:57+0700", "vote": "307"}, {"username": "Tuyen123", "content": "abd", "timestamp": "2025-07-31T22:52:09+0700", "vote": "12"}, {"username": "chamchihoc", "content": "ABD", "timestamp": "2025-08-01T22:00:02+0700", "vote": "38"}], "image_47.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T22:17:12+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-17T02:56:34+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:56:15+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:35:30+0700", "vote": "240"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-29T09:46:38+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T23:29:32+0700", "vote": "274"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-31T20:20:00+0700", "vote": "10"}, {"username": "HuyNguyenS", "content": "C", "timestamp": "2025-03-31T23:18:56+0700", "vote": "-12"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T09:14:02+0700", "vote": "307"}, {"username": "Tuyen123", "content": "c", "timestamp": "2025-07-31T22:53:39+0700", "vote": "12"}, {"username": "chamchihoc", "content": "C", "timestamp": "2025-08-01T22:00:07+0700", "vote": "38"}], "image_48.webp": [{"username": "Realpcyclover", "content": "b", "timestamp": "2023-08-02T22:17:18+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-11-17T03:00:43+0700", "vote": "11070"}, {"username": "Hưng_sắp tốt nghiệp", "content": "B", "timestamp": "2024-03-26T00:14:35+0700", "vote": "-17"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:56:21+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:35:36+0700", "vote": "240"}, {"username": "vuonglmqe170148", "content": "b", "timestamp": "2025-03-28T13:33:39+0700", "vote": "-2"}, {"username": "ducky0310", "content": "B", "timestamp": "2025-03-29T09:46:46+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:29:44+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "B", "timestamp": "2025-03-31T11:03:37+0700", "vote": "7"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-31T20:20:06+0700", "vote": "10"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:14:08+0700", "vote": "307"}, {"username": "Tuyen123", "content": "b", "timestamp": "2025-07-31T22:54:08+0700", "vote": "12"}], "image_49.webp": [{"username": "Realpcyclover", "content": "ab", "timestamp": "2023-08-02T22:26:50+0700", "vote": "1"}, {"username": "Misa", "content": "A B", "timestamp": "2023-11-17T03:03:04+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "AB", "timestamp": "2024-11-15T20:56:26+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "ab", "timestamp": "2024-11-16T01:35:41+0700", "vote": "240"}, {"username": "ducky0310", "content": "AB", "timestamp": "2025-03-29T09:50:26+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "ab", "timestamp": "2025-03-30T23:30:59+0700", "vote": "274"}, {"username": "ducky0310", "content": "ab", "timestamp": "2025-03-31T20:20:11+0700", "vote": "10"}, {"username": "khangbug584", "content": "ab", "timestamp": "2025-07-29T09:14:48+0700", "vote": "307"}, {"username": "Tuyen123", "content": "a thread is the smallest unit\nA Java thread must be", "timestamp": "2025-07-31T22:54:36+0700", "vote": "12"}], "image_50.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T22:23:58+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-17T03:04:30+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:56:31+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:35:49+0700", "vote": "240"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-29T09:50:35+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T23:31:13+0700", "vote": "274"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-31T20:20:17+0700", "vote": "10"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T09:15:01+0700", "vote": "307"}, {"username": "Tuyen123", "content": "which component contains fragments -> An activity", "timestamp": "2025-07-31T22:55:04+0700", "vote": "12"}], "image_51.webp": [{"username": "Realpcyclover", "content": "a", "timestamp": "2023-08-02T22:28:09+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-11-17T03:06:57+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "A", "timestamp": "2024-11-15T20:58:08+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "a", "timestamp": "2024-11-16T01:35:55+0700", "vote": "240"}, {"username": "ducky0310", "content": "A", "timestamp": "2025-03-29T09:50:40+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "a", "timestamp": "2025-03-30T23:31:20+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-31T11:04:22+0700", "vote": "7"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-31T20:20:22+0700", "vote": "10"}, {"username": "khangbug584", "content": "a", "timestamp": "2025-07-29T09:15:15+0700", "vote": "307"}, {"username": "Tuyen123", "content": "a", "timestamp": "2025-07-31T22:55:09+0700", "vote": "12"}], "image_52.webp": [{"username": "Realpcyclover", "content": "abc", "timestamp": "2023-08-02T22:35:30+0700", "vote": "1"}, {"username": "Misa", "content": "A B C", "timestamp": "2023-11-17T03:09:00+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ABC", "timestamp": "2024-11-15T20:58:59+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "abc", "timestamp": "2024-11-16T01:36:03+0700", "vote": "240"}, {"username": "ducky0310", "content": "ABC", "timestamp": "2025-03-29T09:50:45+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "abc", "timestamp": "2025-03-30T23:51:08+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "ABC", "timestamp": "2025-03-31T11:07:57+0700", "vote": "7"}, {"username": "ducky0310", "content": "abc", "timestamp": "2025-03-31T20:20:29+0700", "vote": "10"}, {"username": "khangbug584", "content": "abc", "timestamp": "2025-07-29T09:16:22+0700", "vote": "307"}, {"username": "Tuyen123", "content": "ABC", "timestamp": "2025-07-31T22:55:23+0700", "vote": "12"}], "image_53.webp": [{"username": "Realpcyclover", "content": "ade", "timestamp": "2023-08-02T22:29:07+0700", "vote": "1"}, {"username": "Misa", "content": "A D E", "timestamp": "2023-11-17T03:12:25+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ADE", "timestamp": "2024-11-15T20:59:05+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "ade", "timestamp": "2024-11-16T01:36:09+0700", "vote": "240"}, {"username": "ducky0310", "content": "ADE", "timestamp": "2025-03-29T09:50:52+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "ade", "timestamp": "2025-03-30T23:51:24+0700", "vote": "274"}, {"username": "Hoangne hê hê", "content": "ADE", "timestamp": "2025-03-31T11:08:43+0700", "vote": "7"}, {"username": "ducky0310", "content": "ade", "timestamp": "2025-03-31T20:21:18+0700", "vote": "10"}, {"username": "khangbug584", "content": "ade", "timestamp": "2025-07-29T09:16:27+0700", "vote": "307"}, {"username": "Tuyen123", "content": "create start pause", "timestamp": "2025-07-31T22:55:35+0700", "vote": "12"}], "image_54.webp": [{"username": "Realpcyclover", "content": "c", "timestamp": "2023-08-02T22:29:18+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-11-17T03:14:48+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "C", "timestamp": "2024-11-15T20:59:11+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "c", "timestamp": "2024-11-16T01:36:14+0700", "vote": "240"}, {"username": "ducky0310", "content": "C", "timestamp": "2025-03-29T09:50:59+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "c", "timestamp": "2025-03-30T23:51:38+0700", "vote": "274"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-31T20:23:17+0700", "vote": "10"}, {"username": "khangbug584", "content": "c", "timestamp": "2025-07-29T09:16:34+0700", "vote": "307"}, {"username": "Tuyen123", "content": "c", "timestamp": "2025-07-31T22:55:44+0700", "vote": "12"}], "image_55.webp": [{"username": "Realpcyclover", "content": "b", "timestamp": "2023-08-02T22:29:26+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-17T03:16:23+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:59:19+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:36:24+0700", "vote": "240"}, {"username": "ducky0310", "content": "B", "timestamp": "2025-03-29T09:51:04+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:51:45+0700", "vote": "274"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-31T20:23:24+0700", "vote": "10"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:16:42+0700", "vote": "307"}, {"username": "Tuyen123", "content": "the base URI và a converter factory", "timestamp": "2025-07-31T22:56:09+0700", "vote": "12"}], "image_56.webp": [{"username": "Realpcyclover", "content": "b", "timestamp": "2023-08-02T22:29:36+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-17T03:17:42+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T20:59:24+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:36:30+0700", "vote": "240"}, {"username": "ducky0310", "content": "B", "timestamp": "2025-03-29T09:51:09+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:51:55+0700", "vote": "274"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-31T20:23:29+0700", "vote": "10"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:16:47+0700", "vote": "307"}, {"username": "Tuyen123", "content": "b", "timestamp": "2025-07-31T22:56:15+0700", "vote": "12"}], "image_57.webp": [{"username": "Realpcyclover", "content": "abd", "timestamp": "2023-08-02T22:29:45+0700", "vote": "1"}, {"username": "Misa", "content": "A B D", "timestamp": "2023-11-17T03:19:59+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "ABD", "timestamp": "2024-11-15T20:59:31+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "abd", "timestamp": "2024-11-16T01:36:37+0700", "vote": "240"}, {"username": "ducky0310", "content": "ABD", "timestamp": "2025-03-29T09:51:15+0700", "vote": "10"}, {"username": "VVVVVFE", "content": "abd", "timestamp": "2025-03-30T23:52:10+0700", "vote": "274"}, {"username": "ducky0310", "content": "abd", "timestamp": "2025-03-31T20:23:34+0700", "vote": "10"}, {"username": "khangbug584", "content": "abd", "timestamp": "2025-07-29T09:16:55+0700", "vote": "307"}, {"username": "Tuyen123", "content": "bad", "timestamp": "2025-07-31T22:56:27+0700", "vote": "12"}], "image_58.webp": [{"username": "Realpcyclover", "content": "d", "timestamp": "2023-08-02T22:29:53+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-11-17T03:22:13+0700", "vote": "11070"}, {"username": "Hưng_sắp tốt nghiệp", "content": "B", "timestamp": "2024-03-26T14:03:00+0700", "vote": "-17"}, {"username": "duc dd", "content": "d", "timestamp": "2024-07-27T08:53:59+0700", "vote": "59"}, {"username": "Vantu16022003", "content": "d", "timestamp": "2024-11-15T01:10:02+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "d", "timestamp": "2024-11-16T01:36:43+0700", "vote": "240"}, {"username": "vuonglmqe170148", "content": "d", "timestamp": "2025-03-28T13:57:55+0700", "vote": "-2"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:52:17+0700", "vote": "274"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-31T20:23:41+0700", "vote": "10"}, {"username": "HuyNguyenS", "content": "b", "timestamp": "2025-04-10T12:45:55+0700", "vote": "-12"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:17:08+0700", "vote": "307"}, {"username": "Tuyen123", "content": "b", "timestamp": "2025-07-31T23:01:59+0700", "vote": "12"}], "image_59.webp": [{"username": "Realpcyclover", "content": "ab", "timestamp": "2023-08-02T22:30:11+0700", "vote": "1"}, {"username": "Misa", "content": "A D", "timestamp": "2023-11-17T03:24:42+0700", "vote": "11070"}, {"username": "MiTu đú đởn", "content": "AB", "timestamp": "2023-11-17T12:08:40+0700", "vote": "-7"}, {"username": "Hưng_sắp tốt nghiệp", "content": "AB", "timestamp": "2024-03-26T00:24:42+0700", "vote": "-17"}, {"username": "Vantu16022003", "content": "AB", "timestamp": "2024-11-15T20:59:53+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "ab", "timestamp": "2024-11-16T01:36:49+0700", "vote": "240"}, {"username": "Hoài Nhân", "content": "AB", "timestamp": "2025-03-30T02:08:00+0700", "vote": "0"}, {"username": "VVVVVFE", "content": "ab", "timestamp": "2025-03-30T23:52:39+0700", "vote": "274"}, {"username": "ducky0310", "content": "ab", "timestamp": "2025-03-31T20:23:49+0700", "vote": "10"}, {"username": "khangbug584", "content": "ab", "timestamp": "2025-07-29T09:17:19+0700", "vote": "307"}, {"username": "Tuyen123", "content": "âb", "timestamp": "2025-07-31T23:02:09+0700", "vote": "12"}], "image_60.webp": [{"username": "Realpcyclover", "content": "c (key khong chac)", "timestamp": "2023-08-02T22:35:11+0700", "vote": "1"}, {"username": "truonghd", "content": "b ấy", "timestamp": "2023-11-17T00:22:30+0700", "vote": "17"}, {"username": "Misa", "content": "B", "timestamp": "2023-11-17T03:27:09+0700", "vote": "11070"}, {"username": "Vantu16022003", "content": "B", "timestamp": "2024-11-15T21:00:00+0700", "vote": "447"}, {"username": "thangbinhbeo", "content": "b", "timestamp": "2024-11-16T01:36:57+0700", "vote": "240"}, {"username": "VVVVVFE", "content": "b", "timestamp": "2025-03-30T23:52:48+0700", "vote": "274"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-31T20:24:59+0700", "vote": "10"}, {"username": "khangbug584", "content": "b", "timestamp": "2025-07-29T09:17:31+0700", "vote": "307"}, {"username": "Tuyen123", "content": "b", "timestamp": "2025-07-31T23:02:16+0700", "vote": "12"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>PMG201c - SP 2025 - PE2</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>PMG201c - SP 2025 - PE2</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "Minthep", "content": "1/\nobjective 1: Lanch the core e-commerce platform\nby 6 months, ....\nSpecific: The platform allow user to register for bussinesses, payment, see production listing, order tracking, and customer review system.\nM:\n- Support up to 10.000 vendor\n- suppport 100,000 daily trans\nA:\n- with 800k, 6 m to lanch the first version, this is feasible.\nR: (kieu nhu pain point)\n- A lots of small business dont know how to use digital market and affordable\nT: must be completed in 6 months of project initiations.\n\nobject 2: noi ve hieu suat\nby 6 months, the platform success to provide a scalable and secure system that can handle 100000000 daily transactions.\n\nS: build a infrastructure with scalable db, payment gateway sercurity, and increase uptime.\n\nM:\n- suppport 100,000 daily trans\nA:\n- Project matchs the performance goals.\nR:\n- Increase customer trust, and user experience.\nT:\ny chang cai tren", "timestamp": "2025-08-24T00:56:07+0700", "vote": "3424"}, {"username": "Minthep", "content": "cau 2:\nIn-scope (có trong phạm vi)\nMulti-vendor platform core development.\nUser registration and vendor management modules.\nIntegration with multiple payment providers.\nProduct catalog, listing, and order tracking system.\nCustomer review and feedback system.\nScalability to support 10,000 vendors and 100,000 transactions/day.\nSecurity compliance\nBasic admin dashboard for vendor and transaction management.\n\nOut-of-scope (ngoài phạm vi, không làm) Ngoai MVP ra\n-> Mobile application\n-> da ngon ngu\n-> AI phan tich\nDeliverables (sản phẩm bàn giao cuối cùng)\nFunctional e-commerce platform (MVP) with vendor onboarding.\nFully tested payment gateway integration.\nLoad testing results showing 100,000 daily transaction capability.\nSecurity compliance documentation.\nTraining manual and user guide for vendors.", "timestamp": "2025-08-24T01:02:44+0700", "vote": "3424"}, {"username": "Minthep", "content": "req 3:\ntesting thi QC\ndam bao chat luong thi QA ( sec voi UAT)", "timestamp": "2025-08-24T01:04:06+0700", "vote": "3424"}, {"username": "Minthep", "content": "Functional Testing (QC)\n\nPurpose: Ensure features (registration, payments, orders, reviews) work as expected.\nWhen: During development & before deployment.\nHow: Test cases, automated UI testing, manual checks.", "timestamp": "2025-08-24T01:04:47+0700", "vote": "3424"}], "image_2.webp": [{"username": "Judai", "content": "Start → D → H → I → End\nStart → D → E → F → G → End\nStart → D → B → C → G → End\nStart → A → B → C → G → End", "timestamp": "2025-08-16T16:10:21+0700", "vote": "53"}, {"username": "Judai", "content": "b) D – H – I là Critical Path với tổng là 19\nc) most flex là A với TF = 4", "timestamp": "2025-08-16T16:11:08+0700", "vote": "53"}, {"username": "nguoivetulongdat", "content": "4a/ 4 đường\nABCG - 15\nDBCG -16\nDEFG - 17\nDHI - 19\n\nb/ DHI - 19\n\nc/ A - float 4", "timestamp": "2025-08-17T03:32:20+0700", "vote": "1194"}, {"username": "Minthep", "content": "TOI BI NGU", "timestamp": "2025-08-23T01:41:42+0700", "vote": "3424"}, {"username": "Minthep", "content": "Mỗi activity có thời gian và tiền nhiệm (preceding activity). Từ đó, ta liệt kê các đường (path) từ Start đến End.\nCritical path = đường dài nhất, quyết định tổng thời gian dự án. Nếu critical path delay → toàn dự án delay.\n\nA/ precending -> trước đó\nVậy Start -> chĩa ra 2 hướng\n\nStart -> A và ta thấy precending chỉ có B hợp và tiếp tục sẽ ra\nABCG = 4 +3 + 2 +6 = 15\n\nvà Start -> D ra 3 đường\n\nb/ minimum toi thieu -> 19 DHI (la 19 tuan)", "timestamp": "2025-08-24T01:14:30+0700", "vote": "3424"}, {"username": "Minthep", "content": "Gọi là Total Float (TF) = khoảng thời gian một activity có thể trễ mà không làm trễ ngày kết thúc dự án.\nCông thức:\nTF = LS − ES = LF − EF\n(ES/EF: Early Start/Finish, LS/LF: Late Start/Finish)\nForward pass (từ Start): tính ES, EF\nBackward pass (từ End): tính LF, LS\nLấy TF = LS − ES", "timestamp": "2025-08-24T01:30:05+0700", "vote": "3424"}, {"username": "Minthep", "content": "chọn đại LS - ES\nForward Pass:\nA: ES 0, EF = 0+4 = 4\nD: ES 0, EF = 5\nB: ES = max (EF A, EF B) = 5, EF = 5 + 3 = 8\n... ...\nBackward Pass:\nEnd: LF =19, LS= 19\nG: LF= 19, LS= 19-6 =13\nI: LF = 19, LS =19-9 = 10\nC: LF= LS(G) = 13, LS= 13-2= 11\n...\nA: LF= LS(B) = 8, LS = 4\n\nta có TF highest = A -> LF- EF= 8-4 = 4", "timestamp": "2025-08-24T02:27:43+0700", "vote": "3424"}, {"username": "Minthep", "content": "Câu d: Nếu ở tuần 8 mà D bị delay 3 tuần, dự án sẽ trễ. Giải pháp:\n\nFast-tracking: Làm song song một số task thay vì nối tiếp.\nCrashing: Thêm người, thêm tiền để rút ngắn task dài.\nScope reduction: Bỏ bớt phần không quan trọng.\nOvertime: Tăng ca, thêm giờ làm.", "timestamp": "2025-08-24T02:44:51+0700", "vote": "3424"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

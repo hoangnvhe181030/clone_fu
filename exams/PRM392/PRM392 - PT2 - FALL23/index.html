@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>PRM392 - PT2 - FALL23</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>PRM392 - PT2 - FALL23</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "Misa", "content": "A", "timestamp": "2023-10-21T20:16:10+0700", "vote": "11070"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-05T17:42:25+0700", "vote": "10"}, {"username": "Tuyen123", "content": "A. Displays the image centered in the view with no scaling.", "timestamp": "2025-07-31T20:36:26+0700", "vote": "12"}], "image_2.webp": [{"username": "Misa", "content": "B", "timestamp": "2023-10-21T20:16:16+0700", "vote": "11070"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-05T17:43:31+0700", "vote": "10"}, {"username": "Tuyen123", "content": "B. UI thread", "timestamp": "2025-07-31T20:36:37+0700", "vote": "12"}], "image_3.webp": [{"username": "Misa", "content": "C", "timestamp": "2023-10-21T20:20:02+0700", "vote": "11070"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-05T17:43:36+0700", "vote": "10"}, {"username": "Tuyen123", "content": "C. The app's functionality relying on that permission may be restricted.", "timestamp": "2025-07-31T20:37:04+0700", "vote": "12"}], "image_4.webp": [{"username": "Misa", "content": "C", "timestamp": "2023-10-21T20:34:54+0700", "vote": "11070"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-05T17:43:43+0700", "vote": "10"}, {"username": "Tuyen123", "content": "C. By using the Room.databaseBuilder() method.", "timestamp": "2025-07-31T20:37:30+0700", "vote": "12"}], "image_5.webp": [{"username": "Misa", "content": "Cái nào cũng đúng :v", "timestamp": "2023-10-21T21:07:48+0700", "vote": "11070"}, {"username": "Misa", "content": "A Service is an application component that can perform long-running operations in the background. It does not provide a user interface. Once started, a service might continue running for some time, even after the user switches to another application. Additionally, a component can bind to a service to interact with it and even perform interprocess communication (IPC). For example, a service can handle network transactions, play music, perform file I/O, or interact with a content provider, all from the background.", "timestamp": "2023-10-21T21:07:59+0700", "vote": "11070"}, {"username": "ducky0310", "content": "all", "timestamp": "2025-03-05T17:43:57+0700", "vote": "10"}, {"username": "Tuyen123", "content": "all", "timestamp": "2025-07-31T20:37:42+0700", "vote": "12"}], "image_6.webp": [{"username": "Misa", "content": "A", "timestamp": "2023-10-21T21:50:12+0700", "vote": "11070"}, {"username": "ok123", "content": "C", "timestamp": "2023-10-24T08:36:20+0700", "vote": "-4"}, {"username": "Phạm Duy", "content": "A", "timestamp": "2024-06-16T16:28:35+0700", "vote": "39"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-05T17:44:02+0700", "vote": "10"}, {"username": "duangol", "content": "a", "timestamp": "2025-06-22T17:08:07+0700", "vote": "3"}, {"username": "Tuyen123", "content": "A. Background lifetime", "timestamp": "2025-07-31T20:38:17+0700", "vote": "12"}], "image_7.webp": [{"username": "Misa", "content": "B", "timestamp": "2023-10-21T23:21:24+0700", "vote": "11070"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-05T17:44:07+0700", "vote": "10"}, {"username": "Tuyen123", "content": "B. android:src sets the foreground image, and android:background sets the background image.", "timestamp": "2025-07-31T20:38:56+0700", "vote": "12"}], "image_8.webp": [{"username": "Misa", "content": "B", "timestamp": "2023-10-22T00:06:32+0700", "vote": "11070"}, {"username": "Hung Vu", "content": "sao trong src là A nhỉ", "timestamp": "2024-06-12T12:02:32+0700", "vote": "-1"}, {"username": "hieu(bạn của hiep)", "content": "theo syntax code là B", "timestamp": "2024-10-17T13:00:19+0700", "vote": "0"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-05T17:44:20+0700", "vote": "10"}, {"username": "Tuyen123", "content": "B. setLayoutManager", "timestamp": "2025-07-31T20:39:13+0700", "vote": "12"}], "image_9.webp": [{"username": "Misa", "content": "A", "timestamp": "2023-10-22T01:41:19+0700", "vote": "11070"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-05T17:47:38+0700", "vote": "10"}, {"username": "Tuyen123", "content": "A. doOnBackground", "timestamp": "2025-07-31T20:39:29+0700", "vote": "12"}], "image_10.webp": [{"username": "Misa", "content": "C", "timestamp": "2023-10-22T05:18:04+0700", "vote": "11070"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-05T17:47:44+0700", "vote": "10"}, {"username": "Tuyen123", "content": "C. Android 6 (Marshmallow)", "timestamp": "2025-07-31T20:39:45+0700", "vote": "12"}], "image_11.webp": [{"username": "Misa", "content": "C", "timestamp": "2023-10-22T00:11:12+0700", "vote": "11070"}, {"username": "ok123", "content": "B", "timestamp": "2023-10-24T08:39:48+0700", "vote": "-4"}, {"username": "Misa", "content": "ok123 đã viết:\nB\nC bn nhé", "timestamp": "2023-10-25T13:17:16+0700", "vote": "11070"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-05T17:50:45+0700", "vote": "10"}, {"username": "Tuyen123", "content": "C. Depend on the retured value at getItem.Count", "timestamp": "2025-07-31T20:40:05+0700", "vote": "12"}], "image_12.webp": [{"username": "Misa", "content": "B", "timestamp": "2023-10-23T23:37:35+0700", "vote": "11070"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-05T17:54:54+0700", "vote": "10"}, {"username": "Tuyen123", "content": "B. False", "timestamp": "2025-07-31T20:40:40+0700", "vote": "12"}], "image_13.webp": [{"username": "Misa", "content": "D", "timestamp": "2023-10-23T23:53:54+0700", "vote": "11070"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-05T18:09:50+0700", "vote": "10"}, {"username": "Tuyen123", "content": "D. .xml file", "timestamp": "2025-07-31T20:40:58+0700", "vote": "12"}], "image_14.webp": [{"username": "yuuliy", "content": "A", "timestamp": "2023-10-23T22:30:22+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-10-23T23:58:46+0700", "vote": "11070"}, {"username": "Hung Vu", "content": "chọn 3 answer mà", "timestamp": "2024-06-12T15:57:49+0700", "vote": "-1"}, {"username": "Phạm Duy", "content": "abd", "timestamp": "2024-06-15T22:32:08+0700", "vote": "39"}, {"username": "ducky0310", "content": "abd", "timestamp": "2025-03-05T18:13:52+0700", "vote": "10"}, {"username": "Tuyen123", "content": "A. onProgressUpdate\nB. onPreExecute\nD. onPostExecute", "timestamp": "2025-07-31T20:41:27+0700", "vote": "12"}], "image_15.webp": [{"username": "yuuliy", "content": "B", "timestamp": "2023-10-23T22:31:07+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-10-24T00:18:11+0700", "vote": "11070"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-05T18:23:50+0700", "vote": "10"}, {"username": "Tuyen123", "content": "B. It allows data to be shared between apps securely.", "timestamp": "2025-07-31T20:41:59+0700", "vote": "12"}], "image_16.webp": [{"username": "yuuliy", "content": "C", "timestamp": "2023-10-23T22:32:31+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-10-24T13:29:56+0700", "vote": "11070"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-05T18:24:46+0700", "vote": "10"}, {"username": "Tuyen123", "content": "C. By creating a NotificationCompat.Builder and setting content text and title.", "timestamp": "2025-07-31T20:42:35+0700", "vote": "12"}], "image_17.webp": [{"username": "yuuliy", "content": "C", "timestamp": "2023-10-23T22:32:45+0700", "vote": "1"}, {"username": "Misa", "content": "C", "timestamp": "2023-10-24T13:32:09+0700", "vote": "11070"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-05T18:28:17+0700", "vote": "10"}, {"username": "Tuyen123", "content": "C. Bound Services can be bound to by multiple clients, while Started Services can't", "timestamp": "2025-07-31T20:43:09+0700", "vote": "12"}], "image_18.webp": [{"username": "Misa", "content": "B", "timestamp": "2023-10-22T00:11:59+0700", "vote": "11070"}, {"username": "ww1834", "content": "A nhe", "timestamp": "2023-11-17T05:18:50+0700", "vote": "-6"}, {"username": "duongddhe176496", "content": "B", "timestamp": "2024-06-17T10:04:37+0700", "vote": "-18"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-05T18:30:36+0700", "vote": "10"}, {"username": "duangol", "content": "a", "timestamp": "2025-06-22T17:40:45+0700", "vote": "3"}, {"username": "Tuyen123", "content": "A. The icon is not displayed", "timestamp": "2025-07-31T20:43:32+0700", "vote": "12"}], "image_19.webp": [{"username": "Misa", "content": "B", "timestamp": "2023-10-22T00:15:42+0700", "vote": "11070"}, {"username": "ducky0310", "content": "b", "timestamp": "2025-03-05T18:32:49+0700", "vote": "10"}, {"username": "Tuyen123", "content": "B. @update", "timestamp": "2025-07-31T20:43:48+0700", "vote": "12"}], "image_20.webp": [{"username": "Misa", "content": "D", "timestamp": "2023-10-22T00:18:49+0700", "vote": "11070"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-05T18:34:14+0700", "vote": "10"}, {"username": "Tuyen123", "content": "D. To improve the performance of RecyclerView by recycling item views.", "timestamp": "2025-07-31T20:44:21+0700", "vote": "12"}], "image_21.webp": [{"username": "yuuliy", "content": "C", "timestamp": "2023-10-23T22:38:13+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-10-24T00:02:50+0700", "vote": "11070"}, {"username": "Hung Vu", "content": "A", "timestamp": "2024-06-12T16:00:05+0700", "vote": "-1"}, {"username": "duongddhe176496", "content": "C", "timestamp": "2024-06-17T09:51:07+0700", "vote": "-18"}, {"username": "hieu(bạn của hiep)", "content": "C", "timestamp": "2024-10-17T13:13:48+0700", "vote": "0"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-05T18:34:24+0700", "vote": "10"}, {"username": "Tuyen123", "content": "C. setText statement", "timestamp": "2025-07-31T20:44:43+0700", "vote": "12"}], "image_22.webp": [{"username": "yuuliy", "content": "D", "timestamp": "2023-10-23T22:40:00+0700", "vote": "1"}, {"username": "Misa", "content": "D", "timestamp": "2023-10-24T14:12:29+0700", "vote": "11070"}, {"username": "Tuyen123", "content": "D. It allows an action to be executed when the notification is clicked.", "timestamp": "2025-07-31T20:45:17+0700", "vote": "12"}], "image_23.webp": [{"username": "Misa", "content": "D", "timestamp": "2023-10-22T00:30:05+0700", "vote": "11070"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-05T18:37:10+0700", "vote": "10"}, {"username": "Tuyen123", "content": "D", "timestamp": "2025-07-31T20:32:01+0700", "vote": "12"}], "image_24.webp": [{"username": "Misa", "content": "C", "timestamp": "2023-10-22T00:32:25+0700", "vote": "11070"}, {"username": "ducky0310", "content": "c", "timestamp": "2025-03-05T18:37:18+0700", "vote": "10"}, {"username": "Tuyen123", "content": "C. Table", "timestamp": "2025-07-31T20:32:29+0700", "vote": "12"}], "image_25.webp": [{"username": "Misa", "content": "A", "timestamp": "2023-10-22T00:32:31+0700", "vote": "11070"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-05T18:37:23+0700", "vote": "10"}, {"username": "Tuyen123", "content": "A. true", "timestamp": "2025-07-31T20:32:44+0700", "vote": "12"}], "image_26.webp": [{"username": "yuuliy", "content": "A", "timestamp": "2023-10-23T22:40:40+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-10-24T13:49:05+0700", "vote": "11070"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-05T18:37:33+0700", "vote": "10"}, {"username": "Tuyen123", "content": "A. To group notifications together based on their content.", "timestamp": "2025-07-31T20:33:36+0700", "vote": "12"}], "image_27.webp": [{"username": "Misa", "content": "D", "timestamp": "2023-10-22T00:33:30+0700", "vote": "11070"}, {"username": "ducky0310", "content": "d", "timestamp": "2025-03-05T18:37:41+0700", "vote": "10"}, {"username": "Tuyen123", "content": "D. A persistence library for managing SQLite databases.", "timestamp": "2025-07-31T20:34:15+0700", "vote": "12"}], "image_28.webp": [{"username": "Misa", "content": "A", "timestamp": "2023-10-22T00:36:40+0700", "vote": "11070"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-05T18:37:49+0700", "vote": "10"}, {"username": "Tuyen123", "content": "A. finish", "timestamp": "2025-07-31T20:34:38+0700", "vote": "12"}], "image_29.webp": [{"username": "yuuliy", "content": "B", "timestamp": "2023-10-23T22:44:58+0700", "vote": "1"}, {"username": "Misa", "content": "B", "timestamp": "2023-10-24T00:21:35+0700", "vote": "11070"}, {"username": "ducky0310", "content": "B", "timestamp": "2025-03-05T19:23:01+0700", "vote": "10"}, {"username": "Tuyen123", "content": "B. To query and manipulate data within a Content Provider", "timestamp": "2025-07-31T20:35:13+0700", "vote": "12"}], "image_30.webp": [{"username": "yuuliy", "content": "A", "timestamp": "2023-10-23T22:45:24+0700", "vote": "1"}, {"username": "Misa", "content": "A", "timestamp": "2023-10-24T00:24:25+0700", "vote": "11070"}, {"username": "ducky0310", "content": "a", "timestamp": "2025-03-05T19:23:06+0700", "vote": "10"}, {"username": "Tuyen123", "content": "A. content://com.example.app/data", "timestamp": "2025-07-31T20:35:56+0700", "vote": "12"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>
