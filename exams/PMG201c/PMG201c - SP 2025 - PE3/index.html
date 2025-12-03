@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>PMG201c - SP 2025 - PE3</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>PMG201c - SP 2025 - PE3</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [], "image_2.webp": [{"username": "nsquan", "content": "part 3 a:\nA → D → E → End\nB → F → G → End\nC → H → I → End\nA → D → G→ End", "timestamp": "2025-08-06T21:58:00+0700", "vote": "32"}, {"username": "nsquan", "content": "b thì tính duration xong chọn cái dài nhất nhỉ", "timestamp": "2025-08-06T21:58:21+0700", "vote": "32"}, {"username": "Lý Nhiên", "content": "a. Start -> A ->D -> E-> End\nStart -> B->F->G->End\nStart -> C -> H -> I -> End\n\nb. The path have minimum duration is critical path\nADE = 17\nBFG = 12\nCHI = 14\n--> ADE is critical path\n-> Minimum duration to complete that deliverable is 17\n\nc. Activities have the most flexibity is B,F,G,C,H,I", "timestamp": "2025-08-08T20:19:36+0700", "vote": "18"}, {"username": "Judai", "content": "c) là chỉ có B, F là có TF = 5 cao nhất thôi", "timestamp": "2025-08-16T10:41:39+0700", "vote": "55"}, {"username": "Suán No", "content": "này 4 path mà ta", "timestamp": "2025-08-16T12:40:45+0700", "vote": "-6"}, {"username": "Judai", "content": "4 PATH:\nA → D → E → End\nA → D → G → End\nB → F → G → End\nC → H → I → End", "timestamp": "2025-08-16T16:05:13+0700", "vote": "55"}, {"username": "nguoivetulongdat", "content": "a/ 4 paths\nADE\nADG\nBFG\nCHI\n\nb/ ADE - 17\n\nC/ B,F most flex, cơ mà float t tính ra 5", "timestamp": "2025-08-17T04:28:57+0700", "vote": "1209"}, {"username": "Minthep", "content": "C ghi ngắn gọn vậy cũng kì =)))) viết cách tính cho người ta hiểu nhỉ", "timestamp": "2025-08-24T03:49:31+0700", "vote": "3467"}, {"username": "nguoivetulongdat", "content": "vẽ giấy thì đc chứ trình bày viết chữ tay tính ES, EF, LS, LF để ra float của từng unit thì chắc cả mấy đoạn ;ppp", "timestamp": "2025-08-24T17:01:27+0700", "vote": "1209"}, {"username": "Minthep", "content": "nguoivetulongdat đã viết:\nvẽ giấy thì đc chứ trình bày viết chữ tay tính ES, EF, LS, LF để ra float của từng unit thì chắc cả mấy đoạn ;ppp\nKệ mẹ đề r, đề lỏ đíu thấy câu tính nào vô thi tịt moẹ lun", "timestamp": "2025-08-24T17:40:38+0700", "vote": "3467"}, {"username": "nguoivetulongdat", "content": "Minthep đã viết:\nKệ mẹ đề r, đề lỏ đíu thấy câu tính nào vô thi tịt moẹ lun\nôn cho lắm mấy câu tính, đề pe vs re éo ra luôn 1 nào tính =)))", "timestamp": "2025-08-25T02:37:02+0700", "vote": "1209"}], "image_3.webp": [{"username": "antifan đồng cỏ", "content": "EV = 300000\nAC = 400000\nPV = 500000\nDAC = 6 months\nBAC = 800000\n\nCPI = EV / AC = 0.75 ( earning 0.75\nwith1 spent)\n\nSPI = EV / PV = 0.6 ( completed 60%)\n\nEAC = BAC / CPI = 1066666,667\nE\nD\nA\nC\n=\nD\nA\nC\n/\nS\nP\nI\n=\n6\n/\n0.6\n=\n10\nm\no\nn\nt\nh\ns\n(\nd\ne\nl\na\ny\n)\nC\nV\n=\nE\nV\n−\nA\nC\n=\n300000\n−\n400000\n=\n−\n100000\n(\no\nv\ne\nr\nb\nu\nd\ng\ne\nt\n)\nS\nV\n=\nE\nV\n−\nP\nV\n=\n300000\n−\n50000\n=\n−\n200000\n(\nb\ne\nh\ni\nn\nd\ns\nc\nh\ne\nd\nu\nl\ne\n)\nV\nA\nC\n=\nE\nA\nC\n−\nA\nC\n=\n1066666\n,\n667\n−\n400000\n=\n666666.6667", "timestamp": "2025-05-06T17:15:39+0700", "vote": "453"}, {"username": "hungngo705", "content": "VAC = BAC - EAC = 800000 - 1066666,667 = -266666.667$ (Over planned cost)", "timestamp": "2025-08-16T19:46:41+0700", "vote": "5"}, {"username": "NTPAn", "content": "EV = 300,000\nAC = 400,000\nPV = 500,000\nBAC = 800,000\nDAC = 6 months\n\nCV = EV - AC = -100,000 => over budget\nSV =EV - PV = -200,000 => behind schedule\nCPI = EV / AC = 3/4 > poor cost performance(earning 0.75 with 1 spent)\nSPI = EV / PV = 3/5 => actual progress = 60% of plan\n\nIf the project keep this process then:\nEAC = BAC / CPI = 1066666.667 => total cost at closing(over budget)\nVAC = BAC - EAC = -266666.6667 => over budget when finish project\nETC = EAC - AC = 666666.667 => need $666,666.667 to do the rest\nEDAC = DAC / SPI = 10 => total actual time to complete the project(10 months)", "timestamp": "2025-08-16T23:44:21+0700", "vote": "16"}, {"username": "nguoivetulongdat", "content": "EV = 300k\nAC = 400k\nPV = 500k\nBAC = 800k\nDAC = 6 months\n------\nCurrent Status\nCV = EV - AC = -100k => over budget\nSV =EV - PV = -200k (behind schedule)\nCPI = EV/AC = 3/4 => poor cost performance\nSPI = EV/PV = 3/5 => behind schedule ( only 60% of 100%)\n\n---------------\nForecast\nMoney spend to complete :\nEAC = BAC/ CPI = 1 066 666.667 => total cost to spend\nVAC = BAC - EAC = -266 666.667 needed to spend over budget\nETC = EAC - AC = 666 666.667 more to have enough money to do the project\nTime needed to complete :\nEDAC = DAC / SIP = 10 months => total 10 months to complete", "timestamp": "2025-08-17T05:03:14+0700", "vote": "1209"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

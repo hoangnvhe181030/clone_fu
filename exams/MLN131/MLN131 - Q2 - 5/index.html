@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>MLN131 - Q2 - 5</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>MLN131 - Q2 - 5</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "AnhNT1802", "content": "B\nNguồn: Quizlet_MLN131 - PT2", "timestamp": "2024-03-19T05:01:23+0700", "vote": "0"}, {"username": "saseru99", "content": "b", "timestamp": "2024-09-27T00:30:04+0700", "vote": "4"}, {"username": "namnamba131", "content": "B", "timestamp": "2025-06-10T18:16:31+0700", "vote": "36"}], "image_2.webp": [{"username": "AnhNT1802", "content": "D\nNguồn: Quizlet_MLN131 - PT2", "timestamp": "2024-03-19T05:02:39+0700", "vote": "0"}, {"username": "saseru99", "content": "d", "timestamp": "2024-09-27T00:33:13+0700", "vote": "4"}, {"username": "namnamba131", "content": "D", "timestamp": "2025-06-10T18:20:55+0700", "vote": "36"}], "image_3.webp": [{"username": "AnhNT1802", "content": "C\nNguồn: Quizlet_MLN131 (CNXHKH)", "timestamp": "2024-03-19T05:17:14+0700", "vote": "0"}, {"username": "saseru99", "content": "c", "timestamp": "2024-09-27T00:33:36+0700", "vote": "4"}, {"username": "namnamba131", "content": "C", "timestamp": "2025-06-10T18:21:06+0700", "vote": "36"}], "image_4.webp": [{"username": "AnhNT1802", "content": "B\nNguồn: Quizlet_MLN131 - PT2", "timestamp": "2024-03-19T05:03:54+0700", "vote": "0"}, {"username": "saseru99", "content": "b", "timestamp": "2024-09-27T00:33:57+0700", "vote": "4"}, {"username": "namnamba131", "content": "B", "timestamp": "2025-06-10T18:31:21+0700", "vote": "36"}], "image_5.webp": [{"username": "AnhNT1802", "content": "B\nNguồn: Quizlet_MLN131 - PT2", "timestamp": "2024-03-19T05:04:27+0700", "vote": "0"}, {"username": "saseru99", "content": "b", "timestamp": "2024-09-27T00:34:06+0700", "vote": "4"}], "image_6.webp": [{"username": "AnhNT1802", "content": "A\nNguồn: Quizlet_MLN131 - PT2", "timestamp": "2024-03-19T05:06:06+0700", "vote": "0"}, {"username": "saseru99", "content": "b", "timestamp": "2024-09-27T00:35:56+0700", "vote": "4"}, {"username": "quangtu2301", "content": "A\nGiáo trình trang 167", "timestamp": "2024-09-30T20:55:35+0700", "vote": "-1"}, {"username": "saseru99", "content": "quangtu2301 đã viết:\nA\nGiáo trình trang 167\ndẫn hẳn hoi nào bạn?", "timestamp": "2024-10-01T02:33:18+0700", "vote": "4"}, {"username": "chunchu123", "content": "B. Cơ cấu xã hội - kinh tế.\nTheo quan điểm của chủ nghĩa Marx-Lenin, cơ cấu kinh tế là nền tảng quyết định của xã hội. Khi cơ cấu kinh tế biến đổi, nó sẽ ảnh hưởng trực tiếp đến các cơ cấu chính trị, văn hóa, xã hội và dẫn đến sự thay đổi toàn diện của toàn bộ hệ thống xã hội.", "timestamp": "2025-02-05T22:36:48+0700", "vote": "0"}], "image_7.webp": [{"username": "Misa", "content": "C", "timestamp": "2024-07-26T09:10:31+0700", "vote": "11093"}, {"username": "saseru99", "content": "c", "timestamp": "2024-09-27T00:37:17+0700", "vote": "4"}], "image_8.webp": [{"username": "Misa", "content": "C", "timestamp": "2024-07-26T09:10:49+0700", "vote": "11093"}, {"username": "saseru99", "content": "c", "timestamp": "2024-09-27T00:38:20+0700", "vote": "4"}], "image_9.webp": [{"username": "ndanh3", "content": "B", "timestamp": "2024-06-03T23:07:12+0700", "vote": "27"}, {"username": "vuongtuan879", "content": "B", "timestamp": "2024-06-05T13:50:05+0700", "vote": "-2"}], "image_10.webp": [{"username": "Misa", "content": "D", "timestamp": "2024-07-26T09:11:26+0700", "vote": "11093"}, {"username": "saseru99", "content": "d", "timestamp": "2024-09-27T00:39:26+0700", "vote": "4"}], "image_11.webp": [{"username": "AnhNT1802", "content": "B\nNguồn: Quizlet_MLN131 - PT2", "timestamp": "2024-03-19T05:08:18+0700", "vote": "0"}, {"username": "saseru99", "content": "b", "timestamp": "2024-09-27T00:40:18+0700", "vote": "4"}], "image_12.webp": [{"username": "AnhNT1802", "content": "B\nNguồn: Quizlet_MLN131 - PT2", "timestamp": "2024-03-19T05:09:41+0700", "vote": "0"}, {"username": "saseru99", "content": "b", "timestamp": "2024-09-27T00:40:41+0700", "vote": "4"}], "image_13.webp": [{"username": "ndanh3", "content": "B", "timestamp": "2024-06-03T23:14:23+0700", "vote": "27"}, {"username": "saseru99", "content": "b", "timestamp": "2024-09-27T00:41:01+0700", "vote": "4"}], "image_14.webp": [{"username": "AnhNT1802", "content": "A\nNguồn: Quizlet_MLN131 - PT2", "timestamp": "2024-03-19T05:10:29+0700", "vote": "0"}, {"username": "saseru99", "content": "a", "timestamp": "2024-09-27T00:41:48+0700", "vote": "4"}], "image_15.webp": [{"username": "Misa", "content": "D", "timestamp": "2024-07-26T09:11:58+0700", "vote": "11093"}, {"username": "saseru99", "content": "đ", "timestamp": "2024-09-27T00:43:08+0700", "vote": "4"}], "image_16.webp": [{"username": "Misa", "content": "C", "timestamp": "2024-07-26T09:12:17+0700", "vote": "11093"}, {"username": "saseru99", "content": "c", "timestamp": "2024-09-27T00:43:19+0700", "vote": "4"}], "image_17.webp": [{"username": "Misa", "content": "C", "timestamp": "2024-07-26T09:12:24+0700", "vote": "11093"}, {"username": "saseru99", "content": "c", "timestamp": "2024-09-27T00:43:28+0700", "vote": "4"}], "image_18.webp": [{"username": "Misa", "content": "B", "timestamp": "2024-07-26T09:12:31+0700", "vote": "11093"}, {"username": "saseru99", "content": "b", "timestamp": "2024-09-27T00:43:37+0700", "vote": "4"}], "image_19.webp": [{"username": "ndanh3", "content": "A.\nNhà nước xã hội chủ nghĩa là nhà nước mà ở đó, sự lãnh đạo chính trị thuộc về giai cấp công nhân, do cách mạng xã hội chủ nghĩa sản sinh ra và có sứ mệnh xây dựng thành công chủ nghĩa xã hội, đưa nhân dân lao động lên địa vị làm chủ trên tất các mặt của đời sống xã hội trong một xã hội phát triển cao - xã hội xã hội chủ nghĩa.", "timestamp": "2024-06-03T23:56:15+0700", "vote": "27"}, {"username": "saseru99", "content": "a", "timestamp": "2024-09-27T00:44:59+0700", "vote": "4"}, {"username": "duyn", "content": "A", "timestamp": "2024-09-30T00:23:21+0700", "vote": "-12"}], "image_20.webp": [{"username": "ndanh3", "content": "C", "timestamp": "2024-06-04T00:01:48+0700", "vote": "27"}, {"username": "saseru99", "content": "c", "timestamp": "2024-09-27T00:45:13+0700", "vote": "4"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

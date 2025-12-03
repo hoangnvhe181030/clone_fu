@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>MLN131 - FA 2023 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>MLN131 - FA 2023 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_51.webp">
+            <img src="images/image_51.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_52.webp">
+            <img src="images/image_52.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_53.webp">
+            <img src="images/image_53.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_54.webp">
+            <img src="images/image_54.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_55.webp">
+            <img src="images/image_55.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_56.webp">
+            <img src="images/image_56.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_57.webp">
+            <img src="images/image_57.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_58.webp">
+            <img src="images/image_58.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_59.webp">
+            <img src="images/image_59.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_60.webp">
+            <img src="images/image_60.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "donghang", "content": "c\nLý luận về thời kỳ quá độ lên chủ nghĩa xã hội của chủ nghĩa Mác-Lênin và sự bổ sung, phát triển của Đảng ta\n(ĐCSVN) - Lý luận về thời kỳ quá độ (TKQĐ) lên chủ nghĩa xã hội (CNXH) là một nội dung quan trọng của chủ nghĩa Mác - Lênin, luận giải giai đoạn chuyển tiếp còn đan xen những yếu tố, đặc điểm của cả hai hình thái kinh tế - xã hội cộng sản chủ nghĩa (giai đoạn thấp là XHCN) và hình thái kinh tế -...\ndangcongsan.vn", "timestamp": "2023-11-20T11:55:28+0700", "vote": "54"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-21T23:37:06+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "c", "timestamp": "2025-10-10T23:23:33+0700", "vote": "1"}], "image_2.webp": [{"username": "donghang", "content": "d.\nhttp://mattran.org.vn/hoi-dong-tu-v...-pham-tuyen-ngon-cua-dang-cong-san-11838.html", "timestamp": "2023-11-20T12:01:30+0700", "vote": "54"}, {"username": "ndanh3", "content": "C.Mác và Ph.Ăngghen cho rằng, giai cấp tư sản không chỉ tạo vũ khí để giết mình mà còn tạo ra những người sử dụng vũ khí đó, những công nhân hiện đại, những người vô sản\n\nD", "timestamp": "2024-06-15T16:06:05+0700", "vote": "27"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-21T23:37:19+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "d", "timestamp": "2025-10-10T23:23:58+0700", "vote": "1"}], "image_3.webp": [{"username": "ryan14x", "content": "D", "timestamp": "2024-04-27T17:53:32+0700", "vote": "0"}, {"username": "ndanh3", "content": "Hồ Chí Minh đã phát triển dân chủ theo hướng (1) Dân chủ trước hết là một giá trị nhân loại chung. Và, khi coi dân chủ là một giá trị xã hội mang tính toàn nhân loại, Người đã khẳng định: Dân chủ là dân là chủ và dân làm chủ. Người nói: “Nước ta là nước dân chủ, địa vị cao nhất là dân, vì dân là chủ” 1 . (2) Khi coi dân chủ là một thể chế chính trị, một chế độ xã hội => GIÁO TRÌNH TR69\n\n\nB", "timestamp": "2024-06-15T16:09:06+0700", "vote": "27"}, {"username": "quyleo", "content": "B", "timestamp": "2024-06-21T23:54:08+0700", "vote": "112"}], "image_4.webp": [{"username": "duongttr", "content": "AD", "timestamp": "2023-11-25T02:36:37+0700", "vote": "2"}, {"username": "sai thì đừng cmt", "content": "a c", "timestamp": "2024-03-26T22:55:21+0700", "vote": "31"}, {"username": "quyleo", "content": "AC", "timestamp": "2024-06-21T23:55:07+0700", "vote": "112"}, {"username": "duyn", "content": "AC", "timestamp": "2024-10-13T10:06:35+0700", "vote": "-12"}], "image_5.webp": [{"username": "Dngpoo2101", "content": "C", "timestamp": "2023-11-22T10:10:35+0700", "vote": "7"}, {"username": "huangngh", "content": "a", "timestamp": "2024-02-25T02:20:05+0700", "vote": "1"}, {"username": "sai thì đừng cmt", "content": "a", "timestamp": "2024-03-26T22:57:41+0700", "vote": "31"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-21T23:55:21+0700", "vote": "112"}], "image_6.webp": [{"username": "Dngpoo2101", "content": "A", "timestamp": "2023-11-22T10:11:37+0700", "vote": "7"}, {"username": "huangngh", "content": "a", "timestamp": "2024-02-25T02:20:20+0700", "vote": "1"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-21T23:56:18+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "a", "timestamp": "2025-10-10T23:28:05+0700", "vote": "1"}], "image_7.webp": [{"username": "Dngpoo2101", "content": "C", "timestamp": "2023-11-22T10:12:32+0700", "vote": "7"}, {"username": "sai thì đừng cmt", "content": "c", "timestamp": "2024-03-26T22:59:03+0700", "vote": "31"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-21T23:56:57+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "c", "timestamp": "2025-10-10T23:28:24+0700", "vote": "1"}], "image_8.webp": [{"username": "duongttr", "content": "D", "timestamp": "2023-11-25T02:37:12+0700", "vote": "2"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-21T23:57:21+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "d", "timestamp": "2025-10-10T23:28:32+0700", "vote": "1"}], "image_9.webp": [{"username": "Dngpoo2101", "content": "C", "timestamp": "2023-11-22T10:13:30+0700", "vote": "7"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-21T23:57:26+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "c", "timestamp": "2025-10-10T23:28:37+0700", "vote": "1"}], "image_10.webp": [{"username": "Dngpoo2101", "content": "D", "timestamp": "2023-11-22T10:14:35+0700", "vote": "7"}, {"username": "sai thì đừng cmt", "content": "d", "timestamp": "2024-03-26T23:01:04+0700", "vote": "31"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-21T23:57:36+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "d", "timestamp": "2025-10-10T23:28:42+0700", "vote": "1"}], "image_11.webp": [{"username": "Dngpoo2101", "content": "B", "timestamp": "2023-11-22T10:17:49+0700", "vote": "7"}, {"username": "quyleo", "content": "b", "timestamp": "2024-06-21T23:57:45+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "chính trị chú ý hen", "timestamp": "2025-10-10T23:28:57+0700", "vote": "1"}], "image_12.webp": [{"username": "Dngpoo2101", "content": "A", "timestamp": "2023-11-22T10:23:54+0700", "vote": "7"}, {"username": "huangngh", "content": "a, tiền đề lý luận và khtn", "timestamp": "2024-02-25T02:26:09+0700", "vote": "1"}, {"username": "trangpretty", "content": "a", "timestamp": "2024-06-13T23:16:20+0700", "vote": "-1"}, {"username": "quetran1306", "content": "d", "timestamp": "2025-06-14T21:38:55+0700", "vote": "0"}, {"username": "hoangminhtri", "content": "A", "timestamp": "2025-10-10T20:33:02+0700", "vote": "-26"}, {"username": "quynh1234@gmail.com", "content": "trong sách ghi rõ : CNKHXH ra đời dựa trên 2 tiền đề:\nKHTN và Lý luận", "timestamp": "2025-10-10T23:29:52+0700", "vote": "1"}], "image_13.webp": [{"username": "Dngpoo2101", "content": "A\nhttps://tulieuvankien.dangcongsan.v...-cong-nhan-thang-5-1969-tai-matxcova-nga-3377", "timestamp": "2023-11-22T10:27:37+0700", "vote": "7"}, {"username": "trangpretty", "content": "a", "timestamp": "2024-06-13T23:16:49+0700", "vote": "-1"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:01:43+0700", "vote": "112"}], "image_14.webp": [{"username": "duongttr", "content": "b", "timestamp": "2023-11-25T02:38:03+0700", "vote": "2"}, {"username": "trangpretty", "content": "a", "timestamp": "2024-06-13T23:17:36+0700", "vote": "-1"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:01:51+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "a", "timestamp": "2025-10-10T23:30:36+0700", "vote": "1"}], "image_15.webp": [{"username": "Dngpoo2101", "content": "C", "timestamp": "2023-11-22T10:29:12+0700", "vote": "7"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:02:03+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "c", "timestamp": "2025-10-10T23:30:45+0700", "vote": "1"}], "image_16.webp": [{"username": "Dngpoo2101", "content": "A", "timestamp": "2023-11-22T10:29:58+0700", "vote": "7"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:02:16+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "a", "timestamp": "2025-10-10T23:31:06+0700", "vote": "1"}], "image_17.webp": [{"username": "Dngpoo2101", "content": "D\nhttps://kctl.huit.edu.vn/app_web/images/documents/n00ct/cnxh-chuong-4.pdf", "timestamp": "2023-11-22T10:30:48+0700", "vote": "7"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-22T00:02:32+0700", "vote": "112"}, {"username": "quynh1234@gmail.com", "content": "d", "timestamp": "2025-10-10T23:31:52+0700", "vote": "1"}], "image_18.webp": [{"username": "Dngpoo2101", "content": "A", "timestamp": "2023-11-22T10:33:05+0700", "vote": "7"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:02:38+0700", "vote": "112"}, {"username": "hhhh", "content": "cần thiết phải có thời kỳ quá độ khá lâu dài từ chủ nghĩa tư bản\nlên chủ nghĩa xã hội- những cơn đau đẻ kéo dài", "timestamp": "2024-08-24T01:04:36+0700", "vote": "146"}, {"username": "huai_cang15", "content": "a", "timestamp": "2024-10-12T11:55:53+0700", "vote": "-15"}], "image_19.webp": [{"username": "duongttr", "content": "a", "timestamp": "2023-11-25T02:38:32+0700", "vote": "2"}, {"username": "huangngh", "content": "a", "timestamp": "2024-02-25T02:28:10+0700", "vote": "1"}, {"username": "sai thì đừng cmt", "content": "A", "timestamp": "2024-03-26T23:08:54+0700", "vote": "31"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:06:14+0700", "vote": "112"}, {"username": "quetran1306", "content": "c", "timestamp": "2025-06-14T21:47:57+0700", "vote": "0"}, {"username": "kittrann", "content": "a", "timestamp": "2025-08-28T10:34:09+0700", "vote": "-3"}], "image_20.webp": [{"username": "Dngpoo2101", "content": "C\nNguyên tắc cơ bản của nền dân chủ xã hội chủ nghĩa là không ngừng mở rộng dân chủ, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội. Càng hoàn thiện bao nhiêu, nền dân chủ xã hội chủ nghĩa lại càng tự tiêu vong bấy nhiêu.", "timestamp": "2023-11-22T13:37:00+0700", "vote": "7"}, {"username": "huangngh", "content": "c", "timestamp": "2024-02-25T02:28:31+0700", "vote": "1"}, {"username": "sai thì đừng cmt", "content": "C", "timestamp": "2024-03-26T23:09:11+0700", "vote": "31"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:06:40+0700", "vote": "112"}], "image_21.webp": [{"username": "Dngpoo2101", "content": "C", "timestamp": "2023-11-22T13:37:58+0700", "vote": "7"}, {"username": "sai thì đừng cmt", "content": "C", "timestamp": "2024-03-26T23:09:16+0700", "vote": "31"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:06:47+0700", "vote": "112"}], "image_22.webp": [{"username": "Cathérine", "content": "A", "timestamp": "2023-11-24T21:43:16+0700", "vote": "0"}, {"username": "duongttr", "content": "c", "timestamp": "2023-11-25T02:39:02+0700", "vote": "2"}, {"username": "K15Anh", "content": "d", "timestamp": "2024-02-23T14:42:32+0700", "vote": "0"}, {"username": "sai thì đừng cmt", "content": "D nhé tin chuẩn", "timestamp": "2024-03-26T23:12:33+0700", "vote": "31"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-22T00:06:57+0700", "vote": "112"}, {"username": "Tungtran270904", "content": "D", "timestamp": "2025-10-11T11:43:03+0700", "vote": "2"}], "image_23.webp": [{"username": "Cathérine", "content": "B", "timestamp": "2023-11-24T21:45:26+0700", "vote": "0"}, {"username": "duongttr", "content": "a", "timestamp": "2023-11-25T02:39:39+0700", "vote": "2"}, {"username": "trumlacan10", "content": "A", "timestamp": "2024-02-24T10:56:58+0700", "vote": "0"}, {"username": "sai thì đừng cmt", "content": "a", "timestamp": "2024-03-26T23:13:41+0700", "vote": "31"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:07:06+0700", "vote": "112"}], "image_24.webp": [{"username": "Dngpoo2101", "content": "D", "timestamp": "2023-11-22T13:40:28+0700", "vote": "7"}, {"username": "sai thì đừng cmt", "content": "D", "timestamp": "2024-03-26T23:14:54+0700", "vote": "31"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-22T00:08:13+0700", "vote": "112"}], "image_25.webp": [{"username": "Dngpoo2101", "content": "A\nBa phát kiến vĩ đại của C.Mác và Ph - Ăngghen Chủ nghĩa duy vật lịch sử Trên cơ sở kế thừa “cái hạt - Studocu\nShare free summaries, lecture notes, exam prep and more!!\nwww.studocu.com", "timestamp": "2023-11-22T13:42:24+0700", "vote": "7"}, {"username": "sai thì đừng cmt", "content": "A", "timestamp": "2024-03-26T23:15:28+0700", "vote": "31"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:08:34+0700", "vote": "112"}], "image_26.webp": [{"username": "Dngpoo2101", "content": "B\n[Solved] Ai a ra quan nim CNXH l s phn khng v u tranh chng s bc lt ngi lao - Chủ nghĩa xã hội khoa học (GS79007) - Studocu\nShare free summaries, lecture notes, exam prep and more!!\nwww.studocu.com", "timestamp": "2023-11-22T13:43:49+0700", "vote": "7"}, {"username": "quyleo", "content": "b", "timestamp": "2024-06-22T00:08:58+0700", "vote": "112"}], "image_27.webp": [{"username": "duongttr", "content": "a", "timestamp": "2023-11-25T02:41:24+0700", "vote": "2"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:09:14+0700", "vote": "112"}], "image_28.webp": [{"username": "Dngpoo2101", "content": "b", "timestamp": "2023-11-22T13:47:13+0700", "vote": "7"}, {"username": "quyleo", "content": "b", "timestamp": "2024-06-22T00:09:44+0700", "vote": "112"}], "image_29.webp": [{"username": "duongttr", "content": "a", "timestamp": "2023-11-25T02:42:00+0700", "vote": "2"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:12:27+0700", "vote": "112"}], "image_30.webp": [{"username": "Dngpoo2101", "content": "A\nNội dung cơ bản và trực tiếp để xây dựng gia đình ở Việt Nam hiện nay là gì?\nhoc247.net", "timestamp": "2023-11-22T13:49:57+0700", "vote": "7"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:12:38+0700", "vote": "112"}], "image_31.webp": [{"username": "duongttr", "content": "c", "timestamp": "2023-11-25T02:42:35+0700", "vote": "2"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:12:49+0700", "vote": "112"}, {"username": "hhhh", "content": "Ngoài giai cấp công nhân, giai cấp nông dân, tầng lớp trí thức, giai cấp tư sản (tuy đã bị đánh bại nhưng vẫn còn sức mạnh - V.I.Lênin)", "timestamp": "2024-08-24T01:09:14+0700", "vote": "146"}], "image_32.webp": [{"username": "Dngpoo2101", "content": "A\nQuy luật ra đời của đảng cộng sản đã được chủ nghĩa Mác-Lênin chỉ ra là chủ nghĩa xã hội khoa học kết hợp với phong trào công nhân", "timestamp": "2023-11-22T13:54:00+0700", "vote": "7"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:13:19+0700", "vote": "112"}], "image_33.webp": [{"username": "Dngpoo2101", "content": "B", "timestamp": "2023-11-22T13:55:01+0700", "vote": "7"}, {"username": "quyleo", "content": "b", "timestamp": "2024-06-22T00:13:28+0700", "vote": "112"}], "image_34.webp": [{"username": "duongttr", "content": "c", "timestamp": "2023-11-25T02:43:21+0700", "vote": "2"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:13:45+0700", "vote": "112"}], "image_35.webp": [{"username": "duongttr", "content": "c", "timestamp": "2023-11-25T02:44:08+0700", "vote": "2"}, {"username": "huangngh", "content": "c", "timestamp": "2024-02-25T02:32:24+0700", "vote": "1"}, {"username": "ndanh3", "content": "C", "timestamp": "2024-06-15T16:45:00+0700", "vote": "27"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:14:08+0700", "vote": "112"}], "image_36.webp": [{"username": "Dngpoo2101", "content": "B", "timestamp": "2023-11-22T13:57:41+0700", "vote": "7"}, {"username": "gnaig", "content": "a", "timestamp": "2024-02-24T12:27:34+0700", "vote": "1"}, {"username": "sai thì đừng cmt", "content": "b", "timestamp": "2024-03-26T23:36:40+0700", "vote": "31"}, {"username": "quyleo", "content": "b", "timestamp": "2024-06-22T00:14:26+0700", "vote": "112"}], "image_37.webp": [{"username": "Dngpoo2101", "content": "D", "timestamp": "2023-11-22T13:58:33+0700", "vote": "7"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-22T00:14:38+0700", "vote": "112"}], "image_38.webp": [{"username": "duongttr", "content": "d", "timestamp": "2023-11-25T02:45:10+0700", "vote": "2"}, {"username": "ndanh3", "content": "Với chức năng chính trị, gia đình là một tổ chức chính trị của xã hội, là nơi tổ chức thực hiện chính sách, pháp luật của nhà nước và quy chế (hương ước) của làng xã và hưởng lợi từ hệ thống pháp luật, chính sách và quy chế đó.\n\nD", "timestamp": "2024-06-15T16:47:18+0700", "vote": "27"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-22T00:15:16+0700", "vote": "112"}], "image_39.webp": [{"username": "duongttr", "content": "b", "timestamp": "2023-11-25T02:46:10+0700", "vote": "2"}, {"username": "quyleo", "content": "b", "timestamp": "2024-06-22T00:15:32+0700", "vote": "112"}, {"username": "hhhh", "content": "c", "timestamp": "2024-08-28T01:58:22+0700", "vote": "146"}, {"username": "lenn3d", "content": "C", "timestamp": "2024-09-30T21:26:54+0700", "vote": "-17"}], "image_40.webp": [{"username": "duongttr", "content": "a", "timestamp": "2023-11-25T02:46:21+0700", "vote": "2"}, {"username": "huangngh", "content": "d", "timestamp": "2024-02-25T02:35:09+0700", "vote": "1"}, {"username": "sai thì đừng cmt", "content": "D", "timestamp": "2024-03-26T23:40:02+0700", "vote": "31"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-22T00:17:54+0700", "vote": "112"}], "image_41.webp": [{"username": "Cathérine", "content": "b", "timestamp": "2023-11-24T22:04:48+0700", "vote": "0"}, {"username": "duongttr", "content": "d", "timestamp": "2023-11-25T02:46:34+0700", "vote": "2"}, {"username": "K15Anh", "content": "D", "timestamp": "2024-02-23T14:50:03+0700", "vote": "0"}, {"username": "sai thì đừng cmt", "content": "D", "timestamp": "2024-03-26T23:40:26+0700", "vote": "31"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-22T00:18:34+0700", "vote": "112"}], "image_42.webp": [{"username": "Cathérine", "content": "d", "timestamp": "2023-11-24T22:05:56+0700", "vote": "0"}, {"username": "duongttr", "content": "d", "timestamp": "2023-11-25T02:46:48+0700", "vote": "2"}, {"username": "sai thì đừng cmt", "content": "D", "timestamp": "2024-03-26T23:40:36+0700", "vote": "31"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-22T00:18:55+0700", "vote": "112"}], "image_43.webp": [{"username": "Dngpoo2101", "content": "C", "timestamp": "2023-11-22T14:04:54+0700", "vote": "7"}, {"username": "sai thì đừng cmt", "content": "C", "timestamp": "2024-03-26T23:41:00+0700", "vote": "31"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:19:38+0700", "vote": "112"}], "image_44.webp": [{"username": "duongttr", "content": "c", "timestamp": "2023-11-25T02:47:10+0700", "vote": "2"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:19:51+0700", "vote": "112"}], "image_45.webp": [{"username": "Dngpoo2101", "content": "B", "timestamp": "2023-11-22T14:06:37+0700", "vote": "7"}, {"username": "quyleo", "content": "b", "timestamp": "2024-06-22T00:20:15+0700", "vote": "112"}], "image_46.webp": [{"username": "Dngpoo2101", "content": "C", "timestamp": "2023-11-22T14:07:07+0700", "vote": "7"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:20:29+0700", "vote": "112"}], "image_47.webp": [{"username": "duongttr", "content": "BD", "timestamp": "2023-11-25T02:47:49+0700", "vote": "2"}, {"username": "sai thì đừng cmt", "content": "BD", "timestamp": "2024-03-26T23:41:58+0700", "vote": "31"}, {"username": "quyleo", "content": "bd", "timestamp": "2024-06-22T00:21:08+0700", "vote": "112"}], "image_48.webp": [{"username": "Dngpoo2101", "content": "A", "timestamp": "2023-11-22T14:09:25+0700", "vote": "7"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:21:14+0700", "vote": "112"}], "image_49.webp": [{"username": "Dngpoo2101", "content": "C", "timestamp": "2023-11-22T14:10:18+0700", "vote": "7"}, {"username": "huangngh", "content": "d", "timestamp": "2024-02-25T02:42:39+0700", "vote": "1"}, {"username": "sai thì đừng cmt", "content": "B", "timestamp": "2024-03-26T23:42:53+0700", "vote": "31"}, {"username": "sai thì đừng cmt", "content": "Marx & Engels: \"Tất cả các giai cấp khác đều suy tàn và tiêu vong cùng với sự phát triển của đại công nghiệp, còn giai cấp vô sản lại là sản phẩm của bản thân nền đại công nghiệp.\"", "timestamp": "2024-03-26T23:43:54+0700", "vote": "31"}, {"username": "ndanh3", "content": "D", "timestamp": "2024-06-15T17:03:43+0700", "vote": "27"}, {"username": "quyleo", "content": "D", "timestamp": "2024-06-22T00:28:15+0700", "vote": "112"}, {"username": "duyn", "content": "D", "timestamp": "2024-10-13T10:20:29+0700", "vote": "-12"}], "image_50.webp": [{"username": "Dngpoo2101", "content": "A", "timestamp": "2023-11-22T14:11:46+0700", "vote": "7"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:29:53+0700", "vote": "112"}], "image_51.webp": [{"username": "duongttr", "content": "B", "timestamp": "2023-11-25T02:48:55+0700", "vote": "2"}, {"username": "quyleo", "content": "b", "timestamp": "2024-06-22T00:30:18+0700", "vote": "112"}], "image_52.webp": [{"username": "duongttr", "content": "D", "timestamp": "2023-11-25T02:49:09+0700", "vote": "2"}, {"username": "quyleo", "content": "d", "timestamp": "2024-06-22T00:32:57+0700", "vote": "112"}], "image_53.webp": [{"username": "duongttr", "content": "A", "timestamp": "2023-11-25T02:49:33+0700", "vote": "2"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:33:11+0700", "vote": "112"}], "image_54.webp": [{"username": "duongttr", "content": "A", "timestamp": "2023-11-25T02:50:03+0700", "vote": "2"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:34:19+0700", "vote": "112"}], "image_55.webp": [{"username": "duongttr", "content": "C", "timestamp": "2023-11-25T02:50:14+0700", "vote": "2"}, {"username": "quyleo", "content": "c", "timestamp": "2024-06-22T00:34:54+0700", "vote": "112"}], "image_56.webp": [{"username": "Cathérine", "content": "c", "timestamp": "2023-11-24T22:33:55+0700", "vote": "0"}, {"username": "duongttr", "content": "A", "timestamp": "2023-11-25T02:50:24+0700", "vote": "2"}, {"username": "huangngh", "content": "c", "timestamp": "2024-02-25T02:45:39+0700", "vote": "1"}, {"username": "sai thì đừng cmt", "content": "C", "timestamp": "2024-03-26T23:46:08+0700", "vote": "31"}, {"username": "ndanh3", "content": "C", "timestamp": "2024-06-15T17:06:26+0700", "vote": "27"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:38:03+0700", "vote": "112"}, {"username": "quetran1306", "content": "c", "timestamp": "2025-06-14T22:18:21+0700", "vote": "0"}, {"username": "kittrann", "content": "c", "timestamp": "2025-08-28T10:47:17+0700", "vote": "-3"}, {"username": "hoangminhtri", "content": "C", "timestamp": "2025-10-10T20:49:43+0700", "vote": "-26"}], "image_57.webp": [{"username": "duongttr", "content": "B", "timestamp": "2023-11-25T02:50:32+0700", "vote": "2"}, {"username": "quyleo", "content": "b", "timestamp": "2024-06-22T00:38:12+0700", "vote": "112"}], "image_58.webp": [{"username": "duongttr", "content": "A", "timestamp": "2023-11-25T02:51:34+0700", "vote": "2"}, {"username": "huangngh", "content": "a", "timestamp": "2024-02-25T02:46:01+0700", "vote": "1"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:40:05+0700", "vote": "112"}], "image_59.webp": [{"username": "duongttr", "content": "A", "timestamp": "2023-11-25T02:51:43+0700", "vote": "2"}, {"username": "quyleo", "content": "a", "timestamp": "2024-06-22T00:40:24+0700", "vote": "112"}], "image_60.webp": [{"username": "duongttr", "content": "B", "timestamp": "2023-11-25T02:51:56+0700", "vote": "2"}, {"username": "ndanh3", "content": "A", "timestamp": "2024-06-15T17:11:56+0700", "vote": "27"}, {"username": "hhhh", "content": "Cơ cấu kinh tế trong thời kỳ quá độ tuyvận động theo cơ chế thị trường, song có sự quản lý của Nhà nước pháp quyền xã hội chủ nghĩa nhằm xây dựng thành công chủ nghĩa xã hội.", "timestamp": "2024-08-24T01:22:44+0700", "vote": "146"}, {"username": "hoangminhtri", "content": "B", "timestamp": "2025-10-10T20:51:07+0700", "vote": "-26"}, {"username": "Tungtran270904", "content": "A", "timestamp": "2025-10-11T12:00:00+0700", "vote": "2"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

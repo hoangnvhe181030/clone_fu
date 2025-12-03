@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>MLN131 - SP 2024 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>MLN131 - SP 2024 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_51.webp">
+            <img src="images/image_51.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_52.webp">
+            <img src="images/image_52.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_53.webp">
+            <img src="images/image_53.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_54.webp">
+            <img src="images/image_54.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_55.webp">
+            <img src="images/image_55.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_56.webp">
+            <img src="images/image_56.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_57.webp">
+            <img src="images/image_57.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_58.webp">
+            <img src="images/image_58.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_59.webp">
+            <img src="images/image_59.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_60.webp">
+            <img src="images/image_60.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "SOWW", "content": "A, B", "timestamp": "2024-04-03T01:51:42+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "ab", "timestamp": "2024-04-03T10:15:30+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A-B", "timestamp": "2024-06-14T15:47:39+0700", "vote": "5"}, {"username": "ndanh3", "content": "Điểm khác biệt cơ bản giữa cách hiểu về\ndân chủ thời cổ đại và hiện nay là ở tính chất trực tiếp của mối quan hệ sở hữu quyền lực\ncông cộng và cách hiểu về nội hàm của khái niệm nhân dân.\n\nAB", "timestamp": "2024-06-14T21:50:30+0700", "vote": "27"}, {"username": "bngbtran", "content": "A B", "timestamp": "2025-03-08T14:07:24+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "AB", "timestamp": "2025-03-08T14:57:03+0700", "vote": "149"}, {"username": "Hoangne hê hê", "content": "AB", "timestamp": "2025-03-22T17:17:17+0700", "vote": "7"}, {"username": "VVVVVFE", "content": "ab", "timestamp": "2025-04-01T14:06:06+0700", "vote": "272"}, {"username": "vhminh0401", "content": "AB", "timestamp": "2025-07-27T03:47:08+0700", "vote": "4"}, {"username": "Đố biết", "content": "ab", "timestamp": "2025-10-12T05:59:30+0700", "vote": "-20"}], "image_2.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T01:52:14+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:15:42+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:47:45+0700", "vote": "5"}, {"username": "ndanh3", "content": "Nếu thực hiện tốt khối liên minh giữa giai cấp công nhân với giai cấp\nnông dân và các tầng lớp nhân dân lao động khác, trong đó trước hết là với trí thức thì\nkhông những xây dựng được cơ sở kinh tế vững mạnh mà chế độ chính trị xã hội chủ\nnghĩa cũng ngày càng được củng cố vững chắc.\n\nA", "timestamp": "2024-06-14T21:51:39+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:18:31+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:07:38+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T14:57:12+0700", "vote": "149"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-22T17:17:37+0700", "vote": "7"}, {"username": "vhminh0401", "content": "a", "timestamp": "2025-07-27T03:48:14+0700", "vote": "4"}, {"username": "Đố biết", "content": "a", "timestamp": "2025-10-12T05:59:42+0700", "vote": "-20"}], "image_3.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T01:52:26+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "C", "timestamp": "2024-04-03T10:16:33+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:48:04+0700", "vote": "5"}, {"username": "ndanh3", "content": "Tuy nhiên, trong bối cảnh hội nhập kinh tế và cạnh tranh sản phẩm hàng hóa với các nước trong khu vực và trên thế giới, kinh tế gia đình gặp rất nhiều khó khăn, trở ngại trong việc chuyển sang hướng sản xuất kinh doanh hàng hóa theo hướng chuyên sâu trong kinh tế thị trường hiện đại. Nguyên nhân là do kinh tế gia đình phần lớn có quy mô nhỏ, lao động ít và tự sản xuất là chính.\n\nC", "timestamp": "2024-06-14T21:52:39+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:18:45+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:07:46+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T14:57:20+0700", "vote": "149"}, {"username": "Hoangne hê hê", "content": "C", "timestamp": "2025-03-22T17:17:53+0700", "vote": "7"}, {"username": "vhminh0401", "content": "c", "timestamp": "2025-07-27T03:48:30+0700", "vote": "4"}, {"username": "Đố biết", "content": "c", "timestamp": "2025-10-12T05:59:52+0700", "vote": "-20"}], "image_4.webp": [{"username": "SOWW", "content": "B", "timestamp": "2024-04-03T01:52:42+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "B", "timestamp": "2024-04-03T10:16:40+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "B", "timestamp": "2024-06-14T15:48:13+0700", "vote": "5"}, {"username": "ndanh3", "content": "Đối với đội ngũ trí thức, xây dựng đội ngũ ngày càng lớn mạnh, chất lượng cao. Tôn trọng và phát huy tự do tư tưởng trong hoạt động nghiên cứu, sáng tạo. Trọng dụng trí thức trên cơ sở đánh giá đúng phẩm chất, năng lực và kết quả cống hiến. Bảo vệ quyền sở hữu trí tuệ, đãi ngộ và tôn vinh xứng đáng những cống hiến của họ. Có cơ chế, chính sách đặc biệt để thu hút nhân tài xây dựng đất nước.\n\nB", "timestamp": "2024-06-14T21:55:22+0700", "vote": "27"}, {"username": "minniee", "content": "b", "timestamp": "2024-07-07T15:19:04+0700", "vote": "30"}, {"username": "bngbtran", "content": "B", "timestamp": "2025-03-08T14:07:57+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "B", "timestamp": "2025-03-08T14:57:39+0700", "vote": "149"}, {"username": "Hoangne hê hê", "content": "B", "timestamp": "2025-03-22T17:18:05+0700", "vote": "7"}, {"username": "vhminh0401", "content": "B", "timestamp": "2025-07-27T03:48:55+0700", "vote": "4"}, {"username": "Đố biết", "content": "b", "timestamp": "2025-10-12T06:00:09+0700", "vote": "-20"}], "image_5.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T01:53:15+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:17:05+0700", "vote": "96"}, {"username": "Hannie", "content": "A", "timestamp": "2024-04-22T16:36:30+0700", "vote": "136"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:48:31+0700", "vote": "5"}, {"username": "ndanh3", "content": "Nguyên tắc cơ bản của nền dân chủ xã hội chủ nghĩa là không ngừng mở rộng dân chủ, nâng cao mức độ giải phóng cho những người lao động, thu hút họ tham gia tự giác vào công việc quản lý nhà nước, quản lý xã hội.\n\nA", "timestamp": "2024-06-14T21:56:30+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:20:02+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:11:18+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T14:57:45+0700", "vote": "149"}, {"username": "vhminh0401", "content": "A", "timestamp": "2025-07-27T03:49:14+0700", "vote": "4"}, {"username": "Đố biết", "content": "a", "timestamp": "2025-10-12T06:00:35+0700", "vote": "-20"}], "image_6.webp": [{"username": "SOWW", "content": "B", "timestamp": "2024-04-03T01:53:34+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "B", "timestamp": "2024-04-03T10:17:14+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "B", "timestamp": "2024-06-14T15:48:46+0700", "vote": "5"}, {"username": "ndanh3", "content": "B", "timestamp": "2024-06-14T21:58:30+0700", "vote": "27"}, {"username": "minniee", "content": "b", "timestamp": "2024-07-07T15:20:29+0700", "vote": "30"}, {"username": "bngbtran", "content": "B", "timestamp": "2025-03-08T14:11:25+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "B", "timestamp": "2025-03-08T14:57:53+0700", "vote": "149"}, {"username": "vhminh0401", "content": "B", "timestamp": "2025-07-27T03:49:23+0700", "vote": "4"}, {"username": "Đố biết", "content": "b", "timestamp": "2025-10-12T06:00:44+0700", "vote": "-20"}], "image_7.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T01:53:59+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:17:26+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:48:55+0700", "vote": "5"}, {"username": "ndanh3", "content": "Với chức năng văn hóa, gia đình là nơi lưu giữ truyền thống văn hóa của\ndân tộc cũng như tộc người. Những phong tục, tập quán, sinh hoạt văn hóa của cộng\nđồng được thực hiện trong gia đình. Gia đình không chỉ là nơi lưu giữ mà còn là nơi\nsáng tạo và thụ hưởng những giá trị văn hóa của xã hội.\n\nA", "timestamp": "2024-06-14T21:59:42+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:20:42+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:11:38+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T14:58:00+0700", "vote": "149"}, {"username": "vhminh0401", "content": "A", "timestamp": "2025-07-27T03:49:41+0700", "vote": "4"}, {"username": "Đố biết", "content": "a", "timestamp": "2025-10-12T06:00:50+0700", "vote": "-20"}], "image_8.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T01:54:06+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:17:32+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:49:04+0700", "vote": "5"}, {"username": "ndanh3", "content": "A", "timestamp": "2024-06-14T22:00:00+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:20:51+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:11:43+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T14:58:06+0700", "vote": "149"}, {"username": "vhminh0401", "content": "A", "timestamp": "2025-07-27T03:49:48+0700", "vote": "4"}], "image_9.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T01:54:14+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:17:37+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:49:10+0700", "vote": "5"}, {"username": "ndanh3", "content": "A", "timestamp": "2024-06-14T22:02:23+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:20:56+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:11:49+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T14:58:11+0700", "vote": "149"}, {"username": "vhminh0401", "content": "A", "timestamp": "2025-07-27T03:50:23+0700", "vote": "4"}], "image_10.webp": [{"username": "SOWW", "content": "B", "timestamp": "2024-04-03T01:54:22+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "D", "timestamp": "2024-04-03T10:17:44+0700", "vote": "96"}, {"username": "aleksandar_p84", "content": "D", "timestamp": "2024-05-02T13:30:34+0700", "vote": "-3"}, {"username": "Hannie", "content": "B", "timestamp": "2024-06-13T20:40:57+0700", "vote": "136"}, {"username": "Hoàng Mạnh Cường", "content": "B", "timestamp": "2024-06-14T15:49:28+0700", "vote": "5"}, {"username": "ndanh3", "content": "Cho đến nay thời kỳ quá độ trực tiếp lên chủ nghĩa cộng\nsản từ chủ nghĩa tư bản phát triển chưa từng diễn ra;\n\nB", "timestamp": "2024-06-14T22:03:15+0700", "vote": "27"}, {"username": "Pan21111", "content": "B", "timestamp": "2024-06-15T21:49:08+0700", "vote": "1"}, {"username": "minniee", "content": "b", "timestamp": "2024-07-07T15:21:13+0700", "vote": "30"}, {"username": "bngbtran", "content": "B", "timestamp": "2025-03-08T14:11:57+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "B", "timestamp": "2025-03-08T14:58:23+0700", "vote": "149"}, {"username": "vhminh0401", "content": "B", "timestamp": "2025-07-27T03:50:37+0700", "vote": "4"}], "image_11.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T01:54:45+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "C", "timestamp": "2024-04-03T10:18:21+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:49:47+0700", "vote": "5"}, {"username": "ndanh3", "content": "C", "timestamp": "2024-06-14T22:04:02+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:21:21+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:12:05+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T14:58:35+0700", "vote": "149"}], "image_12.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T01:55:32+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "C", "timestamp": "2024-04-03T10:18:27+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:49:53+0700", "vote": "5"}, {"username": "ndanh3", "content": "Thiếu đi cơ sở văn hóa, hoặc cơ sở văn hóa không đi liền với cơ sở kinh tế, chính\ntrị, thì việc xây dựng gia đình sẽ lệch lạc, không đạt hiệu quả cao.\n\nC", "timestamp": "2024-06-14T22:04:32+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:21:43+0700", "vote": "30"}, {"username": "lenn3d", "content": "a", "timestamp": "2024-10-11T22:28:54+0700", "vote": "-17"}, {"username": "jaksca", "content": "a", "timestamp": "2025-03-06T20:15:48+0700", "vote": "6"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:12:20+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T14:58:46+0700", "vote": "149"}, {"username": "hoangminhtri", "content": "C", "timestamp": "2025-10-10T14:08:34+0700", "vote": "-26"}], "image_13.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T01:55:41+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "C", "timestamp": "2024-04-03T10:18:37+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:50:02+0700", "vote": "5"}, {"username": "ndanh3", "content": "Cơ cấu kinh tế trong thời kỳ quá độ tuy\nvận động theo cơ chế thị trường, song có sự quản lý của Nhà nước pháp quyền xã hội\nchủ nghĩa nhằm xây dựng thành công chủ nghĩa xã hội.\n\nC", "timestamp": "2024-06-14T22:05:02+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:25:04+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:12:26+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T14:59:00+0700", "vote": "149"}, {"username": "Hoangne hê hê", "content": "C", "timestamp": "2025-03-22T17:42:08+0700", "vote": "7"}], "image_14.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T01:56:03+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:18:43+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:50:08+0700", "vote": "5"}, {"username": "ndanh3", "content": "Các giá trị như lao động, sáng tạo, công bằng, dân chủ, bình đẳng, tự do vẫn là\nnhững giá trị được nhân loại thừa nhận và phấn đấu thực hiện.\n\nA", "timestamp": "2024-06-14T22:05:47+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:25:17+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:12:32+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T14:59:05+0700", "vote": "149"}], "image_15.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T01:56:17+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:18:53+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:50:16+0700", "vote": "5"}, {"username": "ndanh3", "content": "A", "timestamp": "2024-06-14T22:06:17+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:25:30+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:12:41+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T14:59:18+0700", "vote": "149"}], "image_16.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T01:56:31+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:19:19+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:50:28+0700", "vote": "5"}, {"username": "ndanh3", "content": "Các quan hệ này có mối liên hệ chặt chẽ với nhau và biến đổi, phát triển phụ\nthuộc vào trình độ phát triển kinh tế và thể chế chính trị-xã hội\n\nA", "timestamp": "2024-06-14T22:12:02+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:25:38+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:25:41+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T14:59:27+0700", "vote": "149"}], "image_17.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T01:56:48+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "C", "timestamp": "2024-04-03T10:20:01+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:52:45+0700", "vote": "5"}, {"username": "ndanh3", "content": "Mục tiêu lâu dài là giành chính\nquyền về tay giai cấp công nhân và nhân dân lao động, được nêu rõ trong Cương lĩnh\nchính trị của các Đảng Cộng sản trong các nước tư bản chủ nghĩa.\n\nC", "timestamp": "2024-06-14T22:13:29+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:27:12+0700", "vote": "30"}, {"username": "duyn", "content": "C", "timestamp": "2024-10-13T09:54:19+0700", "vote": "-12"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:26:34+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T14:59:50+0700", "vote": "149"}], "image_18.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T01:57:12+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:20:09+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:53:00+0700", "vote": "5"}, {"username": "ndanh3", "content": "A", "timestamp": "2024-06-14T22:13:40+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:27:24+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:27:04+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T14:59:56+0700", "vote": "149"}], "image_19.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T01:57:17+0700", "vote": "-5"}, {"username": "aleksandar_p84", "content": "5", "timestamp": "2024-05-02T13:36:47+0700", "vote": "-3"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:53:20+0700", "vote": "5"}, {"username": "ndanh3", "content": "Kinh tế gia trưởng; kinh tế\nhàng hóa nhỏ; kinh tế tư bản; kinh tế tư bản nhà nước; kinh tế xã hội chủ nghĩa.\n\nC", "timestamp": "2024-06-14T22:15:23+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:27:36+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:27:12+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:00:24+0700", "vote": "149"}], "image_20.webp": [{"username": "SOWW", "content": "B", "timestamp": "2024-04-03T01:57:45+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "B", "timestamp": "2024-04-03T10:22:27+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "B", "timestamp": "2024-06-14T15:53:28+0700", "vote": "5"}, {"username": "ndanh3", "content": "B\n\nNâng cao chất lượng đội ngũ cán bộ, công chức về bản lĩnh chính trị, phẩm chất\nđạo đức, năng lực lãnh đạo, điều hành quản lý đất nước. Có chính sách đãi ngộ, động\nviên, khuyến khích cán bộ, công chức hoàn thành tốt nhiệm vụ; đồng thời cũng phải\nxây dựng được cơ chế loại bỏ, miễn nhiệm những người không hoàn thành nhiệm vụ,\nvi phạm kỷ luật, đạo đức công vụ.", "timestamp": "2024-06-14T22:16:40+0700", "vote": "27"}, {"username": "minniee", "content": "b", "timestamp": "2024-07-07T15:27:50+0700", "vote": "30"}, {"username": "bngbtran", "content": "B", "timestamp": "2025-03-08T14:27:17+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "B", "timestamp": "2025-03-08T15:00:35+0700", "vote": "149"}], "image_21.webp": [{"username": "SOWW", "content": "B", "timestamp": "2024-04-03T02:00:51+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "b", "timestamp": "2024-04-03T10:22:38+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "B", "timestamp": "2024-06-14T15:53:42+0700", "vote": "5"}, {"username": "minniee", "content": "b", "timestamp": "2024-07-07T15:28:01+0700", "vote": "30"}, {"username": "bngbtran", "content": "B", "timestamp": "2025-03-08T14:27:25+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "B", "timestamp": "2025-03-08T15:00:41+0700", "vote": "149"}], "image_22.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:00:58+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "d", "timestamp": "2024-04-03T10:22:51+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "D", "timestamp": "2024-06-14T15:54:29+0700", "vote": "5"}, {"username": "ndanh3", "content": "Đảng yêu cầu phải đặc biệt chú trọng nắm vững và giải quyết tốt các mối quan hệ lớn: quan hệ giữa đổi mới, ổn định và phát triển; giữa đổi mới kinh tế và đổi mới chính trị; giữa kinh tế thị trường và định hướng xã hội chủ nghĩa; giữa phát triển lực lượng sản xuất và xây dựng, hoàn thiện từng bước quan hệ sản xuất xã hội chủ nghĩa; giữa tăng trưởng kinh tế và phát triển văn hoá, thực hiện tiến bộ và công bằng xã hội; giữa xây dựng chủ nghĩa xã hội và bảo vệ Tổ quốc xã hội chủ nghĩa; giữa độc lập, tự chủ và hội nhập quốc tế; giữa Đảng lãnh đạo, Nhà nước quản lý, nhân dân làm chủ;...\n\nD", "timestamp": "2024-06-14T20:23:58+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:28:16+0700", "vote": "30"}, {"username": "hhhh", "content": "D", "timestamp": "2024-08-27T13:28:07+0700", "vote": "146"}, {"username": "Anhs.24", "content": "C mà có bảo vệ môi trường\n\nTừ Đại hội VIII, nhận thức về mối quan hệ này tiếp tục được hoàn thiện. Cụ thể là: “Tăng trưởng kinh tế gắn với cải thiện đời sống nhân dân, phát triển văn hóa, giáo dục, thực hiện tiến bộ, công bằng xã hội và bảo vệ môi trường” (Đại hội VIII); “Tăng trưởng kinh tế gắn với bảo đảm tiến bộ và công bằng xã hội ngay trong từng bước phát triển”, “Phát triển nhanh, hiệu quả và bền vững, tăng trưởng kinh tế đi đôi với thực hiện tiến bộ, công bằng xã hội và bảo vệ môi trường”(4)", "timestamp": "2024-10-12T22:01:33+0700", "vote": "2"}, {"username": "longleomeo7", "content": "c", "timestamp": "2024-10-12T23:22:33+0700", "vote": "-3"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:29:16+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:00:52+0700", "vote": "149"}, {"username": "ggkiakia", "content": "d", "timestamp": "2025-11-29T16:31:54+0700", "vote": "-52"}], "image_23.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:01:06+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "c", "timestamp": "2024-04-03T10:23:00+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:54:40+0700", "vote": "5"}, {"username": "ndanh3", "content": "Tuyên ngôn của Đảng Cộng sản đánh dấu sự ra đời của chủ nghĩa xã hội khoa học\n\nC", "timestamp": "2024-06-14T20:24:54+0700", "vote": "27"}, {"username": "minniee", "content": "cc", "timestamp": "2024-07-07T15:28:25+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:29:24+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:01:01+0700", "vote": "149"}], "image_24.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:01:16+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "a", "timestamp": "2024-04-03T10:23:25+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:54:47+0700", "vote": "5"}, {"username": "ndanh3", "content": "“Các dân tộc hoàn toàn bình đẳng; các dân tộc được quyền tự quyết; liên hiệp công nhân tất cả các....\"\n\nA", "timestamp": "2024-06-14T20:26:06+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:28:38+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:30:59+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:01:06+0700", "vote": "149"}], "image_25.webp": [{"username": "SOWW", "content": "B", "timestamp": "2024-04-03T02:01:36+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "b", "timestamp": "2024-04-03T10:24:09+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "B", "timestamp": "2024-06-14T15:55:05+0700", "vote": "5"}, {"username": "ndanh3", "content": "Cuối thế kỷ XIV - đầu XV, giai cấp tư sản với những tư tưởng tiến bộ về tự do, công bằng, dân chủ đã mở đường cho sự ra đời của nền dân chủ tư sản.\n\nB", "timestamp": "2024-06-14T20:30:52+0700", "vote": "27"}, {"username": "minniee", "content": "b", "timestamp": "2024-07-07T15:28:57+0700", "vote": "30"}, {"username": "bngbtran", "content": "B", "timestamp": "2025-03-08T14:31:06+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "B", "timestamp": "2025-03-08T15:01:21+0700", "vote": "149"}], "image_26.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:01:44+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "c", "timestamp": "2024-04-03T10:24:14+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:55:14+0700", "vote": "5"}, {"username": "ndanh3", "content": "C", "timestamp": "2024-06-14T20:31:10+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:34:15+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:31:12+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:01:32+0700", "vote": "149"}, {"username": "Hoangne hê hê", "content": "C", "timestamp": "2025-03-22T17:46:38+0700", "vote": "7"}], "image_27.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:01:54+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "a", "timestamp": "2024-04-03T10:24:24+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:55:36+0700", "vote": "5"}, {"username": "ndanh3", "content": "Quan hệ dân tộc và tôn giáo là sự liên kết, tác động qua lại, chi phối lẫn nhau giữa dân tộc với tôn giáo trong nội bộ một quốc gia, hoặc giữa các quốc gia với nhau trên mọi lĩnh vực của đời sống xã hội.\n\nA", "timestamp": "2024-06-14T20:32:18+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:34:30+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:33:04+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:01:42+0700", "vote": "149"}, {"username": "Hoangne hê hê", "content": "A", "timestamp": "2025-03-22T17:46:50+0700", "vote": "7"}], "image_28.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:02:04+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "c", "timestamp": "2024-04-03T10:24:31+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:55:42+0700", "vote": "5"}, {"username": "ndanh3", "content": "Trong Tuyên ngôn của Đảng Cộng sản (1848), C.Mác và Ph.Ăngghen viết: “Tất cả các giai cấp khác đều suy tàn và tiêu vong cùng với sự phát triển của đại công nghiệp, còn giai cấp vô sản lại là sản phẩm của bản thân nền đại công nghiệp”. Nghĩa là, các nền đại công nghiệp sản sinh và phát triển giai cấp vô sản - giai cấp công nhân hiện đại.\n\n\nC", "timestamp": "2024-06-14T20:34:37+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:34:40+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:33:12+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:01:48+0700", "vote": "149"}], "image_29.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:02:20+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "C", "timestamp": "2024-04-03T10:25:26+0700", "vote": "96"}, {"username": "ryan14x", "content": "D", "timestamp": "2024-04-28T15:13:17+0700", "vote": "0"}, {"username": "Hannie", "content": "C\nTrong mỗi thời đại lịch sử, sản xuất kinh tế và cơ cấu xã hội - cơ cấu này tất yếu phải do sản xuất kinh tế mà ra, cả hai yếu tố đó cấu thành cơ sở của lịch sử chính trị và lịch sử tư tưởng của thời đại ấy.", "timestamp": "2024-06-13T23:24:29+0700", "vote": "136"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:56:01+0700", "vote": "5"}, {"username": "ndanh3", "content": "Ph.Ăngghen chỉ rõ: “Trong mọi thời đại lịch sử, sản xuất kinh tế và cơ cấu xã hội - cơ cấu này tất yếu phải do sản xuất kinh tế mà ra, - cả hai cái đó cấu thành cơ sở của lịch sử chính trị và lịch sử tư tưởng của thời đại ấy...”\n\nC", "timestamp": "2024-06-14T20:37:17+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:34:56+0700", "vote": "30"}, {"username": "duyn", "content": "C", "timestamp": "2024-10-13T09:58:18+0700", "vote": "-12"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:33:24+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:01:57+0700", "vote": "149"}, {"username": "Hoangne hê hê", "content": "C", "timestamp": "2025-03-22T17:48:01+0700", "vote": "7"}], "image_30.webp": [{"username": "SOWW", "content": "B", "timestamp": "2024-04-03T02:02:36+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "b", "timestamp": "2024-04-03T10:27:34+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "B", "timestamp": "2024-06-14T15:56:14+0700", "vote": "5"}, {"username": "ndanh3", "content": "Đối với phụ nữ, nâng cao trình độ mọi mặt và đời sống vật chất, tinh thần của phụ nữ; thực hiện tốt bình đẳng giới, tạo điều kiện và cơ hội cho phụ nữ phát triển toàn diện, phát triển tài năng, thực hiện tốt vai trò của mình. Nghiên cứu, bổ sung và hoàn thiện luật pháp và chính sách đối với lao động nữ, tạo điều kiện và cơ hội để phụ nữ thực hiện tốt vai trò của mình; tăng tỉ lệ phụ nữ tham gia vào cấp ủy và bộ máy quản lý các cấp. Kiên quyết đấu tranh chống các tệ nạn xã hội và xử lý nghiêm minh theo pháp luật các hành vi bạo lực, buôn bán, xâm hại nhân phẩm phụ nữ\n\n\n\nB", "timestamp": "2024-06-14T20:59:03+0700", "vote": "27"}, {"username": "minniee", "content": "b", "timestamp": "2024-07-07T15:35:06+0700", "vote": "30"}, {"username": "bngbtran", "content": "B", "timestamp": "2025-03-08T14:35:11+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "B", "timestamp": "2025-03-08T15:02:05+0700", "vote": "149"}, {"username": "Hoangne hê hê", "content": "B", "timestamp": "2025-03-22T17:48:17+0700", "vote": "7"}], "image_31.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:02:49+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "D", "timestamp": "2024-04-03T10:28:28+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "D", "timestamp": "2024-06-14T15:56:21+0700", "vote": "5"}, {"username": "ndanh3", "content": "D", "timestamp": "2024-06-14T20:59:43+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:35:16+0700", "vote": "30"}, {"username": "bngbtran", "content": "D", "timestamp": "2025-03-08T14:35:18+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "D", "timestamp": "2025-03-08T15:02:11+0700", "vote": "149"}], "image_32.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:02:58+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "a", "timestamp": "2024-04-03T10:29:08+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:56:37+0700", "vote": "5"}, {"username": "ndanh3", "content": "A", "timestamp": "2024-06-14T21:02:41+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:35:29+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:35:24+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:02:26+0700", "vote": "149"}], "image_33.webp": [{"username": "SOWW", "content": "A, B", "timestamp": "2024-04-03T02:05:32+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "ab", "timestamp": "2024-04-03T10:30:48+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A-B", "timestamp": "2024-06-14T15:57:13+0700", "vote": "5"}, {"username": "ndanh3", "content": "Thứ nhất, do địa vị kinh tế của giai cấp công nhân quy định\nThứ hai, do địa vị chính trị - xã hội của giai cấp công nhân quy định\n\nA,B", "timestamp": "2024-06-14T21:04:00+0700", "vote": "27"}, {"username": "minniee", "content": "ab", "timestamp": "2024-07-07T15:35:45+0700", "vote": "30"}, {"username": "bngbtran", "content": "A B", "timestamp": "2025-03-08T14:37:11+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "AB", "timestamp": "2025-03-08T15:02:48+0700", "vote": "149"}], "image_34.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T01:51:24+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "c", "timestamp": "2024-04-03T10:30:57+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:57:31+0700", "vote": "5"}, {"username": "ndanh3", "content": "1. Chủ nghĩa duy vật lịch sử\n2. Học thuyết về giá trị thặng dư\n3. Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân\n\nC", "timestamp": "2024-06-14T21:05:52+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:36:09+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:37:16+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:02:59+0700", "vote": "149"}], "image_35.webp": [{"username": "SOWW", "content": "A, B, C", "timestamp": "2024-04-03T01:51:11+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "abc", "timestamp": "2024-04-03T10:31:04+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A-B-C", "timestamp": "2024-06-14T15:57:43+0700", "vote": "5"}, {"username": "ndanh3", "content": "Hôn nhân tự nguyện\nHôn nhân một vợ một chồng, vợ chồng bình đẳng\nHôn nhân được đảm bảo về pháp lý\n\nABC", "timestamp": "2024-06-14T21:07:14+0700", "vote": "27"}, {"username": "minniee", "content": "abc", "timestamp": "2024-07-07T15:36:24+0700", "vote": "30"}, {"username": "bngbtran", "content": "A B C", "timestamp": "2025-03-08T14:37:23+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "ABC", "timestamp": "2025-03-08T15:03:08+0700", "vote": "149"}], "image_36.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:06:41+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "d", "timestamp": "2024-04-03T10:31:09+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "D", "timestamp": "2024-06-14T15:57:49+0700", "vote": "5"}, {"username": "ndanh3", "content": "Thực tế cho thấy, không có một tôn giáo nào du nhập vào Việt Nam mà không mang dấu ấn, không chịu ảnh hưởng của bản sắc văn hóa Việt Nam.\n\nD", "timestamp": "2024-06-14T21:08:41+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:36:31+0700", "vote": "30"}, {"username": "bngbtran", "content": "D", "timestamp": "2025-03-08T14:37:28+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "D", "timestamp": "2025-03-08T15:03:13+0700", "vote": "149"}], "image_37.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:06:58+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "d", "timestamp": "2024-04-03T10:31:16+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "D", "timestamp": "2024-06-14T15:58:04+0700", "vote": "5"}, {"username": "ndanh3", "content": "D", "timestamp": "2024-06-14T21:15:31+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:36:39+0700", "vote": "30"}, {"username": "bngbtran", "content": "D", "timestamp": "2025-03-08T14:37:36+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "D", "timestamp": "2025-03-08T15:03:21+0700", "vote": "149"}], "image_38.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:08:25+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "c", "timestamp": "2024-04-03T10:31:26+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:58:12+0700", "vote": "5"}, {"username": "ndanh3", "content": "cơ cấu xã hội – giai cấp là\ncăn cứ cơ bản để từ đó xây dựng chính sách phát triển kinh tế, văn hóa, xã hội của mỗi\nxã hội trong từng giai đoạn lịch sử cụ thể.\n\nC", "timestamp": "2024-06-14T21:16:13+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:38:10+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:40:07+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:03:29+0700", "vote": "149"}], "image_39.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:10:05+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "a", "timestamp": "2024-04-03T10:31:34+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T15:58:20+0700", "vote": "5"}, {"username": "ndanh3", "content": "cần công khai hóa, minh bạch hóa, dân chủ hóa về thông tin, về chủ trương, chính sách của Đảng và Nhà nước, đặc biệt là các vấn đề liên quan đến lợi ích chính đáng của nhân dân. Cần cụ thể hóa hơn nữa các quy chế và hình thức thể hiện sự tôn trọng, lắng nghe ý kiến của nhân dân đối với các vấn đề phát triển của đất nước.\n\nA", "timestamp": "2024-06-14T21:17:33+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:38:20+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:41:45+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:03:42+0700", "vote": "149"}], "image_40.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:10:45+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "c", "timestamp": "2024-04-03T10:32:00+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T15:59:39+0700", "vote": "5"}, {"username": "ndanh3", "content": "thách thức lớn nhất đặt ra cho\ngia đình Việt Nam là mâu thuẫn giữa các thế hệ, do sự khác biệt về tuổi tác, khi cùng chung sống với nhau.\n\nC", "timestamp": "2024-06-14T21:18:21+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:38:29+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:41:52+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:03:50+0700", "vote": "149"}], "image_41.webp": [{"username": "SOWW", "content": "B", "timestamp": "2024-04-03T02:11:29+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "b", "timestamp": "2024-04-03T10:32:09+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "B", "timestamp": "2024-06-14T15:59:55+0700", "vote": "5"}, {"username": "ndanh3", "content": "Sau Hội nghị Matxcơva năm 1960, hoạt động lí luận và thực tiễn của các Đảng Cộng sản và công nhân được tăng cường hơn trước.\n\nB", "timestamp": "2024-06-14T21:18:55+0700", "vote": "27"}, {"username": "minniee", "content": "b", "timestamp": "2024-07-07T15:38:35+0700", "vote": "30"}, {"username": "bngbtran", "content": "B", "timestamp": "2025-03-08T14:41:57+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "B", "timestamp": "2025-03-08T15:03:59+0700", "vote": "149"}], "image_42.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:11:56+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "D", "timestamp": "2024-04-03T10:32:52+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "D", "timestamp": "2024-06-14T16:00:06+0700", "vote": "5"}, {"username": "ndanh3", "content": "Trong gia đình hiện đại, sự bền vững của hôn nhân phụ thuộc rất nhiều vào các yếu tố tâm lý, tình cảm, kinh tế, chứ không phải chỉ là các yếu tố có con hay không có con, có con trai hay không có con trai như gia đình truyền thống.\n\nD", "timestamp": "2024-06-14T21:19:39+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:38:46+0700", "vote": "30"}, {"username": "bngbtran", "content": "D", "timestamp": "2025-03-08T14:42:03+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "D", "timestamp": "2025-03-08T15:04:08+0700", "vote": "149"}], "image_43.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:12:10+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "C", "timestamp": "2024-04-03T10:33:04+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "C", "timestamp": "2024-06-14T16:00:17+0700", "vote": "5"}, {"username": "ndanh3", "content": "C", "timestamp": "2024-06-14T21:20:04+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:38:58+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:44:31+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:04:17+0700", "vote": "149"}], "image_44.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:12:53+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "D", "timestamp": "2024-04-03T10:33:16+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "D", "timestamp": "2024-06-14T16:00:29+0700", "vote": "5"}, {"username": "ndanh3", "content": "D", "timestamp": "2024-06-14T21:20:19+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:39:13+0700", "vote": "30"}, {"username": "bngbtran", "content": "D", "timestamp": "2025-03-08T14:45:59+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "D", "timestamp": "2025-03-08T15:04:31+0700", "vote": "149"}], "image_45.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:14:15+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:33:50+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T16:00:40+0700", "vote": "5"}, {"username": "ndanh3", "content": "Chính sự phát triển về lực lượng sản xuất và sự trưởng thành của giai cấp công nhân là tiền đề kinh tế- xã hội dẫn tới sự sụp đổ không tránh khỏi của chủ nghĩa tư bản.\n\nA", "timestamp": "2024-06-14T21:21:45+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:39:24+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:46:45+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:04:44+0700", "vote": "149"}], "image_46.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:19:34+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "a", "timestamp": "2024-04-03T10:34:02+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T16:00:53+0700", "vote": "5"}, {"username": "ndanh3", "content": "Thời kỳ quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội, về phương diện kinh tế, tất yếu tồn tại nền kinh tế nhiều thành phần, trong đó có thành phần đối lập.\n\nA", "timestamp": "2024-06-14T21:23:31+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:39:32+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:47:51+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:05:02+0700", "vote": "149"}], "image_47.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:20:25+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "d", "timestamp": "2024-04-03T10:34:15+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "D", "timestamp": "2024-06-14T16:01:09+0700", "vote": "5"}, {"username": "ndanh3", "content": "Giai cấp công nhân thực hiện cuộc cách mạng về văn hóa, tư tưởng bao gồm cải tạo cái cũ lỗi thời, lạc hậu, xây dựng cái mới, tiến bộ trong lĩnh vực ý thức tư tưởng, trong tâm lý, lối sống và trong đời sống tinh thần xã hội. Xây dựng và củng cố ý thức hệ tiên tiến của giai cấp công nhân, đó là chủ nghĩa Mác - Lênin, đấu tranh để khắc phục ý thức hệ tư sản và các tàn dư còn sót lại của các hệ tư tưởng cũ. Phát triển văn hóa, xây dựng con người mới xã hội chủ nghĩa, đạo đức và lối sống mới xã hội chủ nghĩa là một trong những nội dung căn bản mà cách mạng xã hội chủ nghĩa trên lĩnh vực văn hóa tư tưởng đặt ra đối với sứ mệnh lịch sử của giai cấp công nhân hiện đại.\n\n\nD", "timestamp": "2024-06-14T21:26:26+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:39:38+0700", "vote": "30"}, {"username": "bngbtran", "content": "D", "timestamp": "2025-03-08T14:47:58+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "D", "timestamp": "2025-03-08T15:05:07+0700", "vote": "149"}], "image_48.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:24:25+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "a", "timestamp": "2024-04-03T10:34:49+0700", "vote": "96"}, {"username": "ndanh3", "content": "Quy luật chung, phổ biến cho sự ra đời của Đảng Cộng sản là sự kết hợp giữa chủ nghĩa xã hội khoa học, tức chủ nghĩa Mác - Lênin với phong trào công nhân\n\nA", "timestamp": "2024-06-14T21:27:25+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:39:47+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:48:03+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:05:15+0700", "vote": "149"}], "image_49.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:25:28+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "d", "timestamp": "2024-04-03T10:35:06+0700", "vote": "96"}, {"username": "ndanh3", "content": "Một là, đẩy mạnh công nghiệp hoá, hiện đại hoá đất nước gắn với phát triển\nkinh tế tri thức, bảo vệ tài nguyên, môi trường.\nHai là, phát triển nền kinh tế thị trường định hướng xã hội chủ nghĩa.\nBa là, xây dựng nền văn hoá tiên tiến, đậm đà bản sắc dân tộc; xây dựng con\nngười, nâng cao đời sống nhân dân, thực hiện tiến bộ và công bằng xã hội.\nBốn là, bảo đảm vững chắc quốc phòng và an ninh quốc gia, trật tự, an toàn xã hội.\nNăm là, thực hiện đường lối đối ngoại độc lập, tự chủ, hoà bình, hữu nghị, hợp\ntác và phát triển; chủ động và tích cực hội nhập quốc tế.\nSáu là, xây dựng nền dân chủ xã hội chủ nghĩa, thực hiện đại đoàn kết toàn dân\ntộc, tăng cường và mở rộng mặt trận dân tộc thống nhất.\nBảy là, xây dựng Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân\ndân, vì nhân dân.\nTám là, xây dựng Đảng trong sạch, vững mạnh.\n\nD", "timestamp": "2024-06-14T21:29:45+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:39:59+0700", "vote": "30"}, {"username": "bngbtran", "content": "D", "timestamp": "2025-03-08T14:48:10+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "D", "timestamp": "2025-03-08T15:05:22+0700", "vote": "149"}], "image_50.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:26:43+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "d", "timestamp": "2024-04-03T10:35:22+0700", "vote": "96"}, {"username": "ndanh3", "content": "D", "timestamp": "2024-06-14T21:31:57+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:40:07+0700", "vote": "30"}, {"username": "bngbtran", "content": "D", "timestamp": "2025-03-08T14:48:20+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "D", "timestamp": "2025-03-08T15:05:30+0700", "vote": "149"}], "image_51.webp": [{"username": "SOWW", "content": "B", "timestamp": "2024-04-03T02:30:05+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "b", "timestamp": "2024-04-03T10:35:38+0700", "vote": "96"}, {"username": "ndanh3", "content": "Trong thời kỳ quá độ lên chủ nghĩa xã hội ở nước ta, cơ cấu xã hội - giai cấp\ncũng vận động, biến đổi theo đúng qui luật: đó là sự biến đổi của cơ cấu xã hội - giai\ncấp bị chi phối bởi những biến đổi trong cơ cấu kinh tế.\n\nB", "timestamp": "2024-06-14T21:33:16+0700", "vote": "27"}, {"username": "minniee", "content": "b", "timestamp": "2024-07-07T15:40:19+0700", "vote": "30"}, {"username": "bngbtran", "content": "B", "timestamp": "2025-03-08T14:48:25+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "B", "timestamp": "2025-03-08T15:05:40+0700", "vote": "149"}], "image_52.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:30:26+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "c", "timestamp": "2024-04-03T10:35:44+0700", "vote": "96"}, {"username": "ndanh3", "content": "C", "timestamp": "2024-06-14T21:34:38+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:40:28+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:48:34+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:05:49+0700", "vote": "149"}], "image_53.webp": [{"username": "SOWW", "content": "D", "timestamp": "2024-04-03T02:31:53+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "C", "timestamp": "2024-04-03T10:38:53+0700", "vote": "96"}, {"username": "Hannie", "content": "D", "timestamp": "2024-06-13T23:36:17+0700", "vote": "136"}, {"username": "ndanh3", "content": "Cách mạng vô sản là cuộc cách mạng của giai cấp công nhân và nhân dân lao động dưới sự lãnh đạo của Đảng Cộng sản, trên thực tế được thực hiện bằng con đường bạo lực cách mạng nhằm lật đổ chế độ tư bản chủ nghĩa, thiết lập nhà nước chuyên chính vô sản, thực hiện sự nghiệp cải tạo xã hội cũ, xây dựng xã hội mới, xã hội xã hội chủ nghĩa và cộng sản chủ nghĩa.\n\nD", "timestamp": "2024-06-14T21:37:08+0700", "vote": "27"}, {"username": "minniee", "content": "d", "timestamp": "2024-07-07T15:42:22+0700", "vote": "30"}, {"username": "hhhh", "content": "D", "timestamp": "2024-08-23T21:01:30+0700", "vote": "146"}, {"username": "bngbtran", "content": "D", "timestamp": "2025-03-08T14:48:59+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "D", "timestamp": "2025-03-08T15:06:12+0700", "vote": "149"}], "image_54.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:32:10+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:39:02+0700", "vote": "96"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:42:53+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:52:09+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:06:23+0700", "vote": "149"}], "image_55.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:32:54+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:39:38+0700", "vote": "96"}, {"username": "ndanh3", "content": "Chế độ dân chủ nhân dân ở nước ta được xác lập sau Cách mạng Tháng Tám\nnăm 1945.\n\nA", "timestamp": "2024-06-14T21:44:08+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:43:06+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:52:15+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:06:31+0700", "vote": "149"}], "image_56.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:33:45+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "C", "timestamp": "2024-04-03T10:39:44+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "c", "timestamp": "2024-06-14T16:05:50+0700", "vote": "5"}, {"username": "ndanh3", "content": "Tổ chức quyền lực\ncủa Nhà nước pháp quyền xã hội chủ nghĩa đảm bảo quyền lực nhà nước là thống\nnhất, có sự phân công và phối hợp giữa các cơ quan nhà nước trong việc thực hiện các\nquyền lập pháp, hành pháp, tư pháp.\n\nC", "timestamp": "2024-06-14T21:44:59+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:43:21+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:52:23+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:06:43+0700", "vote": "149"}], "image_57.webp": [{"username": "SOWW", "content": "C", "timestamp": "2024-04-03T02:34:03+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "c", "timestamp": "2024-04-03T10:39:51+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "c", "timestamp": "2024-06-14T16:05:44+0700", "vote": "5"}, {"username": "ndanh3", "content": "- Nội dung cốt lõi của công tác tôn giáo là công tác vận động quần chúng.\n\nC", "timestamp": "2024-06-14T21:45:37+0700", "vote": "27"}, {"username": "minniee", "content": "c", "timestamp": "2024-07-07T15:43:32+0700", "vote": "30"}, {"username": "bngbtran", "content": "C", "timestamp": "2025-03-08T14:52:28+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "C", "timestamp": "2025-03-08T15:06:55+0700", "vote": "149"}], "image_58.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:35:00+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "A", "timestamp": "2024-04-03T10:41:03+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "a", "timestamp": "2024-06-14T16:05:35+0700", "vote": "5"}, {"username": "ndanh3", "content": "Mặt chính trị phản ánh mối quan hệ giữa tiến bộ với phản tiến bộ, phản ánh mâu\nthuẫn đối kháng về lợi ích kinh tế, chính trị giữa các giai cấp, mâu thuẫn giữa những\nthế lực lợi dụng tôn giáo chống lại sự nghiệp cách mạng với lợi ích của nhân dân lao\nđộng.\n\nA", "timestamp": "2024-06-14T21:46:29+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:43:45+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:52:34+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:07:03+0700", "vote": "149"}], "image_59.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:36:43+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "a", "timestamp": "2024-04-03T10:41:09+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T16:01:35+0700", "vote": "5"}, {"username": "ndanh3", "content": "Dân chủ xã hội chủ nghĩa đã được phôi thai từ thực tiễn đấu tranh giai cấp ở\nPháp và Công xã Pari năm 1871, tuy nhiên, chỉ đến khi Cách mạng Tháng Mười Nga\nthành công với sự ra đời của nhà nước xã hội chủ nghĩa đầu tiên trên thế giới (1917),\nnền dân chủ xã hội chủ nghĩa mới chính thức được xác lập.\n\nA", "timestamp": "2024-06-14T21:47:21+0700", "vote": "27"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:43:50+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:52:39+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:07:15+0700", "vote": "149"}], "image_60.webp": [{"username": "SOWW", "content": "A", "timestamp": "2024-04-03T02:37:29+0700", "vote": "-5"}, {"username": "Dương Thị Hương", "content": "a", "timestamp": "2024-04-03T10:41:22+0700", "vote": "96"}, {"username": "Hoàng Mạnh Cường", "content": "A", "timestamp": "2024-06-14T16:01:22+0700", "vote": "5"}, {"username": "ndanh3", "content": "A", "timestamp": "2024-06-14T21:49:46+0700", "vote": "27"}, {"username": "MinChang", "content": "c", "timestamp": "2024-06-15T00:42:02+0700", "vote": "-18"}, {"username": "minniee", "content": "a", "timestamp": "2024-07-07T15:44:00+0700", "vote": "30"}, {"username": "bngbtran", "content": "A", "timestamp": "2025-03-08T14:52:50+0700", "vote": "307"}, {"username": "UnkeptHaroldd", "content": "A", "timestamp": "2025-03-08T15:07:26+0700", "vote": "149"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

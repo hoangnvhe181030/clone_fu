@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>PMG201c - SP 2025 - PE1</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>PMG201c - SP 2025 - PE1</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "Hikari251204", "content": "Có ai làm request 1, 2 ko, gửi lên đây với", "timestamp": "2025-08-16T22:16:14+0700", "vote": "0"}], "image_2.webp": [{"username": "Judai", "content": "Start → A → B → C → F → I → End\nStart → A → B → D → G → I → End\nStart → A → B → D → H → End\nStart → A → B → E → H → End", "timestamp": "2025-08-16T16:18:12+0700", "vote": "55"}, {"username": "Judai", "content": "b) A - B - D - G - I là Critical Path với tổng là 3 + 5 + 3 + 5 + 3 = 19\nc) C , F là the most flexibility với TF = 3", "timestamp": "2025-08-16T16:21:15+0700", "vote": "55"}, {"username": "nguoivetulongdat", "content": "3a/ 4 Paths:\nA - B - C - F - I\nA - B - D - G - I\nA - B - D - H\nA - B - E - H\n\nb/\nA - B - D - G - I = 3 + 5 + 3 + 5 + 3 = 19\n\nc/ C, F đều có float = 3 nên flex nhất, còn lại flex = 0", "timestamp": "2025-08-17T02:28:03+0700", "vote": "1209"}], "image_3.webp": [{"username": "lam2103", "content": "Request 4: EV = 15000, PV = 25000\na. SPI (Schedule Performance Index) = EA/PV = 15000/25000 = 0.6\nBecause SPI < 1 (0.6<1) so that project performance after 5 months is behind the schedule.\nb. Suggest corrective actions to ensure project completion within the next 7 months\n- Complete 35000 books in next 7 months -> 5000 books/month.\n1. Hire or add more employee into this project.\n2. Overtime for this project\n3. Fix the \"AI search feature is incomplete\" problem.\n4. Scope management: Can be top-down scope (50000 books and some research papers), but this scope need to be accepted and signed by stakeholders.\n5. Close monitoring (ex: 2 times per week, ...)", "timestamp": "2025-08-16T22:54:22+0700", "vote": "10"}, {"username": "nguoivetulongdat", "content": "4a/ scanned 15k book => EV = 15k\nplanned 25k => PV = 25k\n\nSPI (Schedule Performance Index ) = EV/PV = 15k/25k =0.6 <1 => behind the schedule\n\nb/\nAssuming we only have 7 months left with 35k book not scanned. We have to do the followings to ensure project completion:\n- Target scanned book over 7 months to fulfill 35k books with 5k books per months.\n- Focus in finishing all in scope requirement including AI search feature\n- Outsource or hire extra labor to ensure work finish\n- Weekly meeting to ensure the project is running with the planned stage of recovering from behind the schedule.", "timestamp": "2025-08-17T02:01:28+0700", "vote": "1209"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>
