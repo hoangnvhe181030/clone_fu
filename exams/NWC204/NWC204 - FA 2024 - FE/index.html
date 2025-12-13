@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>NWC204 - FA 2024 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>NWC204 - FA 2024 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "sudosu", "content": "acd", "timestamp": "2024-11-13T08:19:54+0700", "vote": "1"}, {"username": "rayanguyen", "content": "ACD\nWhich three statements characterize UDP? (Choose three.)\nWhich three statements characterize UDP? (Choose three.)\nitexamanswers.net", "timestamp": "2024-11-17T13:08:18+0700", "vote": "40"}, {"username": "nguoivetulongdat", "content": "acd", "timestamp": "2024-11-18T18:04:47+0700", "vote": "1209"}, {"username": "thanhtu3105", "content": "ACD", "timestamp": "2024-11-19T19:13:48+0700", "vote": "-31"}, {"username": "Mây Siêng", "content": "ACD", "timestamp": "2025-04-06T11:02:44+0700", "vote": "13"}, {"username": "quangxse", "content": "Acd", "timestamp": "2025-07-30T20:32:24+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "acd", "timestamp": "2025-07-31T10:13:35+0700", "vote": "22"}], "image_2.webp": [{"username": "sudosu", "content": "abc", "timestamp": "2024-11-13T08:20:04+0700", "vote": "1"}, {"username": "rayanguyen", "content": "ABC\nCheck:\nWhat are three responsibilities of the transport layer? (Choose three.)\nWhat are three responsibilities of the transport layer? (Choose three.)\nitexamanswers.net", "timestamp": "2024-11-17T13:07:09+0700", "vote": "40"}, {"username": "Hải Nguyễnn", "content": "ABC", "timestamp": "2024-11-19T08:14:13+0700", "vote": "0"}, {"username": "thanhtu3105", "content": "abc", "timestamp": "2024-11-19T19:14:07+0700", "vote": "-31"}, {"username": "quangxse", "content": "Abc", "timestamp": "2025-07-30T19:09:47+0700", "vote": "-2"}, {"username": "quangxse", "content": "Abc", "timestamp": "2025-07-30T20:31:48+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "abc", "timestamp": "2025-07-31T10:15:42+0700", "vote": "22"}], "image_3.webp": [{"username": "sudosu", "content": "a", "timestamp": "2024-11-13T08:20:11+0700", "vote": "1"}, {"username": "tandat140824", "content": "A", "timestamp": "2024-11-13T08:35:27+0700", "vote": "-12"}, {"username": "rayanguyen", "content": "A\nUDP là giao thức không kết nối (connectionless), vì vậy client không cần thiết lập kết nối hoặc thực hiện bất kỳ quy trình đồng bộ nào trước khi gửi dữ liệu. Client chỉ đơn giản gửi các datagrams đến đích mà không cần xác nhận hoặc handshake.", "timestamp": "2024-11-17T12:27:27+0700", "vote": "40"}, {"username": "rayanguyen", "content": "https://itexamanswers.net/question/what-does-a-client-do-when-it-has-udp-datagrams-to-send", "timestamp": "2024-11-17T13:05:32+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "a", "timestamp": "2024-11-19T19:14:13+0700", "vote": "-31"}, {"username": "ThLpham", "content": "a", "timestamp": "2024-11-20T05:06:32+0700", "vote": "-50"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T19:10:21+0700", "vote": "-2"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T20:31:26+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "A", "timestamp": "2025-07-31T10:16:04+0700", "vote": "22"}], "image_4.webp": [{"username": "khaitranwani", "content": "ABD", "timestamp": "2024-11-13T09:41:32+0700", "vote": "-1"}, {"username": "rayanguyen", "content": "SMTP (Simple Mail Transfer Protocol): Sử dụng TCP (cổng 25) để đảm bảo việc truyền email đáng tin cậy.\nFTP (File Transfer Protocol): Sử dụng TCP (cổng 20 và 21) để truyền tải dữ liệu một cách an toàn và theo thứ tự.\nHTTP (HyperText Transfer Protocol): Sử dụng TCP (cổng 80) để truyền dữ liệu web đáng tin cậy và chính xác.\nCác giao thức không sử dụng TCP mà sử dụng UDP:\nSNMP (Simple Network Management Protocol)\nTFTP (Trivial File Transfer Protocol)\nDHCP (Dynamic Host Configuration Protocol)", "timestamp": "2024-11-17T12:29:34+0700", "vote": "40"}, {"username": "rayanguyen", "content": "https://itexamanswers.net/question/which-three-application-layer-protocols-use-tcp-choose-three", "timestamp": "2024-11-17T13:04:16+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "abd", "timestamp": "2024-11-19T19:14:24+0700", "vote": "-31"}, {"username": "quangxse", "content": "Abd", "timestamp": "2025-07-30T19:10:38+0700", "vote": "-2"}, {"username": "quangxse", "content": "Abd", "timestamp": "2025-07-30T20:31:07+0700", "vote": "-2"}, {"username": "Đỗ Trung", "content": "ABD", "timestamp": "2025-07-30T23:58:47+0700", "vote": "-11"}, {"username": "Aeron Amadas", "content": "ABD", "timestamp": "2025-07-31T10:16:12+0700", "vote": "22"}], "image_5.webp": [{"username": "sudosu", "content": "a d e", "timestamp": "2024-11-13T08:20:38+0700", "vote": "1"}, {"username": "tandat140824", "content": "A D E", "timestamp": "2024-11-13T08:35:44+0700", "vote": "-12"}, {"username": "rayanguyen", "content": "", "timestamp": "2024-11-17T12:37:38+0700", "vote": "40"}, {"username": "rayanguyen", "content": "Check: https://itexamanswers.net/question/which-three-basic-parts-are-common-to-all-frame-types-supported-by-the-data-link-layer-choose-three", "timestamp": "2024-11-17T13:02:51+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "ADE", "timestamp": "2024-11-19T19:14:59+0700", "vote": "-31"}, {"username": "ThLpham", "content": "ade", "timestamp": "2024-11-20T05:11:26+0700", "vote": "-50"}, {"username": "Tèo một nắng", "content": "ade", "timestamp": "2025-04-06T09:43:03+0700", "vote": "-11"}, {"username": "quangxse", "content": "Ade", "timestamp": "2025-07-30T20:30:40+0700", "vote": "-2"}, {"username": "Đỗ Trung", "content": "ADE", "timestamp": "2025-07-30T23:59:02+0700", "vote": "-11"}, {"username": "Aeron Amadas", "content": "ADE", "timestamp": "2025-07-31T10:16:26+0700", "vote": "22"}], "image_6.webp": [{"username": "Le Van Thai", "content": "C", "timestamp": "2024-11-13T09:42:49+0700", "vote": "0"}, {"username": "rayanguyen", "content": "C. Phát biểu này đúng vì tất cả các thiết bị trong mạng phải \"nghe\" (carrier sense) để đảm bảo không có thiết bị nào khác đang truyền trước khi bắt đầu truyền dữ liệu.\nA. Sai, vì va chạm vẫn có thể xảy ra nếu hai thiết bị đồng thời quyết định truyền sau khi lắng nghe.\nB. Sai, vì tín hiệu nhiễu (jamming signal) được gửi để thông báo cho tất cả các thiết bị rằng một va chạm đã xảy ra, không chỉ các thiết bị gây va chạm.\nD. Sai, các thiết bị sau va chạm phải đợi thời gian ngẫu nhiên trước khi thử truyền lại, không có thiết bị nào được ưu tiên.", "timestamp": "2024-11-17T12:42:19+0700", "vote": "40"}, {"username": "rayanguyen", "content": "https://itexamanswers.net/question/...sma-cd-access-method-that-is-used-in-ethernet", "timestamp": "2024-11-17T13:01:58+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:15:14+0700", "vote": "-31"}, {"username": "ThLpham", "content": "c", "timestamp": "2024-11-20T05:11:41+0700", "vote": "-50"}, {"username": "Tèo một nắng", "content": "C. All network devices must listen before transmitting", "timestamp": "2025-04-06T09:45:56+0700", "vote": "-11"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:30:10+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:16:34+0700", "vote": "22"}], "image_7.webp": [{"username": "Le Van Thai", "content": "C F", "timestamp": "2024-11-13T09:43:11+0700", "vote": "0"}, {"username": "rayanguyen", "content": "C F (https://itexamanswers.net/question/which-two-statements-describe-the-services-provided-by-the-data-link-layer-choose-two)", "timestamp": "2024-11-17T13:00:52+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C F", "timestamp": "2024-11-19T19:15:43+0700", "vote": "-31"}, {"username": "Tèo một nắng", "content": "C. It manages the access of frames to the network media\nF. It packages various Layer 3 PDUs into a frame format that is a compatible with the network interface", "timestamp": "2025-04-06T09:50:01+0700", "vote": "-11"}, {"username": "quangxse", "content": "Cf", "timestamp": "2025-07-30T20:29:49+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "CF", "timestamp": "2025-07-31T10:16:53+0700", "vote": "22"}, {"username": "Phanhoanh", "content": "CF", "timestamp": "2025-11-23T20:11:42+0700", "vote": "-9"}], "image_8.webp": [{"username": "minhthuy2422", "content": "DE", "timestamp": "2024-11-18T21:02:18+0700", "vote": "148"}, {"username": "rayanguyen", "content": "DE", "timestamp": "2024-11-19T17:11:05+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "DE", "timestamp": "2024-11-19T19:15:58+0700", "vote": "-31"}, {"username": "duchuy^^", "content": "Router B Host A.\nDE", "timestamp": "2024-11-19T22:27:47+0700", "vote": "-3"}, {"username": "Aeron Amadas", "content": "de", "timestamp": "2025-07-31T10:24:37+0700", "vote": "22"}, {"username": "Phanhoanh", "content": "DE", "timestamp": "2025-11-23T20:12:05+0700", "vote": "-9"}], "image_9.webp": [{"username": "Le Van Thai", "content": "B", "timestamp": "2024-11-13T09:43:35+0700", "vote": "0"}, {"username": "rayanguyen", "content": "B\nWhich statement is correct about network protocols?\nWhich statement is correct about network protocols?\nitexamanswers.net", "timestamp": "2024-11-17T13:10:02+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "B", "timestamp": "2024-11-19T19:16:21+0700", "vote": "-31"}, {"username": "Tèo một nắng", "content": "B. They define how messages are exchanged between the source and the destination", "timestamp": "2025-04-06T09:51:33+0700", "vote": "-11"}, {"username": "quangxse", "content": "B", "timestamp": "2025-07-30T20:29:05+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "B", "timestamp": "2025-07-31T10:24:46+0700", "vote": "22"}, {"username": "Phanhoanh", "content": "B", "timestamp": "2025-11-23T20:12:26+0700", "vote": "-9"}], "image_10.webp": [{"username": "khaitranwani", "content": "C", "timestamp": "2024-11-13T09:42:14+0700", "vote": "-1"}, {"username": "rayanguyen", "content": "C\nWhich statement accurately describes a TCP/IP encapsulation process when a PC is sending data to the network?\nWhich statement accurately describes a TCP/IP encapsulation process when a PC is sending data to the network?\nitexamanswers.net", "timestamp": "2024-11-17T13:11:41+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:16:33+0700", "vote": "-31"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:28:45+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:24:54+0700", "vote": "22"}, {"username": "Phanhoanh", "content": "C", "timestamp": "2025-11-23T20:12:43+0700", "vote": "-9"}], "image_11.webp": [{"username": "khaitranwani", "content": "E", "timestamp": "2024-11-13T09:42:26+0700", "vote": "-1"}, {"username": "rayanguyen", "content": "E\nWhich name is assigned to the transport layer PDU?\nWhich name is assigned to the transport layer PDU?\nitexamanswers.net", "timestamp": "2024-11-17T19:16:04+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "E", "timestamp": "2024-11-19T19:16:39+0700", "vote": "-31"}, {"username": "Kirsosweet", "content": "physicals- bits\ndata link - frame\nnetwork - packet\ntransport - segment\ntầng 5 6 7 - data", "timestamp": "2025-04-05T19:36:47+0700", "vote": "-4"}, {"username": "quangxse", "content": "E", "timestamp": "2025-07-30T20:28:16+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "e", "timestamp": "2025-07-31T10:25:08+0700", "vote": "22"}, {"username": "Phanhoanh", "content": "E", "timestamp": "2025-11-23T20:13:00+0700", "vote": "-9"}], "image_12.webp": [{"username": "Le Van Thai", "content": "B E", "timestamp": "2024-11-13T09:43:56+0700", "vote": "0"}, {"username": "rayanguyen", "content": "B E\nWhich two protocols may devices use in the application process that sends email? (Choose two.)\nWhich two protocols may devices use in the application process that sends email? (Choose two.)\nitexamanswers.net", "timestamp": "2024-11-17T19:17:01+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "BE", "timestamp": "2024-11-19T19:16:50+0700", "vote": "-31"}, {"username": "quangxse", "content": "Be", "timestamp": "2025-07-30T20:28:05+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "be", "timestamp": "2025-07-31T10:25:23+0700", "vote": "22"}], "image_13.webp": [{"username": "Le Van Thai", "content": "C", "timestamp": "2024-11-13T09:44:13+0700", "vote": "0"}, {"username": "rayanguyen", "content": "C\nWhich address is a valid IPv6 link-local unicast address?\nWhich address is a valid IPv6 link-local unicast address?\nitexamanswers.net", "timestamp": "2024-11-17T19:17:47+0700", "vote": "40"}, {"username": "boibaylak", "content": "The correct answer is:\n\n**C. FE80::1:4545:6578:ABC1**\n\n### Explanation:\nIPv6 **link-local unicast addresses** are used for communication within a single network segment (local link) and are identified by the prefix **FE80::/10**. This means that any valid link-local address starts with \"FE80\", \"FE81\", \"FE82\", etc., up to \"FEBF\", followed by additional bits to make up the full address.\n\nLet’s go through the options:\n\n- **A. FEC8:1::FFFF** – This address starts with the prefix **FEC8**, which is not a valid link-local address. It is part of the **Unique Local Address (ULA)** range (FC00::/7).\n\n- **B. FD80::1:1234** – This address starts with the prefix **FD80**, which is also part of the **Unique Local Address (ULA)** range, not a link-local address.\n\n- **C. FE80::1:4545:6578:ABC1** – This address starts with **FE80**, which is a valid link-local address prefix. The rest of the address is in the correct format for a link-local address.\n\n- **D. FEOA::100:7788:998F** – The prefix **FEOA** is not a valid link-local address. It’s outside the valid link-local address range of **FE80::/10**.\n\n- **E. FC90:5678:4251:FFFF** – The prefix **FC90** is part of the **Unique Local Address (ULA)** range, not a link-local address.\n\n### Conclusion:\n**C. FE80::1:4545:6578:ABC1** is the valid IPv6 link-local unicast address.", "timestamp": "2024-11-17T22:37:40+0700", "vote": "-1"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:16:56+0700", "vote": "-31"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:27:48+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:25:33+0700", "vote": "22"}], "image_14.webp": [{"username": "Nguyen Phuc Thinh", "content": "a", "timestamp": "2024-11-14T20:38:47+0700", "vote": "-15"}, {"username": "rayanguyen", "content": "A\nMatch the IPv6 address with the IPv6 address type. (Not all options are used.)\nMatch the IPv6 address with the IPv6 address type. (Not all options are used.)\nitexamanswers.net", "timestamp": "2024-11-17T19:18:50+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "A", "timestamp": "2024-11-19T19:17:03+0700", "vote": "-31"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T20:27:35+0700", "vote": "-2"}], "image_15.webp": [{"username": "huyhoang2710", "content": "a", "timestamp": "2024-11-13T10:38:35+0700", "vote": "-5"}, {"username": "rayanguyen", "content": "A\nThree methods allow IPv6 and IPv4 to co-exist. Match each method with its description. (Not all options are used.)\nThree methods allow IPv6 and IPv4 to co-exist. Match each method with its description. (Not all options are used.)\nitexamanswers.net", "timestamp": "2024-11-17T19:19:48+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "A", "timestamp": "2024-11-19T19:17:12+0700", "vote": "-31"}, {"username": "quangxse", "content": "あ\n\n\nA", "timestamp": "2025-07-30T20:27:20+0700", "vote": "-2"}], "image_16.webp": [{"username": "TuallCiet", "content": "d", "timestamp": "2024-11-13T12:56:20+0700", "vote": "-21"}, {"username": "rayanguyen", "content": "D\nGiven IPv6 address prefix 2001:db8::/48, what will be the last subnet that is created if the subnet prefix is changed to /52?\nGiven IPv6 address prefix 2001:db8::/48, what will be the last subnet that is created if the subnet prefix is changed to /52?\nitexamanswers.net", "timestamp": "2024-11-17T19:21:12+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "D", "timestamp": "2024-11-19T19:17:17+0700", "vote": "-31"}, {"username": "quangxse", "content": "D", "timestamp": "2025-07-30T20:26:56+0700", "vote": "-2"}], "image_17.webp": [{"username": "huyhoang2710", "content": "b", "timestamp": "2024-11-13T10:39:24+0700", "vote": "-5"}, {"username": "rayanguyen", "content": "B\nWhat type of IPv6 address is FE80::1?\nWhat type of IPv6 address is FE80::1?\nitexamanswers.net", "timestamp": "2024-11-17T19:21:46+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "B", "timestamp": "2024-11-19T19:17:25+0700", "vote": "-31"}, {"username": "quangxse", "content": "B", "timestamp": "2025-07-30T20:26:37+0700", "vote": "-2"}, {"username": "Phanhoanh", "content": "Link local", "timestamp": "2025-11-23T20:14:02+0700", "vote": "-9"}], "image_18.webp": [{"username": "TuallCiet", "content": "c d", "timestamp": "2024-11-13T12:56:33+0700", "vote": "-21"}, {"username": "DeM3n", "content": "e f", "timestamp": "2024-11-14T00:48:49+0700", "vote": "8"}, {"username": "TuallCiet", "content": "e f", "timestamp": "2024-11-17T14:00:29+0700", "vote": "-21"}, {"username": "rayanguyen", "content": "E F\nWhich two types of IPv6 messages are used in place of ARP for address resolution?\nWhich two types of IPv6 messages are used in place of ARP for address resolution?\nitexamanswers.net", "timestamp": "2024-11-17T19:23:10+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "E F", "timestamp": "2024-11-19T19:17:35+0700", "vote": "-31"}], "image_19.webp": [{"username": "duyle2408", "content": "a", "timestamp": "2024-11-13T12:23:25+0700", "vote": "-3"}, {"username": "rayanguyen", "content": "A\nARP tự động lưu các ánh xạ IP-MAC trong bảng ARP và gán thời gian chờ cho mỗi mục. Nếu ánh xạ không được làm mới (do không có lưu lượng liên quan), mục đó sẽ bị xóa sau thời gian chờ định sẵn. Đây là đặc điểm chính của cơ chế ARP động.", "timestamp": "2024-11-17T19:35:34+0700", "vote": "40"}, {"username": "minhthuy2422", "content": "A", "timestamp": "2024-11-18T21:36:08+0700", "vote": "148"}, {"username": "thanhtu3105", "content": "A", "timestamp": "2024-11-19T19:17:51+0700", "vote": "-31"}, {"username": "cathrine", "content": "b", "timestamp": "2025-04-06T01:38:33+0700", "vote": "-7"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T20:26:21+0700", "vote": "-2"}], "image_20.webp": [{"username": "Nguyen Phuc Thinh", "content": "b", "timestamp": "2024-11-14T20:47:24+0700", "vote": "-15"}, {"username": "rayanguyen", "content": "B\nExplanation: The ARP cache is used to store IPv4 addresses and the Ethernet physical addresses or MAC addresses to which the IPv4 addresses are mapped. Incorrect mappings of IP addresses to MAC addresses can result in loss of end-to-end connectivity.", "timestamp": "2024-11-17T19:36:34+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "B", "timestamp": "2024-11-19T19:18:10+0700", "vote": "-31"}, {"username": "quangxse", "content": "B", "timestamp": "2025-07-30T20:26:02+0700", "vote": "-2"}, {"username": "Phanhoanh", "content": "B", "timestamp": "2025-11-23T20:14:39+0700", "vote": "-9"}], "image_21.webp": [{"username": "khaitranwani", "content": "A B", "timestamp": "2024-11-13T09:45:13+0700", "vote": "-1"}, {"username": "rayanguyen", "content": "A B\nExplanation: A switch will flood a frame out of every port, except the one that the frame was received from, under two circumstances. Either the frame has the broadcast address as the destination address, or the destination address is unknown to the switch.", "timestamp": "2024-11-17T19:37:48+0700", "vote": "40"}, {"username": "minhthuy2422", "content": "A B", "timestamp": "2024-11-18T22:05:41+0700", "vote": "148"}, {"username": "thanhtu3105", "content": "A B", "timestamp": "2024-11-19T19:18:51+0700", "vote": "-31"}, {"username": "quangxse", "content": "AB", "timestamp": "2025-07-30T20:25:52+0700", "vote": "-2"}, {"username": "Đỗ Trung", "content": "AB", "timestamp": "2025-07-31T00:00:26+0700", "vote": "-11"}, {"username": "Aeron Amadas", "content": "AB", "timestamp": "2025-07-31T10:41:52+0700", "vote": "22"}], "image_22.webp": [{"username": "TuallCiet", "content": "a", "timestamp": "2024-11-13T13:00:29+0700", "vote": "-21"}, {"username": "rayanguyen", "content": "A\nExplanation: A router is used to determine the path that the messages should take through the network. A firewall is used to filter incoming and outgoing traffic. A DSL modem is used to provide Internet connection for a home or an organization.", "timestamp": "2024-11-17T19:38:37+0700", "vote": "40"}, {"username": "minhthuy2422", "content": "A", "timestamp": "2024-11-18T22:06:00+0700", "vote": "148"}, {"username": "thanhtu3105", "content": "A", "timestamp": "2024-11-19T19:18:56+0700", "vote": "-31"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T20:25:14+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "A", "timestamp": "2025-07-31T10:42:09+0700", "vote": "22"}], "image_23.webp": [{"username": "Killua", "content": "A", "timestamp": "2024-11-13T10:14:17+0700", "vote": "0"}, {"username": "rayanguyen", "content": "A\nWhat term describes a type of network used by people who work from home or from a small remote office?\nWhat term describes a type of network used by people who work from home or from a small remote office?\nitexamanswers.net", "timestamp": "2024-11-17T19:41:14+0700", "vote": "40"}, {"username": "minhthuy2422", "content": "A", "timestamp": "2024-11-18T22:06:07+0700", "vote": "148"}, {"username": "thanhtu3105", "content": "A", "timestamp": "2024-11-19T19:19:05+0700", "vote": "-31"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T20:24:49+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "A", "timestamp": "2025-07-31T10:42:16+0700", "vote": "22"}], "image_24.webp": [{"username": "Killua", "content": "c", "timestamp": "2024-11-13T10:14:11+0700", "vote": "0"}, {"username": "rayanguyen", "content": "C\nExplanation: Network security includes protecting the confidentiality of data that is on the network. In this case, because confidential data has been made available to unauthorized users, the security characteristic of the network has failed.", "timestamp": "2024-11-17T19:41:52+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:19:13+0700", "vote": "-31"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:24:30+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:42:23+0700", "vote": "22"}], "image_25.webp": [{"username": "TuallCiet", "content": "a b d", "timestamp": "2024-11-13T13:01:25+0700", "vote": "-21"}, {"username": "rayanguyen", "content": "ABD\nExplanation: Modern switches can negotiate to work in full-duplex mode if both switches are capable. They will negotiate to work using the fastest possible speed and the auto-MDIX feature is enabled by default, so a cable change is not needed.", "timestamp": "2024-11-17T19:44:02+0700", "vote": "40"}, {"username": "minhthuy2422", "content": "A B D", "timestamp": "2024-11-18T22:07:49+0700", "vote": "148"}, {"username": "thanhtu3105", "content": "A B D", "timestamp": "2024-11-19T19:19:52+0700", "vote": "-31"}, {"username": "Tèo một nắng", "content": "abd", "timestamp": "2025-04-06T09:53:57+0700", "vote": "-11"}, {"username": "quangxse", "content": "Abd", "timestamp": "2025-07-30T20:24:07+0700", "vote": "-2"}, {"username": "Đỗ Trung", "content": "ABD", "timestamp": "2025-07-31T00:00:48+0700", "vote": "-11"}, {"username": "Aeron Amadas", "content": "ABD", "timestamp": "2025-07-31T10:43:05+0700", "vote": "22"}], "image_26.webp": [{"username": "TuallCiet", "content": "c", "timestamp": "2024-11-13T13:02:19+0700", "vote": "-21"}, {"username": "rayanguyen", "content": "C\nA Layer 2 switch is used to switch incoming frames from a 1000BASE-T port to a port connected to a 100Base-T network. Which method of memory buffering would work best for this task?\nA Layer 2 switch is used to switch incoming frames from a 1000BASE-T port to a port connected to a 100Base-T network. Which method of memory buffering would\nitexamanswers.net", "timestamp": "2024-11-17T19:45:11+0700", "vote": "40"}, {"username": "minhthuy2422", "content": "C", "timestamp": "2024-11-18T22:08:00+0700", "vote": "148"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:20:09+0700", "vote": "-31"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:23:45+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:43:10+0700", "vote": "22"}], "image_27.webp": [{"username": "alalalalala", "content": "d", "timestamp": "2024-11-13T10:26:12+0700", "vote": "-3"}, {"username": "danielaston", "content": "b", "timestamp": "2024-11-13T13:01:20+0700", "vote": "0"}, {"username": "Turtle123", "content": "B", "timestamp": "2024-11-13T17:22:28+0700", "vote": "0"}, {"username": "TranBaoLam", "content": "b", "timestamp": "2024-11-13T17:32:00+0700", "vote": "-3"}, {"username": "rayanguyen", "content": "B\nExplanation: Fast-forward and fragment-free switching are variations of cut-through switching, which begins to forward the frame before the entire frame is received.", "timestamp": "2024-11-17T19:46:15+0700", "vote": "40"}, {"username": "minhthuy2422", "content": "B", "timestamp": "2024-11-18T22:08:10+0700", "vote": "148"}, {"username": "thanhtu3105", "content": "B", "timestamp": "2024-11-19T19:20:18+0700", "vote": "-31"}, {"username": "quangxse", "content": "B", "timestamp": "2025-07-30T20:23:31+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "B", "timestamp": "2025-07-31T10:43:18+0700", "vote": "22"}], "image_28.webp": [{"username": "TuallCiet", "content": "b", "timestamp": "2024-11-13T13:02:44+0700", "vote": "-21"}, {"username": "Nguyen Phuc Thinh", "content": "b", "timestamp": "2024-11-14T20:51:48+0700", "vote": "-15"}, {"username": "rayanguyen", "content": "B\nExplanation: A straight-through cable is commonly used to interconnect a host to a switch and a switch to a router. A crossover cable is used to interconnect similar devices together like switch to a switch, a host to a host, or a router to a router. If a switch has the MDIX capability, a crossover could be used to connect the switch to the router; however, that option is not available. A rollover cable is used to connect to a router or switch console port.", "timestamp": "2024-11-17T19:47:00+0700", "vote": "40"}, {"username": "minhthuy2422", "content": "B", "timestamp": "2024-11-18T22:08:30+0700", "vote": "148"}, {"username": "thanhtu3105", "content": "B", "timestamp": "2024-11-19T19:20:27+0700", "vote": "-31"}, {"username": "quangxse", "content": "B", "timestamp": "2025-07-30T20:23:09+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "B", "timestamp": "2025-07-31T10:43:32+0700", "vote": "22"}], "image_29.webp": [{"username": "Killua", "content": "c", "timestamp": "2024-11-13T10:14:40+0700", "vote": "0"}, {"username": "rayanguyen", "content": "C\nWhat source IP address does a router use by default when the traceroute command is issued?\nWhat source IP address does a router use by default when the traceroute command is issued?\nitexamanswers.net", "timestamp": "2024-11-17T19:58:51+0700", "vote": "40"}, {"username": "minhthuy2422", "content": "C", "timestamp": "2024-11-18T22:12:58+0700", "vote": "148"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:20:45+0700", "vote": "-31"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:22:59+0700", "vote": "-2"}], "image_30.webp": [{"username": "Killua", "content": "c", "timestamp": "2024-11-13T10:14:49+0700", "vote": "0"}, {"username": "minhthuy2422", "content": "C\nThe purpose of ICMP messages is to provide feedback about issues that are related to the processing of IP packets.", "timestamp": "2024-11-18T22:13:45+0700", "vote": "148"}, {"username": "rayanguyen", "content": "C", "timestamp": "2024-11-19T17:17:32+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:21:40+0700", "vote": "-31"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:22:30+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "c", "timestamp": "2025-07-31T10:43:51+0700", "vote": "22"}], "image_31.webp": [{"username": "khaitranwani", "content": "a", "timestamp": "2024-11-13T09:49:30+0700", "vote": "-1"}, {"username": "longhocse", "content": "A", "timestamp": "2024-11-18T16:11:47+0700", "vote": "0"}, {"username": "minhthuy2422", "content": "A", "timestamp": "2024-11-18T22:15:02+0700", "vote": "148"}, {"username": "rayanguyen", "content": "A", "timestamp": "2024-11-19T17:18:08+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "A", "timestamp": "2024-11-19T19:21:54+0700", "vote": "-31"}, {"username": "Tèo một nắng", "content": "A. The TCP/IP stack on a nerwork host", "timestamp": "2025-04-06T09:56:35+0700", "vote": "-11"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T20:22:16+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "A", "timestamp": "2025-07-31T10:44:00+0700", "vote": "22"}], "image_32.webp": [{"username": "khaitranwani", "content": "A E", "timestamp": "2024-11-13T09:45:59+0700", "vote": "-1"}, {"username": "Killua", "content": "A E", "timestamp": "2024-11-13T10:15:03+0700", "vote": "0"}, {"username": "rayanguyen", "content": "AE", "timestamp": "2024-11-19T17:18:24+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "A E", "timestamp": "2024-11-19T19:22:02+0700", "vote": "-31"}, {"username": "Tèo một nắng", "content": "ae", "timestamp": "2025-04-06T09:59:42+0700", "vote": "-11"}, {"username": "quangxse", "content": "AE", "timestamp": "2025-07-30T20:22:06+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "ae", "timestamp": "2025-07-31T10:44:06+0700", "vote": "22"}], "image_33.webp": [{"username": "Killua", "content": "A", "timestamp": "2024-11-13T10:15:10+0700", "vote": "0"}, {"username": "minhthuy2422", "content": "A", "timestamp": "2024-11-18T22:17:20+0700", "vote": "148"}, {"username": "rayanguyen", "content": "A", "timestamp": "2024-11-19T17:20:55+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "A", "timestamp": "2024-11-19T19:22:19+0700", "vote": "-31"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T20:21:38+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "A", "timestamp": "2025-07-31T10:44:13+0700", "vote": "22"}], "image_34.webp": [{"username": "Killua", "content": "ACD", "timestamp": "2024-11-13T10:15:23+0700", "vote": "0"}, {"username": "minhthuy2422", "content": "A C D", "timestamp": "2024-11-18T22:17:43+0700", "vote": "148"}, {"username": "rayanguyen", "content": "ACD", "timestamp": "2024-11-19T17:21:07+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "ACD", "timestamp": "2024-11-19T19:22:27+0700", "vote": "-31"}, {"username": "Tèo một nắng", "content": "acd", "timestamp": "2025-04-06T10:00:20+0700", "vote": "-11"}, {"username": "quangxse", "content": "Acd", "timestamp": "2025-07-30T20:21:23+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "ACD", "timestamp": "2025-07-31T10:44:28+0700", "vote": "22"}], "image_35.webp": [{"username": "@gfishj", "content": "AD", "timestamp": "2024-11-13T09:54:18+0700", "vote": "10"}, {"username": "minhthuy2422", "content": "A D\nA router accepts a packet and accesses its routing table to determine the appropriate exit interface based on the destination address. The router then forwards the packet out of that interface.", "timestamp": "2024-11-18T22:19:22+0700", "vote": "148"}, {"username": "rayanguyen", "content": "AD", "timestamp": "2024-11-19T17:21:33+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "A D", "timestamp": "2024-11-19T19:22:38+0700", "vote": "-31"}, {"username": "Tèo một nắng", "content": "AD", "timestamp": "2025-04-06T10:00:58+0700", "vote": "-11"}, {"username": "quangxse", "content": "Ad", "timestamp": "2025-07-30T20:20:55+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "ad", "timestamp": "2025-07-31T10:44:37+0700", "vote": "22"}], "image_36.webp": [{"username": "khaitranwani", "content": "A", "timestamp": "2024-11-13T09:49:08+0700", "vote": "-1"}, {"username": "minhthuy2422", "content": "A", "timestamp": "2024-11-18T22:20:19+0700", "vote": "148"}, {"username": "rayanguyen", "content": "A", "timestamp": "2024-11-19T17:21:59+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "A", "timestamp": "2024-11-19T19:23:19+0700", "vote": "-31"}, {"username": "Tèo một nắng", "content": "A", "timestamp": "2025-04-06T10:01:07+0700", "vote": "-11"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T20:20:42+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "A", "timestamp": "2025-07-31T10:44:46+0700", "vote": "22"}], "image_37.webp": [{"username": "khaitranwani", "content": "E", "timestamp": "2024-11-13T09:48:47+0700", "vote": "-1"}, {"username": "minhthuy2422", "content": "E", "timestamp": "2024-11-18T22:20:36+0700", "vote": "148"}, {"username": "rayanguyen", "content": "E", "timestamp": "2024-11-19T17:22:10+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "E", "timestamp": "2024-11-19T19:23:41+0700", "vote": "-31"}, {"username": "quangxse", "content": "E", "timestamp": "2025-07-30T20:20:30+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "E", "timestamp": "2025-07-31T10:45:02+0700", "vote": "22"}], "image_38.webp": [{"username": "khaitranwani", "content": "B", "timestamp": "2024-11-13T09:48:39+0700", "vote": "-1"}, {"username": "minhthuy2422", "content": "B", "timestamp": "2024-11-18T23:59:17+0700", "vote": "148"}, {"username": "rayanguyen", "content": "B", "timestamp": "2024-11-19T17:22:28+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "B", "timestamp": "2024-11-19T19:23:48+0700", "vote": "-31"}, {"username": "quangxse", "content": "B", "timestamp": "2025-07-30T20:20:20+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "B", "timestamp": "2025-07-31T10:45:09+0700", "vote": "22"}], "image_39.webp": [{"username": "khaitranwani", "content": "D", "timestamp": "2024-11-13T09:48:32+0700", "vote": "-1"}, {"username": "rayanguyen", "content": "D", "timestamp": "2024-11-19T17:22:33+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "D", "timestamp": "2024-11-19T19:23:58+0700", "vote": "-31"}, {"username": "quangxse", "content": "D", "timestamp": "2025-07-30T20:20:03+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "D", "timestamp": "2025-07-31T10:45:30+0700", "vote": "22"}], "image_40.webp": [{"username": "khaitranwani", "content": "C", "timestamp": "2024-11-13T09:48:25+0700", "vote": "-1"}, {"username": "Killua", "content": "C", "timestamp": "2024-11-13T10:15:52+0700", "vote": "0"}, {"username": "minhthuy2422", "content": "C", "timestamp": "2024-11-19T00:06:21+0700", "vote": "148"}, {"username": "rayanguyen", "content": "C", "timestamp": "2024-11-19T17:23:15+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:24:16+0700", "vote": "-31"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:19:47+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:45:38+0700", "vote": "22"}], "image_41.webp": [{"username": "khaitranwani", "content": "A", "timestamp": "2024-11-13T09:48:15+0700", "vote": "-1"}, {"username": "minhthuy2422", "content": "A", "timestamp": "2024-11-19T00:12:30+0700", "vote": "148"}, {"username": "rayanguyen", "content": "A", "timestamp": "2024-11-19T17:23:46+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "A", "timestamp": "2024-11-19T19:24:36+0700", "vote": "-31"}, {"username": "quangxse", "content": "A", "timestamp": "2025-07-30T20:19:33+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "A", "timestamp": "2025-07-31T10:45:44+0700", "vote": "22"}], "image_42.webp": [{"username": "khaitranwani", "content": "C", "timestamp": "2024-11-13T09:48:07+0700", "vote": "-1"}, {"username": "minhthuy2422", "content": "C", "timestamp": "2024-11-19T00:18:30+0700", "vote": "148"}, {"username": "rayanguyen", "content": "C", "timestamp": "2024-11-19T17:24:19+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:24:49+0700", "vote": "-31"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:19:24+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:47:09+0700", "vote": "22"}], "image_43.webp": [{"username": "@gfishj", "content": "C", "timestamp": "2024-11-13T09:53:06+0700", "vote": "10"}, {"username": "minhthuy2422", "content": "C", "timestamp": "2024-11-19T00:19:06+0700", "vote": "148"}, {"username": "rayanguyen", "content": "C", "timestamp": "2024-11-19T17:24:45+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:25:01+0700", "vote": "-31"}, {"username": "quangxse", "content": "C", "timestamp": "2025-07-30T20:19:11+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:47:22+0700", "vote": "22"}], "image_44.webp": [{"username": "lucifer21", "content": "C", "timestamp": "2024-11-13T08:40:08+0700", "vote": "146"}, {"username": "Killua", "content": "C", "timestamp": "2024-11-13T10:16:18+0700", "vote": "0"}, {"username": "minhthuy2422", "content": "C", "timestamp": "2024-11-19T00:21:43+0700", "vote": "148"}, {"username": "rayanguyen", "content": "C", "timestamp": "2024-11-19T17:24:54+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:25:07+0700", "vote": "-31"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:47:45+0700", "vote": "22"}], "image_45.webp": [{"username": "@gfishj", "content": "B", "timestamp": "2024-11-13T09:52:53+0700", "vote": "10"}, {"username": "Killua", "content": "B", "timestamp": "2024-11-13T10:16:23+0700", "vote": "0"}, {"username": "minhthuy2422", "content": "B", "timestamp": "2024-11-19T00:22:14+0700", "vote": "148"}, {"username": "rayanguyen", "content": "B", "timestamp": "2024-11-19T17:25:55+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "B", "timestamp": "2024-11-19T19:25:39+0700", "vote": "-31"}, {"username": "Aeron Amadas", "content": "B", "timestamp": "2025-07-31T10:48:07+0700", "vote": "22"}], "image_46.webp": [{"username": "Killua", "content": "ABE", "timestamp": "2024-11-13T10:16:35+0700", "vote": "0"}, {"username": "minhthuy2422", "content": "A B E", "timestamp": "2024-11-19T00:22:27+0700", "vote": "148"}, {"username": "rayanguyen", "content": "ABE", "timestamp": "2024-11-19T17:26:38+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "ABE", "timestamp": "2024-11-19T19:25:56+0700", "vote": "-31"}, {"username": "Đỗ Trung", "content": "ABE", "timestamp": "2025-07-31T00:03:10+0700", "vote": "-11"}, {"username": "Aeron Amadas", "content": "AbE", "timestamp": "2025-07-31T10:48:43+0700", "vote": "22"}], "image_47.webp": [{"username": "@gfishj", "content": "C", "timestamp": "2024-11-13T09:52:17+0700", "vote": "10"}, {"username": "minhthuy2422", "content": "C", "timestamp": "2024-11-19T00:23:50+0700", "vote": "148"}, {"username": "rayanguyen", "content": "C", "timestamp": "2024-11-19T17:27:03+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "C", "timestamp": "2024-11-19T19:26:11+0700", "vote": "-31"}, {"username": "Aeron Amadas", "content": "C", "timestamp": "2025-07-31T10:49:05+0700", "vote": "22"}], "image_48.webp": [{"username": "khaitranwani", "content": "D", "timestamp": "2024-11-13T09:40:29+0700", "vote": "-1"}, {"username": "minhthuy2422", "content": "D", "timestamp": "2024-11-19T00:24:24+0700", "vote": "148"}, {"username": "rayanguyen", "content": "D", "timestamp": "2024-11-19T17:27:18+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "D", "timestamp": "2024-11-19T19:26:27+0700", "vote": "-31"}, {"username": "quangxse", "content": "D", "timestamp": "2025-07-30T20:03:32+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "d", "timestamp": "2025-07-31T10:49:16+0700", "vote": "22"}, {"username": "Phanhoanh", "content": "D", "timestamp": "2025-11-23T20:21:01+0700", "vote": "-9"}], "image_49.webp": [{"username": "@gfishj", "content": "BC", "timestamp": "2024-11-13T09:50:51+0700", "vote": "10"}, {"username": "minhthuy2422", "content": "BC", "timestamp": "2024-11-19T00:25:55+0700", "vote": "148"}, {"username": "rayanguyen", "content": "BC", "timestamp": "2024-11-19T17:27:52+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "BC", "timestamp": "2024-11-19T19:26:45+0700", "vote": "-31"}, {"username": "quangxse", "content": "Bc", "timestamp": "2025-07-30T20:01:38+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "BC", "timestamp": "2025-07-31T10:49:35+0700", "vote": "22"}], "image_50.webp": [{"username": "yen nhii", "content": "B", "timestamp": "2024-11-13T09:00:54+0700", "vote": "0"}, {"username": "rayanguyen", "content": "B", "timestamp": "2024-11-19T17:28:05+0700", "vote": "40"}, {"username": "thanhtu3105", "content": "B", "timestamp": "2024-11-19T19:27:03+0700", "vote": "-31"}, {"username": "quangxse", "content": "B", "timestamp": "2025-07-30T20:01:15+0700", "vote": "-2"}, {"username": "Aeron Amadas", "content": "B", "timestamp": "2025-07-31T10:50:33+0700", "vote": "22"}, {"username": "tquan3007", "content": "B", "timestamp": "2025-11-24T05:30:19+0700", "vote": "7"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

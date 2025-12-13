@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>SYB302c - SU 2024 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>SYB302c - SU 2024 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_49.webp">
+            <img src="images/image_49.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_50.webp">
+            <img src="images/image_50.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:47:01+0700", "vote": "993"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T07:41:23+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nStrategy (chiến lược) chỉ phương hướng\nStructure (cơ cấu tổ chức) phân công vị trí", "timestamp": "2025-08-21T14:13:07+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "A", "timestamp": "2025-08-23T07:25:38+0700", "vote": "0"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:24:28+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:15:02+0700", "vote": "261"}, {"username": "thoainqt", "content": "aa", "timestamp": "2025-12-09T23:40:48+0700", "vote": "91"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T14:21:31+0700", "vote": "87"}], "image_2.webp": [{"username": "Katori", "content": "c", "timestamp": "2024-08-25T22:47:10+0700", "vote": "993"}, {"username": "TPKAKA", "content": "c", "timestamp": "2024-11-21T10:01:50+0700", "vote": "19"}, {"username": "Hieu2003", "content": "C", "timestamp": "2025-04-29T07:49:16+0700", "vote": "-389"}, {"username": "ARMY", "content": "C\n\nBootstrapped tự bỏ tiền túi startup, đa phần làm thế (70%) chứ không phải hầu hết (90%).", "timestamp": "2025-08-21T14:15:50+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "c", "timestamp": "2025-08-23T07:25:44+0700", "vote": "0"}, {"username": "Minthep", "content": "C", "timestamp": "2025-08-30T10:24:33+0700", "vote": "3498"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-09T16:15:27+0700", "vote": "261"}, {"username": "winng", "content": "c", "timestamp": "2025-12-10T14:23:10+0700", "vote": "87"}], "image_3.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:47:19+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:03:28+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T07:50:31+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nUVP = Ai + Vấn đề + Cách giải quyết + Khác biệt.", "timestamp": "2025-08-21T14:19:52+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "A", "timestamp": "2025-08-23T07:25:59+0700", "vote": "0"}, {"username": "Minthep", "content": "UVP = true", "timestamp": "2025-08-30T10:24:45+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:16:19+0700", "vote": "261"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T14:23:49+0700", "vote": "87"}], "image_4.webp": [{"username": "Katori", "content": "c", "timestamp": "2024-08-25T22:47:26+0700", "vote": "993"}, {"username": "TPKAKA", "content": "c", "timestamp": "2024-11-21T10:04:37+0700", "vote": "19"}, {"username": "Hieu2003", "content": "C", "timestamp": "2025-04-29T07:51:02+0700", "vote": "-389"}, {"username": "ARMY", "content": "C\n\nValue là quan trọng nhất vì nếu sản phẩm chất lượng thì đắt người ta cũng mua.", "timestamp": "2025-08-21T14:21:16+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "c", "timestamp": "2025-08-23T07:26:08+0700", "vote": "0"}, {"username": "Minthep", "content": "C", "timestamp": "2025-08-30T10:24:51+0700", "vote": "3498"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-09T16:16:50+0700", "vote": "261"}, {"username": "winng", "content": "c", "timestamp": "2025-12-10T14:24:00+0700", "vote": "87"}], "image_5.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:47:32+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:05:43+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A. profit", "timestamp": "2025-04-29T07:51:21+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nNhỏ này muốn:\n+ Have more control => independence (tự chủ)\n+ directly reap the rewards => profit (tự làm tự ăn)", "timestamp": "2025-08-21T14:24:38+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "a", "timestamp": "2025-08-23T07:26:19+0700", "vote": "0"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:25:02+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:17:51+0700", "vote": "261"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T14:24:44+0700", "vote": "87"}], "image_6.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:47:52+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:06:50+0700", "vote": "19"}, {"username": "Hieu2003", "content": "B. Tailoring", "timestamp": "2025-04-29T07:54:16+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nMass customization là vừa sản xuất hàng loạt, vừa đặc định hóa sản phẩm:\n\n+ A Making one => loại\n+ B Điều chỉnh sản phẩm dựa theo nhu cầu của khách hàng được cung cấp trước khi sản xuất Chọn\n+ C Tuy là mass produced nhưng cái redesign không hẳn là custom, kiểu giống update mẫu mã hơn.", "timestamp": "2025-08-21T14:33:49+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "b", "timestamp": "2025-08-23T07:26:40+0700", "vote": "0"}, {"username": "Minthep", "content": "B", "timestamp": "2025-08-30T10:25:18+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:18:10+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T14:25:36+0700", "vote": "87"}], "image_7.webp": [{"username": "Katori", "content": "c", "timestamp": "2024-08-25T22:48:01+0700", "vote": "993"}, {"username": "TPKAKA", "content": "c", "timestamp": "2024-11-21T10:07:32+0700", "vote": "19"}, {"username": "Hieu2003", "content": "C", "timestamp": "2025-04-29T07:54:32+0700", "vote": "-389"}, {"username": "ARMY", "content": "C\n\n\nA, B quá nhỏ.", "timestamp": "2025-08-21T14:34:44+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "c", "timestamp": "2025-08-23T07:26:48+0700", "vote": "0"}, {"username": "Minthep", "content": "C quá dài", "timestamp": "2025-08-30T10:25:27+0700", "vote": "3498"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-09T16:19:18+0700", "vote": "261"}, {"username": "winng", "content": "c", "timestamp": "2025-12-10T14:25:41+0700", "vote": "87"}], "image_8.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:49:21+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:08:49+0700", "vote": "19"}, {"username": "Hieu2003", "content": "B. Executive Summary", "timestamp": "2025-04-29T07:56:07+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nA là chỉ là kiểu report\nC Early-stage vẫn phải có Bussiness plans để trình bày cho stakeholder\nD Thiếu marketing, financal", "timestamp": "2025-08-21T14:36:47+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "b", "timestamp": "2025-08-23T07:26:58+0700", "vote": "0"}, {"username": "Minthep", "content": "B", "timestamp": "2025-08-30T10:25:35+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:19:29+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T14:28:41+0700", "vote": "87"}], "image_9.webp": [{"username": "Katori", "content": "c", "timestamp": "2024-08-25T22:49:26+0700", "vote": "993"}, {"username": "TPKAKA", "content": "c", "timestamp": "2024-11-21T10:10:31+0700", "vote": "19"}, {"username": "dhquanyoo", "content": "a", "timestamp": "2024-12-13T16:47:51+0700", "vote": "1"}, {"username": "ForUser", "content": "quizlet A", "timestamp": "2025-01-27T14:47:40+0700", "vote": "71"}, {"username": "hihi_hihi", "content": "A", "timestamp": "2025-04-28T16:25:02+0700", "vote": "4"}, {"username": "gnut", "content": "a", "timestamp": "2025-04-28T16:55:22+0700", "vote": "23"}, {"username": "Hieu2003", "content": "A. marketing innovation", "timestamp": "2025-04-29T07:56:51+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nHình như là đôi Air Jordan đầu tiên thì không có công nghệ lần đầu xuất hiện. Còn Air Jordan vẫn là bán giày (trước đấy thì Nike vẫn bán giày) nên ngoài thương hiệu ra thì không có gì mới.", "timestamp": "2025-08-21T14:42:23+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "a", "timestamp": "2025-08-23T07:27:08+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:19:50+0700", "vote": "261"}, {"username": "winng", "content": "a", "timestamp": "2025-12-10T14:29:09+0700", "vote": "87"}], "image_10.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:49:31+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:11:43+0700", "vote": "19"}, {"username": "fangyuan99", "content": "A", "timestamp": "2025-04-28T22:54:13+0700", "vote": "12"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T08:07:50+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nTôi cảm thấy thì việc xác định risk tùy thuộc vào người đó là ai, có thể là rủi ro với non-entrepreneurs nhưng lại là cơ hội đối với entrepreneurs, câu này mang tính quan điểm nhiều hơn là True/False.", "timestamp": "2025-08-21T14:49:32+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "b", "timestamp": "2025-08-23T07:27:34+0700", "vote": "0"}, {"username": "Minthep", "content": "B", "timestamp": "2025-08-30T10:25:52+0700", "vote": "3498"}, {"username": "Minthep", "content": "sai là sai", "timestamp": "2025-08-30T10:26:05+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:20:33+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T14:30:05+0700", "vote": "87"}], "image_11.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:49:36+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:13:57+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "“Client margin = surplus của khách → Value minus Price.”", "timestamp": "2025-04-24T08:59:58+0700", "vote": "76"}, {"username": "saiyanplayer", "content": "Value–Cost là tổng lợi ích xã hội; Cost–Price là lợi nhuận công ty.", "timestamp": "2025-04-24T09:00:09+0700", "vote": "76"}, {"username": "Hieu2003", "content": "A. value and price", "timestamp": "2025-04-29T08:11:20+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nKhách thì quan tâm đến Giá trị (Value) và Giá bán (price)\nCông ti thì quan tâm đến Giá thành (cost) và Giá bán (price)", "timestamp": "2025-08-21T14:51:39+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "A", "timestamp": "2025-08-23T07:27:44+0700", "vote": "0"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:27:03+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:20:49+0700", "vote": "261"}, {"username": "winng", "content": "a", "timestamp": "2025-12-10T14:30:44+0700", "vote": "87"}], "image_12.webp": [{"username": "Katori", "content": "d", "timestamp": "2024-08-25T22:49:42+0700", "vote": "993"}, {"username": "TPKAKA", "content": "D", "timestamp": "2024-11-21T10:14:39+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Micro rất nhỏ; small cỡ vừa; lifestyle chỉ duy trì mức sống cá nhân.\n“Billion-dollar market → High-potential.”", "timestamp": "2025-04-24T09:01:28+0700", "vote": "76"}, {"username": "Hieu2003", "content": "D", "timestamp": "2025-04-29T08:11:54+0700", "vote": "-389"}, {"username": "tuhoangfpt", "content": "D", "timestamp": "2025-08-23T07:28:11+0700", "vote": "0"}, {"username": "Minthep", "content": "bi li D", "timestamp": "2025-08-30T10:27:24+0700", "vote": "3498"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-09T16:21:54+0700", "vote": "261"}, {"username": "winng", "content": "d", "timestamp": "2025-12-10T14:31:34+0700", "vote": "87"}], "image_13.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:49:48+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:16:08+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Mô hình low-cost chú trọng “giá rẻ + quy trình tối giản” (ít dịch vụ, sân bay phụ, cất cánh đúng giờ).\n\nCác yếu tố khác (point-to-point, nhân sự lịch sự…) là của hàng không truyền thống.\n\n“Low-cost = lean & on-time + small airports.”", "timestamp": "2025-04-24T09:03:12+0700", "vote": "76"}, {"username": "tuhoangfpt", "content": "A", "timestamp": "2025-08-23T07:28:21+0700", "vote": "0"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:27:30+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:22:12+0700", "vote": "261"}, {"username": "winng", "content": "a", "timestamp": "2025-12-10T14:34:04+0700", "vote": "87"}], "image_14.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:49:57+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:17:37+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Planning chiến lược phải đầu tư cam kết ngay (nguồn lực, thời gian) để thu hoạch lợi ích dài hạn.\n“Chiến lược: Gieo hạt nay → gặt quả mai.”", "timestamp": "2025-04-24T09:04:01+0700", "vote": "76"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T08:35:22+0700", "vote": "-389"}, {"username": "ARMY", "content": "Strategic (Chiến lược) Lâu dài\nStrategy (Chiến thuật) cụ thể, ngắn hạn", "timestamp": "2025-08-21T15:02:10+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "A", "timestamp": "2025-08-23T07:28:33+0700", "vote": "0"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:27:37+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:23:07+0700", "vote": "261"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T14:34:32+0700", "vote": "87"}], "image_15.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:50:36+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:19:10+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Anti-dilution clause điều chỉnh giá chuyển đổi cổ phần ưu đãi để bảo vệ nhà đầu tư khỏi bị pha loãng tỷ lệ sở hữu khi có vòng gọi vốn sau với giá thấp hơn.\n\nNó không dành cho founders hay nhân viên.\n\n“Anti-dilution = Investor shield.”", "timestamp": "2025-04-24T09:05:46+0700", "vote": "76"}, {"username": "Hieu2003", "content": "B", "timestamp": "2025-04-29T08:35:41+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nAnti-dilution clause hoạt động theo kiểu:\n\nNăm ngoái A mua 10 đồng 1 cổ\nNăm nay B mua 5 đồng 1 cổ\n=> A mua hớ, bay 1/2 cổ sau chỉ sau 1 năm\n=> Anti-dilution kích hoạt để A đỡ lỗ nặng. Bù cổ hoặc là tỉ lệ đổi ưu đãi hơn. Dành cho investor.", "timestamp": "2025-08-21T15:07:41+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "b", "timestamp": "2025-08-23T07:28:51+0700", "vote": "0"}, {"username": "Minthep", "content": "B", "timestamp": "2025-08-30T10:27:45+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:23:13+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T14:36:30+0700", "vote": "87"}], "image_16.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:51:01+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:20:15+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T08:36:24+0700", "vote": "-389"}, {"username": "ARMY", "content": "", "timestamp": "2025-08-21T15:10:44+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "A", "timestamp": "2025-08-23T07:38:53+0700", "vote": "0"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:27:53+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:23:28+0700", "vote": "261"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T14:37:59+0700", "vote": "87"}], "image_17.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:51:24+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:22:00+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Thành công thường đến khi họ tập trung vào 1–2 sản phẩm chủ lực, không “đánh” cùng lúc mọi phân khúc.", "timestamp": "2025-04-24T09:08:08+0700", "vote": "76"}, {"username": "Hieu2003", "content": "B", "timestamp": "2025-04-29T08:36:47+0700", "vote": "-389"}, {"username": "tuhoangfpt", "content": "b", "timestamp": "2025-08-23T07:39:08+0700", "vote": "0"}, {"username": "Minthep", "content": "B", "timestamp": "2025-08-30T10:28:09+0700", "vote": "3498"}, {"username": "Minthep", "content": "simultaneously sai", "timestamp": "2025-08-30T10:28:18+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:24:00+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T14:38:15+0700", "vote": "87"}], "image_18.webp": [{"username": "Katori", "content": "d", "timestamp": "2024-08-25T22:51:32+0700", "vote": "993"}, {"username": "TPKAKA", "content": "D", "timestamp": "2024-11-21T10:22:29+0700", "vote": "19"}, {"username": "Hieu2003", "content": "D. Motivation to excel", "timestamp": "2025-04-29T08:37:04+0700", "vote": "-389"}, {"username": "ARMY", "content": "D\n\nĐỹ Lan biết mình dốt nên đi học => Motivation to excel (excellent ấy)", "timestamp": "2025-08-21T15:14:19+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "D", "timestamp": "2025-08-23T07:39:31+0700", "vote": "0"}, {"username": "Minthep", "content": "D", "timestamp": "2025-08-30T10:28:28+0700", "vote": "3498"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-09T16:24:50+0700", "vote": "261"}, {"username": "winng", "content": "D", "timestamp": "2025-12-10T14:38:43+0700", "vote": "87"}], "image_19.webp": [{"username": "Katori", "content": "c", "timestamp": "2024-08-25T22:51:39+0700", "vote": "993"}, {"username": "TPKAKA", "content": "C", "timestamp": "2024-11-21T10:24:41+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Người khởi nghiệp di cư từ nước khác gọi là immigrant entrepreneur.", "timestamp": "2025-04-24T09:09:59+0700", "vote": "76"}, {"username": "antifan đồng cỏ", "content": "Tracee = Social\nTimothy = Serial\nKen = Immigrant", "timestamp": "2025-04-28T20:05:24+0700", "vote": "455"}, {"username": "Hieu2003", "content": "Ken -> C immigrant", "timestamp": "2025-04-29T08:41:22+0700", "vote": "-389"}, {"username": "ARMY", "content": "C\n\n+ A Corporate refugee chán làm corp tự mở start-up\n+ B Social entrepreneur Cống hiến cho xã hội\n+ C Immigrant entrepreneur Nhập cư rồi mở kinh doanh\n+ D Serial entrepreneur Khởi nghiệp hàng loạt (Khởi nghiệp -> có tiền -> khởi nghiệp to hơn)", "timestamp": "2025-08-21T15:19:54+0700", "vote": "125"}, {"username": "tuhoangfpt", "content": "C", "timestamp": "2025-08-23T07:40:00+0700", "vote": "0"}, {"username": "Minthep", "content": "immigrant = nhập cư", "timestamp": "2025-08-30T10:28:54+0700", "vote": "3498"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-09T16:25:06+0700", "vote": "261"}, {"username": "winng", "content": "C", "timestamp": "2025-12-10T14:43:29+0700", "vote": "87"}], "image_20.webp": [{"username": "Katori", "content": "d", "timestamp": "2024-08-25T22:51:47+0700", "vote": "993"}, {"username": "TPKAKA", "content": "D", "timestamp": "2024-11-21T10:25:45+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Opportunity recognition (nhận diện cơ hội) là quá trình tìm kiếm và ghi lại các ý tưởng mới có thể phát triển thành cơ hội kinh doanh.\n\nEntrepreneurial alertness là khả năng luôn cảnh giác với tín hiệu thị trường, nhưng chưa phải là bước “bắt” ý tưởng.\nInnovation là đưa ý tưởng vào thực tế;\ntechnology transfer là chuyển giao công nghệ.", "timestamp": "2025-04-24T09:17:59+0700", "vote": "76"}, {"username": "ARMY", "content": "D\n\n+ A innovation là create chứ không phải search and capture\n+ B alertness là kiểu trực giác, kinh nghiệm hơn.\n+ Không liên quan\n+ Opportunity Recognition (Nhận diện cơ hội) phát hiện -> đánh giá -> chọn lọc -> phát triển", "timestamp": "2025-08-21T15:23:27+0700", "vote": "125"}, {"username": "Minthep", "content": "D", "timestamp": "2025-08-30T10:29:01+0700", "vote": "3498"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-09T16:25:59+0700", "vote": "261"}, {"username": "winng", "content": "d", "timestamp": "2025-12-10T14:43:57+0700", "vote": "87"}], "image_21.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:52:20+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:26:26+0700", "vote": "19"}, {"username": "CoderLâmĐồng", "content": "First step câu A nha. Xem xét tình hình hiện tại", "timestamp": "2025-04-29T08:13:56+0700", "vote": "93"}, {"username": "Hieu2003", "content": "A. Examining", "timestamp": "2025-04-29T08:44:46+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\nMarketing plan:\nExamining -> Defining Objectives -> Indentifiy Target Market -> Developing Marketing Strategy -> . Designing Marketing 4P’s -> Implement vs Control", "timestamp": "2025-08-21T15:27:10+0700", "vote": "125"}, {"username": "phungminhquang", "content": "A", "timestamp": "2025-08-21T19:57:24+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:29:09+0700", "vote": "261"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T14:46:22+0700", "vote": "87"}], "image_22.webp": [{"username": "Katori", "content": "d", "timestamp": "2024-08-25T22:52:26+0700", "vote": "993"}, {"username": "TPKAKA", "content": "D", "timestamp": "2024-11-21T10:28:34+0700", "vote": "19"}, {"username": "Hieu2003", "content": "D", "timestamp": "2025-04-29T08:44:56+0700", "vote": "-389"}, {"username": "ARMY", "content": "D\n\nA No shop clause là ngăn công ty tìm thêm nhà đầu tư, chỉ lợi nhà đầu tư\nB Use of proceeds Mục đích sử dụng vốn\nC Pre-money valuation & investment amount (xác định cổ phần mà nhà đầu tư nhận được)", "timestamp": "2025-08-21T15:31:41+0700", "vote": "125"}, {"username": "Minthep", "content": "term sheets = all", "timestamp": "2025-08-30T10:29:26+0700", "vote": "3498"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-09T16:29:27+0700", "vote": "261"}, {"username": "winng", "content": "d", "timestamp": "2025-12-10T14:46:29+0700", "vote": "87"}], "image_23.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:52:32+0700", "vote": "993"}, {"username": "saiyanplayer", "content": "Khác với entrepreneurial ventures (đặc trưng bởi tính mới, độc đáo), small businesses thường bắt chước mô hình đã có, ít đổi mới đột phá.\n“Small = Small innovations → imitate > innovate.”", "timestamp": "2025-04-24T09:21:35+0700", "vote": "76"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T08:45:53+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nSmall businesses kiểu mấy quán ăn, nhìn xung quanh (nature) bán thì họ bán theo (imitative).", "timestamp": "2025-08-21T15:34:48+0700", "vote": "125"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:29:34+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:29:46+0700", "vote": "261"}, {"username": "winng", "content": "a", "timestamp": "2025-12-10T14:46:43+0700", "vote": "87"}], "image_24.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:52:38+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:30:18+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Tracee vừa hướng tới lợi nhuận, vừa cam kết mục tiêu xã hội/ môi trường (donate). Đó là mẫu social entrepreneur.", "timestamp": "2025-04-24T09:22:43+0700", "vote": "76"}, {"username": "Hieu2003", "content": "B", "timestamp": "2025-04-29T08:51:07+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nDonate = social", "timestamp": "2025-08-21T15:35:47+0700", "vote": "125"}, {"username": "Minthep", "content": "đô nết", "timestamp": "2025-08-30T10:30:04+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:29:54+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T14:49:08+0700", "vote": "87"}], "image_25.webp": [{"username": "Katori", "content": "c", "timestamp": "2024-08-25T22:52:43+0700", "vote": "993"}, {"username": "TPKAKA", "content": "C", "timestamp": "2024-11-21T10:31:13+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Rời công việc ổn định, gánh gia đình để bắt đầu sản xuất là chấp nhận rủi ro vừa phải (moderate risk) – cao hơn mild nhưng chưa tới extreme (không mạo hiểm quá mức).", "timestamp": "2025-04-24T09:23:46+0700", "vote": "76"}, {"username": "Hieu2003", "content": "C", "timestamp": "2025-04-29T08:52:01+0700", "vote": "-389"}, {"username": "ARMY", "content": "C\n\nChưa đủ tàn nhẫn, mới chỉ moderate risk thôi, hảo hán là bán vợ đợ con đem đi đỏ đen (extreme risk)", "timestamp": "2025-08-21T15:37:45+0700", "vote": "125"}, {"username": "Minthep", "content": "C", "timestamp": "2025-08-30T10:30:23+0700", "vote": "3498"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-09T16:30:55+0700", "vote": "261"}, {"username": "winng", "content": "c", "timestamp": "2025-12-10T14:50:26+0700", "vote": "87"}], "image_26.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:52:48+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:31:32+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Theo lý thuyết, ba phần thưởng chính của khởi nghiệp là: Profit, Independence, Lifestyle.", "timestamp": "2025-04-24T09:24:40+0700", "vote": "76"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T08:52:14+0700", "vote": "-389"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:30:38+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:31:14+0700", "vote": "261"}, {"username": "winng", "content": "Â", "timestamp": "2025-12-10T14:51:01+0700", "vote": "87"}], "image_27.webp": [{"username": "Katori", "content": "d", "timestamp": "2024-08-25T22:52:53+0700", "vote": "993"}, {"username": "TPKAKA", "content": "D", "timestamp": "2024-11-21T10:32:11+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Bootstrapping (tự tài trợ) giúp giữ nhiều cổ phần hơn, không phải nhượng equity cho nhà đầu tư, nên khi thành công entrepreneur nhận được tỷ lệ exit cao hơn.\n\n“Không đi gọi vốn → giữ nhiều cổ phần.”", "timestamp": "2025-04-24T09:26:35+0700", "vote": "76"}, {"username": "Hieu2003", "content": "D", "timestamp": "2025-04-29T08:52:58+0700", "vote": "-389"}, {"username": "Minthep", "content": "D", "timestamp": "2025-08-30T10:30:45+0700", "vote": "3498"}, {"username": "Minthep", "content": "íp sờ sét fun", "timestamp": "2025-08-30T10:30:53+0700", "vote": "3498"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-09T16:31:47+0700", "vote": "261"}, {"username": "winng", "content": "d", "timestamp": "2025-12-10T14:53:07+0700", "vote": "87"}], "image_28.webp": [{"username": "Katori", "content": "d", "timestamp": "2024-08-25T22:52:59+0700", "vote": "993"}, {"username": "TPKAKA", "content": "D", "timestamp": "2024-11-21T10:33:46+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Một attractive small firm là doanh nghiệp cỡ nhỏ “bền bỉ” và lợi nhuận ổn định, thậm chí tăng khi môi trường kinh doanh xấu đi.\n“Attractive = thu hút nhà đầu tư vì lợi nhuận bền vững.”", "timestamp": "2025-04-24T09:27:36+0700", "vote": "76"}, {"username": "Hieu2003", "content": "D", "timestamp": "2025-04-29T08:56:39+0700", "vote": "-389"}, {"username": "Minthep", "content": "DS bankrrupt = attrarct sma,ll firrm", "timestamp": "2025-08-30T10:31:19+0700", "vote": "3498"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-09T16:32:41+0700", "vote": "261"}, {"username": "winng", "content": "D", "timestamp": "2025-12-10T14:54:33+0700", "vote": "87"}], "image_29.webp": [{"username": "Katori", "content": "d", "timestamp": "2024-08-25T22:53:07+0700", "vote": "993"}, {"username": "TPKAKA", "content": "D", "timestamp": "2024-11-21T10:34:34+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Ai lặp lại khởi nghiệp nhiều lần, đóng – mở công ty liên tục gọi là serial entrepreneur.\n“Serial = liên tiếp.”", "timestamp": "2025-04-24T09:28:02+0700", "vote": "76"}, {"username": "Hieu2003", "content": "D", "timestamp": "2025-04-29T08:57:20+0700", "vote": "-389"}, {"username": "Minthep", "content": "D", "timestamp": "2025-08-30T10:31:30+0700", "vote": "3498"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-09T16:33:19+0700", "vote": "261"}, {"username": "winng", "content": "D", "timestamp": "2025-12-10T14:55:01+0700", "vote": "87"}], "image_30.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:53:37+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:35:25+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Không ngừng săn tìm cơ hội mới chính là biểu hiện của opportunity obsession (ám ảnh cơ hội).\n“Obsession = ám ảnh → cứ tìm cơ hội hoài.”", "timestamp": "2025-04-24T09:28:33+0700", "vote": "76"}, {"username": "Hieu2003", "content": "B", "timestamp": "2025-04-29T08:59:03+0700", "vote": "-389"}, {"username": "Minthep", "content": "B", "timestamp": "2025-08-30T10:31:47+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:34:05+0700", "vote": "261"}, {"username": "winng", "content": "b", "timestamp": "2025-12-10T14:55:24+0700", "vote": "87"}], "image_31.webp": [{"username": "Katori", "content": "d", "timestamp": "2024-08-25T22:53:44+0700", "vote": "993"}, {"username": "TPKAKA", "content": "D", "timestamp": "2024-11-21T10:36:01+0700", "vote": "19"}, {"username": "Hieu2003", "content": "D", "timestamp": "2025-04-29T08:59:18+0700", "vote": "-389"}, {"username": "ARMY", "content": "D\n\nOpportunistic entrepreneurs là những người nhận ra cơ hội kinh doanh => Có học\n\nNgược lại là reluctant entrepreneurs (nghèo quá phải kinh doanh).", "timestamp": "2025-08-21T15:43:44+0700", "vote": "125"}, {"username": "Minthep", "content": "D", "timestamp": "2025-08-30T10:31:54+0700", "vote": "3498"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-09T16:34:14+0700", "vote": "261"}, {"username": "winng", "content": "D", "timestamp": "2025-12-10T14:58:58+0700", "vote": "87"}], "image_32.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:53:50+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:36:34+0700", "vote": "19"}, {"username": "ForUser", "content": "A", "timestamp": "2025-01-27T14:57:46+0700", "vote": "71"}, {"username": "saiyanplayer", "content": "Startup chưa có lịch sử, dòng tiền không ổn định, rủi ro cao, nên không thể định giá “chính xác” theo phương pháp truyền thống.", "timestamp": "2025-04-24T09:34:13+0700", "vote": "76"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T08:59:26+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\n10 Start-up thì 9 chết => không ổn định => định giá theo kiểu đoán nhiều hơn", "timestamp": "2025-08-21T15:46:01+0700", "vote": "125"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:32:16+0700", "vote": "3498"}, {"username": "Minthep", "content": "tra di tion nal", "timestamp": "2025-08-30T10:32:27+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:34:49+0700", "vote": "261"}, {"username": "winng", "content": "Â", "timestamp": "2025-12-10T15:02:59+0700", "vote": "87"}], "image_33.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:53:56+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:39:24+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T08:59:33+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nChannels (kênh phân phối và giao tiếp) có tác dụng kéo khách, giúp khách so sánh, cho khách mua, ship cho khách, dịch vụ hậu mãi.", "timestamp": "2025-08-21T15:48:42+0700", "vote": "125"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:35:48+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:34:55+0700", "vote": "261"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T15:03:41+0700", "vote": "87"}], "image_34.webp": [{"username": "Katori", "content": "c", "timestamp": "2024-08-25T22:54:01+0700", "vote": "993"}, {"username": "TPKAKA", "content": "C", "timestamp": "2024-11-21T10:39:48+0700", "vote": "19"}, {"username": "saiyanplayer", "content": "Franchise (nhượng quyền) là gói “prepackaged”: mua quyền sử dụng thương hiệu/phương thức kinh doanh.\n\nIncubator chỉ là nơi ươm tạo, imitative firm chỉ sao chép, không thuê/gia hạn gói có sẵn", "timestamp": "2025-04-24T09:37:32+0700", "vote": "76"}, {"username": "Hieu2003", "content": "C. franchise", "timestamp": "2025-04-29T08:59:52+0700", "vote": "-389"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-09T16:35:46+0700", "vote": "261"}, {"username": "winng", "content": "c", "timestamp": "2025-12-10T15:04:04+0700", "vote": "87"}], "image_35.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:54:06+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:41:04+0700", "vote": "19"}, {"username": "Hieu2003", "content": "B", "timestamp": "2025-04-29T09:01:42+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nSmall market (Quán cơm quán bún) thì tập trung vào immediate/local marketplace thôi chứ quan tâm IPO hay vốn bên ngoài làm gì.", "timestamp": "2025-08-21T15:53:07+0700", "vote": "125"}, {"username": "Minthep", "content": "B", "timestamp": "2025-08-30T10:34:16+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:36:24+0700", "vote": "261"}, {"username": "winng", "content": "b", "timestamp": "2025-12-10T15:04:50+0700", "vote": "87"}], "image_36.webp": [{"username": "Katori", "content": "d", "timestamp": "2024-08-25T22:54:12+0700", "vote": "993"}, {"username": "ForUser", "content": "B đúng\nACD đều là vốn cổ phần không phải debt", "timestamp": "2025-01-27T15:05:44+0700", "vote": "71"}, {"username": "valadimir-baka", "content": "B", "timestamp": "2025-04-28T23:11:15+0700", "vote": "2"}, {"username": "Hieu2003", "content": "B. Factor receicables", "timestamp": "2025-04-29T09:02:21+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nA Angel investors đầu tư thiên thần\nB Factor receivables kiểu cầm đồ (đây là debt)\nC Public stock offerings là IPO\nD Incubators Hỗ trợ theo kiểu tư vấn thay vì cho vay tiền", "timestamp": "2025-08-21T15:56:28+0700", "vote": "125"}, {"username": "Minthep", "content": "B", "timestamp": "2025-08-30T10:34:44+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:36:44+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T15:05:32+0700", "vote": "87"}], "image_37.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:54:18+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:43:41+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T09:02:33+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nSmall thì cash, large thì sales", "timestamp": "2025-08-21T15:58:07+0700", "vote": "125"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:35:07+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:37:04+0700", "vote": "261"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T15:05:45+0700", "vote": "87"}], "image_38.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:54:40+0700", "vote": "993"}, {"username": "Toi ko bik", "content": "b", "timestamp": "2025-04-28T21:27:20+0700", "vote": "3"}, {"username": "ARMY", "content": "B\n\n+ Close end kiểu Yes/No/Choice/Rate => output dạng int => ít data\n+ Open end kiểu Wh-question => output dạng varchar => Nhiều data", "timestamp": "2025-08-21T16:01:33+0700", "vote": "125"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:37:11+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T15:06:17+0700", "vote": "87"}], "image_39.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:54:46+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:45:19+0700", "vote": "19"}, {"username": "Hieu2003", "content": "B. financial", "timestamp": "2025-04-29T09:04:51+0700", "vote": "-389"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:37:20+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T15:06:36+0700", "vote": "87"}], "image_40.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:54:52+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:46:46+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T09:05:36+0700", "vote": "-389"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:36:10+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:37:45+0700", "vote": "261"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T15:07:00+0700", "vote": "87"}], "image_41.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:54:58+0700", "vote": "993"}, {"username": "Hieu2003", "content": "B", "timestamp": "2025-04-29T09:06:17+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nFocus group là nhóm 1 nhóm nhỏ rồi thảo luận có dẫn dắt để khai thác quan điểm, không chỉ simple observation.", "timestamp": "2025-08-21T16:09:08+0700", "vote": "125"}, {"username": "Minthep", "content": "B", "timestamp": "2025-08-30T10:36:16+0700", "vote": "3498"}, {"username": "Minthep", "content": "simple observation false", "timestamp": "2025-08-30T10:36:27+0700", "vote": "3498"}, {"username": "duyng.59", "content": "false", "timestamp": "2025-12-09T16:40:30+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T15:07:17+0700", "vote": "87"}], "image_42.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:55:03+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:48:19+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A. receivables", "timestamp": "2025-04-29T09:07:02+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nMãi mới dịch được, đề bài là số tiền khách nợ vì mua chịu (giống mua bằng thẻ credit) là gì?\n\n=> Là số tiền phải thu Receivables (Accounts Receivable)", "timestamp": "2025-08-21T16:11:33+0700", "vote": "125"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:36:32+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:42:10+0700", "vote": "261"}, {"username": "winng", "content": "a", "timestamp": "2025-12-10T15:07:53+0700", "vote": "87"}], "image_43.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:55:08+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:49:14+0700", "vote": "19"}, {"username": "Hieu2003", "content": "B. You are", "timestamp": "2025-04-29T09:08:23+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nLeasing thuê thì không được renovations theo ý mình được (limited)", "timestamp": "2025-08-21T16:13:09+0700", "vote": "125"}, {"username": "Minthep", "content": "cho thuê mà tưởng làm chủ B", "timestamp": "2025-08-30T10:37:29+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:42:31+0700", "vote": "261"}, {"username": "winng", "content": "B", "timestamp": "2025-12-10T15:08:39+0700", "vote": "87"}], "image_44.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:55:13+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:51:03+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A. Outside", "timestamp": "2025-04-29T09:08:50+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nNgười mua quyền sở hữu trong doanh nghiệp là nhà đầu tư góp vốn (equity investors)", "timestamp": "2025-08-21T16:14:01+0700", "vote": "125"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:37:39+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:42:50+0700", "vote": "261"}, {"username": "winng", "content": "â", "timestamp": "2025-12-10T15:08:57+0700", "vote": "87"}], "image_45.webp": [{"username": "Katori", "content": "b", "timestamp": "2024-08-25T22:55:19+0700", "vote": "993"}, {"username": "TPKAKA", "content": "B", "timestamp": "2024-11-21T10:52:22+0700", "vote": "19"}, {"username": "Hieu2003", "content": "B. liability", "timestamp": "2025-04-29T09:09:20+0700", "vote": "-389"}, {"username": "ARMY", "content": "B\n\nresponsibility (trách nhiệm, nghĩa vụ) thì gắn với liability (trách nhiệm pháp lý)", "timestamp": "2025-08-21T16:15:09+0700", "vote": "125"}, {"username": "Minthep", "content": "BS", "timestamp": "2025-08-30T10:37:52+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-09T16:43:03+0700", "vote": "261"}, {"username": "winng", "content": "b", "timestamp": "2025-12-10T15:09:14+0700", "vote": "87"}], "image_46.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:55:26+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:53:07+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A. retained earnings", "timestamp": "2025-04-29T09:09:49+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nKhoản thu sau khi lấy lợi nhuận + lỗ - cổ tức đã trả (từ khi bắt đầu kinh doanh) là Retained earnings (lợi nhuận giữ lại)\n\nChú ý Net income = lợi nhuận ròng trong một kỳ, không phải từ lúc thành lập.", "timestamp": "2025-08-21T16:18:07+0700", "vote": "125"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:38:08+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:43:43+0700", "vote": "261"}, {"username": "winng", "content": "a", "timestamp": "2025-12-10T15:09:57+0700", "vote": "87"}], "image_47.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:55:32+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:53:41+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T09:10:12+0700", "vote": "-389"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T10:38:19+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:44:16+0700", "vote": "261"}, {"username": "winng", "content": "a", "timestamp": "2025-12-10T15:10:18+0700", "vote": "87"}], "image_48.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:55:37+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:54:56+0700", "vote": "19"}, {"username": "ForUser", "content": "D\nFrequent purchases\" không phải là một chi phí trực tiếp, nhưng mua hàng thường xuyên sẽ làm tăng chi phí đặt hàng (ordering cost thuộc về EOQ)", "timestamp": "2025-04-28T22:52:59+0700", "vote": "71"}, {"username": "CoderLâmĐồng", "content": "Muốn tối ưu chi phi tồn kho thì frequent purchases - mua sắm thường xuyên ko đúng. Chọn A", "timestamp": "2025-04-29T08:03:42+0700", "vote": "93"}, {"username": "Hieu2003", "content": "A", "timestamp": "2025-04-29T09:10:58+0700", "vote": "-389"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T12:13:51+0700", "vote": "0"}, {"username": "ARMY", "content": "A\n\nMua hàng thường xuyên thì đúng là có tác động lên phí đặt hàng hoặc là phí lưu kho nhưng mà chỉ là phụ. Trong kho thì lưu kho (carrying), xử lý đơn (processing) và thiệt hại do hết hàng (losing sales) mới là chính.", "timestamp": "2025-08-21T16:21:37+0700", "vote": "125"}, {"username": "Minthep", "content": "A là a đúng k", "timestamp": "2025-08-30T10:38:50+0700", "vote": "3498"}, {"username": "thoainqt", "content": "aaa", "timestamp": "2025-12-10T00:10:40+0700", "vote": "91"}, {"username": "winng", "content": "A", "timestamp": "2025-12-10T15:11:10+0700", "vote": "87"}, {"username": "Spiderman", "content": "D", "timestamp": "2025-12-10T17:05:00+0700", "vote": "-2"}], "image_49.webp": [{"username": "Katori", "content": "a", "timestamp": "2024-08-25T22:55:42+0700", "vote": "993"}, {"username": "TPKAKA", "content": "A", "timestamp": "2024-11-21T10:55:19+0700", "vote": "19"}, {"username": "Hieu2003", "content": "A. virtual employees", "timestamp": "2025-04-29T09:11:20+0700", "vote": "-389"}, {"username": "ARMY", "content": "A\n\nVirtual employees làm việc online từ xa\nJob share employees 2 thằng làm 1 việc\nLeased employees nhân viên được thuê từ bên ngoài\nTemporary employees thời vụ", "timestamp": "2025-08-21T16:24:54+0700", "vote": "125"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-09T16:47:53+0700", "vote": "261"}, {"username": "winng", "content": "a", "timestamp": "2025-12-10T15:12:12+0700", "vote": "87"}], "image_50.webp": [{"username": "Katori", "content": "c", "timestamp": "2024-08-25T22:55:48+0700", "vote": "993"}, {"username": "TPKAKA", "content": "C", "timestamp": "2024-11-21T10:55:53+0700", "vote": "19"}, {"username": "Hieu2003", "content": "C. SWOT", "timestamp": "2025-04-29T09:11:57+0700", "vote": "-389"}, {"username": "ARMY", "content": "C\n\nSituation analysis là bước đánh giá hiện trạng của doanh nghiệp và thị trường.\n\nSWOT analysis (Strengths, Weaknesses, Opportunities, Threats) đủ cả đối nội lẫn đối ngoại luôn.", "timestamp": "2025-08-21T16:26:13+0700", "vote": "125"}, {"username": "Minthep", "content": "swot", "timestamp": "2025-08-30T10:39:11+0700", "vote": "3498"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-09T16:48:04+0700", "vote": "261"}, {"username": "winng", "content": "c", "timestamp": "2025-12-10T15:12:17+0700", "vote": "87"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>

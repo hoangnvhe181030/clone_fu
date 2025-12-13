@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"/><title>SYB302c - FA 2022 - FE</title>
+<link rel="stylesheet" href="../../../assets/css/style.css"/>
+<style>
+    .lightbox-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .nav-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+    .nav-button:hover {
+        background-color: #0056b3;
+    }
+    .nav-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+    .image-counter {
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+</head><body>
+<div class="header"><div class="logo">FuOverflow Clone</div></div>
+<div class="container"><h1>SYB302c - FA 2022 - FE</h1>
+<div class="image-grid">
+
+        <div class="image-item" data-img="images/image_1.webp">
+            <img src="images/image_1.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_10.webp">
+            <img src="images/image_10.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_11.webp">
+            <img src="images/image_11.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_12.webp">
+            <img src="images/image_12.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_13.webp">
+            <img src="images/image_13.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_14.webp">
+            <img src="images/image_14.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_15.webp">
+            <img src="images/image_15.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_16.webp">
+            <img src="images/image_16.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_17.webp">
+            <img src="images/image_17.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_18.webp">
+            <img src="images/image_18.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_19.webp">
+            <img src="images/image_19.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_2.webp">
+            <img src="images/image_2.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_20.webp">
+            <img src="images/image_20.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_21.webp">
+            <img src="images/image_21.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_22.webp">
+            <img src="images/image_22.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_23.webp">
+            <img src="images/image_23.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_24.webp">
+            <img src="images/image_24.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_25.webp">
+            <img src="images/image_25.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_26.webp">
+            <img src="images/image_26.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_27.webp">
+            <img src="images/image_27.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_28.webp">
+            <img src="images/image_28.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_29.webp">
+            <img src="images/image_29.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_3.webp">
+            <img src="images/image_3.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_30.webp">
+            <img src="images/image_30.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_31.webp">
+            <img src="images/image_31.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_32.webp">
+            <img src="images/image_32.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_33.webp">
+            <img src="images/image_33.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_34.webp">
+            <img src="images/image_34.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_35.webp">
+            <img src="images/image_35.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_36.webp">
+            <img src="images/image_36.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_37.webp">
+            <img src="images/image_37.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_38.webp">
+            <img src="images/image_38.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_39.webp">
+            <img src="images/image_39.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_4.webp">
+            <img src="images/image_4.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_40.webp">
+            <img src="images/image_40.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_41.webp">
+            <img src="images/image_41.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_42.webp">
+            <img src="images/image_42.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_43.webp">
+            <img src="images/image_43.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_44.webp">
+            <img src="images/image_44.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_45.webp">
+            <img src="images/image_45.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_46.webp">
+            <img src="images/image_46.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_47.webp">
+            <img src="images/image_47.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_48.webp">
+            <img src="images/image_48.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_5.webp">
+            <img src="images/image_5.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_6.webp">
+            <img src="images/image_6.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_7.webp">
+            <img src="images/image_7.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_8.webp">
+            <img src="images/image_8.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+        <div class="image-item" data-img="images/image_9.webp">
+            <img src="images/image_9.webp" alt="" loading="lazy"/>
+            <div class="image-overlay">Click để xem + bình luận</div>
+        </div>
+        
+</div>
+
+<!-- LIGHTBOX MỚI -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">×</span>
+    <div class="lightbox-content">
+        <div class="lightbox-nav">
+            <button class="nav-button" id="prev-btn">← Quay lại</button>
+            <span class="image-counter"><span id="current-index">1</span> / <span id="total-images">0</span></span>
+            <button class="nav-button" id="next-btn">Tiếp theo →</button>
+        </div>
+        <img id="lightbox-img" src="" alt="" loading="lazy"/>
+        <div class="lightbox-comments">
+            <h3>Bình luận</h3>
+            <div id="comment-list"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const items = document.querySelectorAll('.image-item');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const commentList = document.getElementById('comment-list');
+    const close = document.querySelector('.close-lightbox');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const currentIndexSpan = document.getElementById('current-index');
+    const totalImagesSpan = document.getElementById('total-images');
+
+    // DỮ LIỆU BÌNH LUẬN
+    const commentsData = {"image_1.webp": [{"username": "huai_cang15", "content": "e", "timestamp": "2024-08-23T23:42:27+0700", "vote": "-15"}, {"username": "duanon", "content": "e", "timestamp": "2025-04-29T13:18:33+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "e", "timestamp": "2025-08-30T09:10:07+0700", "vote": "3"}, {"username": "Minthep", "content": "ee", "timestamp": "2025-08-30T11:22:59+0700", "vote": "3498"}, {"username": "thoainqt", "content": "ee", "timestamp": "2025-12-09T10:09:13+0700", "vote": "91"}, {"username": "duyng.59", "content": "e", "timestamp": "2025-12-10T09:33:57+0700", "vote": "261"}], "image_2.webp": [{"username": "huai_cang15", "content": "d", "timestamp": "2024-08-23T23:42:35+0700", "vote": "-15"}, {"username": "duanon", "content": "d", "timestamp": "2025-04-29T13:18:39+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "d", "timestamp": "2025-08-30T09:10:12+0700", "vote": "3"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-10T09:34:07+0700", "vote": "261"}], "image_3.webp": [{"username": "huai_cang15", "content": "c", "timestamp": "2024-08-23T23:42:40+0700", "vote": "-15"}, {"username": "ARMY", "content": "E\n\nCâu này không chắc đáp án vì không có thông tin gì đề cập tới Chính phủ, chỉ đề cập là John gặp khó với nhiều tasks.", "timestamp": "2025-08-22T20:47:49+0700", "vote": "125"}, {"username": "DangHocTiengNhat", "content": "c", "timestamp": "2025-08-30T09:10:25+0700", "vote": "3"}, {"username": "Minthep", "content": "D", "timestamp": "2025-08-30T11:14:26+0700", "vote": "3498"}, {"username": "thoainqt", "content": "dd", "timestamp": "2025-12-09T10:10:04+0700", "vote": "91"}], "image_4.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:42:57+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:19:10+0700", "vote": "0"}, {"username": "ARMY", "content": "A\n\nDoanh nhân nhàn nhã, há miệng chờ thời chỉ có đi bán khóa học với bán sách.", "timestamp": "2025-08-22T20:49:07+0700", "vote": "125"}, {"username": "DangHocTiengNhat", "content": "a", "timestamp": "2025-08-30T09:10:33+0700", "vote": "3"}, {"username": "Minthep", "content": "A", "timestamp": "2025-08-30T11:14:37+0700", "vote": "3498"}, {"username": "Minthep", "content": "t bán khóa học", "timestamp": "2025-08-30T11:14:43+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:34:45+0700", "vote": "261"}], "image_5.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:43:35+0700", "vote": "-15"}, {"username": "ARMY", "content": "B\n\nMagic circle feedback loop là\n...-> phí thấp -> giá bán thấp -> bán được nhiều -> phí càng thấp -> ...\n\nA (Thiết kế nhanh hơn) và C (Sản xuất nhanh hơn) là hệ quả của việc có tiền (Higher market share) chứ không hẳn là ưu điểm chính.", "timestamp": "2025-08-22T20:53:17+0700", "vote": "125"}, {"username": "DangHocTiengNhat", "content": "b", "timestamp": "2025-08-30T09:10:42+0700", "vote": "3"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:34:57+0700", "vote": "261"}], "image_6.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:43:57+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:20:01+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "b", "timestamp": "2025-08-30T09:10:53+0700", "vote": "3"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:35:04+0700", "vote": "261"}], "image_7.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:44:15+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:20:17+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "b", "timestamp": "2025-08-30T09:11:03+0700", "vote": "3"}, {"username": "Minthep", "content": "mas tailoring", "timestamp": "2025-08-30T11:15:39+0700", "vote": "3498"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:35:12+0700", "vote": "261"}], "image_8.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:44:31+0700", "vote": "-15"}, {"username": "ARMY", "content": "B\n\nFixed asset là tài sản sử dụng lâu dài (không phải để bán) nên bắt buộc phải tính khấu hao (accumulates depreciation) trong quá trình hạch toán.\n\nNhư chạy taxi thì phải cân nhắc mua xe (fixed asset) rẻ và khấu hao thấp (bền).", "timestamp": "2025-08-22T20:57:47+0700", "vote": "125"}, {"username": "DangHocTiengNhat", "content": "b", "timestamp": "2025-08-30T09:11:09+0700", "vote": "3"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:35:17+0700", "vote": "261"}], "image_9.webp": [{"username": "huai_cang15", "content": "d", "timestamp": "2024-08-23T23:45:01+0700", "vote": "-15"}, {"username": "duanon", "content": "d", "timestamp": "2025-04-29T13:20:37+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "d", "timestamp": "2025-08-30T09:11:17+0700", "vote": "3"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-10T09:35:24+0700", "vote": "261"}], "image_10.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:45:19+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:20:45+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "b", "timestamp": "2025-08-30T09:11:30+0700", "vote": "3"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:35:48+0700", "vote": "261"}], "image_11.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:45:58+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:21:09+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "b", "timestamp": "2025-08-30T09:11:36+0700", "vote": "3"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:35:54+0700", "vote": "261"}], "image_12.webp": [{"username": "Phạm Duy", "content": "c", "timestamp": "2024-04-24T11:39:10+0700", "vote": "39"}, {"username": "huai_cang15", "content": "c", "timestamp": "2024-08-23T23:46:04+0700", "vote": "-15"}, {"username": "duanon", "content": "c", "timestamp": "2025-04-29T13:21:22+0700", "vote": "0"}, {"username": "ARMY", "content": "C\n\nSWOT (Strengths, Weaknesses, Opportunities, Threats) là chuẩn vì phân tích được cả nội bộ doanh nghiệp lẫn các tác nhân bên ngoài.\n\n(Muốn thành công thì phải phân tích toàn diện cả địch lẫn ta)", "timestamp": "2025-08-22T21:01:50+0700", "vote": "125"}, {"username": "DangHocTiengNhat", "content": "c", "timestamp": "2025-08-30T09:11:47+0700", "vote": "3"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-10T09:36:10+0700", "vote": "261"}], "image_13.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:46:17+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:21:32+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "b", "timestamp": "2025-08-30T09:11:57+0700", "vote": "3"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:36:19+0700", "vote": "261"}], "image_14.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:47:07+0700", "vote": "-15"}, {"username": "fru", "content": "B", "timestamp": "2025-04-29T10:36:34+0700", "vote": "11"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:21:39+0700", "vote": "0"}, {"username": "ARMY", "content": "B\n\nTăng giảm đúng lúc và có chừng mực, chứ chơi kiểu significantly lower (thấp hơn đáng kể) thì là vào thế hèn rồi.", "timestamp": "2025-08-22T21:04:43+0700", "vote": "125"}, {"username": "DangHocTiengNhat", "content": "b", "timestamp": "2025-08-30T09:12:07+0700", "vote": "3"}, {"username": "Spiderman", "content": "B", "timestamp": "2025-12-08T09:45:42+0700", "vote": "-2"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:37:22+0700", "vote": "261"}], "image_15.webp": [{"username": "Phạm Duy", "content": "a", "timestamp": "2024-04-24T11:39:57+0700", "vote": "39"}, {"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:47:13+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:22:00+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "a", "timestamp": "2025-08-30T09:12:12+0700", "vote": "3"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:37:27+0700", "vote": "261"}], "image_16.webp": [{"username": "huai_cang15", "content": "c", "timestamp": "2024-08-23T23:47:30+0700", "vote": "-15"}, {"username": "duanon", "content": "c", "timestamp": "2025-04-29T13:22:06+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "c", "timestamp": "2025-08-30T09:12:28+0700", "vote": "3"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-10T09:37:53+0700", "vote": "261"}], "image_17.webp": [{"username": "Phạm Duy", "content": "c", "timestamp": "2024-04-24T11:41:06+0700", "vote": "39"}, {"username": "huai_cang15", "content": "c", "timestamp": "2024-08-23T23:47:37+0700", "vote": "-15"}, {"username": "duanon", "content": "c", "timestamp": "2025-04-29T13:22:12+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "c", "timestamp": "2025-08-30T09:12:34+0700", "vote": "3"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-10T09:37:58+0700", "vote": "261"}], "image_18.webp": [{"username": "Phạm Duy", "content": "a", "timestamp": "2024-04-24T11:41:14+0700", "vote": "39"}, {"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:48:29+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:22:19+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "a", "timestamp": "2025-08-30T09:12:39+0700", "vote": "3"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:38:03+0700", "vote": "261"}], "image_19.webp": [{"username": "Phạm Duy", "content": "a", "timestamp": "2024-04-24T11:41:21+0700", "vote": "39"}, {"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:48:38+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:22:25+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "a", "timestamp": "2025-08-30T09:12:45+0700", "vote": "3"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:38:18+0700", "vote": "261"}], "image_20.webp": [{"username": "Phạm Duy", "content": "a", "timestamp": "2024-04-24T11:41:27+0700", "vote": "39"}, {"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:48:47+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:22:30+0700", "vote": "0"}, {"username": "DangHocTiengNhat", "content": "a", "timestamp": "2025-08-30T09:12:51+0700", "vote": "3"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:38:23+0700", "vote": "261"}], "image_21.webp": [{"username": "Phạm Duy", "content": "b", "timestamp": "2024-04-24T11:42:35+0700", "vote": "39"}, {"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:48:54+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:22:42+0700", "vote": "0"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:38:30+0700", "vote": "261"}], "image_22.webp": [{"username": "Phạm Duy", "content": "b", "timestamp": "2024-04-24T11:43:26+0700", "vote": "39"}, {"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:48:59+0700", "vote": "-15"}, {"username": "htu_tthat", "content": "A", "timestamp": "2024-11-22T23:40:52+0700", "vote": "1"}, {"username": "ForUser", "content": "A", "timestamp": "2025-01-28T15:36:05+0700", "vote": "71"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:22:48+0700", "vote": "0"}, {"username": "ARMY", "content": "B\n\nSai chắc vì nhớ không nhầm thì ba cái lợi ích là profit, independence và personal fulfillment, đoạn bị ẩn bắt đầu bằng sat thì chắc là satisfaction một cái gì đấy.\n\nSource GoogleScholar", "timestamp": "2025-08-22T21:15:38+0700", "vote": "125"}, {"username": "Minthep", "content": "@ARMY Personal satisfaction / self-fulfillment =)))))", "timestamp": "2025-08-30T11:18:23+0700", "vote": "3498"}, {"username": "Minthep", "content": "A nha", "timestamp": "2025-08-30T11:18:29+0700", "vote": "3498"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:38:37+0700", "vote": "261"}], "image_23.webp": [{"username": "Phạm Duy", "content": "b", "timestamp": "2024-04-24T11:44:13+0700", "vote": "39"}, {"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:49:07+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:23:00+0700", "vote": "0"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:38:45+0700", "vote": "261"}], "image_24.webp": [{"username": "Phạm Duy", "content": "c", "timestamp": "2024-04-24T11:45:25+0700", "vote": "39"}, {"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:49:29+0700", "vote": "-15"}, {"username": "ForUser", "content": "A", "timestamp": "2025-01-28T15:48:03+0700", "vote": "71"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:23:11+0700", "vote": "0"}, {"username": "HungBui", "content": "a", "timestamp": "2025-08-22T21:33:25+0700", "vote": "47"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:38:50+0700", "vote": "261"}], "image_25.webp": [{"username": "huai_cang15", "content": "d", "timestamp": "2024-08-23T23:49:57+0700", "vote": "-15"}, {"username": "ARMY", "content": "D\n\nbootstrapping là tự bỏ tiền túi, câu D là Vay thôi không đụng tiền riêng.", "timestamp": "2025-08-22T21:18:13+0700", "vote": "125"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-10T09:38:59+0700", "vote": "261"}], "image_26.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:50:03+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:23:45+0700", "vote": "0"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:39:04+0700", "vote": "261"}], "image_27.webp": [{"username": "huai_cang15", "content": "c", "timestamp": "2024-08-23T23:50:23+0700", "vote": "-15"}, {"username": "CoderLâmĐồng", "content": "C", "timestamp": "2025-04-29T12:41:50+0700", "vote": "93"}, {"username": "duanon", "content": "c", "timestamp": "2025-04-29T13:23:56+0700", "vote": "0"}, {"username": "ARMY", "content": "C\n\nGiai đoạn đầu thì chẳng ai cho vay, nên dùng cách là lấy cổ phần (equity) để đổi lấy khoản vay.", "timestamp": "2025-08-22T21:23:00+0700", "vote": "125"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-10T09:39:17+0700", "vote": "261"}], "image_28.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:50:29+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:24:03+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:39:23+0700", "vote": "261"}], "image_29.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:50:37+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:24:24+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:39:28+0700", "vote": "261"}], "image_30.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:50:42+0700", "vote": "-15"}, {"username": "ARMY", "content": "A\n\nprofit thì nằm trong income", "timestamp": "2025-08-22T21:26:53+0700", "vote": "125"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:39:37+0700", "vote": "261"}], "image_31.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:50:50+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:24:51+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:39:43+0700", "vote": "261"}], "image_32.webp": [{"username": "huai_cang15", "content": "d", "timestamp": "2024-08-23T23:58:10+0700", "vote": "-15"}, {"username": "CoderLâmĐồng", "content": "D", "timestamp": "2025-04-29T12:43:28+0700", "vote": "93"}, {"username": "duanon", "content": "d", "timestamp": "2025-04-29T13:25:00+0700", "vote": "0"}, {"username": "ARMY", "content": "D\n\nAnti-dilution provisions không bảo vệ tỷ lệ sở hữu (pro-rata ownership) mà bảo vệ giá trị đầu tư khi có vòng gọi vốn với giá thấp hơn, nếu muốn bảo vệ pro-rata ownership thì dùng pre-emptive rights", "timestamp": "2025-08-22T21:40:10+0700", "vote": "125"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-10T09:40:04+0700", "vote": "261"}], "image_33.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-23T23:58:16+0700", "vote": "-15"}, {"username": "HungBui", "content": "bê", "timestamp": "2025-08-22T21:34:56+0700", "vote": "47"}, {"username": "duyng.59", "content": "bờ", "timestamp": "2025-12-10T09:40:10+0700", "vote": "261"}], "image_34.webp": [{"username": "huai_cang15", "content": "d", "timestamp": "2024-08-23T23:58:29+0700", "vote": "-15"}, {"username": "duanon", "content": "d", "timestamp": "2025-04-29T13:26:12+0700", "vote": "0"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-10T09:40:21+0700", "vote": "261"}], "image_35.webp": [{"username": "huai_cang15", "content": "e", "timestamp": "2024-08-23T23:58:43+0700", "vote": "-15"}, {"username": "duanon", "content": "e", "timestamp": "2025-04-29T13:26:20+0700", "vote": "0"}, {"username": "duyng.59", "content": "e", "timestamp": "2025-12-10T09:40:35+0700", "vote": "261"}], "image_36.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:58:49+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:26:26+0700", "vote": "0"}, {"username": "ARMY", "content": "A\n\nCó bài báo của George Deeb thay vì money người ta viết là model, ở bài đấy thì:\nModel = Mô hình kinh doanh (cách tạo doanh thu và duy trì lợi nhuận) thì cũng là Money (chỉ khác cách định nghĩa thôi).", "timestamp": "2025-08-22T21:45:28+0700", "vote": "125"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:40:50+0700", "vote": "261"}], "image_37.webp": [{"username": "huai_cang15", "content": "c", "timestamp": "2024-08-23T23:58:58+0700", "vote": "-15"}, {"username": "duanon", "content": "c", "timestamp": "2025-04-29T13:26:31+0700", "vote": "0"}, {"username": "ARMY", "content": "C\n\n\nHộ kinh doanh cá thể à", "timestamp": "2025-08-22T21:46:14+0700", "vote": "125"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-10T09:40:56+0700", "vote": "261"}], "image_38.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-23T23:59:08+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:26:48+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:41:03+0700", "vote": "261"}], "image_39.webp": [{"username": "huai_cang15", "content": "c", "timestamp": "2024-08-23T23:59:48+0700", "vote": "-15"}, {"username": "duanon", "content": "c", "timestamp": "2025-04-29T13:26:53+0700", "vote": "0"}, {"username": "ARMY", "content": "C\n\nAccelerator program thường tính phí đối tượng tham gia bằng equity (nhưng tầm 5-10% thôi).", "timestamp": "2025-08-22T21:47:41+0700", "vote": "125"}, {"username": "duyng.59", "content": "c", "timestamp": "2025-12-10T09:41:09+0700", "vote": "261"}], "image_40.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-24T00:00:14+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:27:11+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:41:19+0700", "vote": "261"}], "image_41.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-24T00:00:19+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:27:20+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:41:25+0700", "vote": "261"}], "image_42.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-24T00:00:24+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:27:25+0700", "vote": "0"}, {"username": "ARMY", "content": "A\n\nStrategic (Chiếnlược) aims for long-term benefits\nStrategy (Chiến thuật) ngược lại", "timestamp": "2025-08-22T21:49:31+0700", "vote": "125"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:41:29+0700", "vote": "261"}], "image_43.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-24T00:01:07+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:27:30+0700", "vote": "0"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:41:38+0700", "vote": "261"}], "image_44.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-24T00:01:12+0700", "vote": "-15"}, {"username": "HungBui", "content": "ây", "timestamp": "2025-08-22T21:36:36+0700", "vote": "47"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:42:10+0700", "vote": "261"}], "image_45.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-24T00:01:27+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:29:27+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:42:22+0700", "vote": "261"}], "image_46.webp": [{"username": "huai_cang15", "content": "d", "timestamp": "2024-08-24T00:01:33+0700", "vote": "-15"}, {"username": "duanon", "content": "d", "timestamp": "2025-04-29T13:29:36+0700", "vote": "0"}, {"username": "ARMY", "content": "D\n\nTự bỏ vốn (Bootstrapping) thì sẽ nhận được greater share of exit value rồi", "timestamp": "2025-08-22T21:51:09+0700", "vote": "125"}, {"username": "duyng.59", "content": "d", "timestamp": "2025-12-10T09:42:29+0700", "vote": "261"}], "image_47.webp": [{"username": "huai_cang15", "content": "a", "timestamp": "2024-08-24T00:01:48+0700", "vote": "-15"}, {"username": "duanon", "content": "a", "timestamp": "2025-04-29T13:30:50+0700", "vote": "0"}, {"username": "duyng.59", "content": "a", "timestamp": "2025-12-10T09:42:35+0700", "vote": "261"}], "image_48.webp": [{"username": "huai_cang15", "content": "b", "timestamp": "2024-08-24T00:01:54+0700", "vote": "-15"}, {"username": "duanon", "content": "b", "timestamp": "2025-04-29T13:30:57+0700", "vote": "0"}, {"username": "duyng.59", "content": "b", "timestamp": "2025-12-10T09:42:41+0700", "vote": "261"}]};
+    
+    // Mảng chứa tất cả ảnh
+    let allImages = [];
+    let currentIndex = -1;
+
+    // Khởi tạo mảng ảnh
+    items.forEach((item, index) => {
+        allImages.push({
+            element: item,
+            src: item.getAttribute('data-img')
+        });
+    });
+
+    totalImagesSpan.textContent = allImages.length;
+
+    // Hàm hiển thị ảnh theo index
+    function showImageByIndex(index) {
+        if (index < 0 || index >= allImages.length) return;
+        
+        currentIndex = index;
+        const img = allImages[index];
+        lightboxImg.src = img.src + '?t=' + Date.now();
+        currentIndexSpan.textContent = index + 1;
+
+        // Cập nhật trạng thái nút
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === allImages.length - 1;
+
+        // Hiển thị bình luận
+        const imgName = img.src.split('/').pop();
+        const comments = commentsData[imgName] || [];
+        commentList.innerHTML = '';
+        if (comments.length === 0) {
+            commentList.innerHTML = '<p class="no-comment">Chưa có bình luận</p>';
+        } else {
+            comments.forEach(c => {
+                const div = document.createElement('div');
+                div.className = 'comment';
+                div.innerHTML = `
+                    <div class="comment-header">
+                        <span class="username">${c.username}</span>
+                        <span class="vote">Vote: ${c.vote}</span>
+                    </div>
+                    <p>${c.content.replace(/\n/g, '<br>')}</p>
+                `;
+                commentList.appendChild(div);
+            });
+        }
+    }
+
+    // Click vào ảnh để mở lightbox
+    items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+            lightbox.classList.add('active');
+            showImageByIndex(index);
+        });
+    });
+
+    // Nút điều hướng
+    prevBtn.onclick = () => {
+        if (currentIndex > 0) showImageByIndex(currentIndex - 1);
+    };
+
+    nextBtn.onclick = () => {
+        if (currentIndex < allImages.length - 1) showImageByIndex(currentIndex + 1);
+    };
+
+    // Đóng lightbox
+    close.onclick = () => lightbox.classList.remove('active');
+    lightbox.onclick = (e) => { if (e.target === lightbox) lightbox.classList.remove('active'); };
+
+    // Phím tắt: Arrow Left/Right để điều hướng
+    document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'ArrowLeft') prevBtn.click();
+        if (e.key === 'ArrowRight') nextBtn.click();
+    });
+});
+</script>
+</body></html>
