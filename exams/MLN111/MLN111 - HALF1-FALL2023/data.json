@@ -1,7 +1,6177 @@
 {
+  "subject_code": "MLN111",
   "exam_title": "MLN111 - HALF1-FALL2023",
-  "total_images": 0,
-  "total_comments": 0,
-  "last_updated": "2026-01-27 10:30:42",
-  "data": []
+  "total_images": 59,
+  "total_comments": 969,
+  "last_updated": "2026-02-28 19:49:29",
+  "data": [
+    {
+      "image": "image_1.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33000/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "B",
+          "timestamp": "2023-12-04T18:14:59+0700",
+          "vote": "40"
+        },
+        {
+          "username": "dung1808",
+          "content": "giai cấp công nhân",
+          "timestamp": "2024-02-24T11:33:56+0700",
+          "vote": "23"
+        },
+        {
+          "username": "Misa",
+          "content": "B",
+          "timestamp": "2024-02-25T03:37:15+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T08:35:24+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:09:55+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-21T22:55:06+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:29:39+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-05T23:54:22+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:12:00+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T23:10:54+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T08:40:28+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:23:13+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:13:21+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "giai cấp công nhân",
+          "timestamp": "2025-10-11T23:38:57+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:09:04+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:22:41+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Thảo1124",
+          "content": "B",
+          "timestamp": "2026-02-28T19:39:13+0700",
+          "vote": "142"
+        }
+      ]
+    },
+    {
+      "image": "image_2.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33001/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "Đứng im là tương đối",
+          "timestamp": "2023-12-04T18:18:19+0700",
+          "vote": "40"
+        },
+        {
+          "username": "dung1808",
+          "content": "tương đối",
+          "timestamp": "2024-02-24T11:34:44+0700",
+          "vote": "23"
+        },
+        {
+          "username": "Misa",
+          "content": "B",
+          "timestamp": "2024-02-25T03:37:39+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T08:36:13+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:10:00+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-21T22:55:15+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:29:53+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:28:43+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:12:05+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T23:11:02+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T08:41:17+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:23:18+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:13:28+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "tương đối",
+          "timestamp": "2025-10-11T23:39:07+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:09:10+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:22:49+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_3.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33002/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "A",
+          "timestamp": "2023-12-04T18:19:47+0700",
+          "vote": "40"
+        },
+        {
+          "username": "dung1808",
+          "content": "Toàn bộ đời sống tinh thần của xã hội",
+          "timestamp": "2024-02-24T11:35:14+0700",
+          "vote": "23"
+        },
+        {
+          "username": "vipcmnr",
+          "content": "a",
+          "timestamp": "2024-02-24T17:03:47+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "a",
+          "timestamp": "2024-06-16T10:54:30+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "a",
+          "timestamp": "2024-10-12T08:36:50+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:10:08+0700",
+          "vote": "78"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "A",
+          "timestamp": "2024-12-05T20:20:17+0700",
+          "vote": "12"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-21T22:56:10+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "Johnstone",
+          "content": "đời sống tinh thần",
+          "timestamp": "2025-02-22T16:51:05+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:30:22+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:28:16+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:12:13+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "a",
+          "timestamp": "2025-06-14T23:17:59+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T08:41:52+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:23:26+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:13:37+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "Toàn bộ đời sống tinh thần của xã hội",
+          "timestamp": "2025-10-11T23:39:35+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:11:01+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:24:04+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_4.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33003/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "D",
+          "timestamp": "2023-12-04T18:21:47+0700",
+          "vote": "40"
+        },
+        {
+          "username": "Hannie",
+          "content": "D\nhttps://luatminhkhue.vn/khai-niem-quan-chung-nhan-dan-vai-tro-cua-quan-chung-nhan-dan-theo-quan-diem-triet-hoc-mac-lenin.aspx",
+          "timestamp": "2024-02-20T16:06:16+0700",
+          "vote": "136"
+        },
+        {
+          "username": "dung1808",
+          "content": "D",
+          "timestamp": "2024-02-24T11:36:09+0700",
+          "vote": "23"
+        },
+        {
+          "username": "Misa",
+          "content": "D",
+          "timestamp": "2024-02-25T03:48:50+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T08:37:02+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:10:14+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "d",
+          "timestamp": "2025-02-21T22:56:25+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:30:37+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:27:47+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:12:19+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "d",
+          "timestamp": "2025-06-14T23:18:05+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T08:42:53+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:23:38+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:13:42+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "d",
+          "timestamp": "2025-10-11T23:39:45+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T09:11:10+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:24:16+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_5.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33004/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "B",
+          "timestamp": "2023-12-04T18:26:41+0700",
+          "vote": "40"
+        },
+        {
+          "username": "dung1808",
+          "content": "lực lượng sản xuất",
+          "timestamp": "2024-02-24T11:36:29+0700",
+          "vote": "23"
+        },
+        {
+          "username": "Misa",
+          "content": "B",
+          "timestamp": "2024-02-25T03:51:24+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "b",
+          "timestamp": "2024-06-16T10:54:54+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T08:37:15+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:10:22+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-21T22:56:37+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:30:50+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:27:06+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:12:31+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T23:18:13+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T08:43:11+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:23:48+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:13:52+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "Lực lượng sản xuất",
+          "timestamp": "2025-10-11T23:40:05+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:11:21+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:24:25+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_6.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33005/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "B",
+          "timestamp": "2023-12-04T18:27:10+0700",
+          "vote": "40"
+        },
+        {
+          "username": "Misa",
+          "content": "B",
+          "timestamp": "2024-02-25T03:51:55+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T08:37:34+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:10:28+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-21T22:57:01+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:30:58+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:26:44+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:12:36+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T23:18:21+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T08:45:12+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:23:54+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:13:57+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "Chân lý là sự phù hợp giữa tri thức với hiện thực khách quan và được thực tiễn kiểm nghiệm",
+          "timestamp": "2025-10-11T23:40:41+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:11:28+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:24:31+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_7.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33006/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "D",
+          "timestamp": "2023-12-04T18:37:01+0700",
+          "vote": "40"
+        },
+        {
+          "username": "Misa",
+          "content": "D",
+          "timestamp": "2024-02-25T03:59:52+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "d",
+          "timestamp": "2024-06-16T10:55:08+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T08:39:09+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:10:44+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "d",
+          "timestamp": "2025-02-22T00:27:50+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:31:23+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:26:08+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:12:58+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "d",
+          "timestamp": "2025-06-14T23:18:33+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T08:46:34+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:24:01+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:14:18+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "Chủ nghĩa duy tâm chủ quan",
+          "timestamp": "2025-10-11T23:41:07+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T09:11:54+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:24:41+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_8.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33007/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "D",
+          "timestamp": "2023-12-04T18:38:36+0700",
+          "vote": "40"
+        },
+        {
+          "username": "Misa",
+          "content": "D",
+          "timestamp": "2024-02-25T04:03:45+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T08:39:59+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:10:51+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "d",
+          "timestamp": "2025-02-22T15:18:40+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:31:32+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:25:25+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:13:09+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "d",
+          "timestamp": "2025-06-14T23:21:09+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:24:11+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:14:32+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "con người khác động vật là biết chế tạo và sử dụng cong cụ lao động",
+          "timestamp": "2025-10-11T23:41:40+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T09:12:04+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:24:56+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_9.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33008/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "B",
+          "timestamp": "2023-12-04T18:39:26+0700",
+          "vote": "40"
+        },
+        {
+          "username": "Misa",
+          "content": "B",
+          "timestamp": "2024-02-25T04:07:58+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "b",
+          "timestamp": "2024-06-16T10:55:31+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T08:40:21+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kahnhtl",
+          "content": "Mâu thuẫn = biện chứng",
+          "timestamp": "2024-10-13T01:02:52+0700",
+          "vote": "14"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:11:03+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-22T15:19:00+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:34:31+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:25:07+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:13:15+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T23:21:20+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T08:48:30+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:24:18+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:14:44+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "Điểm xuất phát của Phép biện chứng là sự khẳng định những sự vật và hiện tượng của tự nhiên điều bao gồm những mâu thuẫn vố n có của chúng",
+          "timestamp": "2025-10-11T23:42:48+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:12:17+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:25:03+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_10.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33009/",
+      "comments": [
+        {
+          "username": "Đan Hạ",
+          "content": "D",
+          "timestamp": "2023-12-04T18:40:16+0700",
+          "vote": "40"
+        },
+        {
+          "username": "Hannie",
+          "content": "B",
+          "timestamp": "2024-02-11T07:21:56+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Nhà Thơ Đi Mid",
+          "content": "Google ra B nhe",
+          "timestamp": "2024-02-23T12:52:58+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "Kira",
+          "content": "tin chuẩn chưa @Nhà Thơ Đi Mid",
+          "timestamp": "2024-02-24T01:49:33+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "Nhà Thơ Đi Mid",
+          "content": "Kira đã viết:\ntin chuẩn chưa @Nhà Thơ Đi Mid\njuan nha",
+          "timestamp": "2024-02-24T10:49:31+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "vipcmnr",
+          "content": "b",
+          "timestamp": "2024-02-24T17:04:56+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "Misa",
+          "content": "B",
+          "timestamp": "2024-02-25T04:09:55+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "b",
+          "timestamp": "2024-06-16T10:55:48+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T08:40:38+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:11:41+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-22T15:26:47+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:34:50+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:24:23+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:13:24+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T23:21:32+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T08:49:21+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:24:26+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:14:52+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "llsx gồm tư liệu lao động và người lao động",
+          "timestamp": "2025-10-11T23:43:10+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:12:33+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:26:03+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_11.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33010/",
+      "comments": [
+        {
+          "username": "Anxious",
+          "content": "B",
+          "timestamp": "2023-12-16T19:48:53+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Misa",
+          "content": "B",
+          "timestamp": "2024-02-25T04:22:11+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "b",
+          "timestamp": "2024-06-16T10:56:03+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T08:51:59+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:11:50+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-22T15:27:25+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:35:11+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:24:01+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:13:33+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T08:50:38+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:24:31+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:14:59+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "Quan hệ sản xuất thống trị",
+          "timestamp": "2025-10-11T23:43:34+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:12:47+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:26:16+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_12.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33011/",
+      "comments": [
+        {
+          "username": "Anxious",
+          "content": "A",
+          "timestamp": "2023-12-16T19:50:05+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Misa",
+          "content": "A",
+          "timestamp": "2024-02-25T04:33:29+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "duyn",
+          "content": "D",
+          "timestamp": "2024-06-15T22:31:04+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "a",
+          "timestamp": "2024-06-16T09:54:34+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T08:52:41+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "A",
+          "timestamp": "2024-10-12T21:36:33+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:11:55+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "A",
+          "timestamp": "2025-02-22T15:30:56+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:39:33+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:23:42+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:13:41+0700",
+          "vote": "157"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "D",
+          "timestamp": "2025-06-14T16:39:32+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "dlm77",
+          "content": "A",
+          "timestamp": "2025-06-14T19:56:02+0700",
+          "vote": "-18"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-14T23:11:55+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T08:51:00+0700",
+          "vote": "308"
+        },
+        {
+          "username": "dịt đây",
+          "content": "A",
+          "timestamp": "2025-06-29T03:18:28+0700",
+          "vote": "2"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:24:44+0700",
+          "vote": "0"
+        },
+        {
+          "username": "uhndayy",
+          "content": "D",
+          "timestamp": "2025-08-29T20:38:40+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:02:36+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:15:06+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "A. Chính trị",
+          "timestamp": "2025-10-11T23:43:49+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:13:06+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:26:28+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_13.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33012/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T07:47:29+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "C",
+          "timestamp": "2024-02-15T10:36:05+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "C",
+          "timestamp": "2024-02-25T04:37:57+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "c",
+          "timestamp": "2024-06-16T10:57:02+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:12:41+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T15:31:30+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:36:22+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:23:07+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:14:06+0700",
+          "vote": "157"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "c. mặt đối lập không nhất thiết phải gắn liền với sự vật",
+          "timestamp": "2025-06-14T16:40:20+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T08:51:28+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:24:50+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "c . mặt đối lập không nhất thiết phải gắn liền với sự vật",
+          "timestamp": "2025-10-10T20:06:25+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:15:19+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:13:26+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:26:41+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_14.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33013/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:18:34+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T10:36:49+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "A",
+          "timestamp": "2024-02-25T04:39:22+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T08:56:27+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:13:11+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T15:33:45+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:22:11+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:14:16+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T08:53:07+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:24:57+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:06:37+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:15:24+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "Phương thức sản xuất",
+          "timestamp": "2025-10-11T23:44:34+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:13:40+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:26:55+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_15.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33014/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:18:45+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T10:37:52+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "A",
+          "timestamp": "2024-02-25T04:42:00+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T08:56:39+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:13:17+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T15:33:58+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:36:45+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:21:39+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:14:23+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:25:02+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:06:48+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:15:30+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "quy luật bao giờ cx mang tính khách quan",
+          "timestamp": "2025-10-11T23:44:54+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:14:05+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:27:04+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_16.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33015/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:18:59+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T10:38:36+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "A",
+          "timestamp": "2024-02-25T04:43:51+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T08:56:52+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:13:29+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T15:34:30+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:37:07+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:21:16+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:14:29+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:25:09+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:06:58+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:15:37+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Hello World",
+          "content": "Ph.Angghen \"lao động đã sáng tạo ra bản thân con người\"",
+          "timestamp": "2025-10-11T23:45:28+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:14:13+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:28:12+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_17.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33016/",
+      "comments": [
+        {
+          "username": "Phạm Duy",
+          "content": "C",
+          "timestamp": "2024-02-15T10:39:55+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-20T16:40:14+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Misa",
+          "content": "C",
+          "timestamp": "2024-02-25T04:49:16+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T08:57:05+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:13:38+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T15:35:44+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:37:16+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:21:03+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:14:40+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:25:15+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "C",
+          "timestamp": "2025-10-10T20:07:19+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:15:44+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:14:30+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:28:24+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_18.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33017/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:19:17+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Misa",
+          "content": "C",
+          "timestamp": "2024-02-25T04:51:24+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T09:01:05+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:13:49+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T15:37:21+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:37:52+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:20:37+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:14:53+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:25:20+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "C",
+          "timestamp": "2025-10-10T20:07:35+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:15:50+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:15:00+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:28:34+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_19.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33018/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C\nBản chất của nhà nước là gì? Bản chất của nhà nước ta hiện nay\nNhà nước là một khái niệm quan trọng và đóng vai trò quyết định trong xã hội. Nhưng bản chất của nhà nước là gì?\nluatvietnam.vn",
+          "timestamp": "2024-02-11T08:19:28+0700",
+          "vote": "136"
+        },
+        {
+          "username": "yuuliy",
+          "content": "C",
+          "timestamp": "2024-02-22T23:46:03+0700",
+          "vote": "1"
+        },
+        {
+          "username": "Misa",
+          "content": "C",
+          "timestamp": "2024-02-25T04:56:51+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T09:01:39+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:13:56+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T15:38:32+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:39:49+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:20:15+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:14:58+0700",
+          "vote": "157"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "bản chất của nhà nước là công cụ của giai cấp thống trị xã hội",
+          "timestamp": "2025-06-14T16:41:07+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T08:57:07+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:25:25+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "C",
+          "timestamp": "2025-10-10T20:07:48+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:15:57+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:15:11+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:28:41+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_20.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33019/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:19:52+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T10:41:32+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "D",
+          "timestamp": "2024-02-25T05:11:16+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T09:02:35+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:14:09+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "d",
+          "timestamp": "2025-02-22T15:39:43+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:40:19+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:19:46+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:15:05+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:05:59+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:25:30+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:16:04+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T09:15:24+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:28:50+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_21.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33020/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:20:07+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "c",
+          "timestamp": "2024-02-15T10:42:23+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "C",
+          "timestamp": "2024-02-25T09:51:22+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T09:04:26+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:14:20+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T15:41:01+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:40:35+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:19:13+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:15:11+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:08:11+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:25:35+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:16:12+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:15:50+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:29:22+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_22.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33021/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A\nKhái niệm triết học là gì? Tổng hợp những vấn đề cơ bản của triết học theo giáo trình triết học Mác-Lê Nin như thế nào?\nKhái niệm triết học là gì? Những vấn đề cơ bản của triết học là gì? Sinh viên học những ngành Mác - Lê Nin và Tư tưởng Hồ Chí Minh sẽ được miễn học phí phải không?\nthuvienphapluat.vn",
+          "timestamp": "2024-02-11T08:20:28+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "C",
+          "timestamp": "2024-02-15T10:43:18+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "A",
+          "timestamp": "2024-02-25T09:44:40+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "a",
+          "timestamp": "2024-06-16T10:58:14+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T09:05:03+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:14:27+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T15:41:19+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:40:53+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:18:42+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:15:33+0700",
+          "vote": "157"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "duy vật và duy tâm",
+          "timestamp": "2025-06-14T16:43:02+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:06:18+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:25:42+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:16:19+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:16:04+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:29:31+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_23.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33022/",
+      "comments": [
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T10:44:52+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "D",
+          "timestamp": "2024-02-24T02:11:44+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "tienxuantran",
+          "content": "A",
+          "timestamp": "2024-06-15T22:46:48+0700",
+          "vote": "-3"
+        },
+        {
+          "username": "duongnguyen127",
+          "content": "a",
+          "timestamp": "2024-10-12T08:44:52+0700",
+          "vote": "13"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T09:05:33+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "A",
+          "timestamp": "2024-10-12T21:38:56+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:14:32+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T15:41:38+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:41:00+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:18:00+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:15:40+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:12:09+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:25:51+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:16:24+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:16:13+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:29:43+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_24.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33023/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:21:06+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Misa",
+          "content": "C",
+          "timestamp": "2024-02-25T09:42:36+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "c",
+          "timestamp": "2024-10-12T15:07:13+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:14:40+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T15:43:14+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:41:31+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:17:43+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:15:50+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:12:20+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:26:04+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "C. Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán",
+          "timestamp": "2025-10-10T20:09:00+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:16:35+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:16:31+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:29:53+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_25.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33024/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C\nKhái niệm Khả năng hiện thực - Khái niệm Khả năng- hiện thực Khả năng: là phạm trù triết học phản - Studocu\nShare free summaries, lecture notes, exam prep and more!!\nwww.studocu.com",
+          "timestamp": "2024-02-11T08:21:17+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T10:47:33+0700",
+          "vote": "37"
+        },
+        {
+          "username": "john henry",
+          "content": "c",
+          "timestamp": "2024-06-12T01:02:09+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "saseru99",
+          "content": "c",
+          "timestamp": "2024-06-16T05:57:31+0700",
+          "vote": "4"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T09:06:35+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "C",
+          "timestamp": "2024-10-12T21:39:49+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:14:56+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T15:43:33+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:42:03+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:16:45+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:20:41+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:13:46+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:26:13+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:16:43+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:16:51+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:30:20+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_26.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33025/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:21:23+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T10:47:53+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "A",
+          "timestamp": "2024-02-25T09:31:36+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T09:06:44+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:15:05+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T15:44:31+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:42:15+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:15:38+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:20:46+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:14:14+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:26:22+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:09:33+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:16:48+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:16:59+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:30:30+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_27.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33026/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:21:46+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "C",
+          "timestamp": "2024-02-15T10:48:04+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "C",
+          "timestamp": "2024-02-25T09:39:43+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T09:06:59+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:15:14+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T15:44:54+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:42:23+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:15:25+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:20:52+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:15:01+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:26:28+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "c",
+          "timestamp": "2025-10-10T20:09:39+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:16:59+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:17:22+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:30:40+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_28.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33027/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "B",
+          "timestamp": "2024-02-11T08:21:53+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "B",
+          "timestamp": "2024-02-15T10:48:25+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:15:21+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-22T15:53:18+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:42:31+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:15:12+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:21:04+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T09:16:22+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:26:35+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "b",
+          "timestamp": "2025-10-10T20:09:45+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:17:23+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:17:27+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:30:49+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_29.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33028/",
+      "comments": [
+        {
+          "username": "Phạm Duy",
+          "content": "B",
+          "timestamp": "2024-02-15T10:50:45+0700",
+          "vote": "37"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "b",
+          "timestamp": "2024-06-16T10:02:28+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T09:08:13+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:15:28+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-22T15:53:38+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:42:40+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:14:33+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:21:42+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T09:17:08+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:26:40+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "b",
+          "timestamp": "2025-10-10T20:09:53+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:17:29+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:17:43+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:30:57+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_30.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33029/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:22:13+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T10:51:18+0700",
+          "vote": "37"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T09:08:45+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:15:34+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T16:00:41+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:43:14+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:14:17+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:21:50+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:20:04+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:26:48+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:10:03+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:17:36+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:17:50+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:31:05+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_31.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33030/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:22:40+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T10:52:27+0700",
+          "vote": "37"
+        },
+        {
+          "username": "NuocFTraiK",
+          "content": "C nha",
+          "timestamp": "2024-02-23T20:38:37+0700",
+          "vote": "21"
+        },
+        {
+          "username": "Nhà Thơ Đi Mid",
+          "content": "tin nhé",
+          "timestamp": "2024-02-24T15:08:42+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "john henry",
+          "content": "c",
+          "timestamp": "2024-06-12T01:03:30+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "c",
+          "timestamp": "2024-10-12T09:41:15+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "C",
+          "timestamp": "2024-10-12T21:44:28+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:16:00+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T16:03:03+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:43:34+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:14:04+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:24:37+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:20:57+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:26:55+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:17:46+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:18:07+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:31:19+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_32.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33031/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:22:49+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T10:53:50+0700",
+          "vote": "37"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T09:41:32+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:16:18+0700",
+          "vote": "78"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:43:43+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:13:01+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:24:43+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:21:08+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:27:02+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "d",
+          "timestamp": "2025-10-10T20:11:58+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:17:52+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T09:30:18+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:31:26+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_33.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33032/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:22:56+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "B",
+          "timestamp": "2024-02-15T10:54:19+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "D",
+          "timestamp": "2024-02-24T02:21:30+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "Misa",
+          "content": "D",
+          "timestamp": "2024-02-25T09:26:45+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T09:42:56+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kahnhtl",
+          "content": "B",
+          "timestamp": "2024-10-13T01:41:04+0700",
+          "vote": "14"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:16:37+0700",
+          "vote": "78"
+        },
+        {
+          "username": "kahnhtl",
+          "content": "Sam đã viết:\nd\n\"Mỗi sự vật có rất nhiều thuộc tính; mỗi thuộc tính lại biểu hiện một chất của sự vật. Do vậy, mỗi sự vật có rất nhiều chất. Chất và sự vật có mối quan hệ chặt chẽ, không tách rời nhau. Trong hiện thực khách quan không thể tồn tại sự vật không có chất và không thể có chất nằm ngoài sự vật.\" *Giáo trình Triết học Mác - Lênin* (NXB Giáo dục, 2020), 122.",
+          "timestamp": "2024-10-13T02:34:04+0700",
+          "vote": "14"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "D",
+          "timestamp": "2024-12-05T14:07:39+0700",
+          "vote": "12"
+        },
+        {
+          "username": "vhg",
+          "content": "B",
+          "timestamp": "2025-02-21T23:56:23+0700",
+          "vote": "16"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:43:53+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:12:44+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:24:58+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "D",
+          "timestamp": "2025-06-14T10:02:44+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "có một hoặc một số thuộc tính xác định",
+          "timestamp": "2025-06-14T16:44:27+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:22:42+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:27:08+0700",
+          "vote": "0"
+        },
+        {
+          "username": "lethienphuc",
+          "content": "a hay d z moi nguoi",
+          "timestamp": "2025-08-30T07:39:44+0700",
+          "vote": "-3"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T09:30:31+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:31:35+0700",
+          "vote": "0"
+        },
+        {
+          "username": "baanhem",
+          "content": "C",
+          "timestamp": "2026-02-11T17:39:13+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Range",
+          "content": "d",
+          "timestamp": "2026-02-28T14:49:20+0700",
+          "vote": "3"
+        }
+      ]
+    },
+    {
+      "image": "image_34.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33033/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:23:01+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "B",
+          "timestamp": "2024-02-15T10:55:41+0700",
+          "vote": "37"
+        },
+        {
+          "username": "NuocFTraiK",
+          "content": "Không gian, thời gian không phải là vật chất mà là điều kiện tồn tại của vật chất.B nhé",
+          "timestamp": "2024-02-23T20:45:59+0700",
+          "vote": "21"
+        },
+        {
+          "username": "john henry",
+          "content": "a",
+          "timestamp": "2024-06-12T01:05:19+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "duyn",
+          "content": "B",
+          "timestamp": "2024-06-15T22:40:04+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "a",
+          "timestamp": "2024-06-16T10:05:18+0700",
+          "vote": "0"
+        },
+        {
+          "username": "dangdai",
+          "content": "b",
+          "timestamp": "2024-06-16T10:31:42+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T09:45:39+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "B",
+          "timestamp": "2024-10-12T21:45:16+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "a\n\nPhương thức tồn tại của vật chất tức là cách thức tồn tại và hình thức tồn tại của vậtchất. Chủ nghĩa duy vật biện chứng khẳng định: Vận động là cách thức tồn tại, đồng thời là hình thức tồn tại của vật chất; không gian, thời gian là hình thức tồn tại của vật chất.",
+          "timestamp": "2024-10-13T02:19:29+0700",
+          "vote": "78"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "A",
+          "timestamp": "2024-12-05T14:07:57+0700",
+          "vote": "12"
+        },
+        {
+          "username": "Johnstone",
+          "content": "https://khoahoc.vietjack.com/question/1541235/***-hinh-thuc-ton-tai-co-ban-cua-vat-chat-lmrzo",
+          "timestamp": "2025-02-22T16:06:28+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "Johnstone",
+          "content": "A",
+          "timestamp": "2025-02-22T16:06:34+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:44:08+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:10:26+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:27:24+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:22:50+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:27:18+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:23:34+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:23:01+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T09:30:46+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:31:43+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_35.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33034/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:23:09+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T10:56:02+0700",
+          "vote": "37"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T09:46:15+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:19:39+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "D",
+          "timestamp": "2025-02-22T16:07:16+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:44:29+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:09:57+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:27:31+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:23:00+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:27:28+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:23:07+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T09:30:58+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:31:55+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_36.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33035/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:23:19+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T10:56:18+0700",
+          "vote": "37"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T09:46:36+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:19:46+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "D",
+          "timestamp": "2025-02-22T16:07:34+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:44:39+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:09:35+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:27:48+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:23:20+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:27:39+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:23:14+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T09:31:11+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:32:03+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_37.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33036/",
+      "comments": [
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T10:56:41+0700",
+          "vote": "37"
+        },
+        {
+          "username": "NuocFTraiK",
+          "content": "c",
+          "timestamp": "2024-02-23T21:03:21+0700",
+          "vote": "21"
+        },
+        {
+          "username": "VietCH",
+          "content": "a",
+          "timestamp": "2024-06-11T11:50:31+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "john henry",
+          "content": "c",
+          "timestamp": "2024-06-12T01:06:38+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "ak47",
+          "content": "C nha",
+          "timestamp": "2024-06-16T01:35:10+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "dangdai",
+          "content": "a",
+          "timestamp": "2024-06-16T10:32:48+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "Bincoder",
+          "content": "c",
+          "timestamp": "2024-10-11T15:31:39+0700",
+          "vote": "25"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T09:47:25+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "galavaydo",
+          "content": "C",
+          "timestamp": "2024-10-12T17:04:20+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "kienngo",
+          "content": "C",
+          "timestamp": "2024-10-12T21:47:25+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:20:32+0700",
+          "vote": "78"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "c",
+          "timestamp": "2024-12-05T16:00:59+0700",
+          "vote": "12"
+        },
+        {
+          "username": "Johnstone",
+          "content": "C",
+          "timestamp": "2025-02-22T16:09:32+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:44:53+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:08:49+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:28:00+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-14T23:17:15+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c or a ??",
+          "timestamp": "2025-06-15T09:25:00+0700",
+          "vote": "308"
+        },
+        {
+          "username": "dịt đây",
+          "content": "C. Lao động trí óc đã tách khỏi lao động chân tay",
+          "timestamp": "2025-06-29T03:42:13+0700",
+          "vote": "2"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:27:52+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "c",
+          "timestamp": "2025-08-28T22:53:37+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "c",
+          "timestamp": "2025-08-28T22:53:56+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "c. lao động trí óc tách khỏi lao động chân tay",
+          "timestamp": "2025-10-10T20:24:20+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:23:19+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T09:31:25+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:32:15+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_38.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33037/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "B",
+          "timestamp": "2024-02-11T08:23:52+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "B",
+          "timestamp": "2024-02-15T10:57:02+0700",
+          "vote": "37"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T09:47:40+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:20:39+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "B",
+          "timestamp": "2025-02-22T16:09:59+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:45:09+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:08:03+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:28:06+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T09:25:14+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:28:03+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "b",
+          "timestamp": "2025-10-10T20:24:30+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:23:27+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T09:31:35+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:32:26+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_39.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33038/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "B",
+          "timestamp": "2024-02-11T08:24:09+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T10:58:33+0700",
+          "vote": "37"
+        },
+        {
+          "username": "VietCH",
+          "content": "b",
+          "timestamp": "2024-06-11T11:50:56+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "john henry",
+          "content": "b",
+          "timestamp": "2024-06-12T01:07:37+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "b",
+          "timestamp": "2024-10-12T15:12:04+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "B",
+          "timestamp": "2024-10-12T21:47:50+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "kahnhtl",
+          "content": "Theo quan điểm của chủ nghĩa duy vật biện chứng, sự phát triển của sự vật, hiện tượng không phụ thuộc hoàn toàn vào mong muốn của con người. Thay vào đó, sự phát triển tuân theo các quy luật khách quan, con người chỉ có thể nhận thức và tác động đến quá trình đó nhưng không thể hoàn toàn quyết định nó.",
+          "timestamp": "2024-10-13T01:53:39+0700",
+          "vote": "14"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:21:49+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "B",
+          "timestamp": "2025-02-22T16:11:24+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:46:59+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:07:39+0700",
+          "vote": "231"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "mong muốn của con người tự nó không có quyết định đến sự phát triển của các sự vật",
+          "timestamp": "2025-06-14T16:48:21+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-15T00:49:58+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T09:26:04+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:28:17+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "b. mong muốn của con người tự nó không có quyết định đến sự phát triển của các sự vật",
+          "timestamp": "2025-10-10T20:25:19+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:24:03+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T12:51:11+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:32:42+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_40.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33040/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "B",
+          "timestamp": "2024-02-11T08:26:27+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "B",
+          "timestamp": "2024-02-15T11:00:38+0700",
+          "vote": "37"
+        },
+        {
+          "username": "quangtu2301",
+          "content": "D",
+          "timestamp": "2024-06-15T22:56:03+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "b",
+          "timestamp": "2024-10-12T15:17:01+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "B",
+          "timestamp": "2024-10-12T21:48:51+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "b\n\nThực tiễn ở đây vừa là cơ sở, động lực, mục đích của quá trình nhận thức, vừa là mắt khâu kiểm tra chân lý khách quan; vừa là yếu tố kết thúc một vòng khâucủa sự nhận thức, vừa là điểm bắt đầu của vòng khâu mới của sự nhận thức. Cứ thế, sự nhậnthức của con người là một quá trình không có điểm cuối",
+          "timestamp": "2024-10-13T02:23:26+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-22T16:18:16+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-06T00:05:44+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T22:06:09+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T09:26:40+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:28:29+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:28:14+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T12:53:04+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:32:53+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_41.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33041/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:27:23+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T11:01:38+0700",
+          "vote": "37"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "a",
+          "timestamp": "2024-10-12T15:18:01+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:23:40+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T16:19:14+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:48:50+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:05:00+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T22:06:04+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:28:55+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:29:09+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:26:10+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:28:09+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T12:53:13+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:33:02+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_42.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33042/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:27:30+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "C",
+          "timestamp": "2024-02-15T11:02:41+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Misa",
+          "content": "C",
+          "timestamp": "2024-02-25T09:56:04+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "c",
+          "timestamp": "2024-10-12T15:18:16+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:23:45+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T16:19:34+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:48:58+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:04:16+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T22:06:00+0700",
+          "vote": "157"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "khi quyền lực của giáo hội bao trùm mọi lĩnh vực của đời sống xã hội",
+          "timestamp": "2025-06-14T16:49:45+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:29:01+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:28:39+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "c",
+          "timestamp": "2025-10-10T20:26:25+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:28:04+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T12:53:31+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:33:11+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_43.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33043/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:27:37+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T11:03:23+0700",
+          "vote": "37"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "a",
+          "timestamp": "2024-10-12T15:18:37+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:23:51+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T16:20:09+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:49:05+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:03:36+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T22:05:43+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:29:10+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:30:27+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:26:35+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:27:57+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T12:53:44+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:33:18+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_44.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33044/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:27:44+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T11:03:42+0700",
+          "vote": "37"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T15:19:01+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:23:56+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "d",
+          "timestamp": "2025-02-22T16:20:44+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:49:15+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:03:15+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T22:05:51+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:31:34+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:30:36+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "d",
+          "timestamp": "2025-10-10T20:26:46+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:27:50+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T12:53:53+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:33:34+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_45.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33045/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:27:57+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T11:04:42+0700",
+          "vote": "37"
+        },
+        {
+          "username": "dung1808",
+          "content": "D",
+          "timestamp": "2024-02-24T13:13:22+0700",
+          "vote": "23"
+        },
+        {
+          "username": "vipcmnr",
+          "content": "d",
+          "timestamp": "2024-02-24T17:11:45+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "d",
+          "timestamp": "2024-06-16T10:44:54+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:24:07+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "d",
+          "timestamp": "2025-02-22T16:24:08+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:49:24+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "đ",
+          "timestamp": "2025-05-06T00:03:01+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T22:03:28+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:33:26+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:30:45+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "d",
+          "timestamp": "2025-10-10T20:26:55+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:27:43+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T12:54:12+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:33:46+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_46.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33046/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:28:24+0700",
+          "vote": "136"
+        },
+        {
+          "username": "john henry",
+          "content": "d",
+          "timestamp": "2024-06-12T01:09:42+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "duyn",
+          "content": "A",
+          "timestamp": "2024-06-15T22:47:30+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T15:20:05+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:24:14+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T16:25:32+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "a",
+          "timestamp": "2025-02-23T00:49:35+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-06T00:02:42+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hunter1",
+          "content": "c hay a?",
+          "timestamp": "2025-06-13T12:36:13+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T22:01:19+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "C",
+          "timestamp": "2025-06-14T10:06:04+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "duangol",
+          "content": "c",
+          "timestamp": "2025-06-14T21:55:02+0700",
+          "vote": "3"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:35:15+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:30:55+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "c",
+          "timestamp": "2025-10-10T20:27:03+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:27:36+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T12:54:32+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:34:11+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_47.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33047/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:29:37+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T11:07:31+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "B",
+          "timestamp": "2024-02-24T02:28:38+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "vipcmnr",
+          "content": "c",
+          "timestamp": "2024-02-24T11:40:56+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "VietCH",
+          "content": "a",
+          "timestamp": "2024-06-11T12:06:38+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "john henry",
+          "content": "b",
+          "timestamp": "2024-06-12T01:10:35+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "nhatnguyen3352",
+          "content": "b hả mn",
+          "timestamp": "2024-06-16T00:45:55+0700",
+          "vote": "17"
+        },
+        {
+          "username": "ak47",
+          "content": "A",
+          "timestamp": "2024-06-16T01:48:03+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "saseru99",
+          "content": "D",
+          "timestamp": "2024-06-16T06:07:12+0700",
+          "vote": "4"
+        },
+        {
+          "username": "kitty1",
+          "content": "A",
+          "timestamp": "2024-10-12T15:01:25+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T15:21:12+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "A",
+          "timestamp": "2024-10-12T21:52:46+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:24:27+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "A?",
+          "timestamp": "2025-02-22T16:36:11+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:49:58+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T22:00:50+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "A",
+          "timestamp": "2025-06-14T10:06:42+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "vai trò chi phối của phương thức sản xuất với ý thức xã hội",
+          "timestamp": "2025-06-14T16:51:12+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:37:05+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:31:03+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a. vai trò chi phối của phương thức sản xuất đối với ý thức xã hội",
+          "timestamp": "2025-10-10T20:28:00+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:27:31+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T12:55:05+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:36:17+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_48.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33048/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:29:50+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T11:08:18+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "C",
+          "timestamp": "2024-02-24T02:32:11+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "john henry",
+          "content": "d",
+          "timestamp": "2024-06-12T01:11:09+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "ak47",
+          "content": "C",
+          "timestamp": "2024-06-16T01:44:19+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T09:55:54+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "C",
+          "timestamp": "2024-10-12T21:52:59+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:24:34+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T16:36:35+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:50:24+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-06T00:00:23+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:57:12+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:38:04+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:31:19+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "c",
+          "timestamp": "2025-10-10T20:28:12+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:27:17+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T12:55:23+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:36:32+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_49.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33049/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:30:06+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T11:08:46+0700",
+          "vote": "37"
+        },
+        {
+          "username": "khanhhn12",
+          "content": "a",
+          "timestamp": "2024-02-24T23:58:25+0700",
+          "vote": "-10"
+        },
+        {
+          "username": "john henry",
+          "content": "d",
+          "timestamp": "2024-06-12T01:11:29+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T09:55:43+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:24:52+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "d",
+          "timestamp": "2025-02-22T16:37:06+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:50:48+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-06T00:00:08+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:56:55+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:40:15+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:31:26+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "d",
+          "timestamp": "2025-10-10T20:28:26+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:27:11+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T12:55:43+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:36:43+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_50.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33050/",
+      "comments": [
+        {
+          "username": "khanhhn12",
+          "content": "D",
+          "timestamp": "2024-02-24T23:59:06+0700",
+          "vote": "-10"
+        },
+        {
+          "username": "hieu0317",
+          "content": "D",
+          "timestamp": "2024-06-15T17:18:04+0700",
+          "vote": "8"
+        },
+        {
+          "username": "dangdai",
+          "content": "b",
+          "timestamp": "2024-06-16T10:39:17+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T09:55:19+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kitty1",
+          "content": "B",
+          "timestamp": "2024-10-12T15:03:38+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "kienngo",
+          "content": "D",
+          "timestamp": "2024-10-12T21:54:05+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "kahnhtl",
+          "content": "Vai trò quyết định của lực lượng sản xuất đối với quan hệ sản xuất",
+          "timestamp": "2024-10-13T01:56:55+0700",
+          "vote": "14"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:25:05+0700",
+          "vote": "78"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "B. Lực lượng sản xuất",
+          "timestamp": "2024-12-14T16:53:33+0700",
+          "vote": "12"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-22T16:40:44+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:51:33+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:56:10+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T09:40:23+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:31:32+0700",
+          "vote": "0"
+        },
+        {
+          "username": "6thanq03._",
+          "content": "d",
+          "timestamp": "2025-10-11T17:39:45+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T12:55:59+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "b",
+          "timestamp": "2026-02-02T14:38:47+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_51.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33051/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:30:38+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "C",
+          "timestamp": "2024-02-15T11:09:56+0700",
+          "vote": "37"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T09:53:28+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:25:17+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T16:41:20+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:51:47+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-05T23:58:08+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:55:29+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:42:42+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:31:42+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:26:45+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T12:56:42+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:39:16+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_52.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33052/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:30:50+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "B",
+          "timestamp": "2024-02-15T11:10:47+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "D",
+          "timestamp": "2024-02-24T02:38:22+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "Nhà Thơ Đi Mid",
+          "content": "D",
+          "timestamp": "2024-02-24T15:14:25+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "d",
+          "timestamp": "2024-06-16T10:48:48+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T09:53:06+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "d",
+          "timestamp": "2024-10-13T02:25:24+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "d",
+          "timestamp": "2025-02-22T16:42:54+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:52:05+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-05T23:57:51+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "d",
+          "timestamp": "2025-06-13T21:55:22+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:44:28+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:31:49+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "d",
+          "timestamp": "2025-10-10T20:29:09+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:26:40+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T12:56:54+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "D",
+          "timestamp": "2026-02-02T14:39:26+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_53.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33053/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:31:11+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T11:11:10+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "A",
+          "timestamp": "2024-02-24T03:08:28+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "nhatnguyen3352",
+          "content": "B",
+          "timestamp": "2024-06-16T00:52:02+0700",
+          "vote": "17"
+        },
+        {
+          "username": "ak47",
+          "content": "A",
+          "timestamp": "2024-06-16T01:46:02+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "b",
+          "timestamp": "2024-06-16T10:51:21+0700",
+          "vote": "0"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T09:52:46+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:25:29+0700",
+          "vote": "78"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "B, sure",
+          "timestamp": "2024-12-05T16:10:04+0700",
+          "vote": "12"
+        },
+        {
+          "username": "Johnstone",
+          "content": "B",
+          "timestamp": "2025-02-22T16:44:02+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:52:20+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-05T23:57:19+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B à",
+          "timestamp": "2025-06-13T21:55:12+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "B",
+          "timestamp": "2025-06-14T10:08:06+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:31:55+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:26:35+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T12:59:16+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:39:38+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_54.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33054/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:31:48+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "C",
+          "timestamp": "2024-02-15T11:11:45+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "C",
+          "timestamp": "2024-02-24T03:08:15+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T09:52:26+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:25:37+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T16:45:12+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:52:30+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-05T23:56:51+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:47:33+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:44:44+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:32:00+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "c",
+          "timestamp": "2025-10-10T20:29:31+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:26:28+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T13:00:17+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:39:53+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_55.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33055/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "C",
+          "timestamp": "2024-02-11T08:32:21+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "C",
+          "timestamp": "2024-02-15T11:12:11+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "C",
+          "timestamp": "2024-02-24T03:08:06+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "vipcmnr",
+          "content": "c",
+          "timestamp": "2024-02-24T17:18:42+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "C",
+          "timestamp": "2024-10-12T15:25:45+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "c",
+          "timestamp": "2024-10-13T02:25:48+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "c",
+          "timestamp": "2025-02-22T16:46:01+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "c",
+          "timestamp": "2025-02-23T00:52:53+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "c",
+          "timestamp": "2025-05-05T23:56:03+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T21:47:20+0700",
+          "vote": "157"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "quy luật khách quan",
+          "timestamp": "2025-06-14T16:52:42+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "khangbug584",
+          "content": "c",
+          "timestamp": "2025-06-15T09:46:10+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:32:07+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "c. quy luật khách quan",
+          "timestamp": "2025-10-10T20:29:50+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:26:23+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T13:00:32+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "C",
+          "timestamp": "2026-02-02T14:40:03+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_56.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33056/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "D",
+          "timestamp": "2024-02-11T08:32:30+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "A",
+          "timestamp": "2024-02-15T11:13:57+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "D",
+          "timestamp": "2024-02-24T03:08:00+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "D",
+          "timestamp": "2024-10-12T09:51:17+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:25:54+0700",
+          "vote": "78"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "D",
+          "timestamp": "2024-12-05T14:11:19+0700",
+          "vote": "12"
+        },
+        {
+          "username": "Johnstone",
+          "content": "d",
+          "timestamp": "2025-02-22T16:46:40+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "d",
+          "timestamp": "2025-02-23T00:53:11+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "d",
+          "timestamp": "2025-05-05T23:55:10+0700",
+          "vote": "231"
+        },
+        {
+          "username": "Misa",
+          "content": "A nhé, có câu này k có đáp án D",
+          "timestamp": "2025-05-16T18:36:04+0700",
+          "vote": "11178"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T21:41:27+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "D",
+          "timestamp": "2025-06-14T12:03:52+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "khangbug584",
+          "content": "d",
+          "timestamp": "2025-06-15T09:46:19+0700",
+          "vote": "308"
+        },
+        {
+          "username": "dịt đây",
+          "content": "A. lịch sử cụ thể",
+          "timestamp": "2025-06-29T03:50:30+0700",
+          "vote": "2"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:32:23+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "a",
+          "timestamp": "2025-08-28T22:44:08+0700",
+          "vote": "0"
+        },
+        {
+          "username": "lethienphuc",
+          "content": "cau nay a hay d z mng",
+          "timestamp": "2025-08-30T07:42:11+0700",
+          "vote": "-3"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "vận dụng triết học = lịch sử cụ thể",
+          "timestamp": "2025-10-10T20:30:34+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:26:00+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T13:00:55+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:40:18+0700",
+          "vote": "0"
+        },
+        {
+          "username": "passed✅",
+          "content": "A",
+          "timestamp": "2026-02-27T22:51:41+0700",
+          "vote": "114"
+        }
+      ]
+    },
+    {
+      "image": "image_57.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33057/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "B",
+          "timestamp": "2024-02-11T08:32:41+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "C",
+          "timestamp": "2024-02-15T11:15:20+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "B",
+          "timestamp": "2024-02-24T03:03:51+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "dangdai",
+          "content": "B",
+          "timestamp": "2024-06-16T10:41:40+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "B",
+          "timestamp": "2024-10-12T09:50:30+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "kienngo",
+          "content": "B",
+          "timestamp": "2024-10-12T22:24:51+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "b",
+          "timestamp": "2024-10-13T02:26:32+0700",
+          "vote": "78"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "b",
+          "timestamp": "2024-12-05T20:37:46+0700",
+          "vote": "12"
+        },
+        {
+          "username": "Johnstone",
+          "content": "b",
+          "timestamp": "2025-02-22T16:47:00+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "LLLL",
+          "content": "b",
+          "timestamp": "2025-02-23T00:53:24+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "b",
+          "timestamp": "2025-05-05T23:54:54+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T21:41:17+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "b",
+          "timestamp": "2025-06-15T09:46:28+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:32:28+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "b",
+          "timestamp": "2025-10-10T20:30:46+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:24:26+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T13:01:13+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "B",
+          "timestamp": "2026-02-02T14:40:27+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_58.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33058/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:32:58+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "D",
+          "timestamp": "2024-02-15T11:15:41+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "A",
+          "timestamp": "2024-02-24T03:07:51+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "khanhhn12",
+          "content": "D",
+          "timestamp": "2024-02-25T00:02:04+0700",
+          "vote": "-10"
+        },
+        {
+          "username": "VietCH",
+          "content": "a",
+          "timestamp": "2024-06-11T12:12:27+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "john henry",
+          "content": "a",
+          "timestamp": "2024-06-12T01:13:53+0700",
+          "vote": "-105"
+        },
+        {
+          "username": "dangdai",
+          "content": "A",
+          "timestamp": "2024-06-16T10:42:26+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "adelinguyen",
+          "content": "A",
+          "timestamp": "2024-10-12T09:49:43+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:26:37+0700",
+          "vote": "78"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T16:47:45+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-05T23:54:47+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:39:06+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-14T23:24:31+0700",
+          "vote": "157"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:48:27+0700",
+          "vote": "308"
+        },
+        {
+          "username": "dịt đây",
+          "content": "A",
+          "timestamp": "2025-06-29T03:51:56+0700",
+          "vote": "2"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:32:37+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:24:20+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T13:01:29+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:40:39+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_59.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_half1-fall2023_1208-webp.33059/",
+      "comments": [
+        {
+          "username": "Hannie",
+          "content": "A",
+          "timestamp": "2024-02-11T08:33:07+0700",
+          "vote": "136"
+        },
+        {
+          "username": "Phạm Duy",
+          "content": "B",
+          "timestamp": "2024-02-15T11:16:19+0700",
+          "vote": "37"
+        },
+        {
+          "username": "Kira",
+          "content": "A",
+          "timestamp": "2024-02-24T03:07:43+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "vipcmnr",
+          "content": "a",
+          "timestamp": "2024-02-24T17:21:17+0700",
+          "vote": "-28"
+        },
+        {
+          "username": "dangdai",
+          "content": "b",
+          "timestamp": "2024-06-16T10:43:09+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "kienngo",
+          "content": "A",
+          "timestamp": "2024-10-12T22:25:06+0700",
+          "vote": "-15"
+        },
+        {
+          "username": "Sam",
+          "content": "a",
+          "timestamp": "2024-10-13T02:26:48+0700",
+          "vote": "78"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "A",
+          "timestamp": "2024-12-05T14:10:13+0700",
+          "vote": "12"
+        },
+        {
+          "username": "Johnstone",
+          "content": "a",
+          "timestamp": "2025-02-22T16:48:02+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "phungthanh03",
+          "content": "a",
+          "timestamp": "2025-05-05T23:54:39+0700",
+          "vote": "231"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T21:38:58+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "a",
+          "timestamp": "2025-06-15T00:07:29+0700",
+          "vote": "8"
+        },
+        {
+          "username": "khangbug584",
+          "content": "a",
+          "timestamp": "2025-06-15T09:48:44+0700",
+          "vote": "308"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:32:42+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "a",
+          "timestamp": "2025-10-10T20:33:17+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:24:15+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T13:01:44+0700",
+          "vote": "13"
+        },
+        {
+          "username": "NguyenHuuHoangAnh",
+          "content": "A",
+          "timestamp": "2026-02-02T14:40:46+0700",
+          "vote": "0"
+        }
+      ]
+    }
+  ]
 }

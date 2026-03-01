@@ -1,7 +1,4581 @@
 {
+  "subject_code": "MLN111",
   "exam_title": "MLN111 - SP 2023 - FE",
-  "total_images": 0,
-  "total_comments": 0,
-  "last_updated": "2026-01-27 10:30:53",
-  "data": []
+  "total_images": 60,
+  "total_comments": 702,
+  "last_updated": "2026-02-28 19:56:16",
+  "data": [
+    {
+      "image": "image_1.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2510/",
+      "comments": [
+        {
+          "username": "hieuvau198",
+          "content": "C",
+          "timestamp": "2023-07-24T19:52:04+0700",
+          "vote": "38"
+        },
+        {
+          "username": "minhngg321",
+          "content": "C",
+          "timestamp": "2023-08-24T20:41:41+0700",
+          "vote": "0"
+        },
+        {
+          "username": "haha6280",
+          "content": "c",
+          "timestamp": "2023-08-26T21:39:44+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "Noah",
+          "content": "C",
+          "timestamp": "2023-10-20T22:49:34+0700",
+          "vote": "36"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "c",
+          "timestamp": "2023-10-21T01:27:43+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "c. cái riêng",
+          "timestamp": "2023-10-21T11:24:54+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "C",
+          "timestamp": "2023-11-05T11:07:53+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "c",
+          "timestamp": "2025-02-21T09:26:33+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:15:17+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "c",
+          "timestamp": "2025-06-14T08:14:45+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:52:30+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "C",
+          "timestamp": "2025-08-27T13:38:21+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-23T16:53:29+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-24T13:46:52+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:42:15+0700",
+          "vote": "17"
+        },
+        {
+          "username": "lmaoburhburh",
+          "content": "c",
+          "timestamp": "2025-10-11T10:50:23+0700",
+          "vote": "68"
+        },
+        {
+          "username": "annhihi",
+          "content": "C",
+          "timestamp": "2025-10-12T00:29:52+0700",
+          "vote": "5"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:04:45+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hunghaha",
+          "content": "ccc-1",
+          "timestamp": "2026-02-27T18:36:58+0700",
+          "vote": "50"
+        }
+      ]
+    },
+    {
+      "image": "image_2.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2511/",
+      "comments": [
+        {
+          "username": "hieuvau198",
+          "content": "D",
+          "timestamp": "2023-07-24T19:53:49+0700",
+          "vote": "38"
+        },
+        {
+          "username": "minhngg321",
+          "content": "D",
+          "timestamp": "2023-08-24T20:41:54+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Noah",
+          "content": "D",
+          "timestamp": "2023-10-20T22:49:47+0700",
+          "vote": "36"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "d",
+          "timestamp": "2023-10-21T01:28:38+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "d. sự phát triển lâu dài và khó khăn của triết học và khoa học tự nhiên",
+          "timestamp": "2023-10-21T11:25:38+0700",
+          "vote": "22"
+        },
+        {
+          "username": "att12",
+          "content": "d",
+          "timestamp": "2023-10-21T12:57:29+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:08:01+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "d",
+          "timestamp": "2025-02-21T09:26:53+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:15:51+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "d",
+          "timestamp": "2025-06-14T08:15:01+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:52:36+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "D",
+          "timestamp": "2025-08-27T13:39:13+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-23T16:53:56+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:42:25+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:05:04+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_3.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2512/",
+      "comments": [
+        {
+          "username": "bodt",
+          "content": "b",
+          "timestamp": "2023-08-20T16:03:33+0700",
+          "vote": "2"
+        },
+        {
+          "username": "minhngg321",
+          "content": "B",
+          "timestamp": "2023-08-24T20:42:03+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Noah",
+          "content": "B",
+          "timestamp": "2023-10-20T22:50:21+0700",
+          "vote": "36"
+        },
+        {
+          "username": "hngn",
+          "content": "b. tồn tại xã hội quyết định ý thức xã hội; ý thức xã hội có tính độc lập tương đối, tác động trở lại tồn tại xã hội",
+          "timestamp": "2023-10-21T11:26:42+0700",
+          "vote": "22"
+        },
+        {
+          "username": "att12",
+          "content": "b",
+          "timestamp": "2023-10-21T12:57:55+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "B",
+          "timestamp": "2023-11-05T11:08:18+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "b",
+          "timestamp": "2025-02-21T09:27:38+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:16:02+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T08:15:26+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:52:53+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "B",
+          "timestamp": "2025-08-27T13:39:42+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-23T16:54:20+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:42:34+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:06:16+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_4.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2513/",
+      "comments": [
+        {
+          "username": "bodt",
+          "content": "b",
+          "timestamp": "2023-08-20T16:04:43+0700",
+          "vote": "2"
+        },
+        {
+          "username": "minhngg321",
+          "content": "B",
+          "timestamp": "2023-08-24T20:42:10+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Noah",
+          "content": "B",
+          "timestamp": "2023-10-20T22:50:32+0700",
+          "vote": "36"
+        },
+        {
+          "username": "hngn",
+          "content": "b. thực tiễn",
+          "timestamp": "2023-10-21T11:28:25+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "B",
+          "timestamp": "2023-11-05T11:08:24+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "b",
+          "timestamp": "2025-02-21T09:27:51+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:16:06+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T08:15:31+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:52:59+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "B",
+          "timestamp": "2025-08-27T13:39:56+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-23T16:54:31+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:42:40+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:06:23+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_5.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2514/",
+      "comments": [
+        {
+          "username": "bodt",
+          "content": "d",
+          "timestamp": "2023-08-20T16:05:28+0700",
+          "vote": "2"
+        },
+        {
+          "username": "minhngg321",
+          "content": "D",
+          "timestamp": "2023-08-24T20:46:52+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "d",
+          "timestamp": "2023-10-21T01:30:02+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "d. các hình thái kinh tế- xã hội",
+          "timestamp": "2023-10-21T11:28:53+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:08:43+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "d",
+          "timestamp": "2025-02-21T09:28:06+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:16:11+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "d",
+          "timestamp": "2025-06-14T08:16:19+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:53:05+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "D",
+          "timestamp": "2025-08-27T13:40:32+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-23T16:55:01+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:42:47+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:06:46+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_6.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2515/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-20T17:24:58+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "KhanhNe",
+          "content": "D",
+          "timestamp": "2023-08-20T19:18:19+0700",
+          "vote": "131"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "d",
+          "timestamp": "2023-10-21T01:36:17+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "d. biết chế tạo và sử dụng công cụ lao động",
+          "timestamp": "2023-10-21T11:29:20+0700",
+          "vote": "22"
+        },
+        {
+          "username": "att12",
+          "content": "d",
+          "timestamp": "2023-10-21T13:01:33+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:08:50+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "d",
+          "timestamp": "2025-02-21T09:28:14+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:16:16+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "d",
+          "timestamp": "2025-06-14T08:16:46+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:53:17+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "D",
+          "timestamp": "2025-08-27T13:43:56+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "d",
+          "timestamp": "2025-08-28T16:05:49+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-23T16:55:20+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:42:53+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:07:00+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_7.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2516/",
+      "comments": [
+        {
+          "username": "hieuvau198",
+          "content": "B",
+          "timestamp": "2023-07-24T19:56:34+0700",
+          "vote": "38"
+        },
+        {
+          "username": "giangcatluongg",
+          "content": "c",
+          "timestamp": "2023-08-26T01:11:49+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Noah",
+          "content": "C: Giai cấp là những tập đoàn người mà tập đoàn này có thể chiếm đoạt lao động của tập đoàn khác do chỗ các tập đoàn đó có địa vị khác nhau trong một chế độ kinh tế - xã hội nhất định",
+          "timestamp": "2023-10-20T22:53:56+0700",
+          "vote": "36"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "c",
+          "timestamp": "2023-10-21T01:36:58+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "c. địa vị",
+          "timestamp": "2023-10-21T11:29:51+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "C",
+          "timestamp": "2023-11-05T11:10:24+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "c",
+          "timestamp": "2025-02-21T09:28:20+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "Trần Đức Linh",
+          "content": "b hay C ạ",
+          "timestamp": "2025-02-22T17:34:45+0700",
+          "vote": "7"
+        },
+        {
+          "username": "hhhh",
+          "content": "c",
+          "timestamp": "2025-06-13T12:16:53+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T08:17:04+0700",
+          "vote": "8"
+        },
+        {
+          "username": "hhhh",
+          "content": "cô bảo B",
+          "timestamp": "2025-06-14T18:09:25+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "B",
+          "timestamp": "2025-06-14T18:10:35+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:53:24+0700",
+          "vote": "0"
+        },
+        {
+          "username": "uhndayy",
+          "content": "c",
+          "timestamp": "2025-08-26T22:54:50+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "Ken05",
+          "content": "B",
+          "timestamp": "2025-08-27T13:44:26+0700",
+          "vote": "0"
+        },
+        {
+          "username": "lethienphuc",
+          "content": "b",
+          "timestamp": "2025-08-30T10:06:42+0700",
+          "vote": "-3"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-23T16:56:40+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:43:00+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "b",
+          "timestamp": "2025-10-11T07:38:10+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:07:23+0700",
+          "vote": "13"
+        },
+        {
+          "username": "HuyNguyenS",
+          "content": "B",
+          "timestamp": "2025-10-25T20:15:14+0700",
+          "vote": "-7"
+        }
+      ]
+    },
+    {
+      "image": "image_8.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2517/",
+      "comments": [
+        {
+          "username": "KhanhNe",
+          "content": "B",
+          "timestamp": "2023-08-22T19:56:40+0700",
+          "vote": "131"
+        },
+        {
+          "username": "Noah",
+          "content": "B: Chất được hiểu đó là một phạm trù triết học để chỉ tính pháp luật khách quan vốn có của sự vật, hiện tượng kỳ lạ, hoàn toàn có thể hiểu đây chính là sự thống nhất hữu cơ giữa những thuộc tính.",
+          "timestamp": "2023-10-20T22:55:01+0700",
+          "vote": "36"
+        },
+        {
+          "username": "hngn",
+          "content": "b. khách quan vốn có",
+          "timestamp": "2023-10-21T14:10:35+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "B",
+          "timestamp": "2023-11-05T11:10:44+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "b",
+          "timestamp": "2025-02-21T09:28:26+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:17:27+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "b",
+          "timestamp": "2025-06-14T08:18:46+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:53:32+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "B",
+          "timestamp": "2025-08-27T13:44:58+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-23T16:57:05+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:43:10+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:07:59+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_9.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2518/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A dung B dung suy ra D dung",
+          "timestamp": "2023-08-20T17:47:01+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Noah",
+          "content": "D tất cả",
+          "timestamp": "2023-10-20T22:55:24+0700",
+          "vote": "36"
+        },
+        {
+          "username": "hngn",
+          "content": "d",
+          "timestamp": "2023-10-21T14:10:47+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:10:51+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "d",
+          "timestamp": "2025-02-21T09:28:31+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:17:45+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "d",
+          "timestamp": "2025-06-14T08:20:14+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:53:42+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "D",
+          "timestamp": "2025-08-27T13:45:24+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-23T16:57:21+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:43:16+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:08:25+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_10.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2519/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-20T17:47:15+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "A",
+          "timestamp": "2023-11-05T11:10:57+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "a",
+          "timestamp": "2025-02-21T09:28:37+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:20:45+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "a",
+          "timestamp": "2025-06-14T08:20:26+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:53:51+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "A",
+          "timestamp": "2025-08-27T13:49:07+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-23T16:57:35+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:43:23+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:08:36+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_11.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2520/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "BCD\nhttps://luatminhkhue.vn/khai-niem-chan-ly-vai-tro-cua-chan-ly-doi-voi-thuc-tien.aspx",
+          "timestamp": "2023-08-20T17:50:32+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "BCD",
+          "timestamp": "2023-11-05T11:11:11+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "bcd",
+          "timestamp": "2025-02-21T09:28:55+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "BCD",
+          "timestamp": "2025-06-13T12:20:53+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "bcd",
+          "timestamp": "2025-08-02T15:54:08+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "BCD",
+          "timestamp": "2025-09-23T16:58:21+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "bcd",
+          "timestamp": "2025-10-10T22:43:31+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "BCD",
+          "timestamp": "2025-10-24T08:08:56+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_12.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2521/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-20T17:52:19+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "a",
+          "timestamp": "2023-10-21T01:41:26+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "a. lực lượng sản xuất là nội dung - quan hệ sản xuất là hình thức",
+          "timestamp": "2023-10-21T14:12:07+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "A",
+          "timestamp": "2023-11-05T11:11:20+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "a",
+          "timestamp": "2025-02-21T09:29:03+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:21:24+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:54:19+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "A",
+          "timestamp": "2025-08-27T13:52:41+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-23T16:58:53+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:43:41+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:09:16+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_13.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2522/",
+      "comments": [
+        {
+          "username": "KhanhNe",
+          "content": "D",
+          "timestamp": "2023-08-20T21:22:04+0700",
+          "vote": "131"
+        },
+        {
+          "username": "minhngg321",
+          "content": "D",
+          "timestamp": "2023-08-24T20:48:51+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "d",
+          "timestamp": "2023-10-21T01:41:34+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "d. có thể tạo ra năng suất cao hơn",
+          "timestamp": "2023-10-21T14:12:29+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:11:26+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hyy",
+          "content": "d",
+          "timestamp": "2025-02-21T09:29:10+0700",
+          "vote": "-24"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:21:35+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:54:26+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "D",
+          "timestamp": "2025-08-27T13:53:06+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-23T16:59:11+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:43:48+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:09:24+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_14.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2523/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-21T00:22:34+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "minhngg321",
+          "content": "B",
+          "timestamp": "2023-08-24T20:49:11+0700",
+          "vote": "0"
+        },
+        {
+          "username": "DuongPC",
+          "content": "B",
+          "timestamp": "2023-10-18T22:13:03+0700",
+          "vote": "8"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "b",
+          "timestamp": "2023-10-21T01:42:41+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "b. nguyên lý về sự phát triển",
+          "timestamp": "2023-10-21T14:12:55+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "B",
+          "timestamp": "2023-11-05T11:12:48+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:21:41+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:54:34+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "B",
+          "timestamp": "2025-08-27T13:54:28+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-23T16:59:29+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:43:55+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:09:38+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_15.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2524/",
+      "comments": [
+        {
+          "username": "KhanhNe",
+          "content": "B",
+          "timestamp": "2023-08-20T21:38:52+0700",
+          "vote": "131"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "b",
+          "timestamp": "2023-10-21T01:42:51+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "b. thế giới quan duy vật của phơ bách và phép biện chứng của hê gen",
+          "timestamp": "2023-10-21T14:13:28+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "B",
+          "timestamp": "2023-11-05T11:12:58+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:21:48+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:54:47+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "B",
+          "timestamp": "2025-08-27T13:55:41+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-23T17:00:09+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:44:04+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:09:50+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_16.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2525/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-21T00:26:03+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Gadoss",
+          "content": "D",
+          "timestamp": "2023-08-26T23:36:37+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "DuongPC",
+          "content": "C",
+          "timestamp": "2023-10-18T22:14:00+0700",
+          "vote": "8"
+        },
+        {
+          "username": "pikachu",
+          "content": "c",
+          "timestamp": "2023-10-20T21:10:13+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "c",
+          "timestamp": "2023-10-21T01:43:00+0700",
+          "vote": "49"
+        },
+        {
+          "username": "att12",
+          "content": "c",
+          "timestamp": "2023-10-21T13:14:05+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "C",
+          "timestamp": "2023-11-05T11:13:07+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:21:57+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:55:03+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "C",
+          "timestamp": "2025-08-27T13:57:09+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "c",
+          "timestamp": "2025-08-28T16:08:00+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-23T17:00:32+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:44:12+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:10:08+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_17.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2526/",
+      "comments": [
+        {
+          "username": "minhngg321",
+          "content": "B",
+          "timestamp": "2023-08-24T20:49:45+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "b",
+          "timestamp": "2023-10-21T01:43:52+0700",
+          "vote": "49"
+        },
+        {
+          "username": "att12",
+          "content": "b",
+          "timestamp": "2023-10-21T13:15:01+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "hngn",
+          "content": "b. không lệ thuộc vào cảm giác",
+          "timestamp": "2023-10-21T14:14:21+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "B",
+          "timestamp": "2023-11-05T11:13:16+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:22:03+0700",
+          "vote": "157"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "không lệ thuộc vào cảm giác",
+          "timestamp": "2025-06-14T20:22:36+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:55:12+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "B",
+          "timestamp": "2025-08-27T14:04:31+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:44:18+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:10:32+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_18.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2527/",
+      "comments": [
+        {
+          "username": "minhngg321",
+          "content": "D",
+          "timestamp": "2023-08-24T20:49:59+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "d",
+          "timestamp": "2023-10-21T01:44:02+0700",
+          "vote": "49"
+        },
+        {
+          "username": "att12",
+          "content": "d",
+          "timestamp": "2023-10-21T13:15:39+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:13:24+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:22:08+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:55:21+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "D",
+          "timestamp": "2025-08-27T14:04:43+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-23T19:55:24+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:44:24+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:10:43+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_19.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2528/",
+      "comments": [
+        {
+          "username": "minhngg321",
+          "content": "BCD",
+          "timestamp": "2023-08-24T20:50:18+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "bcd",
+          "timestamp": "2023-10-21T01:44:21+0700",
+          "vote": "49"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "BCD",
+          "timestamp": "2023-11-05T11:13:38+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "BCD",
+          "timestamp": "2025-06-13T12:22:16+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "bcd",
+          "timestamp": "2025-08-02T15:55:37+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "BCD",
+          "timestamp": "2025-09-23T19:57:46+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "bcd",
+          "timestamp": "2025-10-10T22:44:34+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "BCD",
+          "timestamp": "2025-10-24T08:10:51+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_20.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2529/",
+      "comments": [
+        {
+          "username": "minhngg321",
+          "content": "D",
+          "timestamp": "2023-08-24T20:50:29+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "d",
+          "timestamp": "2023-10-21T01:44:33+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "d. thế giới tinh thần và thế giới vật chất tồn tại độc lập",
+          "timestamp": "2023-10-21T14:16:31+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:13:56+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:22:23+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:55:42+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "D",
+          "timestamp": "2025-08-27T14:09:40+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-23T19:58:07+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:44:43+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:11:09+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_21.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2530/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-21T00:38:01+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "att12",
+          "content": "a",
+          "timestamp": "2023-10-21T13:16:44+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "A",
+          "timestamp": "2023-11-05T11:14:03+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:27:35+0700",
+          "vote": "157"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "toàn bộ điều kiện vật chất của xã hội",
+          "timestamp": "2025-06-14T20:24:13+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:56:06+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "A",
+          "timestamp": "2025-08-27T14:17:17+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-23T19:58:19+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:44:52+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:11:23+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_22.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2531/",
+      "comments": [
+        {
+          "username": "KhanhNe",
+          "content": "A",
+          "timestamp": "2023-08-20T21:41:18+0700",
+          "vote": "131"
+        },
+        {
+          "username": "att12",
+          "content": "a",
+          "timestamp": "2023-10-21T13:17:30+0700",
+          "vote": "-8"
+        },
+        {
+          "username": "hngn",
+          "content": "a. Người lao động sx ra của cải vật chất",
+          "timestamp": "2023-10-21T14:17:16+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "A",
+          "timestamp": "2023-11-05T11:14:09+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:27:43+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:56:17+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "A",
+          "timestamp": "2025-08-27T14:17:26+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-23T19:58:34+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:45:00+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:11:30+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_23.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2532/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-21T00:40:50+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "A",
+          "timestamp": "2023-10-21T01:49:39+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "a. những dạng cụ thể",
+          "timestamp": "2023-10-21T14:17:50+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "A",
+          "timestamp": "2023-11-05T11:14:23+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:27:48+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hhhh",
+          "content": "cô bảo B",
+          "timestamp": "2025-06-14T18:10:48+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:56:24+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "A",
+          "timestamp": "2025-08-27T14:18:51+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Châu Lê",
+          "content": "A nhé\nhttps://loigiaihay.com/phat-bieu-dinh-nghia-cua-vi-lenin-ve-vat-chat-hay-phan-tich-noi-dung-co-ban-va-y-nghia-cua-dinh-nghia-do-c126a20380.html",
+          "timestamp": "2025-08-30T11:57:54+0700",
+          "vote": "2"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-23T20:10:51+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:45:26+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:11:52+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_24.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2533/",
+      "comments": [
+        {
+          "username": "KhanhNe",
+          "content": "Theo mình là A tại thằng nào nắm tư liệu cũng là chủ quyền Lực",
+          "timestamp": "2023-08-22T20:20:09+0700",
+          "vote": "131"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "a",
+          "timestamp": "2023-10-21T01:49:57+0700",
+          "vote": "49"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "A",
+          "timestamp": "2023-11-05T11:14:34+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:27:56+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:56:37+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "a",
+          "timestamp": "2025-08-28T16:09:46+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-23T20:11:27+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:45:55+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:12:07+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_25.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2534/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-21T00:44:33+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "C",
+          "timestamp": "2023-11-05T11:14:45+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:28:02+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:56:44+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "c",
+          "timestamp": "2025-08-27T14:23:24+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-23T20:11:42+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:46:01+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:12:20+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_26.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2535/",
+      "comments": [
+        {
+          "username": "KhanhNe",
+          "content": "C",
+          "timestamp": "2023-08-22T20:24:09+0700",
+          "vote": "131"
+        },
+        {
+          "username": "hngn",
+          "content": "c. phải có hoạt động thực tiễn của con người",
+          "timestamp": "2023-10-21T14:24:03+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "C",
+          "timestamp": "2023-11-05T11:14:53+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:28:09+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:56:57+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "c",
+          "timestamp": "2025-08-27T14:24:21+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-23T20:12:04+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:46:07+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:12:38+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_27.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2536/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-21T00:49:27+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Gadoss",
+          "content": "B",
+          "timestamp": "2023-08-26T23:52:03+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "DuongPC",
+          "content": "B",
+          "timestamp": "2023-10-18T22:20:48+0700",
+          "vote": "8"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "b",
+          "timestamp": "2023-10-21T01:50:20+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "b. năng động, sáng tạo",
+          "timestamp": "2023-10-21T14:24:40+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "B",
+          "timestamp": "2023-11-05T11:15:00+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:28:15+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:57:04+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "b",
+          "timestamp": "2025-08-27T14:24:39+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-23T20:12:26+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:46:16+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:12:49+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_28.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2537/",
+      "comments": [
+        {
+          "username": "KhanhNe",
+          "content": "A",
+          "timestamp": "2023-08-22T20:25:29+0700",
+          "vote": "131"
+        },
+        {
+          "username": "hngn",
+          "content": "a",
+          "timestamp": "2023-10-21T14:24:52+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "A",
+          "timestamp": "2023-11-05T11:15:23+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:28:20+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T15:57:22+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "a",
+          "timestamp": "2025-08-27T14:25:05+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-23T20:12:52+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:46:21+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:13:20+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_29.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2538/",
+      "comments": [
+        {
+          "username": "KhanhNe",
+          "content": "C",
+          "timestamp": "2023-08-22T20:27:25+0700",
+          "vote": "131"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "C",
+          "timestamp": "2023-11-05T11:15:34+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hathaison2k4@gmail.com",
+          "content": "D?",
+          "timestamp": "2025-03-09T00:48:54+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:28:28+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "C",
+          "timestamp": "2025-06-14T18:14:58+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:57:39+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "c",
+          "timestamp": "2025-08-27T14:25:17+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:46:27+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:13:33+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_30.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2539/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-21T00:52:27+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "thanhcong1802",
+          "content": "D",
+          "timestamp": "2023-10-21T10:02:48+0700",
+          "vote": "-4"
+        },
+        {
+          "username": "Noah",
+          "content": "C",
+          "timestamp": "2023-10-21T14:31:19+0700",
+          "vote": "36"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:15:43+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hannie",
+          "content": "Maybe C\nChủ nghĩa xã hội không tưởng ra đời từ khi con người có ý thức. Nó thể hiện qua câu truyện cổ tích, sử thi. Nó thể hiện khát vọng công bằng, tự do, khát vọng chinh phục tự nhiên. Nó còn đóng góp việc hình thành tôn giáo.",
+          "timestamp": "2024-02-17T17:08:09+0700",
+          "vote": "136"
+        },
+        {
+          "username": "duyn",
+          "content": "D",
+          "timestamp": "2024-06-16T01:27:21+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "dangdai",
+          "content": "C nhá",
+          "timestamp": "2024-06-16T11:56:39+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "vietkhoi0512",
+          "content": "a",
+          "timestamp": "2024-10-20T02:53:20+0700",
+          "vote": "53"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "C",
+          "timestamp": "2024-12-05T22:28:57+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:28:38+0700",
+          "vote": "157"
+        },
+        {
+          "username": "duangol",
+          "content": "a",
+          "timestamp": "2025-06-14T16:29:14+0700",
+          "vote": "3"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "C",
+          "timestamp": "2025-06-14T18:15:04+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:58:28+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "lụi",
+          "timestamp": "2025-08-27T14:35:02+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "a",
+          "timestamp": "2025-08-28T16:12:30+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Tungtran270904",
+          "content": "c",
+          "timestamp": "2025-08-29T15:59:59+0700",
+          "vote": "2"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-23T20:13:59+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:46:33+0700",
+          "vote": "17"
+        },
+        {
+          "username": "6thanq03._",
+          "content": "a",
+          "timestamp": "2025-10-11T11:42:18+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A???",
+          "timestamp": "2025-10-24T08:15:42+0700",
+          "vote": "13"
+        },
+        {
+          "username": "HuyNguyenS",
+          "content": "A",
+          "timestamp": "2025-10-25T20:19:52+0700",
+          "vote": "-7"
+        },
+        {
+          "username": "aibit",
+          "content": "A",
+          "timestamp": "2026-02-25T12:43:51+0700",
+          "vote": "0"
+        }
+      ]
+    },
+    {
+      "image": "image_31.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2540/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-21T00:54:16+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "maihuong",
+          "content": "A",
+          "timestamp": "2023-10-19T20:13:00+0700",
+          "vote": "8"
+        },
+        {
+          "username": "thanhan",
+          "content": "D",
+          "timestamp": "2023-10-20T12:12:21+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "Le Huy",
+          "content": "d",
+          "timestamp": "2023-10-20T21:12:28+0700",
+          "vote": "20"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "d",
+          "timestamp": "2023-10-21T01:52:19+0700",
+          "vote": "49"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:18:07+0700",
+          "vote": "94"
+        },
+        {
+          "username": "duongnguyen127",
+          "content": "d",
+          "timestamp": "2024-10-06T13:55:33+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:28:44+0700",
+          "vote": "157"
+        },
+        {
+          "username": "Megalodon't",
+          "content": "chỉ ra khuynh hướng của sự phát triển",
+          "timestamp": "2025-06-14T21:39:02+0700",
+          "vote": "-6"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:58:33+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T14:36:07+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T10:54:45+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:46:40+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:16:05+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_32.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2541/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-21T00:54:30+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:18:15+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:28:51+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:59:13+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T14:36:30+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T10:55:06+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:46:47+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:17:00+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_33.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2542/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "B",
+          "timestamp": "2023-08-21T00:55:04+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "pikachu",
+          "content": "Vì là duy tâm nên là B",
+          "timestamp": "2023-10-18T16:18:10+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "b",
+          "timestamp": "2023-10-21T01:52:56+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "b. suy đến cùng, ý thức xã hội quyết định tồn tại xã hội",
+          "timestamp": "2023-10-21T14:34:03+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "B",
+          "timestamp": "2023-11-05T11:18:25+0700",
+          "vote": "94"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "b",
+          "timestamp": "2024-12-05T22:29:33+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:29:01+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T15:59:20+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-24T10:56:02+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:46:52+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:17:44+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_34.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2543/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-21T00:55:28+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "hngn",
+          "content": "c",
+          "timestamp": "2023-10-21T14:34:13+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "C",
+          "timestamp": "2023-11-05T11:18:32+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:29:07+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T15:59:34+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "c",
+          "timestamp": "2025-08-27T14:40:12+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-24T10:56:29+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:46:58+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:17:54+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_35.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2544/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-21T00:56:07+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "hngn",
+          "content": "d",
+          "timestamp": "2023-10-21T14:34:26+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:18:48+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:29:14+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:59:42+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T14:40:36+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T10:56:46+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:47:05+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:18:06+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_36.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2545/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-21T00:57:34+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "d",
+          "timestamp": "2023-10-21T01:53:39+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "d",
+          "timestamp": "2023-10-21T14:34:46+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "D",
+          "timestamp": "2023-11-05T11:19:02+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:29:21+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T15:59:54+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T14:41:43+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T10:57:16+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:47:24+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:18:18+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_37.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2546/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-21T00:57:51+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "c",
+          "timestamp": "2023-10-21T01:55:28+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "c. quy luật phủ định của phủ định",
+          "timestamp": "2023-10-21T14:35:58+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "C",
+          "timestamp": "2023-11-05T11:19:16+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:29:35+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T16:00:01+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "c",
+          "timestamp": "2025-08-27T14:43:29+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-24T11:04:57+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:47:30+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:18:41+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_38.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2547/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "B",
+          "timestamp": "2023-08-21T00:59:58+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "bestdaxua1802",
+          "content": "D tin chuẩn",
+          "timestamp": "2023-08-27T05:49:37+0700",
+          "vote": "-9"
+        },
+        {
+          "username": "thanhan",
+          "content": "D",
+          "timestamp": "2023-10-20T12:31:26+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "D. duy vật lịch sử có nội dung học thuyết hình thái KT-XH",
+          "timestamp": "2023-10-21T01:56:03+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "d. chủ nghĩa duy vật lịch sử",
+          "timestamp": "2023-10-21T14:36:28+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "d",
+          "timestamp": "2023-11-05T11:20:02+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:29:43+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T16:00:07+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T14:43:51+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T11:09:34+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:47:37+0700",
+          "vote": "17"
+        },
+        {
+          "username": "lmaoburhburh",
+          "content": "d",
+          "timestamp": "2025-10-11T21:58:29+0700",
+          "vote": "68"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:19:19+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_39.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2548/",
+      "comments": [
+        {
+          "username": "Gadoss",
+          "content": "B",
+          "timestamp": "2023-08-27T00:00:17+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "thanhan",
+          "content": "D",
+          "timestamp": "2023-10-20T12:32:18+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "B",
+          "timestamp": "2023-10-21T01:56:15+0700",
+          "vote": "49"
+        },
+        {
+          "username": "thanhcong1802",
+          "content": "B",
+          "timestamp": "2023-10-21T10:05:30+0700",
+          "vote": "-4"
+        },
+        {
+          "username": "hngn",
+          "content": "b. làm chủ tư liệu sản xuất",
+          "timestamp": "2023-10-21T14:36:51+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "b",
+          "timestamp": "2023-11-05T11:20:09+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:29:49+0700",
+          "vote": "157"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "D",
+          "timestamp": "2025-06-14T18:16:24+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T16:00:16+0700",
+          "vote": "0"
+        },
+        {
+          "username": "uhndayy",
+          "content": "D",
+          "timestamp": "2025-08-27T09:58:28+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "Ken05",
+          "content": "b",
+          "timestamp": "2025-08-27T14:44:16+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "b",
+          "timestamp": "2025-08-28T16:14:21+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Tungtran270904",
+          "content": "d",
+          "timestamp": "2025-08-29T16:01:05+0700",
+          "vote": "2"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-24T11:11:21+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:47:47+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "d",
+          "timestamp": "2025-10-11T08:01:15+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "6thanq03._",
+          "content": "b",
+          "timestamp": "2025-10-11T11:50:23+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:19:35+0700",
+          "vote": "13"
+        },
+        {
+          "username": "HuyNguyenS",
+          "content": "D",
+          "timestamp": "2025-10-25T20:21:44+0700",
+          "vote": "-7"
+        }
+      ]
+    },
+    {
+      "image": "image_40.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2549/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-21T01:07:51+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "a",
+          "timestamp": "2023-11-05T11:20:17+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:32:53+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T16:00:26+0700",
+          "vote": "0"
+        },
+        {
+          "username": "uhndayy",
+          "content": "a",
+          "timestamp": "2025-08-27T10:02:17+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "Ken05",
+          "content": "a",
+          "timestamp": "2025-08-27T14:44:29+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-24T11:13:28+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:47:52+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:20:31+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_41.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2550/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-21T01:08:04+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "DuongPC",
+          "content": "A tin juan",
+          "timestamp": "2023-10-18T22:30:05+0700",
+          "vote": "8"
+        },
+        {
+          "username": "thanhan",
+          "content": "A",
+          "timestamp": "2023-10-20T12:35:00+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "pikachu",
+          "content": "A\nTriết học cổ đại với cổ điển đức mới cho rằng triết học là khoa học của mọi khoa học (slide 1)",
+          "timestamp": "2023-10-20T21:41:03+0700",
+          "vote": "22"
+        },
+        {
+          "username": "hngn",
+          "content": "a",
+          "timestamp": "2023-10-21T14:37:23+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "a",
+          "timestamp": "2023-11-05T11:20:26+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:33:05+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T16:00:42+0700",
+          "vote": "0"
+        },
+        {
+          "username": "uhndayy",
+          "content": "A",
+          "timestamp": "2025-08-27T10:03:35+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "Ken05",
+          "content": "a",
+          "timestamp": "2025-08-27T14:44:42+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-24T11:14:13+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:47:57+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:20:47+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_42.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2551/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-21T01:08:46+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "hngn",
+          "content": "a",
+          "timestamp": "2023-10-21T14:38:11+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "a",
+          "timestamp": "2023-11-05T11:20:32+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:33:11+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T16:00:48+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "a",
+          "timestamp": "2025-08-27T14:44:51+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-24T11:14:33+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:48:04+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:20:54+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_43.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2552/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "B hay C?",
+          "timestamp": "2023-08-26T00:38:46+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Gadoss",
+          "content": "C",
+          "timestamp": "2023-08-27T00:16:49+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "thanhan",
+          "content": "C",
+          "timestamp": "2023-10-20T12:36:45+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "C. người nô lệ",
+          "timestamp": "2023-10-21T01:57:00+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "c. người nô lệ",
+          "timestamp": "2023-10-21T14:39:04+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "c",
+          "timestamp": "2023-11-05T11:20:50+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:33:17+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T16:00:53+0700",
+          "vote": "0"
+        },
+        {
+          "username": "uhndayy",
+          "content": "c",
+          "timestamp": "2025-08-27T10:04:53+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "Ken05",
+          "content": "c",
+          "timestamp": "2025-08-27T14:50:09+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-24T11:15:23+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:48:09+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:21:10+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_44.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2553/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-26T00:37:55+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "DuongPC",
+          "content": "C",
+          "timestamp": "2023-10-18T22:32:46+0700",
+          "vote": "8"
+        },
+        {
+          "username": "pikachu",
+          "content": "A\ncông xã nguyên thủy -> chiếm hữu nô lệ -> tư bản -> xã hội chủ nghĩa",
+          "timestamp": "2023-10-20T21:46:20+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "C. 5\ncông xã nguyên thủy - chiếm hữu nô lệ - phong kiến - tư bản - xã hội chủ nghĩa",
+          "timestamp": "2023-10-21T02:05:38+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "c. 5 hình thái kinh tế xã hội: công xã nguyên thủy - chiếm hữu nô lệ - phong kiến - tư bản - xã hội chủ nghĩa",
+          "timestamp": "2023-10-21T14:40:19+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "c",
+          "timestamp": "2023-11-05T11:21:16+0700",
+          "vote": "94"
+        },
+        {
+          "username": "duongnguyen127",
+          "content": "a",
+          "timestamp": "2024-10-12T08:39:02+0700",
+          "vote": "13"
+        },
+        {
+          "username": "vietkhoi0512",
+          "content": "a",
+          "timestamp": "2024-10-20T02:57:36+0700",
+          "vote": "53"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "c.\nTheo đó, lịch sử xã hội loài người đã trải qua các hình thái kinh tế - xã hội:\ncộng sản nguyên thủy,\nchiếm hữu nô lệ,\nphong kiến,\ntư bản chủ nghĩa\ncộng sản chủ nghĩa",
+          "timestamp": "2024-12-05T22:33:32+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:33:28+0700",
+          "vote": "157"
+        },
+        {
+          "username": "dlm77",
+          "content": "A",
+          "timestamp": "2025-06-14T08:27:07+0700",
+          "vote": "-18"
+        },
+        {
+          "username": "hoangminhtri",
+          "content": "C",
+          "timestamp": "2025-06-14T18:17:21+0700",
+          "vote": "-26"
+        },
+        {
+          "username": "hhhh",
+          "content": "trải qua là 4 à",
+          "timestamp": "2025-06-14T18:31:09+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T16:01:01+0700",
+          "vote": "0"
+        },
+        {
+          "username": "uhndayy",
+          "content": "c",
+          "timestamp": "2025-08-27T10:12:36+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "Ken05",
+          "content": "a",
+          "timestamp": "2025-08-27T14:50:25+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "c",
+          "timestamp": "2025-08-28T16:15:06+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Tungtran270904",
+          "content": "A",
+          "timestamp": "2025-08-29T15:48:55+0700",
+          "vote": "2"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-24T11:16:25+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:48:16+0700",
+          "vote": "17"
+        },
+        {
+          "username": "Mỹ Duyên",
+          "content": "c",
+          "timestamp": "2025-10-11T08:40:24+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "Wonyoung03",
+          "content": "c",
+          "timestamp": "2025-10-11T23:38:50+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:21:21+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_45.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2554/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-26T00:34:22+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "hngn",
+          "content": "d. có mối liên hệ biện chứng với nhau",
+          "timestamp": "2023-10-21T14:40:46+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "d",
+          "timestamp": "2023-11-05T11:21:24+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:33:33+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T16:01:08+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T14:51:11+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T11:16:47+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:48:25+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:22:04+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_46.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2555/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-26T00:34:11+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "thanhnthe153718",
+          "content": "D",
+          "timestamp": "2023-10-21T12:42:21+0700",
+          "vote": "1"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "b",
+          "timestamp": "2023-11-05T11:25:04+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Hannie",
+          "content": "Maybe D\nQuan hệ sản xuất nào thống trị thì tạo ra kiến trúc thượng tầng chính trị tương ứng. Mâu thuẫn trong lĩnh vực kinh tế quyết định tính chất mâu thuẫn trong lĩnh vực tư tưởng.\nMối quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng\nMối quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng? Sự vận dụng mối quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng của Đảng Cộng sản Việt Nam ở nước ta hiện nay?\nbancanbiet.vn",
+          "timestamp": "2024-02-17T18:20:26+0700",
+          "vote": "136"
+        },
+        {
+          "username": "dghuyen002",
+          "content": "d",
+          "timestamp": "2024-06-16T02:18:36+0700",
+          "vote": "0"
+        },
+        {
+          "username": "duongnguyen127",
+          "content": "d",
+          "timestamp": "2024-10-12T08:39:47+0700",
+          "vote": "13"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "D",
+          "timestamp": "2024-12-05T23:22:54+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:33:58+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T16:01:16+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T15:00:20+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T11:26:59+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:48:32+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:22:35+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_47.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2556/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-26T00:33:54+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "D",
+          "timestamp": "2023-10-21T02:06:43+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "d",
+          "timestamp": "2023-10-21T14:42:06+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "d",
+          "timestamp": "2023-11-05T11:25:15+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:34:09+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T16:01:23+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T15:00:41+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "d",
+          "timestamp": "2025-08-28T16:16:18+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T11:27:22+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:48:38+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:22:50+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_48.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2557/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-26T00:33:41+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "DuongPC",
+          "content": "A",
+          "timestamp": "2023-10-18T22:37:25+0700",
+          "vote": "8"
+        },
+        {
+          "username": "thanhan",
+          "content": "A",
+          "timestamp": "2023-10-20T12:41:03+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hngn",
+          "content": "a",
+          "timestamp": "2023-10-21T14:42:24+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "a",
+          "timestamp": "2023-11-05T11:25:22+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:34:14+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T16:01:44+0700",
+          "vote": "0"
+        },
+        {
+          "username": "uhndayy",
+          "content": "A",
+          "timestamp": "2025-08-27T10:16:56+0700",
+          "vote": "-2"
+        },
+        {
+          "username": "Ken05",
+          "content": "a",
+          "timestamp": "2025-08-27T15:00:55+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Honef",
+          "content": "a",
+          "timestamp": "2025-08-28T16:16:32+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-24T13:37:15+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:48:45+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:23:03+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_49.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2558/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "B",
+          "timestamp": "2023-08-21T09:33:43+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-26T00:32:19+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "thanhan",
+          "content": "D",
+          "timestamp": "2023-10-20T12:42:01+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "hngn",
+          "content": "d. là động lực thúc đẩy",
+          "timestamp": "2023-10-21T14:42:51+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "d",
+          "timestamp": "2023-11-05T11:25:30+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:34:45+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T16:01:52+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T15:01:19+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T13:37:27+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:48:53+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:23:13+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_50.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2559/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "B",
+          "timestamp": "2023-08-21T09:37:04+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "ChienThanHyLap",
+          "content": "B",
+          "timestamp": "2023-10-20T14:23:21+0700",
+          "vote": "10"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "b",
+          "timestamp": "2023-10-21T02:07:07+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "b. thực tiễn",
+          "timestamp": "2023-10-21T14:43:14+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "b",
+          "timestamp": "2023-11-05T11:25:36+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:34:51+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T16:02:04+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "b",
+          "timestamp": "2025-08-27T15:01:26+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-24T13:37:47+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:49:00+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:23:27+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_51.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2560/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "b",
+          "timestamp": "2023-08-21T09:46:16+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "ChienThanHyLap",
+          "content": "B",
+          "timestamp": "2023-10-20T14:29:44+0700",
+          "vote": "10"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "b. kết cấu và quy mô",
+          "timestamp": "2023-10-21T02:07:27+0700",
+          "vote": "49"
+        },
+        {
+          "username": "hngn",
+          "content": "b. kết cấu, quy mô",
+          "timestamp": "2023-10-21T14:43:46+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "b",
+          "timestamp": "2023-11-05T11:25:43+0700",
+          "vote": "94"
+        },
+        {
+          "username": "duyn",
+          "content": "B",
+          "timestamp": "2024-06-16T01:31:17+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "onggianoenFU",
+          "content": "B",
+          "timestamp": "2024-12-05T23:23:41+0700",
+          "vote": "12"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:34:59+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T16:02:11+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-24T13:38:07+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:49:05+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:23:42+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_52.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2561/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-21T09:46:40+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "ChienThanHyLap",
+          "content": "A",
+          "timestamp": "2023-10-20T14:30:25+0700",
+          "vote": "10"
+        },
+        {
+          "username": "hngn",
+          "content": "a",
+          "timestamp": "2023-10-21T14:44:08+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "a",
+          "timestamp": "2023-11-05T11:25:53+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "A",
+          "timestamp": "2025-06-13T12:35:04+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "a",
+          "timestamp": "2025-08-02T16:02:17+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "a",
+          "timestamp": "2025-08-27T15:10:56+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-09-24T13:38:46+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "a",
+          "timestamp": "2025-10-10T22:49:11+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "A",
+          "timestamp": "2025-10-24T08:23:59+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_53.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2562/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-21T09:46:58+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "ChienThanHyLap",
+          "content": "C",
+          "timestamp": "2023-10-20T14:32:25+0700",
+          "vote": "10"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "c",
+          "timestamp": "2023-10-21T02:07:53+0700",
+          "vote": "49"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "c",
+          "timestamp": "2023-11-05T11:26:03+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:35:10+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T16:02:24+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "c",
+          "timestamp": "2025-08-27T15:12:56+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-24T13:39:16+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:49:17+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:24:32+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_54.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2563/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-21T09:52:45+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "ChienThanHyLap",
+          "content": "D",
+          "timestamp": "2023-10-20T14:33:19+0700",
+          "vote": "10"
+        },
+        {
+          "username": "hngn",
+          "content": "d",
+          "timestamp": "2023-10-21T14:44:37+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "d",
+          "timestamp": "2023-11-05T11:26:09+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:35:17+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T16:02:29+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T15:14:39+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T13:39:30+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:49:22+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:25:27+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_55.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2564/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-26T00:29:45+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "ChienThanHyLap",
+          "content": "D",
+          "timestamp": "2023-10-20T14:34:39+0700",
+          "vote": "10"
+        },
+        {
+          "username": "a@a.a",
+          "content": "D",
+          "timestamp": "2023-10-20T23:09:19+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hngn",
+          "content": "d",
+          "timestamp": "2023-10-21T14:44:50+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "d",
+          "timestamp": "2023-11-05T11:26:15+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "D",
+          "timestamp": "2025-06-13T12:35:33+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "d",
+          "timestamp": "2025-08-02T16:02:35+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "d",
+          "timestamp": "2025-08-27T15:15:16+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-09-24T13:39:51+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "d",
+          "timestamp": "2025-10-10T22:49:36+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "D",
+          "timestamp": "2025-10-24T08:25:37+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_56.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2565/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-21T09:56:12+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Lkdinhminh",
+          "content": "A/",
+          "timestamp": "2023-08-26T00:29:27+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "pikachu",
+          "content": "C",
+          "timestamp": "2023-10-18T16:33:14+0700",
+          "vote": "22"
+        },
+        {
+          "username": "hngn",
+          "content": "c",
+          "timestamp": "2023-10-21T14:45:09+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "c",
+          "timestamp": "2023-11-05T11:26:21+0700",
+          "vote": "94"
+        },
+        {
+          "username": "Khang241002",
+          "content": "c",
+          "timestamp": "2024-02-24T23:36:50+0700",
+          "vote": "7"
+        },
+        {
+          "username": "duongnguyen127",
+          "content": "c",
+          "timestamp": "2024-10-06T14:10:38+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:35:42+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T16:02:41+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "c",
+          "timestamp": "2025-08-27T15:15:27+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-24T13:40:08+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:49:42+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:25:46+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_57.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2566/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "D",
+          "timestamp": "2023-08-21T10:00:57+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Gadoss",
+          "content": "B",
+          "timestamp": "2023-08-27T00:46:19+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "hngn",
+          "content": "b",
+          "timestamp": "2023-10-21T14:45:33+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "b",
+          "timestamp": "2023-11-05T11:28:16+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "B",
+          "timestamp": "2025-06-13T12:35:49+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "b",
+          "timestamp": "2025-08-02T16:02:47+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "b",
+          "timestamp": "2025-08-27T15:15:59+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-09-24T13:40:28+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "b",
+          "timestamp": "2025-10-10T22:49:55+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "B",
+          "timestamp": "2025-10-24T08:26:00+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_58.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2567/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "C",
+          "timestamp": "2023-08-21T10:03:58+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "ChienThanHyLap",
+          "content": "C",
+          "timestamp": "2023-10-20T14:36:48+0700",
+          "vote": "10"
+        },
+        {
+          "username": "hngn",
+          "content": "c",
+          "timestamp": "2023-10-21T14:46:34+0700",
+          "vote": "22"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "c",
+          "timestamp": "2023-11-05T11:28:28+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "C",
+          "timestamp": "2025-06-13T12:35:57+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "c",
+          "timestamp": "2025-08-02T16:02:53+0700",
+          "vote": "0"
+        },
+        {
+          "username": "Ken05",
+          "content": "c",
+          "timestamp": "2025-08-27T15:16:41+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-09-24T13:40:53+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "c",
+          "timestamp": "2025-10-10T22:50:01+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "C",
+          "timestamp": "2025-10-24T08:26:22+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_59.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2568/",
+      "comments": [
+        {
+          "username": "Lkdinhminh",
+          "content": "A",
+          "timestamp": "2023-08-21T10:06:05+0700",
+          "vote": "-50"
+        },
+        {
+          "username": "Gadoss",
+          "content": "Đọc kỹ đề chọn 3 đáp án kìa bro, thấy làm đề sai nhiều quá\n\nA B C",
+          "timestamp": "2023-08-27T00:47:53+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "thanhan",
+          "content": "ABC",
+          "timestamp": "2023-10-20T15:05:14+0700",
+          "vote": "-1"
+        },
+        {
+          "username": "Ốc Sên",
+          "content": "ABC",
+          "timestamp": "2023-10-21T02:10:34+0700",
+          "vote": "49"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "abc",
+          "timestamp": "2023-11-05T11:29:09+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "ABC",
+          "timestamp": "2025-06-13T12:36:14+0700",
+          "vote": "157"
+        },
+        {
+          "username": "blackey",
+          "content": "abc",
+          "timestamp": "2025-08-02T16:03:00+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "ABC",
+          "timestamp": "2025-09-24T13:41:21+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "abc",
+          "timestamp": "2025-10-10T22:50:10+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "ABC",
+          "timestamp": "2025-10-24T08:26:34+0700",
+          "vote": "13"
+        }
+      ]
+    },
+    {
+      "image": "image_60.webp",
+      "image_url": "https://fuoverflow.com/media/mln111_-_sp_2023_-_fe_111-webp.2569/",
+      "comments": [
+        {
+          "username": "Gadoss",
+          "content": "B C D",
+          "timestamp": "2023-08-27T00:49:14+0700",
+          "vote": "-12"
+        },
+        {
+          "username": "Dương Thị Hương",
+          "content": "bcd",
+          "timestamp": "2023-11-05T11:29:23+0700",
+          "vote": "94"
+        },
+        {
+          "username": "hhhh",
+          "content": "BCD",
+          "timestamp": "2025-06-13T12:36:26+0700",
+          "vote": "157"
+        },
+        {
+          "username": "DTD3009",
+          "content": "bcd",
+          "timestamp": "2025-06-14T20:27:11+0700",
+          "vote": "8"
+        },
+        {
+          "username": "blackey",
+          "content": "bcd",
+          "timestamp": "2025-08-02T16:03:07+0700",
+          "vote": "0"
+        },
+        {
+          "username": "hzngahi",
+          "content": "BCD",
+          "timestamp": "2025-09-24T13:41:46+0700",
+          "vote": "13"
+        },
+        {
+          "username": "hieune04268",
+          "content": "bcd",
+          "timestamp": "2025-10-10T22:50:16+0700",
+          "vote": "17"
+        },
+        {
+          "username": "hzngahi",
+          "content": "BCD",
+          "timestamp": "2025-10-24T08:26:52+0700",
+          "vote": "13"
+        }
+      ]
+    }
+  ]
 }
